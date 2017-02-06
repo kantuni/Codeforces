@@ -16,17 +16,16 @@ int main() {
     cubes.push_back(cube);
   }
 
-  int i = 0, counter = 1;
+  int i = 0;
   while (i < n / 2) {
     // swap detection
-    if (counter % 2 == 1) {
+    if (i % 2 == 0) {
       big temp = cubes[i];
       cubes[i] = cubes[cubes.size() - 1 - i];
       cubes[cubes.size() - 1 - i] = temp;
     }
     
     ++i;
-    ++counter;
   }
 
   // output
