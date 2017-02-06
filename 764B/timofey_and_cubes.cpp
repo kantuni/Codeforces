@@ -2,16 +2,16 @@
 #include <vector>
 using namespace std;
 
-typedef long long ll;
+typedef long long big;
 
 int main() {
   int n;
-  vector<ll> cubes;
+  vector<big> cubes;
   
   // input
   cin >> n;
   for (int i = 0; i < n; ++i) {
-    ll cube;
+    big cube;
     cin >> cube;
     cubes.push_back(cube);
   }
@@ -20,7 +20,7 @@ int main() {
   while (i < n / 2) {
     // swap detection
     if (counter % 2 == 1) {
-      ll temp = cubes[i];
+      big temp = cubes[i];
       cubes[i] = cubes[cubes.size() - 1 - i];
       cubes[cubes.size() - 1 - i] = temp;
     }
