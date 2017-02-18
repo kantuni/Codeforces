@@ -1,6 +1,10 @@
 # [Codeforces](http://codeforces.com) Problems Solutions
 ![Codeforces](https://dl.dropboxusercontent.com/u/101623876/codeforces.svg)
 
+### Codeforces Round #397 (Div. 1 and Div. 2) - `2/7`
+- Problem A: Neverending competitions - **Accepted**
+- Problem B: Code obfuscation - **Accepted**
+
 ### Codeforces Round #396 (Div. 2) - `2/5`
 - [766A](https://github.com/kantuni/Codeforces/tree/master/766A) - Mahmoud and Longest Uncommon Subsequence - **Accepted**
 - [766B](https://github.com/kantuni/Codeforces/tree/master/766B) - Mahmoud and a Triangle - **Accepted**
