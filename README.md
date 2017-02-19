@@ -4,8 +4,8 @@
 ### Codeforces Round #397 (Div. 2) - `0/5`
 
 ### Codeforces Round #397 (Div. 1 + Div. 2) - `2/7`
-- Problem A: Neverending competitions - **Accepted**
-- Problem B: Code obfuscation - **Accepted**
+- 765A - Neverending competitions - **Accepted**
+- 765B - Code obfuscation - **Accepted**
 
 ### Codeforces Round #396 (Div. 2) - `2/5`
 - [766A](https://github.com/kantuni/Codeforces/tree/master/766A) - Mahmoud and Longest Uncommon Subsequence - **Accepted**
