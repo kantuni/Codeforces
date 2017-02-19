@@ -1,7 +1,9 @@
 # [Codeforces](http://codeforces.com) Problems Solutions
 ![Codeforces](https://dl.dropboxusercontent.com/u/101623876/codeforces.svg)
 
-### Codeforces Round #397 (Div. 1 and Div. 2) - `2/7`
+### Codeforces Round #397 (Div. 2) - `0/5`
+
+### Codeforces Round #397 (Div. 1 + Div. 2) - `2/7`
 - Problem A: Neverending competitions - **Accepted**
 - Problem B: Code obfuscation - **Accepted**
 
