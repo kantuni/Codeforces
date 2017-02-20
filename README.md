@@ -4,9 +4,9 @@
 ### Codeforces Round #398 (Div. 2) - `0/5`
 
 ### Codeforces Round #397 (Div. 1 + Div. 2) - `2/7`
-- 765A - Neverending competitions - **Accepted**
-- 765B - Code obfuscation - **Accepted**
-- 765C - Table Tennis Game 2 - **Wrong answer**
+- [765A](https://github.com/kantuni/Codeforces/tree/master/765A) - Neverending competitions - **Accepted**
+- [765B](https://github.com/kantuni/Codeforces/tree/master/765B) - Code obfuscation - **Accepted**
+- [765C](https://github.com/kantuni/Codeforces/tree/master/765C) - Table Tennis Game 2 - **Wrong answer**
 
 ### Codeforces Round #396 (Div. 2) - `2/5`
 - [766A](https://github.com/kantuni/Codeforces/tree/master/766A) - Mahmoud and Longest Uncommon Subsequence - **Accepted**
