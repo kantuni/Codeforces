@@ -3,6 +3,7 @@
 
 ### Codeforces Round #402 (Div. 2) - `1/5`
 - **[779A](https://github.com/kantuni/Codeforces/tree/master/779A)** - Pupils Redistribution - **Accepted**
+- [779B](https://github.com/kantuni/Codeforces/tree/master/779B) - Weird Rounding - **Accepted**
 
 ### Codeforces Round #401 (Div. 2) - `0/5`
 
