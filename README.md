@@ -14,7 +14,7 @@
 ### Codeforces Round #399 (Div. 1 + Div. 2) - `1/7`
 
 ### Codeforces Round #398 (Div. 2) - `0/5`
-- [767A](https://github.com/kantuni/Codeforces/tree/master/767A) - Snacktower - **Wrong answer**
+- [767A](https://github.com/kantuni/Codeforces/tree/master/767A) - Snacktower - **Time limit exceeded**
 
 ### Codeforces Round #397 (Div. 1 + Div. 2) - `2/7`
 - **[765A](https://github.com/kantuni/Codeforces/tree/master/765A)** - Neverending competitions - **Accepted**
