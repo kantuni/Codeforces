@@ -1,6 +1,14 @@
 # [Codeforces](http://codeforces.com) Problems Solutions
 ![Codeforces](https://dl.dropboxusercontent.com/u/101623876/codeforces.svg)
 
+### Codeforces Round #402 (Div. 2) - `1/5`
+
+### Codeforces Round #401 (Div. 2) - `0/5`
+
+### Codeforces Round #400 (Div. 1 + Div. 2) - `1/7`
+
+### Codeforces Round #399 (Div. 1 + Div. 2) - `1/7`
+
 ### Codeforces Round #398 (Div. 2) - `0/5`
 - [767A](https://github.com/kantuni/Codeforces/tree/master/767A) - Snacktower - **Wrong answer**
 
