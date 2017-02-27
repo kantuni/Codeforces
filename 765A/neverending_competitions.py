@@ -1,11 +1,11 @@
 """ Created by Henrikh Kantuni on 2/14/17 """
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     home = input()
     flights = []
     while n > 0:
-        _from, _to = input().split('->')
+        _from, _to = input().split("->")
         flights.append(_from)
         flights.append(_to)
         n -= 1
@@ -16,6 +16,6 @@ if __name__ == '__main__':
             count += 1
 
     if count % 2 == 0:
-        print('home')
+        print("home")
     else:
-        print('contest')
+        print("contest")

@@ -1,6 +1,6 @@
 """ Created by Henrikh Kantuni on 2/14/17 """
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     k, a, b = [int(x) for x in input().split()]
 
     score_a = 0

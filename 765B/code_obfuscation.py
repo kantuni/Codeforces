@@ -1,14 +1,14 @@
 """ Created by Henrikh Kantuni on 2/14/17 """
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     obfuscation = list(input())
-    letters = list('abcdefghijklmnopqrstuvwxyz')
+    letters = list("abcdefghijklmnopqrstuvwxyz")
 
     if len(obfuscation) == 1:
         if obfuscation[0] == 'a':
-            print('YES')
+            print("YES")
         else:
-            print('NO')
+            print("NO")
     else:
         while len(obfuscation) > 0:
             if obfuscation[0] == letters[0]:
@@ -16,6 +16,6 @@ if __name__ == '__main__':
                     obfuscation.remove(letters[0])
                 letters.remove(letters[0])
             else:
-                print('NO')
+                print("NO")
                 exit()
-        print('YES')
+        print("YES")
