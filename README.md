@@ -2,6 +2,7 @@
 ![Codeforces](https://dl.dropboxusercontent.com/u/101623876/codeforces.svg)
 
 ### Codeforces Round #402 (Div. 2) - `1/5`
+- **[779A](https://github.com/kantuni/Codeforces/tree/master/779A)** - Pupils Redistribution - **Accepted**
 
 ### Codeforces Round #401 (Div. 2) - `0/5`
 
