@@ -1,4 +1,4 @@
-# [Codeforces](http://codeforces.com) Problems Solutions
+# Solutions to [Codeforces](http://codeforces.com) Problems
 ![Codeforces](https://dl.dropboxusercontent.com/u/101623876/codeforces.svg)
 
 ### Codeforces Round #402 (Div. 2) - `1/5`
