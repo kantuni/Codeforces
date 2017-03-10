@@ -9,6 +9,8 @@
 - [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Цикл в лабиринте - **Wrong answer**
 
 ### VK Cup 2017 Practice Problems
+- 522A - Reposts
+- 524D - Social Network
 - [541A](https://github.com/kantuni/Codeforces/tree/master/779A) - Place Your Ad Here
 
 ### Codeforces Round #402 (Div. 2) - `1/5`
