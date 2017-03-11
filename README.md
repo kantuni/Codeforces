@@ -19,6 +19,7 @@
 - [779C](https://github.com/kantuni/Codeforces/tree/master/779C) - Dishonest Sellers - **Accepted** (C++), **Time limit exceeded** (Python)
 
 ### Codeforces Round #401 (Div. 2) - `0/5`
+- 777A - Shell Game
 
 ### Codeforces Round #400 (Div. 1 + Div. 2) - `1/7`
 - 776A - A Serial Killer
