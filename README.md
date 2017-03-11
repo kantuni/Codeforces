@@ -21,6 +21,7 @@
 ### Codeforces Round #401 (Div. 2) - `0/5`
 
 ### Codeforces Round #400 (Div. 1 + Div. 2) - `1/7`
+- 776A - A Serial Killer
 
 ### Codeforces Round #399 (Div. 1 + Div. 2) - `1/7`
 - **[768A](https://github.com/kantuni/Codeforces/tree/master/768A)** - Oath of the Night's Watch - **Accepted**
