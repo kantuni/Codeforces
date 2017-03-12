@@ -3,9 +3,9 @@
 
 ![Codeforces](https://dl.dropboxusercontent.com/u/101623876/codeforces.svg)
 
-### VK Cup 2017 Qualification 2
+### VK Cup 2017 Qualification Round 2
 
-### VK Cup 2017 Qualification 1 - `2/4`
+### VK Cup 2017 Qualification Round 1 - `2/4`
 - 769A - Год поступления в университет
 - 769B - Новость о зачёте
 - [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Цикл в лабиринте - **Wrong answer**
