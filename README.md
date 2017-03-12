@@ -3,6 +3,8 @@
 
 ![Codeforces](https://dl.dropboxusercontent.com/u/101623876/codeforces.svg)
 
+### VK Cup 2017 Qualification 2
+
 ### VK Cup 2017 Qualification 1 - `2/4`
 - 769A - Год поступления в университет
 - 769B - Новость о зачёте
