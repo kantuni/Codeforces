@@ -4,6 +4,10 @@
 ![Codeforces](https://dl.dropboxusercontent.com/u/101623876/codeforces.svg)
 
 ### VK Cup 2017 Qualification Round 2 - `4/4`
+- 770A - Новый пароль
+- 770B - Максимизируй сумму цифр
+- 770C - Онлайн-курсы в БГУ
+- 770D - Нарисуй скобки!
 
 ### VK Cup 2017 Qualification Round 1 - `2/4`
 - 769A - Год поступления в университет
