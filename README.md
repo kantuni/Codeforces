@@ -10,8 +10,8 @@
 - 770D - Нарисуй скобки!
 
 ### VK Cup 2017 Qualification Round 1 - `2/4`
-- 769A - Год поступления в университет
-- 769B - Новость о зачёте
+- 769A - Год поступления в университет - **Accepted**
+- 769B - Новость о зачёте - **Accepted**
 - [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Цикл в лабиринте - **Wrong answer**
 
 ### VK Cup 2017 Practice Problems
