@@ -1,6 +1,8 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 ## Problems solved: `11`
 
+<br>
+
 ### VK Cup 2017 Qualification Round 2 - `4/4`
 - 770A - Новый пароль
 - 770B - Максимизируй сумму цифр
