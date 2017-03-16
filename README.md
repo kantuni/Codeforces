@@ -3,6 +3,8 @@
 
 <br>
 
+### Codeforces Round #404 (Div. 2) - `2/5`
+
 ### VK Cup 2017 Qualification Round 2 - `4/4`
 - 770A - Новый пароль
 - 770B - Максимизируй сумму цифр
