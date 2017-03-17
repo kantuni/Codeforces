@@ -4,6 +4,8 @@
 <br>
 
 ### Codeforces Round #404 (Div. 2) - `2/5`
+- 785A - Anton and Polyhedrons
+- 785B - Anton and Classes
 
 ### VK Cup 2017 Qualification Round 2 - `4/4`
 - 770A - Новый пароль
