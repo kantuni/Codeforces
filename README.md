@@ -1,12 +1,12 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `19`
+## Problems solved: `20`
 
 <br>
 
 ### Codeforces Round #404 (Div. 2) - `2/5`
 - **[785A](https://github.com/kantuni/Codeforces/blob/master/785A)** - Anton and Polyhedrons - **Accepted**
 - **[785B](https://github.com/kantuni/Codeforces/blob/master/785B)** - Anton and Classes - **Accepted**
-- 785C - Anton and Fairy Tale - **Wrong answer**
+- **[785C](https://github.com/kantuni/Codeforces/blob/master/785C)** - Anton and Fairy Tale - **Accepted** (Python), **Wrong answer** (C++)
 
 ### VK Cup 2017 Qualification Round 2 - `4/4`
 - 770A - New Password - **Accepted**
