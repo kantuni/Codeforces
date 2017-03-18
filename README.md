@@ -9,8 +9,8 @@
 - 785C - Anton and Fairy Tale - **Wrong answer**
 
 ### VK Cup 2017 Qualification Round 2 - `4/4`
-- 770A - New Password
-- 770B - Maximize Sum of Digits
+- 770A - New Password - **Accepted**
+- 770B - Maximize Sum of Digits - **Accepted**
 - **[770C](https://github.com/kantuni/Codeforces/tree/master/770C)** - Online Courses in BSU - **Accepted**
 - **[770D](https://github.com/kantuni/Codeforces/tree/master/770D)** - Draw Brackets! - **Accepted**
 
