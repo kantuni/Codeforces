@@ -18,6 +18,7 @@
 - 769A - Год поступления в университет - **Accepted**
 - 769B - Новость о зачёте - **Accepted**
 - [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Цикл в лабиринте - **Wrong answer**
+- 769D - k-Interesting Pairs Of Integers - **Time limit exceeded**
 
 ### VK Cup 2017 Practice Problems
 - 522A - Reposts
