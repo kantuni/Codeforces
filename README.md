@@ -1,18 +1,18 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `13`
+## Problems solved: `14`
 
 <br>
 
 ### Codeforces Round #404 (Div. 2) - `2/5`
-- **[785A](https://github.com/kantuni/Codeforces/blob/master/785A/anton_and_polyhedrons.py)** - Anton and Polyhedrons - **Accepted**
-- **[785B](https://github.com/kantuni/Codeforces/blob/master/785B/anton_and_classes.py)** - Anton and Classes - **Accepted**
+- **[785A](https://github.com/kantuni/Codeforces/blob/master/785A)** - Anton and Polyhedrons - **Accepted**
+- **[785B](https://github.com/kantuni/Codeforces/blob/master/785B)** - Anton and Classes - **Accepted**
 - 785C - Anton and Fairy Tale - **Wrong answer**
 
 ### VK Cup 2017 Qualification Round 2 - `4/4`
 - 770A - Новый пароль
 - 770B - Максимизируй сумму цифр
 - 770C - Онлайн-курсы в БГУ
-- 770D - Нарисуй скобки!
+- **[770D](https://github.com/kantuni/Codeforces/tree/master/770D)** - Draw Brackets! - **Accepted**
 
 ### VK Cup 2017 Qualification Round 1 - `2/4`
 - 769A - Год поступления в университет - **Accepted**
