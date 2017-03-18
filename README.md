@@ -11,7 +11,7 @@
 ### VK Cup 2017 Qualification Round 2 - `4/4`
 - 770A - Новый пароль
 - 770B - Максимизируй сумму цифр
-- 770C - Онлайн-курсы в БГУ
+- **[770C](https://github.com/kantuni/Codeforces/tree/master/770C)** - Online Courses in BSU - **Accepted**
 - **[770D](https://github.com/kantuni/Codeforces/tree/master/770D)** - Draw Brackets! - **Accepted**
 
 ### VK Cup 2017 Qualification Round 1 - `2/4`
