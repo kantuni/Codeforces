@@ -4,7 +4,7 @@
 <br>
 
 ### Codeforces Round #404 (Div. 2) - `2/5`
-- 785A - Anton and Polyhedrons - **Accepted**
+- [785A](https://github.com/kantuni/Codeforces/blob/master/785A/anton_and_polyhedrons.py) - Anton and Polyhedrons - **Accepted**
 - 785B - Anton and Classes - **Accepted**
 - 785C - Anton and Fairy Tale - **Wrong answer**
 
