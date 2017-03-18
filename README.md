@@ -23,7 +23,7 @@
 ### VK Cup 2017 Practice Problems
 - 522A - Reposts
 - 524D - Social Network
-- [541A](https://github.com/kantuni/Codeforces/tree/master/779A) - Place Your Ad Here
+- [541A](https://github.com/kantuni/Codeforces/tree/master/541A) - Place Your Ad Here
 
 ### Codeforces Round #402 (Div. 2) - `1/5`
 - **[779A](https://github.com/kantuni/Codeforces/tree/master/779A)** - Pupils Redistribution - **Accepted**
