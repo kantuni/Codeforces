@@ -12,7 +12,9 @@ int main() {
   if (m >= n) {
     cout << n << "\n";
   } else {
-    ld days = (-1 + sqrt(1 + 8 * (n - m))) / 2;
+    // d must be double (loss of precision)
+    ld d = 1 + 8 * (n - m);
+    ld days = (-1 + sqrt(d)) / 2;
     ull answer = ceil(days) + m;
     cout << answer << "\n";
   }
