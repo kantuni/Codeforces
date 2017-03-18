@@ -15,9 +15,9 @@
 - **[770D](https://github.com/kantuni/Codeforces/tree/master/770D)** - Draw Brackets! - **Accepted**
 
 ### VK Cup 2017 Qualification Round 1 - `2/4`
-- 769A - Год поступления в университет - **Accepted**
-- 769B - Новость о зачёте - **Accepted**
-- [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Цикл в лабиринте - **Wrong answer**
+- 769A - Year of University Entrance - **Accepted**
+- 769B - News About Credit - **Accepted**
+- [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze - **Wrong answer**
 - 769D - k-Interesting Pairs Of Integers - **Time limit exceeded**
 
 ### VK Cup 2017 Practice Problems
