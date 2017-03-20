@@ -1,7 +1,7 @@
 ### OSX ###
 *.DS_Store
 
-### C++ ###
+### GCC/G++ ###
 *.out
 
 ### JetBrains ###
