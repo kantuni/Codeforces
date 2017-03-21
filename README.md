@@ -3,18 +3,20 @@
 
 <br>
 
+### VK Cup 2017 - Round 1 - `0/6`
+
 ### Codeforces Round #404 (Div. 2) - `2/5`
 - **[785A](https://github.com/kantuni/Codeforces/blob/master/785A)** - Anton and Polyhedrons - **Accepted**
 - **[785B](https://github.com/kantuni/Codeforces/blob/master/785B)** - Anton and Classes - **Accepted**
 - **[785C](https://github.com/kantuni/Codeforces/blob/master/785C)** - Anton and Fairy Tale - **Accepted** (Python), **Accepted** (C++)
 
-### VK Cup 2017 Qualification Round 2 - `4/4`
+### VK Cup 2017 - Qualification 2 - `4/4`
 - 770A - New Password - **Accepted**
 - 770B - Maximize Sum of Digits - **Accepted**
 - **[770C](https://github.com/kantuni/Codeforces/tree/master/770C)** - Online Courses in BSU - **Accepted**
 - **[770D](https://github.com/kantuni/Codeforces/tree/master/770D)** - Draw Brackets! - **Accepted**
 
-### VK Cup 2017 Qualification Round 1 - `2/4`
+### VK Cup 2017 - Qualification 1 - `2/4`
 - 769A - Year of University Entrance - **Accepted**
 - 769B - News About Credit - **Accepted**
 - [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze - **Wrong answer**
