@@ -4,6 +4,7 @@
 <br>
 
 ### VK Cup 2017 - Round 1 - `0/6`
+- 771A - Bear and Friendship Condition - **Wrong Answer**
 
 ### Codeforces Round #404 (Div. 2) - `2/5`
 - **[785A](https://github.com/kantuni/Codeforces/blob/master/785A)** - Anton and Polyhedrons - **Accepted**
