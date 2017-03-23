@@ -5,7 +5,7 @@
 
 ### Codeforces Round #406 (Div. 2) - `1/5`
 - 787A - The Monster - **Wrong Answer**
-- 787B - Not Afraid - **Accepted**
+- **[787B](https://github.com/kantuni/Codeforces/blob/master/787B)** - Not Afraid - **Accepted**
 - 786A - Berzerk
 
 ### VK Cup 2017 - Round 1 - `0/6`
