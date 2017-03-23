@@ -4,6 +4,9 @@
 <br>
 
 ### Codeforces Round #406 (Div. 2) - `1/5`
+- 787A - The Monster - **Wrong Answer**
+- 787B - Not Afraid - **Accepted**
+- 786A - Berzerk
 
 ### VK Cup 2017 - Round 1 - `0/6`
 - 771A - Bear and Friendship Condition - **Wrong Answer**
