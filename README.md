@@ -3,6 +3,8 @@
 
 <br>
 
+### Codeforces Round #407 (Div. 2) - `0/5`
+
 ### Codeforces Round #406 (Div. 2) - `1/5`
 - 787A - The Monster - **Wrong Answer**
 - **[787B](https://github.com/kantuni/Codeforces/blob/master/787B)** - Not Afraid - **Accepted**
