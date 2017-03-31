@@ -4,6 +4,7 @@
 <br>
 
 ### Codeforces Round #407 (Div. 2) - `0/5`
+- 789A - Anastasia and pebbles
 
 ### Codeforces Round #406 (Div. 2) - `1/5`
 - 787A - The Monster - **Wrong Answer**
