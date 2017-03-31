@@ -4,7 +4,7 @@
 <br>
 
 ### Codeforces Round #407 (Div. 2) - `0/5`
-- 789A - Anastasia and pebbles
+- 789A - Anastasia and pebbles - **Wrong Answer**
 - 789B - Masha and geometric depression
 
 ### Codeforces Round #406 (Div. 2) - `1/5`
