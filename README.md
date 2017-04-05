@@ -3,6 +3,9 @@
 
 <br>
 
+### VK Cup 2017 - Wild Card Round 1 - `3/12`
+
+
 ### Codeforces Round #407 (Div. 2) - `0/5`
 - 789A - Anastasia and pebbles - **Wrong Answer**
 - 789B - Masha and geometric depression
