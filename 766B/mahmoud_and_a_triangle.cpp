@@ -57,16 +57,15 @@ int main() {
     lengths.push_back(length);
   }
   
+  // sort
   lengths = radix_sort(lengths);
 
-  int i = 0;
-  bool triangle = false;
-  while (i < lengths.size() - 2) {
+  bool triangle = false;  
+  for (int i = 0; i < lengths.size() - 2; ++i) {
     if (lengths[i] + lengths[i + 1] > lengths[i + 2]) {
       triangle = true;
       break;
     }
-    ++i;
   }
 
   if (triangle) {
