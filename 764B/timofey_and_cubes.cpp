@@ -16,16 +16,13 @@ int main() {
     cubes.push_back(cube);
   }
 
-  int i = 0;
-  while (i < n / 2) {
+  for (int i = 0; i < n / 2; ++i) {
     // swap detection
     if (i % 2 == 0) {
       big temp = cubes[i];
       cubes[i] = cubes[cubes.size() - 1 - i];
       cubes[cubes.size() - 1 - i] = temp;
     }
-    
-    ++i;
   }
 
   // output
@@ -35,7 +32,7 @@ int main() {
       cout << " ";
     }
   }
-  cout << endl;
+  cout << "\n";
   
   return 0;
 }
