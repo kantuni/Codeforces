@@ -23,7 +23,7 @@ int main() {
   }
   
   if (k % 2 != 0) {
-    cout << "IMPOSSIBLE" << endl;
+    cout << "IMPOSSIBLE" << "\n";
     return 0;
   }
   
@@ -48,7 +48,7 @@ int main() {
       answer += "U";
       --ri;
     } else {
-      cout << "IMPOSSIBLE" << endl;
+      cout << "IMPOSSIBLE" << "\n";
       return 0;
     }
     
@@ -76,6 +76,6 @@ int main() {
     }
   }
   
-  cout << answer << endl;
+  cout << answer << "\n";
   return 0;
 }
