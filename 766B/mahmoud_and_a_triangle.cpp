@@ -4,7 +4,6 @@
 #include <list>
 #include <iterator>
 #include <algorithm>
-
 using namespace std;
 
 typedef unsigned long long huge;
@@ -67,7 +66,6 @@ int main() {
       triangle = true;
       break;
     }
-
     ++i;
   }
 
