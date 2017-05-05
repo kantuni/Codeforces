@@ -23,7 +23,7 @@ int main() {
   }
   
   for (int i = 0; i < indexes[n]; ++i) {
-    cout << endl;
+    cout << "\n";
   }
   cout << snacks[indexes[n]];
   
@@ -41,7 +41,7 @@ int main() {
       previous = indexes[i];
     }
   }
-  cout << endl;
+  cout << "\n";
   
   return 0;
 }
