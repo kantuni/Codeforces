@@ -7,7 +7,7 @@
 - **[805A](https://github.com/kantuni/Codeforces/tree/master/805A)** - Fake NP - **Accepted**
 - **[805B](https://github.com/kantuni/Codeforces/tree/master/805B)** - 3-palindrome - **Accepted**
 - **[804A](https://github.com/kantuni/Codeforces/tree/master/804A)** - Find Amir - **Accepted**
-- **[804B](https://github.com/kantuni/Codeforces/tree/master/804B)** - Minimum number of steps - **Time limit exceeded**
+- **[804B](https://github.com/kantuni/Codeforces/tree/master/804B)** - Minimum number of steps - **Time Limit Exceeded**
 
 ### Codeforces Round #410 (Div. 2) - `2/5`
 - **[798A](https://github.com/kantuni/Codeforces/tree/master/798A)** - Mike and palindrome - **Accepted**
@@ -43,8 +43,8 @@
 ### VK Cup 2017 - Qualification 1 - `2/4`
 - 769A - Year of University Entrance - **Accepted**
 - 769B - News About Credit - **Accepted**
-- [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze - **Wrong answer**
-- 769D - k-Interesting Pairs of Integers - **Time limit exceeded**
+- [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze - **Wrong Answer**
+- 769D - k-Interesting Pairs of Integers - **Time Limit Exceeded**
 
 ### VK Cup 2017 Practice Problems
 - 522A - Reposts
@@ -54,7 +54,7 @@
 ### Codeforces Round #402 (Div. 2) - `1/5`
 - **[779A](https://github.com/kantuni/Codeforces/tree/master/779A)** - Pupils Redistribution - **Accepted**
 - [779B](https://github.com/kantuni/Codeforces/tree/master/779B) - Weird Rounding - **Accepted**
-- [779C](https://github.com/kantuni/Codeforces/tree/master/779C) - Dishonest Sellers - **Accepted** (C++), **Time limit exceeded** (Python)
+- [779C](https://github.com/kantuni/Codeforces/tree/master/779C) - Dishonest Sellers - **Accepted** (C++), **Time Limit Exceeded** (Python)
 
 ### Codeforces Round #401 (Div. 2) - `0/5`
 - 777A - Shell Game
