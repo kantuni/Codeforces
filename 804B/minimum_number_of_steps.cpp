@@ -27,15 +27,26 @@ int main() {
   
   auto pos = s.find("ab");
   while (pos != string::npos) {
-    string key = s.substr(0, pos + 2);
+    // find /(a)*ab/
+    int bpos = pos;
+    int epos = pos + 2;
+    for (int i = pos; i >= 0; --i) {
+      if (s[i] == 'a') {
+        bpos = i;
+      } else {
+        break;
+      }
+    }
+    
+    string key = s.substr(bpos, epos - bpos);
     if (memo.find(key) == end(memo)) {
       memo[key] = c(key);
     }
-    s = memo[key].first + s.substr(pos + 2);
+    s = s.substr(0, bpos) + memo[key].first + s.substr(epos);
     counter += memo[key].second;
     pos = s.find("ab");
   }
-    
+
   cout << counter % 1000000007 << "\n";
   return 0;
 }
