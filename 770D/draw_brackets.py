@@ -129,5 +129,4 @@ if __name__ == "__main__":
 
     # remove the trailing space
     final = final[:-1]
-
     print(final)
