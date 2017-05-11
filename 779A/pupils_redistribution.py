@@ -4,7 +4,6 @@ if __name__ == "__main__":
     n = int(input())
     al = [int(x) for x in input().split()]
     bl = [int(x) for x in input().split()]
-
     a = {
         1: al.count(1),
         2: al.count(2),
@@ -12,7 +11,6 @@ if __name__ == "__main__":
         4: al.count(4),
         5: al.count(5),
     }
-
     b = {
         1: bl.count(1),
         2: bl.count(2),
@@ -22,7 +20,6 @@ if __name__ == "__main__":
     }
 
     possible = True
-
     for key in a.keys():
         if (a[key] + b[key]) % 2 != 0:
             possible = False
@@ -33,7 +30,6 @@ if __name__ == "__main__":
         for key in a.keys():
             if a[key] > b[key]:
                 swaps += (a[key] - b[key]) // 2
-
         print(swaps)
     else:
         print(-1)
