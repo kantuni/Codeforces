@@ -8,7 +8,6 @@ int main() {
   int n;
   vector<big> cubes;
   
-  // input
   cin >> n;
   for (int i = 0; i < n; ++i) {
     big cube;
@@ -17,7 +16,6 @@ int main() {
   }
 
   for (int i = 0; i < n / 2; ++i) {
-    // swap detection
     if (i % 2 == 0) {
       big temp = cubes[i];
       cubes[i] = cubes[cubes.size() - 1 - i];
@@ -25,7 +23,6 @@ int main() {
     }
   }
 
-  // output
   for (int k = 0; k < cubes.size(); ++k) {
     cout << cubes[k];
     if (k != cubes.size() - 1) {
