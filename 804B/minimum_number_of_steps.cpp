@@ -1,34 +1,38 @@
 #include <iostream>
 #include <string>
+#include <math.h>
+#include <iterator>
+#include <unordered_map>
 using namespace std;
 
-typedef unsigned long long huge;
+typedef long long big;
 
 int main() {
   string s;
   cin >> s;
   
-  huge counter = 0;
-  auto pos = s.find("ab");
-  while (pos != string::npos) {
-    // find /(a)*ab/
-    int bpos = pos;
-    int epos = pos + 2;
-    for (int i = pos; i >= 0; --i) {
-      if (s[i] == 'a') {
-        bpos = i;
-      } else {
-        break;
+  big answer = 0;
+  big counter = 0;
+  
+  for (big i = 0; i < s.length(); ++i) {
+    if (s[i] == 'a') {
+      ++counter;
+    } else {
+      string rs = "";
+      for (big j = 0; j < pow(2, counter); ++j) {
+        rs += 'b';
       }
+      for (big j = 0; j < counter; ++j) {
+        rs += 'a';
+      }
+      
+      s = s.substr(0, i - counter) + rs + s.substr(i + 1);
+      i = i - counter + pow(2, counter) - 1;
+      answer += pow(2, counter) - 1;
+      counter = 0;
     }
-    
-    string ss = s.substr(bpos, epos - bpos);
-    cout << ss << "\n";
-    s = s.substr(0, bpos) + "bba" + s.substr(epos);
-    counter += 1;
-    pos = s.find("ab");
   }
 
-  cout << counter % 1000000007 << "\n";
+  cout << answer % 1000000007 << "\n";
   return 0;
 }
