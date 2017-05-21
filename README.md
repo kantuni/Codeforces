@@ -17,16 +17,16 @@
 ### VK Cup 2017 - Wild Card Round 1 - `3/12`
 
 ### Codeforces Round #407 (Div. 2) - `0/5`
-- 789A - Anastasia and pebbles - **Wrong Answer**
+- 789A - Anastasia and pebbles - **Wrong answer**
 - 789B - Masha and geometric depression
 
 ### Codeforces Round #406 (Div. 2) - `1/5`
-- 787A - The Monster - **Wrong Answer**
+- 787A - The Monster - **Wrong answer**
 - **[787B](https://github.com/kantuni/Codeforces/blob/master/787B)** - Not Afraid - **Accepted**
 - 786A - Berzerk
 
 ### VK Cup 2017 - Round 1 - `0/6`
-- 771A - Bear and Friendship Condition - **Wrong Answer**
+- 771A - Bear and Friendship Condition - **Wrong answer**
 - 771B - Bear and Different Names
 
 ### Codeforces Round #404 (Div. 2) - `2/5`
@@ -43,7 +43,7 @@
 ### VK Cup 2017 - Qualification 1 - `2/4`
 - 769A - Year of University Entrance - **Accepted**
 - 769B - News About Credit - **Accepted**
-- [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze - **Wrong Answer**
+- [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze - **wrong answer**
 - 769D - k-Interesting Pairs of Integers - **Time Limit Exceeded**
 
 ### VK Cup 2017 Practice Problems
