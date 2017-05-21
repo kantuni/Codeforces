@@ -44,7 +44,7 @@
 - 769A - Year of University Entrance - **Accepted**
 - 769B - News About Credit - **Accepted**
 - [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze - **wrong answer**
-- 769D - k-Interesting Pairs of Integers - **Time Limit Exceeded**
+- 769D - k-Interesting Pairs of Integers - **Time limit exceeded**
 
 ### VK Cup 2017 Practice Problems
 - 522A - Reposts
