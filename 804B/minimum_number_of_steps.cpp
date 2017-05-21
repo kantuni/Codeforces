@@ -1,38 +1,41 @@
 #include <iostream>
 #include <string>
-#include <math.h>
-#include <iterator>
-#include <unordered_map>
 using namespace std;
 
-typedef long long big;
+typedef unsigned long long huge;
+
+huge pow2(huge x, huge y) {
+  if (y == 0) {
+    return 1;
+  }
+  
+  if (y == 1) {
+    return x;
+  }
+  
+  if (y % 2 == 0) {
+    return pow2(x * x % 1000000007, y / 2);
+  } else {
+    return x * pow2(x * x % 1000000007, (y - 1) / 2);
+  }
+}
 
 int main() {
   string s;
   cin >> s;
   
-  big answer = 0;
-  big counter = 0;
+  huge answer = 0;
+  huge counter = 0;
   
-  for (big i = 0; i < s.length(); ++i) {
+  for (huge i = 0; i < s.length(); ++i) {
     if (s[i] == 'a') {
       ++counter;
     } else {
-      string rs = "";
-      for (big j = 0; j < pow(2, counter); ++j) {
-        rs += 'b';
-      }
-      for (big j = 0; j < counter; ++j) {
-        rs += 'a';
-      }
-      
-      s = s.substr(0, i - counter) + rs + s.substr(i + 1);
-      i = i - counter + pow(2, counter) - 1;
-      answer += pow(2, counter) - 1;
-      counter = 0;
+      answer += pow2(2, counter) - 1;
+      answer %= 1000000007;
     }
   }
 
-  cout << answer % 1000000007 << "\n";
+  cout << answer << "\n";
   return 0;
 }
