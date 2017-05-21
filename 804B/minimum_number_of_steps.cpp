@@ -14,9 +14,9 @@ huge pow2(huge x, huge y) {
   }
   
   if (y % 2 == 0) {
-    return pow2(x * x % 1000000007, y / 2);
+    return pow2(x * x % 1000000007, y / 2) % 1000000007;
   } else {
-    return x * pow2(x * x % 1000000007, (y - 1) / 2);
+    return (x % 1000000007 * pow2(x * x % 1000000007, (y - 1) / 2) % 1000000007) % 1000000007;
   }
 }
 
