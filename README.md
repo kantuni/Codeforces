@@ -1,5 +1,5 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `26`
+## Problems solved: `27`
 
 <br>
 
@@ -7,7 +7,7 @@
 - **[805A](https://github.com/kantuni/Codeforces/tree/master/805A)** - Fake NP - **Accepted**
 - **[805B](https://github.com/kantuni/Codeforces/tree/master/805B)** - 3-palindrome - **Accepted**
 - **[804A](https://github.com/kantuni/Codeforces/tree/master/804A)** - Find Amir - **Accepted**
-- **[804B](https://github.com/kantuni/Codeforces/tree/master/804B)** - Minimum number of steps - **Wrong answer**
+- **[804B](https://github.com/kantuni/Codeforces/tree/master/804B)** - Minimum number of steps - **Accepted**
 
 ### Codeforces Round #410 (Div. 2) - `2/5`
 - **[798A](https://github.com/kantuni/Codeforces/tree/master/798A)** - Mike and palindrome - **Accepted**
