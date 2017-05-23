@@ -13,20 +13,18 @@ int main() {
 
   vi al;
   nc = n;
-  while (nc > 0) {
+  while (nc--) {
     int a;
     cin >> a;
     al.push_back(a);
-    --nc;
   }
 
   vi bl;
   nc = n;
-  while (nc > 0) {
+  while (nc--) {
     int b;
     cin >> b;
     bl.push_back(b);
-    --nc;
   }
 
   vii diff;
@@ -42,13 +40,12 @@ int main() {
   int total = 0;
   int i = 0, min_index;
 
-  while (k > 0) {
+  while (k--) {
     min_index = diff[i].second;
     total += al[min_index];
     al[min_index] = 0;
     bl[min_index] = 0;
-    ++i;   
-    --k;  
+    ++i;
   }
 
   while (i < n && diff[i].first < 0) {
