@@ -60,6 +60,6 @@ int main() {
     total += value;
   }
 
-  cout << total << endl;
+  cout << total << "\n";
   return 0;
 }
