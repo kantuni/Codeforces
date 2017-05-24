@@ -57,7 +57,6 @@ int main() {
     lengths.push_back(length);
   }
   
-  // sort
   lengths = radix_sort(lengths);
 
   bool triangle = false;  
