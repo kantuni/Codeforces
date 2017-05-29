@@ -32,6 +32,5 @@ int main() {
     channels.push_back(range);
     --mc;
   }
-  
   return 0;
 }
