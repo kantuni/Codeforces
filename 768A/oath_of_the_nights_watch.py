@@ -2,8 +2,7 @@
 
 if __name__ == "__main__":
     n = int(input())
-    strengths = input().split()
-    strengths = [int(s) for s in strengths]
+    strengths = map(int, input().split())
 
     maximum = max(strengths)
     minimum = min(strengths)
