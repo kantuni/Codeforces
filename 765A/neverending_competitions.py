@@ -3,16 +3,17 @@
 if __name__ == "__main__":
     n = int(input())
     home = input()
+    
     flights = []
     while n > 0:
-        _from, _to = input().split("->")
-        flights.append(_from)
-        flights.append(_to)
+        s, t = input().split("->")
+        flights.append(s)
+        flights.append(t)
         n -= 1
 
     count = 0
-    for f in flights:
-        if f == home:
+    for flight in flights:
+        if flight == home:
             count += 1
 
     if count % 2 == 0:
