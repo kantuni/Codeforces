@@ -3,6 +3,8 @@
 
 <br>
 
+### Codeforces Round #419 (Div. 2) - `2/5`
+
 ### Codeforces Round #411 (Div. 2) - `3/6`
 - **[805A](https://github.com/kantuni/Codeforces/tree/master/805A)** - Fake NP - **Accepted**
 - **[805B](https://github.com/kantuni/Codeforces/tree/master/805B)** - 3-palindrome - **Accepted**
