@@ -3,6 +3,8 @@
 
 <br>
 
+### Codeforces Round #420 (Div. 2) - `1/5`
+
 ### Codeforces Round #419 (Div. 2) - `2/5`
 
 ### Codeforces Round #411 (Div. 2) - `3/6`
