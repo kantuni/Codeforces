@@ -3,7 +3,7 @@
 import math
 
 if __name__ == "__main__":
-    b1, q, l, _ = map(int, input().split())
+    b1, q, l, _ = [int(x) for x in input().split()]
     bad = [int(x) for x in input().split()]
     bad = [x for x in bad if x % b1 == 0 and -l <= x <= l]
 
