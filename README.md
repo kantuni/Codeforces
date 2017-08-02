@@ -1,5 +1,5 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `2`
+## Problems solved: `3`
 
 <br>
 
@@ -104,7 +104,7 @@
 
 ### Codeforces Round #396 (Div. 2) - `2/5`
 - **[766A](https://github.com/kantuni/Codeforces/tree/master/766A)** - Mahmoud and Longest Uncommon Subsequence - **Accepted**
-- **[766B](https://github.com/kantuni/Codeforces/tree/master/766B)** - Mahmoud and a Triangle
+- **[766B](https://github.com/kantuni/Codeforces/tree/master/766B)** - Mahmoud and a Triangle - **Accepted**
 
 ### Codeforces Round #395 (Div. 2)
 - [764B](https://github.com/kantuni/Codeforces/tree/master/764B) - Timofey and cubes - **Accepted**
