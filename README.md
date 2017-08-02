@@ -68,10 +68,11 @@
 
 ### Codeforces Round #401 (Div. 2) - `0/5`
 - 777A - Shell Game
+- 777C - Alyona and Spreadsheet - **Wrong answer**
 
 ### Codeforces Round #400 (Div. 1 + Div. 2) - `1/7`
-- 776A - A Serial Killer
-- 776B - Sherlock and his girlfriend
+- 776A - A Serial Killer - **Accepted**
+- 776B - Sherlock and his girlfriend - **Accepted**
 
 ### Codeforces Round #399 (Div. 1 + Div. 2) - `1/7`
 - **[768A](https://github.com/kantuni/Codeforces/tree/master/768A)** - Oath of the Night's Watch - **Accepted**
