@@ -107,4 +107,4 @@
 - **[766B](https://github.com/kantuni/Codeforces/tree/master/766B)** - Mahmoud and a Triangle
 
 ### Codeforces Round #395 (Div. 2)
-- [764B](https://github.com/kantuni/Codeforces/tree/master/764B) - Timofey and cubes
+- [764B](https://github.com/kantuni/Codeforces/tree/master/764B) - Timofey and cubes - **Accepted**
