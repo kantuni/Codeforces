@@ -91,7 +91,7 @@
 
 ### Codeforces Round #399 (Div. 1 + Div. 2) - `1/7`
 - **[768A](https://github.com/kantuni/Codeforces/tree/master/768A)** - Oath of the Night's Watch - **Accepted**
-- 768B - Code for 1
+- [768B](https://github.com/kantuni/Codeforces/tree/master/768B) - Code for 1 - **Wrong answer**
 - 768C - Jon Snow and his Favourite Number
 
 ### Codeforces Round #398 (Div. 2) - `0/5`
