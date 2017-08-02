@@ -1,5 +1,5 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `3`
+## Problems solved: `4`
 
 <br>
 
@@ -98,7 +98,7 @@
 - [767A](https://github.com/kantuni/Codeforces/tree/master/767A) - Snacktower
 
 ### Codeforces Round #397 (Div. 1 + Div. 2) - `2/7`
-- **[765A](https://github.com/kantuni/Codeforces/tree/master/765A)** - Neverending competitions
+- **[765A](https://github.com/kantuni/Codeforces/tree/master/765A)** - Neverending competitions - **Accepted**
 - **[765B](https://github.com/kantuni/Codeforces/tree/master/765B)** - Code obfuscation
 - [765C](https://github.com/kantuni/Codeforces/tree/master/765C) - Table Tennis Game 2
 
