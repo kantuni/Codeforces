@@ -1,5 +1,5 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `1`
+## Problems solved: `2`
 
 <br>
 
@@ -103,7 +103,7 @@
 - [765C](https://github.com/kantuni/Codeforces/tree/master/765C) - Table Tennis Game 2
 
 ### Codeforces Round #396 (Div. 2) - `2/5`
-- **[766A](https://github.com/kantuni/Codeforces/tree/master/766A)** - Mahmoud and Longest Uncommon Subsequence
+- **[766A](https://github.com/kantuni/Codeforces/tree/master/766A)** - Mahmoud and Longest Uncommon Subsequence - **Accepted**
 - **[766B](https://github.com/kantuni/Codeforces/tree/master/766B)** - Mahmoud and a Triangle
 
 ### Codeforces Round #395 (Div. 2)
