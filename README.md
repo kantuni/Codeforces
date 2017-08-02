@@ -4,14 +4,29 @@
 <br>
 
 ### Codeforces Round #426 (Div. 2) - `1/6`
+- 835A - Key races - **Accepted**
+- 835B - The number on the board - **Accepted**
+- 835C - Star sky - **Time limit exceeded**
 
 ### Codeforces Round #426 (Div. 2) - `2/5`
+- 834A - The Useless Toy - **Accepted**
+- 834B - The Festive Evening - **Accepted**
+- 834C - The Meaningless Game - **Wrong answer**
 
 ### Codeforces Round #421 (Div. 2) - `0/5`
+- 820A - Mister B and Book Reading - **Wrong answer**
+- 820B - Mister B and Angle in Polygon
+- 820C - Mister B and Boring Game - **Memory limit exceeded**
 
 ### Codeforces Round #420 (Div. 2) - `1/5`
+- 821A - Okabe and Future Gadget Laboratory - **Accepted**
+- 821B - Okabe and Banana Trees
+- 821C - Okabe and Boxes - **Wrong answer**
 
 ### Codeforces Round #419 (Div. 2) - `2/5`
+- 816A - Karen and Morning - **Accepted**
+- 816B - Karen and Coffee
+- 816C - Karen and Game - **Accepted**
 
 ### Codeforces Round #411 (Div. 2) - `3/6`
 - **[805A](https://github.com/kantuni/Codeforces/tree/master/805A)** - Fake NP - **Accepted**
@@ -22,22 +37,19 @@
 ### Codeforces Round #410 (Div. 2) - `2/5`
 - **[798A](https://github.com/kantuni/Codeforces/tree/master/798A)** - Mike and palindrome - **Accepted**
 - **[798B](https://github.com/kantuni/Codeforces/tree/master/798B)** - Mike and strings - **Accepted**
-- 798C - Mike and gcd problem
 
 ### VK Cup 2017 - Wild Card Round 1 - `3/12`
 
 ### Codeforces Round #407 (Div. 2) - `0/5`
 - 789A - Anastasia and pebbles - **Wrong answer**
-- 789B - Masha and geometric depression
+- 789B - Masha and geometric depression - **Wrong answer**
 
 ### Codeforces Round #406 (Div. 2) - `1/5`
 - 787A - The Monster - **Wrong answer**
 - **[787B](https://github.com/kantuni/Codeforces/blob/master/787B)** - Not Afraid - **Accepted**
-- 786A - Berzerk
 
 ### VK Cup 2017 - Round 1 - `0/6`
 - 771A - Bear and Friendship Condition - **Wrong answer**
-- 771B - Bear and Different Names
 
 ### Codeforces Round #404 (Div. 2) - `2/5`
 - **[785A](https://github.com/kantuni/Codeforces/blob/master/785A)** - Anton and Polyhedrons - **Accepted**
@@ -53,7 +65,7 @@
 ### VK Cup 2017 - Qualification 1 - `2/4`
 - 769A - Year of University Entrance - **Accepted**
 - 769B - News About Credit - **Accepted**
-- [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze - **wrong answer**
+- [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze - **Wrong answer**
 - 769D - k-Interesting Pairs of Integers - **Time limit exceeded**
 
 ### VK Cup 2017 Practice Problems
