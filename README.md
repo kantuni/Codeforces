@@ -1,5 +1,5 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `10`
+## `10` problems solved.
 
 <br>
 
