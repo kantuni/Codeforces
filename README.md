@@ -1,5 +1,5 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `8`
+## Problems solved: `9`
 
 <br>
 
@@ -86,7 +86,7 @@
 - 777C - Alyona and Spreadsheet
 
 ### Codeforces Round #400 (Div. 1 + Div. 2) - `1/7`
-- 776A - A Serial Killer
+- **[776A](https://github.com/kantuni/Codeforces/tree/master/776A)** - A Serial Killer - **Accepted**
 - 776B - Sherlock and his girlfriend
 
 ### Codeforces Round #399 (Div. 1 + Div. 2) - `1/7`
