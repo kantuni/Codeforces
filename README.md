@@ -1,5 +1,5 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `6`
+## Problems solved: `7`
 
 <br>
 
@@ -95,7 +95,7 @@
 - 768C - Jon Snow and his Favourite Number
 
 ### Codeforces Round #398 (Div. 2) - `0/5`
-- [767A](https://github.com/kantuni/Codeforces/tree/master/767A) - Snacktower
+- [767A](https://github.com/kantuni/Codeforces/tree/master/767A) - Snacktower - **Accepted**
 
 ### Codeforces Round #397 (Div. 1 + Div. 2) - `2/7`
 - **[765A](https://github.com/kantuni/Codeforces/tree/master/765A)** - Neverending competitions - **Accepted**
