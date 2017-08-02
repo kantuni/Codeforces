@@ -4,9 +4,9 @@
 <br>
 
 ### Codeforces Round #426 (Div. 2) - `1/6`
-- 835A - Key races - **Accepted**
-- 835B - The number on the board - **Accepted**
-- 835C - Star sky - **Time limit exceeded**
+- 835A - Key races
+- 835B - The number on the board
+- 835C - Star sky
 
 ### Codeforces Round #426 (Div. 2) - `2/5`
 - 834A - The Useless Toy
