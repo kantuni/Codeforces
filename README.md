@@ -1,5 +1,5 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `4`
+## Problems solved: `5`
 
 <br>
 
@@ -99,7 +99,7 @@
 
 ### Codeforces Round #397 (Div. 1 + Div. 2) - `2/7`
 - **[765A](https://github.com/kantuni/Codeforces/tree/master/765A)** - Neverending competitions - **Accepted**
-- **[765B](https://github.com/kantuni/Codeforces/tree/master/765B)** - Code obfuscation
+- **[765B](https://github.com/kantuni/Codeforces/tree/master/765B)** - Code obfuscation - **Accepted**
 - [765C](https://github.com/kantuni/Codeforces/tree/master/765C) - Table Tennis Game 2
 
 ### Codeforces Round #396 (Div. 2) - `2/5`
