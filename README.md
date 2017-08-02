@@ -1,7 +1,6 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 ## Problems solved: `10`
 
------
 
 ### Codeforces Round #426 (Div. 2) - `1/6`
 - 835A - Key races
