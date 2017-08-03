@@ -9,8 +9,8 @@
 - 835C - Star sky
 
 ### Codeforces Round #426 (Div. 2) - `2/5`
-- [834A](https://github.com/kantuni/Codeforces/tree/master/834A) - The Useless Toy - **Accepted**
-- [834B](https://github.com/kantuni/Codeforces/tree/master/834B) - The Festive Evening - **Accepted**
+- **[834A](https://github.com/kantuni/Codeforces/tree/master/834A)** - The Useless Toy - **Accepted**
+- **[834B](https://github.com/kantuni/Codeforces/tree/master/834B)** - The Festive Evening - **Accepted**
 - [834C](https://github.com/kantuni/Codeforces/tree/master/834C) - The Meaningless Game - **Wrong answer**
 
 ### Codeforces Round #421 (Div. 2) - `0/5`
@@ -19,12 +19,12 @@
 - [820C](https://github.com/kantuni/Codeforces/tree/master/820C) - Mister B and Boring Game - **Memory limit exceeded**
 
 ### Codeforces Round #420 (Div. 2) - `1/5`
-- [821A](https://github.com/kantuni/Codeforces/tree/master/821A) - Okabe and Future Gadget Laboratory - **Accepted**
+- **[821A](https://github.com/kantuni/Codeforces/tree/master/821A)** - Okabe and Future Gadget Laboratory - **Accepted**
 - [821C](https://github.com/kantuni/Codeforces/tree/master/821C) - Okabe and Boxes - **Wrong answer**
 
 ### Codeforces Round #419 (Div. 2) - `2/5`
-- [816A](https://github.com/kantuni/Codeforces/tree/master/816A) - Karen and Morning - **Accepted**
-- [816C](https://github.com/kantuni/Codeforces/tree/master/816C) - Karen and Game - **Accepted**
+- **[816A](https://github.com/kantuni/Codeforces/tree/master/816A)** - Karen and Morning - **Accepted**
+- **[816C](https://github.com/kantuni/Codeforces/tree/master/816C)** - Karen and Game - **Accepted**
 
 ### Codeforces Round #411 (Div. 2) - `3/6`
 - **[805A](https://github.com/kantuni/Codeforces/tree/master/805A)** - Fake NP - **Accepted**
