@@ -83,7 +83,7 @@
 
 ### Codeforces Round #401 (Div. 2) - `0/5`
 - 777A - Shell Game
-- 777C - Alyona and Spreadsheet
+- [777C](https://github.com/kantuni/Codeforces/tree/master/777C) - Alyona and Spreadsheet - **Time limit exceeded**
 
 ### Codeforces Round #400 (Div. 1 + Div. 2) - `1/7`
 - **[776A](https://github.com/kantuni/Codeforces/tree/master/776A)** - A Serial Killer - **Accepted**
