@@ -35,8 +35,8 @@
 - [804B](https://github.com/kantuni/Codeforces/tree/master/804B) - Minimum number of steps
 
 ### Codeforces Round #410 (Div. 2) - `2/5`
-- **[798A](https://github.com/kantuni/Codeforces/tree/master/798A)** - Mike and palindrome
-- **[798B](https://github.com/kantuni/Codeforces/tree/master/798B)** - Mike and strings
+- **[798A](https://github.com/kantuni/Codeforces/tree/master/798A)** - Mike and palindrome - **Accepted**
+- **[798B](https://github.com/kantuni/Codeforces/tree/master/798B)** - Mike and strings - **Accepted**
 
 ### VK Cup 2017 - Wild Card Round 1 - `3/12`
 - [795C](https://github.com/kantuni/Codeforces/tree/master/795C) - Maximum Number - **Accepted**
