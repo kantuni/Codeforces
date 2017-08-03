@@ -1,5 +1,5 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `15`
+## Problems solved: `18`
 
 <br>
 
@@ -55,9 +55,9 @@
 - 771A - Bear and Friendship Condition
 
 ### Codeforces Round #404 (Div. 2) - `2/5`
-- **[785A](https://github.com/kantuni/Codeforces/blob/master/785A)** - Anton and Polyhedrons
-- **[785B](https://github.com/kantuni/Codeforces/blob/master/785B)** - Anton and Classes
-- [785C](https://github.com/kantuni/Codeforces/blob/master/785C) - Anton and Fairy Tale
+- **[785A](https://github.com/kantuni/Codeforces/blob/master/785A)** - Anton and Polyhedrons - **Accepted**
+- **[785B](https://github.com/kantuni/Codeforces/blob/master/785B)** - Anton and Classes - **Accepted**
+- [785C](https://github.com/kantuni/Codeforces/blob/master/785C) - Anton and Fairy Tale - **Accepted**
 
 ### VK Cup 2017 - Qualification 2 - `4/4`
 - 770A - New Password
