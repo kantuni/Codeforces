@@ -9,9 +9,9 @@
 - 835C - Star sky
 
 ### Codeforces Round #426 (Div. 2) - `2/5`
-- 834A - The Useless Toy
-- 834B - The Festive Evening
-- 834C - The Meaningless Game
+- [834A](https://github.com/kantuni/Codeforces/tree/master/834A) - The Useless Toy - **Accepted**
+- [834B](https://github.com/kantuni/Codeforces/tree/master/834B) - The Festive Evening - **Accepted**
+- [834C](https://github.com/kantuni/Codeforces/tree/master/834C) - The Meaningless Game - **Wrong answer**
 
 ### Codeforces Round #421 (Div. 2) - `0/5`
 - [820A](https://github.com/kantuni/Codeforces/tree/master/820A) - Mister B and Book Reading - **Wrong answer**
