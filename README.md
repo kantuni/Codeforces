@@ -44,8 +44,8 @@
 - 795K - Stepan and Vowels
 
 ### Codeforces Round #407 (Div. 2) - `0/5`
-- 789A - Anastasia and pebbles
-- 789B - Masha and geometric depression
+- [789A](https://github.com/kantuni/Codeforces/tree/master/789A) - Anastasia and pebbles - **Wrong answer**
+- [789B](https://github.com/kantuni/Codeforces/tree/master/789B) - Masha and geometric depression - **Runtime error**
 
 ### Codeforces Round #406 (Div. 2) - `1/5`
 - [787A](https://github.com/kantuni/Codeforces/blob/master/787A) - The Monster - **Time limit exceeded**
