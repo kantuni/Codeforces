@@ -1,5 +1,5 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `18`
+## Problems solved: `19`
 
 <br>
 
@@ -48,8 +48,8 @@
 - 789B - Masha and geometric depression
 
 ### Codeforces Round #406 (Div. 2) - `1/5`
-- 787A - The Monster
-- **[787B](https://github.com/kantuni/Codeforces/blob/master/787B)** - Not Afraid
+- [787A](https://github.com/kantuni/Codeforces/blob/master/787A) - The Monster - **Wrong answer**
+- **[787B](https://github.com/kantuni/Codeforces/blob/master/787B)** - Not Afraid - **Accepted**
 
 ### VK Cup 2017 - Round 1 - `0/6`
 - [771A](https://github.com/kantuni/Codeforces/blob/master/771A) - Bear and Friendship Condition - **Wrong answer**
