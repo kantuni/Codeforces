@@ -14,9 +14,9 @@
 - 834C - The Meaningless Game
 
 ### Codeforces Round #421 (Div. 2) - `0/5`
-- 820A - Mister B and Book Reading
+- [820A](https://github.com/kantuni/Codeforces/tree/master/820A) - Mister B and Book Reading - **Wrong answer**
 - 820B - Mister B and Angle in Polygon
-- 820C - Mister B and Boring Game
+- [820C](https://github.com/kantuni/Codeforces/tree/master/820C) - Mister B and Boring Game - **Memory limit exceeded**
 
 ### Codeforces Round #420 (Div. 2) - `1/5`
 - [821A](https://github.com/kantuni/Codeforces/tree/master/821A) - Okabe and Future Gadget Laboratory - **Accepted**
