@@ -7,7 +7,7 @@ int main() {
   cin >> s;
   
   if (s.length() == 1) {
-    cout << "YES\n";
+    cout << "YES" << "\n";
     return 0;
   }
   
@@ -29,9 +29,9 @@ int main() {
   }
   
   if (palindrome && count == 0) {
-    cout << "YES\n";
+    cout << "YES" << "\n";
   } else {
-    cout << "NO\n";
+    cout << "NO" << "\n";
   }
   
   return 0;
