@@ -24,9 +24,8 @@
 - 821C - Okabe and Boxes
 
 ### Codeforces Round #419 (Div. 2) - `2/5`
-- 816A - Karen and Morning
-- 816B - Karen and Coffee
-- 816C - Karen and Game
+- [816A](https://github.com/kantuni/Codeforces/tree/master/816A) - Karen and Morning - **Accepted**
+- [816C](https://github.com/kantuni/Codeforces/tree/master/816C) - Karen and Game - **Accepted**
 
 ### Codeforces Round #411 (Div. 2) - `3/6`
 - **[805A](https://github.com/kantuni/Codeforces/tree/master/805A)** - Fake NP - **Accepted**
