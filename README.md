@@ -29,10 +29,10 @@
 - 816C - Karen and Game
 
 ### Codeforces Round #411 (Div. 2) - `3/6`
-- **[805A](https://github.com/kantuni/Codeforces/tree/master/805A)** - Fake NP
-- **[805B](https://github.com/kantuni/Codeforces/tree/master/805B)** - 3-palindrome
-- **[804A](https://github.com/kantuni/Codeforces/tree/master/804A)** - Find Amir
-- [804B](https://github.com/kantuni/Codeforces/tree/master/804B) - Minimum number of steps
+- **[805A](https://github.com/kantuni/Codeforces/tree/master/805A)** - Fake NP - **Accepted**
+- **[805B](https://github.com/kantuni/Codeforces/tree/master/805B)** - 3-palindrome - **Accepted**
+- **[805C](https://github.com/kantuni/Codeforces/tree/master/805C)** - Find Amir - **Accepted**
+- [805D](https://github.com/kantuni/Codeforces/tree/master/805D) - Minimum number of steps - **Accepted**
 
 ### Codeforces Round #410 (Div. 2) - `2/5`
 - **[798A](https://github.com/kantuni/Codeforces/tree/master/798A)** - Mike and palindrome - **Accepted**
