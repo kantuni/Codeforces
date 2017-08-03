@@ -19,9 +19,8 @@
 - 820C - Mister B and Boring Game
 
 ### Codeforces Round #420 (Div. 2) - `1/5`
-- 821A - Okabe and Future Gadget Laboratory
-- 821B - Okabe and Banana Trees
-- 821C - Okabe and Boxes
+- [821A](https://github.com/kantuni/Codeforces/tree/master/821A) - Okabe and Future Gadget Laboratory - **Accepted**
+- [821C](https://github.com/kantuni/Codeforces/tree/master/821C) - Okabe and Boxes - **Wrong answer**
 
 ### Codeforces Round #419 (Div. 2) - `2/5`
 - [816A](https://github.com/kantuni/Codeforces/tree/master/816A) - Karen and Morning - **Accepted**
