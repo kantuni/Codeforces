@@ -48,7 +48,7 @@
 - 789B - Masha and geometric depression
 
 ### Codeforces Round #406 (Div. 2) - `1/5`
-- [787A](https://github.com/kantuni/Codeforces/blob/master/787A) - The Monster - **Wrong answer**
+- [787A](https://github.com/kantuni/Codeforces/blob/master/787A) - The Monster - **Time limit exceeded**
 - **[787B](https://github.com/kantuni/Codeforces/blob/master/787B)** - Not Afraid - **Accepted**
 
 ### VK Cup 2017 - Round 1 - `0/6`
