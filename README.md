@@ -39,7 +39,7 @@
 - **[798B](https://github.com/kantuni/Codeforces/tree/master/798B)** - Mike and strings
 
 ### VK Cup 2017 - Wild Card Round 1 - `3/12`
-- 795C - Maximum Number
+- [795C](https://github.com/kantuni/Codeforces/tree/master/795C) - Maximum Number - **Accepted**
 - 795D - Lie or Truth
 - 795K - Stepan and Vowels
 
