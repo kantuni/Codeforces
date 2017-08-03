@@ -1,5 +1,5 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `13`
+## Problems solved: `15`
 
 <br>
 
@@ -62,8 +62,8 @@
 ### VK Cup 2017 - Qualification 2 - `4/4`
 - 770A - New Password
 - 770B - Maximize Sum of Digits
-- **[770C](https://github.com/kantuni/Codeforces/tree/master/770C)** - Online Courses in BSU
-- **[770D](https://github.com/kantuni/Codeforces/tree/master/770D)** - Draw Brackets!
+- **[770C](https://github.com/kantuni/Codeforces/tree/master/770C)** - Online Courses in BSU - **Accepted**
+- **[770D](https://github.com/kantuni/Codeforces/tree/master/770D)** - Draw Brackets! - **Accepted**
 
 ### VK Cup 2017 - Qualification 1 - `2/4`
 - 769A - Year of University Entrance
