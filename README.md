@@ -3,7 +3,7 @@
 
 <br>
 
-### Codeforces Round #426 (Div. 2) - `1/6`
+### Codeforces Round #427 (Div. 2) - `1/6`
 - 835A - Key races
 - 835B - The number on the board
 - 835C - Star sky
