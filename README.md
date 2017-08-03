@@ -4,9 +4,9 @@
 <br>
 
 ### Codeforces Round #427 (Div. 2) - `1/6`
-- 835A - Key races
-- 835B - The number on the board
-- 835C - Star sky
+- **[835A](https://github.com/kantuni/Codeforces/tree/master/835A)** - Key races - **Accepted**
+- [835B](https://github.com/kantuni/Codeforces/tree/master/835B) - The number on the board - **Accepted**
+- [835C](https://github.com/kantuni/Codeforces/tree/master/835C) - Star sky - **Time limit exceeded**
 
 ### Codeforces Round #426 (Div. 2) - `2/5`
 - **[834A](https://github.com/kantuni/Codeforces/tree/master/834A)** - The Useless Toy - **Accepted**
