@@ -1,5 +1,5 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `10`
+## Problems solved: `13`
 
 <br>
 
@@ -77,9 +77,9 @@
 - [541A](https://github.com/kantuni/Codeforces/tree/master/541A) - Place Your Ad Here
 
 ### Codeforces Round #402 (Div. 2) - `1/5`
-- **[779A](https://github.com/kantuni/Codeforces/tree/master/779A)** - Pupils Redistribution
-- [779B](https://github.com/kantuni/Codeforces/tree/master/779B) - Weird Rounding
-- [779C](https://github.com/kantuni/Codeforces/tree/master/779C) - Dishonest Sellers
+- **[779A](https://github.com/kantuni/Codeforces/tree/master/779A)** - Pupils Redistribution - **Accepted**
+- [779B](https://github.com/kantuni/Codeforces/tree/master/779B) - Weird Rounding - **Accepted**
+- [779C](https://github.com/kantuni/Codeforces/tree/master/779C) - Dishonest Sellers - **Accepted**
 
 ### Codeforces Round #401 (Div. 2) - `0/5`
 - 777A - Shell Game
