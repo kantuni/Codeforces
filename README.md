@@ -71,11 +71,6 @@
 - [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze
 - 769D - k-Interesting Pairs of Integers
 
-### VK Cup 2017 Practice Problems
-- 522A - Reposts
-- 524D - Social Network
-- [541A](https://github.com/kantuni/Codeforces/tree/master/541A) - Place Your Ad Here
-
 ### Codeforces Round #402 (Div. 2) - `1/5`
 - **[779A](https://github.com/kantuni/Codeforces/tree/master/779A)** - Pupils Redistribution - **Accepted**
 - [779B](https://github.com/kantuni/Codeforces/tree/master/779B) - Weird Rounding - **Accepted**
