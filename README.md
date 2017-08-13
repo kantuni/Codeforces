@@ -1,5 +1,5 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `33`
+## Problems solved: `34`
 
 <br>
 
