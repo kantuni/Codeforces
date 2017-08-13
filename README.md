@@ -5,6 +5,7 @@
 
 ### Codeforces Round #428 (Div. 2) - `1/5`
 - **[839A](https://github.com/kantuni/Codeforces/tree/master/839A)** - Arya and Bran - **Accepted**
+- [839C](https://github.com/kantuni/Codeforces/tree/master/839C) - Journey - **Wrong answer**
 
 ### Codeforces Round #427 (Div. 2) - `1/6`
 - **[835A](https://github.com/kantuni/Codeforces/tree/master/835A)** - Key races - **Accepted**
