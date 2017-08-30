@@ -1,7 +1,13 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `34`
+## Problems solved: `36`
 
 <br>
+
+
+### Codeforces Round #430 (Div. 2) - `2/5`
+- **[842A](https://github.com/kantuni/Codeforces/tree/master/842A)** - Kirill And The Game - **Accepted**
+- **[842B](https://github.com/kantuni/Codeforces/tree/master/842B)** - Gleb And Pizza - **Accepted**
+- [842C](https://github.com/kantuni/Codeforces/tree/master/842C) - Ilya And The Tree - **Wrong answer**
 
 ### Codeforces Round #428 (Div. 2) - `1/5`
 - **[839A](https://github.com/kantuni/Codeforces/tree/master/839A)** - Arya and Bran - **Accepted**
