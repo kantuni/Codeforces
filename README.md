@@ -1,8 +1,11 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `36`
+## Problems solved: `37`
 
 <br>
 
+### Codeforces Round #431 (Div. 2) - `1/5`
+- **[849A](https://github.com/kantuni/Codeforces/tree/master/849A)** - Odds and Ends - **Accepted**
+- [849B](https://github.com/kantuni/Codeforces/tree/master/849B) - Tell Your World - **Wrong answer**
 
 ### Codeforces Round #430 (Div. 2) - `2/5`
 - **[842A](https://github.com/kantuni/Codeforces/tree/master/842A)** - Kirill And The Game - **Accepted**
