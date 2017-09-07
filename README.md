@@ -1,7 +1,12 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `37`
+## Problems solved: `39`
 
 <br>
+
+### Codeforces Round #433 (Div. 2) - `2/5`
+- **[854A](https://github.com/kantuni/Codeforces/tree/master/854A)** - Fraction - **Accepted**
+- **[854B](https://github.com/kantuni/Codeforces/tree/master/854B)** - Maxim Buys an Apartment - **Accepted**
+- [854C](https://github.com/kantuni/Codeforces/tree/master/854C) - Planning
 
 ### Codeforces Round #431 (Div. 2) - `1/5`
 - **[849A](https://github.com/kantuni/Codeforces/tree/master/849A)** - Odds and Ends - **Accepted**
