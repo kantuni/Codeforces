@@ -1,7 +1,4 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
-## Problems solved: `39`
-
-<br>
 
 ### Codeforces Round #433 (Div. 2) - `2/5`
 - **[854A](https://github.com/kantuni/Codeforces/tree/master/854A)** - Fraction - **Accepted**
@@ -119,3 +116,7 @@
 
 ### Codeforces Round #395 (Div. 2)
 - [764B](https://github.com/kantuni/Codeforces/tree/master/764B) - Timofey and cubes - **Accepted**
+
+<br>
+
+Problems solved: **40**
