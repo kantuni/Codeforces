@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #436 (Div. 2) - `2/6`
+- **[864A](https://github.com/kantuni/Codeforces/tree/master/864A)** - Fair Game - **Accepted**
+- **[864B](https://github.com/kantuni/Codeforces/tree/master/864B)** - Polycarp and Letters - **Accepted**
+- [864C](https://github.com/kantuni/Codeforces/tree/master/864C) - Bus - **Wrong answer**
+
 ### Codeforces Round #433 (Div. 2) - `2/5`
 - **[854A](https://github.com/kantuni/Codeforces/tree/master/854A)** - Fraction - **Accepted**
 - **[854B](https://github.com/kantuni/Codeforces/tree/master/854B)** - Maxim Buys an Apartment - **Accepted**
@@ -119,4 +124,4 @@
 
 <br>
 
-Problems solved: **40**
+Problems solved: **41**
