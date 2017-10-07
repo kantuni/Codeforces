@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #439 (Div. 2) - `1/5`
+- **[869A](https://github.com/kantuni/Codeforces/tree/master/869A)** - The Artful Expedient - **Accepted**
+- [869A](https://github.com/kantuni/Codeforces/tree/master/869A) - The Eternal Immortality - **Accepted**
+
 ### Codeforces Round #437 (Div. 2) - `1/6`
 - **[867A](https://github.com/kantuni/Codeforces/tree/master/867A)** - Between the Offices - **Accepted**
 
@@ -127,4 +131,4 @@
 
 <br>
 
-Problems solved: **42**
+Problems solved: **44**
