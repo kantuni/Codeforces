@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #443 (Div. 2) - `1/5`
+- [879A](https://github.com/kantuni/Codeforces/tree/master/879A) - Borya's Diagnosis - **Accepted**
+- **[879B](https://github.com/kantuni/Codeforces/tree/master/879B)** - Table Tennis - **Accepted**
+- [879C](https://github.com/kantuni/Codeforces/tree/master/879C) - Short Program
+
 ### Codeforces Round #439 (Div. 2) - `1/5`
 - **[869A](https://github.com/kantuni/Codeforces/tree/master/869A)** - The Artful Expedient - **Accepted**
 - [869B](https://github.com/kantuni/Codeforces/tree/master/869B) - The Eternal Immortality - **Accepted**
@@ -132,4 +137,4 @@
 
 <br>
 
-Problems solved: **45**
+Problems solved: **47**
