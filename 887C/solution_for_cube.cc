@@ -6,7 +6,9 @@ bool solved(vector<int> color) {
     set<int> s;
     for (int j = 0; j < 4; j++)
       s.insert(color[i + j]);
-    if (s.size() != 1) return false;
+    
+    if (s.size() != 1)
+      return false;
   }
   return true;
 }
@@ -46,8 +48,8 @@ int main() {
   }
   
   // 3
-  from = {12, 13, 4, 5, 16, 17, 20, 22};
-  to = {4, 5, 16, 17, 20, 22, 12, 13};
+  from = {12, 13, 4, 5, 16, 17, 20, 21};
+  to = {4, 5, 16, 17, 20, 21, 12, 13};
   
   updated = color;
   for (int i = 0; i < 8; i++)
@@ -59,8 +61,8 @@ int main() {
   }
   
   // 4
-  from = {12, 13, 4, 5, 16, 17, 20, 22};
-  to = {20, 22, 12, 13, 4, 5, 16, 17};
+  from = {12, 13, 4, 5, 16, 17, 20, 21};
+  to = {20, 21, 12, 13, 4, 5, 16, 17};
   
   updated = color;
   for (int i = 0; i < 8; i++)
