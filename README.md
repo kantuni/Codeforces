@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #444 (Div. 2) - `1/6`
+- **[887A](https://github.com/kantuni/Codeforces/tree/master/887A)** - Div. 64 - **Accepted**
+- [887B](https://github.com/kantuni/Codeforces/tree/master/887B) - Cubes for Masha - **Accepted**
+- [887C](https://github.com/kantuni/Codeforces/tree/master/887C) - Solution for Cube - **Wrong answer**
+
 ### Codeforces Round #443 (Div. 2) - `1/5`
 - [879A](https://github.com/kantuni/Codeforces/tree/master/879A) - Borya's Diagnosis - **Accepted**
 - **[879B](https://github.com/kantuni/Codeforces/tree/master/879B)** - Table Tennis - **Accepted**
@@ -137,4 +142,4 @@
 
 <br>
 
-Problems solved: **47**
+Problems solved: **49**
