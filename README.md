@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #447 (Div. 2) - `1/5`
+- **[894A](https://github.com/kantuni/Codeforces/tree/master/894A)** - QAQ - **Accepted**
+- [894B](https://github.com/kantuni/Codeforces/tree/master/894B) - Ralph And His Magic Field - **Wrong answer**
+
 ### Codeforces Round #444 (Div. 2) - `1/6`
 - **[887A](https://github.com/kantuni/Codeforces/tree/master/887A)** - Div. 64 - **Accepted**
 - [887B](https://github.com/kantuni/Codeforces/tree/master/887B) - Cubes for Masha - **Accepted**
@@ -142,4 +146,4 @@
 
 <br>
 
-Problems solved: **50**
+Problems solved: **51**
