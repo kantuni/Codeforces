@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Educational Codeforces Round 33 - `3/6`
+- **[893A](https://github.com/kantuni/Codeforces/tree/master/893A)** - Chess For Three - **Accepted**
+- **[893B](https://github.com/kantuni/Codeforces/tree/master/893B)** - Beautiful Divisors - **Accepted**
+- **[893C](https://github.com/kantuni/Codeforces/tree/master/893C)** - Rumor - **Accepted**
+
 ### Codeforces Round #447 (Div. 2) - `1/5`
 - **[894A](https://github.com/kantuni/Codeforces/tree/master/894A)** - QAQ - **Accepted**
 - [894B](https://github.com/kantuni/Codeforces/tree/master/894B) - Ralph And His Magic Field - **Wrong answer**
@@ -146,4 +151,4 @@
 
 <br>
 
-Problems solved: **51**
+Problems solved: **54**
