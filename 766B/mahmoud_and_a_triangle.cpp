@@ -1,24 +1,21 @@
 #include <iostream>
-#include <iterator>
 #include <vector>
 #include <algorithm>
 using namespace std;
-
-typedef unsigned long long ull;
 
 int main() {
   int n;
   cin >> n;
 
-  vector<ull> lengths(n);
-  for (int i = 0; i < n; ++i) {
+  vector<unsigned long long> lengths(n);
+  for (int i = 0; i < n; i++) {
     cin >> lengths[i];
   }
   
-  sort(begin(lengths), end(lengths));
-
+  sort(lengths.begin(), lengths.end());
+  
   bool triangle = false;
-  for (int i = 0; i < lengths.size() - 2; ++i) {
+  for (int i = 0; i < lengths.size() - 2; i++) {
     if (lengths[i] + lengths[i + 1] > lengths[i + 2]) {
       triangle = true;
       break;
@@ -26,9 +23,9 @@ int main() {
   }
 
   if (triangle) {
-    cout << "YES" << endl;
+    cout << "YES\n";
   } else {
-    cout << "NO" << endl;
+    cout << "NO\n";
   }
   return 0;
 }
