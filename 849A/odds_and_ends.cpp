@@ -7,7 +7,7 @@ int main() {
   cin >> n;
   
   vector<int> s(n);
-  for (int i = 0; i < s.size(); ++i) {
+  for (int i = 0; i < s.size(); i++) {
     cin >> s[i];
   }
   
@@ -16,10 +16,9 @@ int main() {
   bool length_is_odd = s.size() % 2 != 0;
   
   if (first_is_odd && last_is_odd && length_is_odd) {
-    cout << "Yes" << "\n";
+    cout << "Yes\n";
   } else {
-    cout << "No" << "\n";
+    cout << "No\n";
   }
-  
   return 0;
 }
