@@ -12,7 +12,7 @@ int main() {
   bool cw = false;
   current = start;
   
-  for (int i = 0; i < n; ++i) {
+  for (int i = 0; i < n; i++) {
     if (current == 'v') current = '<';
     else if (current == '<') current = '^';
     else if (current == '^') current = '>';
@@ -27,7 +27,7 @@ int main() {
   bool ccw = false;
   current = start;
   
-  for (int i = 0; i < n; ++i) {
+  for (int i = 0; i < n; i++) {
     if (current == 'v') current = '>';
     else if (current == '>') current = '^';
     else if (current == '^') current = '<';
