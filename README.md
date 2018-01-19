@@ -1,5 +1,8 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #457 (Div. 2) - `1/5`
+- **[916A](https://github.com/kantuni/Codeforces/tree/master/916A)** - Jamie and Alarm Snooze - **Accepted**
+
 ### Educational Codeforces Round 33 - `3/6`
 - **[893A](https://github.com/kantuni/Codeforces/tree/master/893A)** - Chess For Three - **Accepted**
 - **[893B](https://github.com/kantuni/Codeforces/tree/master/893B)** - Beautiful Divisors - **Accepted**
@@ -151,4 +154,4 @@
 
 <br>
 
-Problems solved: **54**
+Problems solved: **55**
