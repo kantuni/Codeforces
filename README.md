@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #464 (Div. 2) - `2/6`
+- **[939A](https://github.com/kantuni/Codeforces/tree/master/939A)** - Love Triangle - **Accepted**
+- **[939B](https://github.com/kantuni/Codeforces/tree/master/939B)** - Hamster Farm - **Accepted**
+
 ### Codeforces Round #457 (Div. 2) - `1/5`
 - **[916A](https://github.com/kantuni/Codeforces/tree/master/916A)** - Jamie and Alarm Snooze - **Accepted**
 
@@ -154,4 +158,4 @@
 
 <br>
 
-Problems solved: **55**
+Problems solved: **57**
