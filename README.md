@@ -1,8 +1,8 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
 ### Codeforces Round #464 (Div. 2) - `2/6`
-| # | Name | Verdict |
-| - | :------ | :------ |
+| #  | Name    | Verdict |
+| :- | :------ | :------ |
 | **[939A](https://github.com/kantuni/Codeforces/tree/master/939A)** | Love Triangle            | Accepted            |
 | **[939B](https://github.com/kantuni/Codeforces/tree/master/939B)** | Hamster Farm             | Accepted            |
 | [939C](https://github.com/kantuni/Codeforces/tree/master/939C)     | Convenient For Everybody | Time limit exceeded |
