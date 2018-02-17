@@ -1,9 +1,11 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
 ### Codeforces Round #464 (Div. 2) - `2/6`
-- **[939A](https://github.com/kantuni/Codeforces/tree/master/939A)** - Love Triangle - **Accepted**
-- **[939B](https://github.com/kantuni/Codeforces/tree/master/939B)** - Hamster Farm - **Accepted**
-- [939C](https://github.com/kantuni/Codeforces/tree/master/939C) - Convenient For Everybody - **Time limit exceeded**
+
+| **[939A](https://github.com/kantuni/Codeforces/tree/master/939A)** | Love Triangle            | **Accepted**            |
+| ---------------------------------------- | ------------------------ | ----------------------- |
+| **[939B](https://github.com/kantuni/Codeforces/tree/master/939B)** | Hamster Farm             | **Accepted**            |
+| [939C](https://github.com/kantuni/Codeforces/tree/master/939C) | Convenient For Everybody | **Time limit exceeded** |
 
 ### Codeforces Round #457 (Div. 2) - `1/5`
 - **[916A](https://github.com/kantuni/Codeforces/tree/master/916A)** - Jamie and Alarm Snooze - **Accepted**
