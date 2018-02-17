@@ -1,13 +1,23 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
 ### Codeforces Round #464 (Div. 2) - `2/6`
-| #  | Name    | Verdict |
-| :- | :------ | :------ |
+| #                                        | Name                     | Verdict             |
+| :--------------------------------------- | :----------------------- | :------------------ |
 | **[939A](https://github.com/kantuni/Codeforces/tree/master/939A)** | Love Triangle            | Accepted            |
 | **[939B](https://github.com/kantuni/Codeforces/tree/master/939B)** | Hamster Farm             | Accepted            |
-| [939C](https://github.com/kantuni/Codeforces/tree/master/939C)     | Convenient For Everybody | Time limit exceeded |
+| [939C](https://github.com/kantuni/Codeforces/tree/master/939C) | Convenient For Everybody | Time limit exceeded |
+
+### Codeforces Round #461 (Div. 2) - `1/6`
+
+| #                                        | Name                 | Verdict      |
+| :--------------------------------------- | :------------------- | :----------- |
+| [922A](https://github.com/kantuni/Codeforces/tree/master/922A) | Cloning Toys         | Accepted     |
+| **[922B](https://github.com/kantuni/Codeforces/tree/master/922B)** | Magic Forest         | Accepted     |
+| [922C](https://github.com/kantuni/Codeforces/tree/master/922C) | Cave Painting        | Accepted     |
+| [922D](https://github.com/kantuni/Codeforces/tree/master/922D) | Robot Vacuum Cleaner | Wrong answer |
 
 ### Codeforces Round #457 (Div. 2) - `1/5`
+
 - **[916A](https://github.com/kantuni/Codeforces/tree/master/916A)** - Jamie and Alarm Snooze - **Accepted**
 
 ### Educational Codeforces Round 33 - `3/6`
@@ -161,4 +171,4 @@
 
 <br>
 
-Problems solved: **57**
+Problems solved: **60**
