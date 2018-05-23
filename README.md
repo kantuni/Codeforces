@@ -6,11 +6,9 @@
 - **[959C](https://github.com/kantuni/Codeforces/tree/master/959C)** - Mahmoud and Ehab and the wrong algorithm - **Accepted**
 
 ### Codeforces Round #464 (Div. 2) - `2/6`
-| #                                        | Name                     | Verdict             |
-| :--------------------------------------- | :----------------------- | :------------------ |
-| **[939A](https://github.com/kantuni/Codeforces/tree/master/939A)** | Love Triangle            | Accepted            |
-| **[939B](https://github.com/kantuni/Codeforces/tree/master/939B)** | Hamster Farm             | Accepted            |
-| [939C](https://github.com/kantuni/Codeforces/tree/master/939C) | Convenient For Everybody | Time limit exceeded |
+- **[939A](https://github.com/kantuni/Codeforces/tree/master/939A)** - Love Triangle - **Accepted**
+- **[939B](https://github.com/kantuni/Codeforces/tree/master/939B)** - Hamster Farm - **Accepted**
+- [939C](https://github.com/kantuni/Codeforces/tree/master/939C) - Convenient For Everybody - **Time limit exceeded**
 
 ### Codeforces Round #461 (Div. 2) - `1/6`
 
@@ -22,7 +20,6 @@
 | [922D](https://github.com/kantuni/Codeforces/tree/master/922D) | Robot Vacuum Cleaner | Wrong answer |
 
 ### Codeforces Round #457 (Div. 2) - `1/5`
-
 - **[916A](https://github.com/kantuni/Codeforces/tree/master/916A)** - Jamie and Alarm Snooze - **Accepted**
 
 ### Educational Codeforces Round 33 - `3/6`
