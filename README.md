@@ -5,6 +5,12 @@
 - **[959B](https://github.com/kantuni/Codeforces/tree/master/959B)** - Mahmoud and Ehab and the message - **Accepted**
 - **[959C](https://github.com/kantuni/Codeforces/tree/master/959C)** - Mahmoud and Ehab and the wrong algorithm - **Accepted**
 
+### Educational Codeforces Round 40 - `1/9`
+- **[954A](https://github.com/kantuni/Codeforces/tree/master/954A)** - Diagonal Walking - **Accepted**
+- **[954B](https://github.com/kantuni/Codeforces/tree/master/954B)** - String Typing - **Hacked**
+- **[954C](https://github.com/kantuni/Codeforces/tree/master/954C)** - Matrix Walk - **Wrong answer**
+- **[954D](https://github.com/kantuni/Codeforces/tree/master/954D)** - Fight Against Traffic - **Wrong answer**
+
 ### Codeforces Round #464 (Div. 2) - `2/6`
 - **[939A](https://github.com/kantuni/Codeforces/tree/master/939A)** - Love Triangle - **Accepted**
 - **[939B](https://github.com/kantuni/Codeforces/tree/master/939B)** - Hamster Farm - **Accepted**
@@ -170,4 +176,4 @@
 
 <br>
 
-Problems solved: **63**
+Problems solved: **64**
