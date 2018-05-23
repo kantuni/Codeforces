@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #473 (Div. 2) - `1/6`
+- **[959A](https://github.com/kantuni/Codeforces/tree/master/959A)** - Mahmoud and Ehab and the even-odd game - **Accepted**
+- **[959B](https://github.com/kantuni/Codeforces/tree/master/959B)** - Mahmoud and Ehab and the message - **Accepted**
+- **[959C](https://github.com/kantuni/Codeforces/tree/master/959C)** - Mahmoud and Ehab and the wrong algorithm - **Accepted**
+
 ### Codeforces Round #464 (Div. 2) - `2/6`
 | #                                        | Name                     | Verdict             |
 | :--------------------------------------- | :----------------------- | :------------------ |
@@ -171,4 +176,4 @@
 
 <br>
 
-Problems solved: **60**
+Problems solved: **63**
