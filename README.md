@@ -1,6 +1,11 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
-### Codeforces Round #473 (Div. 2) - `1/6`
+### Educational Codeforces Round 40 - `2/7`
+- **[962A](https://github.com/kantuni/Codeforces/tree/master/962A)** - Equator - **Accepted**
+- **[962B](https://github.com/kantuni/Codeforces/tree/master/962B)** - Students in Railway Carriage - **Accepted**
+- [962C](https://github.com/kantuni/Codeforces/tree/master/962C) - Make a Square - **Accepted**
+
+### Codeforces Round #473 (Div. 2) - `3/6`
 - **[959A](https://github.com/kantuni/Codeforces/tree/master/959A)** - Mahmoud and Ehab and the even-odd game - **Accepted**
 - **[959B](https://github.com/kantuni/Codeforces/tree/master/959B)** - Mahmoud and Ehab and the message - **Accepted**
 - **[959C](https://github.com/kantuni/Codeforces/tree/master/959C)** - Mahmoud and Ehab and the wrong algorithm - **Accepted**
