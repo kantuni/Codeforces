@@ -1,6 +1,6 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
-### Educational Codeforces Round 40 - `2/7`
+### Educational Codeforces Round 42 - `2/7`
 - **[962A](https://github.com/kantuni/Codeforces/tree/master/962A)** - Equator - **Accepted**
 - **[962B](https://github.com/kantuni/Codeforces/tree/master/962B)** - Students in Railway Carriage - **Accepted**
 - [962C](https://github.com/kantuni/Codeforces/tree/master/962C) - Make a Square - **Accepted**
