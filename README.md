@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #475 (Div. 2) - `2/5`
+- **[964A](https://github.com/kantuni/Codeforces/tree/master/964A)** - Splits - **Accepted**
+- **[964B](https://github.com/kantuni/Codeforces/tree/master/964B)** - Messages - **Accepted**
+
 ### Educational Codeforces Round 42 - `2/7`
 - **[962A](https://github.com/kantuni/Codeforces/tree/master/962A)** - Equator - **Accepted**
 - **[962B](https://github.com/kantuni/Codeforces/tree/master/962B)** - Students in Railway Carriage - **Accepted**
