@@ -190,4 +190,4 @@
 
 <br>
 
-Problems solved: **69**
+Problems solved: **71**
