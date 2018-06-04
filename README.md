@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #476 (Div. 2) - `2/5`
+- **[965A](https://github.com/kantuni/Codeforces/tree/master/965A)** - Paper Airplanes - **Accepted**
+- **[965B](https://github.com/kantuni/Codeforces/tree/master/965B)** - Battleship - **Accepted**
+- [965C](https://github.com/kantuni/Codeforces/tree/master/965C) - Greedy Arkady - **Wrong answer**
+
 ### Codeforces Round #475 (Div. 2) - `2/5`
 - **[964A](https://github.com/kantuni/Codeforces/tree/master/964A)** - Splits - **Accepted**
 - **[964B](https://github.com/kantuni/Codeforces/tree/master/964B)** - Messages - **Accepted**
