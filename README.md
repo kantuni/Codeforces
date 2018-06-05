@@ -1,5 +1,12 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #479 (Div. 3) - `4/6`
+- **[977A](https://github.com/kantuni/Codeforces/tree/master/977A)** - Wrong Subtraction - **Accepted**
+- **[977B](https://github.com/kantuni/Codeforces/tree/master/977B)** - Two-gram - **Accepted**
+- **[977C](https://github.com/kantuni/Codeforces/tree/master/977C)** - Less or Equal - **Accepted**
+- **[977D](https://github.com/kantuni/Codeforces/tree/master/977D)** - Divide by three, multiply by two - **Accepted**
+- [977E](https://github.com/kantuni/Codeforces/tree/master/977E) - Cyclic Components
+
 ### Codeforces Round #476 (Div. 2) - `2/5`
 - **[965A](https://github.com/kantuni/Codeforces/tree/master/965A)** - Paper Airplanes - **Accepted**
 - **[965B](https://github.com/kantuni/Codeforces/tree/master/965B)** - Battleship - **Accepted**
