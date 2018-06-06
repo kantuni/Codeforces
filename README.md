@@ -1,5 +1,11 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #481 (Div. 3) - `3/7`
+- **[978A](https://github.com/kantuni/Codeforces/tree/master/978A)** - Remove Duplicates - **Accepted**
+- **[978B](https://github.com/kantuni/Codeforces/tree/master/978B)** - File Name - **Accepted**
+- **[978C](https://github.com/kantuni/Codeforces/tree/master/978C)** - Letters - **Accepted**
+- [978D](https://github.com/kantuni/Codeforces/tree/master/978D) - Almost Arithmetic Progression - **Wrong answer**
+
 ### Codeforces Round #479 (Div. 3) - `4/6`
 - **[977A](https://github.com/kantuni/Codeforces/tree/master/977A)** - Wrong Subtraction - **Accepted**
 - **[977B](https://github.com/kantuni/Codeforces/tree/master/977B)** - Two-gram - **Accepted**
