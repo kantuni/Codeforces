@@ -1,5 +1,11 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #481 (Div. 3) - `3/6`
+- **[988A](https://github.com/kantuni/Codeforces/tree/master/988A)** - Diverse Team - **Accepted**
+- **[988B](https://github.com/kantuni/Codeforces/tree/master/988B)** - Substrings Sort - **Accepted**
+- **[988C](https://github.com/kantuni/Codeforces/tree/master/988C)** - Equal Sums - **Accepted**
+- [988E](https://github.com/kantuni/Codeforces/tree/master/988E) - Divisibility by 25 - **Time limit exceeded**
+
 ### Codeforces Round #481 (Div. 3) - `3/7`
 - **[978A](https://github.com/kantuni/Codeforces/tree/master/978A)** - Remove Duplicates - **Accepted**
 - **[978B](https://github.com/kantuni/Codeforces/tree/master/978B)** - File Name - **Accepted**
