@@ -6,6 +6,11 @@
 - **[988C](https://github.com/kantuni/Codeforces/tree/master/988C)** - Equal Sums - **Accepted**
 - [988E](https://github.com/kantuni/Codeforces/tree/master/988E) - Divisibility by 25 - **Time limit exceeded**
 
+### Codeforces Round #482 (Div. 2) - `1/5`
+- **[979A](https://github.com/kantuni/Codeforces/tree/master/979A)** - Pizza, Pizza, Pizza!!! - **Accepted**
+- [979B](https://github.com/kantuni/Codeforces/tree/master/979B) - Treasure Hunt - **Wrong answer**
+- [979C](https://github.com/kantuni/Codeforces/tree/master/979C) - Kuro and Walking Route - **Wrong answer**
+
 ### Codeforces Round #481 (Div. 3) - `3/7`
 - **[978A](https://github.com/kantuni/Codeforces/tree/master/978A)** - Remove Duplicates - **Accepted**
 - **[978B](https://github.com/kantuni/Codeforces/tree/master/978B)** - File Name - **Accepted**
