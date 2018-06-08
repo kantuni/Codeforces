@@ -1,6 +1,6 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
-### Codeforces Round #482 (Div. 3) - `3/6`
+### Codeforces Round #486 (Div. 3) - `3/6`
 - **[988A](https://github.com/kantuni/Codeforces/tree/master/988A)** - Diverse Team - **Accepted**
 - **[988B](https://github.com/kantuni/Codeforces/tree/master/988B)** - Substrings Sort - **Accepted**
 - **[988C](https://github.com/kantuni/Codeforces/tree/master/988C)** - Equal Sums - **Accepted**
