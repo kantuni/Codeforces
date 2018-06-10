@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Educational Codeforces Round 45 - `1/7`
+- **[990A](https://github.com/kantuni/Codeforces/tree/master/990A)** - Commentary Boxes - **Accepted**
+- [990B](https://github.com/kantuni/Codeforces/tree/master/990B) - Micro-World - **Time limit exceeded**
+
 ### Codeforces Round #486 (Div. 3) - `3/6`
 - **[988A](https://github.com/kantuni/Codeforces/tree/master/988A)** - Diverse Team - **Accepted**
 - **[988B](https://github.com/kantuni/Codeforces/tree/master/988B)** - Substrings Sort - **Accepted**
