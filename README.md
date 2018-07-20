@@ -1,5 +1,12 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #492 (Div. 2) - `2/6`
+- **[996A](https://github.com/kantuni/Codeforces/tree/master/996A)** - Hit the Lottery - **Accepted**
+- [996B](https://github.com/kantuni/Codeforces/tree/master/996B) - World Cup - **Time limit exceeded**
+- [996C](https://github.com/kantuni/Codeforces/tree/master/996C) - Tesla
+- **[996D](https://github.com/kantuni/Codeforces/tree/master/996D)** - Suit and Tie - **Accepted**
+- [996E](https://github.com/kantuni/Codeforces/tree/master/996E) - Leaving the Bar - **Wrong answer**
+
 ### Codeforces Round #491 (Div. 2) - `2/6`
 - **[991A](https://github.com/kantuni/Codeforces/tree/master/991A)** - If at first you don't succeed... - **Accepted**
 - **[991B](https://github.com/kantuni/Codeforces/tree/master/991B)** - Getting an A - **Accepted**
