@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Educational Codeforces Round 46 - `1/7`
+- **[1000A](https://github.com/kantuni/Codeforces/tree/master/1000A)** - Codehorses T-shirts - **Accepted**
+- [1000B](https://github.com/kantuni/Codeforces/tree/master/1000B) - Light It Up - **Wrong answer**
+
 ### Codeforces Round #492 (Div. 2) - `2/6`
 - **[996A](https://github.com/kantuni/Codeforces/tree/master/996A)** - Hit the Lottery - **Accepted**
 - [996B](https://github.com/kantuni/Codeforces/tree/master/996B) - World Cup - **Accepted**
