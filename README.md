@@ -1,5 +1,22 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #492 (Div. 2) - `2/6`
+- **[996A](https://github.com/kantuni/Codeforces/tree/master/996A)** - Hit the Lottery - **Accepted**
+- [996B](https://github.com/kantuni/Codeforces/tree/master/996B) - World Cup - **Accepted**
+- [996C](https://github.com/kantuni/Codeforces/tree/master/996C) - Tesla
+- **[996D](https://github.com/kantuni/Codeforces/tree/master/996D)** - Suit and Tie - **Accepted**
+- [996E](https://github.com/kantuni/Codeforces/tree/master/996E) - Leaving the Bar - **Wrong answer**
+
+### Codeforces Round #491 (Div. 2) - `2/6`
+- **[991A](https://github.com/kantuni/Codeforces/tree/master/991A)** - If at first you don't succeed... - **Accepted**
+- **[991B](https://github.com/kantuni/Codeforces/tree/master/991B)** - Getting an A - **Accepted**
+- [991C](https://github.com/kantuni/Codeforces/tree/master/991C) - Candies - **Wrong answer**
+
+### Codeforces Round #490 (Div. 3) - `3/6`
+- **[999A](https://github.com/kantuni/Codeforces/tree/master/999A)** - Mishka and Contest - **Accepted**
+- **[999B](https://github.com/kantuni/Codeforces/tree/master/999B)** - Reversing Encryption - **Accepted**
+- **[999C](https://github.com/kantuni/Codeforces/tree/master/999C)** - Alphabetic Removals - **Accepted**
+
 ### Educational Codeforces Round 45 - `1/7`
 - **[990A](https://github.com/kantuni/Codeforces/tree/master/990A)** - Commentary Boxes - **Accepted**
 - [990B](https://github.com/kantuni/Codeforces/tree/master/990B) - Micro-World - **Time limit exceeded**
@@ -218,4 +235,4 @@
 
 <br>
 
-Problems solved: **83**
+Problems solved: **91**
