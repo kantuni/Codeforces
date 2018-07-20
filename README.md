@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #490 (Div. 3) - `3/6`
+- **[979A](https://github.com/kantuni/Codeforces/tree/master/999A)** - Mishka and Contest - **Accepted**
+- [979B](https://github.com/kantuni/Codeforces/tree/master/999B) - Reversing Encryption - **Accepted**
+- [979C](https://github.com/kantuni/Codeforces/tree/master/999C) - Alphabetic Removals - **Accepted**
+
 ### Educational Codeforces Round 45 - `1/7`
 - **[990A](https://github.com/kantuni/Codeforces/tree/master/990A)** - Commentary Boxes - **Accepted**
 - [990B](https://github.com/kantuni/Codeforces/tree/master/990B) - Micro-World - **Time limit exceeded**
