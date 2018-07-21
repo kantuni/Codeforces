@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #497 (Div. 2) - `2/5`
+- **[1008A](https://github.com/kantuni/Codeforces/tree/master/1008A)** - Romaji - **Accepted**
+- **[1008B](https://github.com/kantuni/Codeforces/tree/master/1008B)** - Turn the Rectangles - **Accepted**
+- [1008C](https://github.com/kantuni/Codeforces/tree/master/1008C) - Reorder the Array - **Time limit exceeded**
+
 ### Codeforces Round #494 (Div. 3) - `2/6`
 - **[1003A](https://github.com/kantuni/Codeforces/tree/master/1003A)** - Polycarp's Pockets - **Accepted**
 - **[1003B](https://github.com/kantuni/Codeforces/tree/master/1003B)** - Binary String Constructing - **Accepted**
@@ -244,4 +249,4 @@
 
 <br>
 
-Problems solved: **95**
+Problems solved: **97**
