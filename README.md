@@ -1,6 +1,6 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
-### Codeforces Round #490 (Div. 3) - `2/6`
+### Codeforces Round #494 (Div. 3) - `2/6`
 - **[1003A](https://github.com/kantuni/Codeforces/tree/master/1003A)** - Polycarp's Pockets - **Accepted**
 - **[1003B](https://github.com/kantuni/Codeforces/tree/master/1003B)** - Binary String Constructing - **Accepted**
 - [1003C](https://github.com/kantuni/Codeforces/tree/master/1003C) - Intense Heat - **Accepted**
