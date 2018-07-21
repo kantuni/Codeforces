@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #494 (Div. 3) - `2/6`
+- **[1003A](https://github.com/kantuni/Codeforces/tree/master/1003A)** - Polycarp's Pockets - **Accepted**
+- **[1003B](https://github.com/kantuni/Codeforces/tree/master/1003B)** - Binary String Constructing - **Accepted**
+- [1003C](https://github.com/kantuni/Codeforces/tree/master/1003C) - Intense Heat - **Accepted**
+
 ### Educational Codeforces Round 46 - `1/7`
 - **[1000A](https://github.com/kantuni/Codeforces/tree/master/1000A)** - Codehorses T-shirts - **Accepted**
 - [1000B](https://github.com/kantuni/Codeforces/tree/master/1000B) - Light It Up - **Wrong answer**
@@ -239,4 +244,4 @@
 
 <br>
 
-Problems solved: **92**
+Problems solved: **95**
