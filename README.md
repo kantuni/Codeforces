@@ -1,8 +1,17 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
-### Codeforces Round #497 (Div. 2) - `2/5`
+### Codeforces Round #498 (Div. 3) - `3/6`
+- **[1006A](https://github.com/kantuni/Codeforces/tree/master/1006A)** - Adjacent Replacements - **Accepted**
+- **[1006B](https://github.com/kantuni/Codeforces/tree/master/1006B)** - Polycarp's Practice - **Accepted**
+- **[1006C](https://github.com/kantuni/Codeforces/tree/master/1006C)** - Three Parts of the Array - **Accepted**
+
+### Educational Codeforces Round 47 - `2/7`
+- **[1009A](https://github.com/kantuni/Codeforces/tree/master/1009A)** - Game Shopping - **Accepted**
+- **[1009B](https://github.com/kantuni/Codeforces/tree/master/1009B)** - Minimum Ternary String - **Accepted**
+
+### Codeforces Round #497 (Div. 2) - `1/5`
 - **[1008A](https://github.com/kantuni/Codeforces/tree/master/1008A)** - Romaji - **Accepted**
-- **[1008B](https://github.com/kantuni/Codeforces/tree/master/1008B)** - Turn the Rectangles - **Accepted**
+- [1008B](https://github.com/kantuni/Codeforces/tree/master/1008B) - Turn the Rectangles - **Accepted**
 - [1008C](https://github.com/kantuni/Codeforces/tree/master/1008C) - Reorder the Array - **Time limit exceeded**
 
 ### Codeforces Round #494 (Div. 3) - `2/6`
@@ -249,4 +258,4 @@
 
 <br>
 
-Problems solved: **97**
+Problems solved: **102**
