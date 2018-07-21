@@ -9,7 +9,7 @@
 - **[1009A](https://github.com/kantuni/Codeforces/tree/master/1009A)** - Game Shopping - **Accepted**
 - **[1009B](https://github.com/kantuni/Codeforces/tree/master/1009B)** - Minimum Ternary String - **Accepted**
 
-### Codeforces Round #497 (Div. 2) - `2/5`
+### Codeforces Round #497 (Div. 2) - `1/5`
 - **[1008A](https://github.com/kantuni/Codeforces/tree/master/1008A)** - Romaji - **Accepted**
 - [1008B](https://github.com/kantuni/Codeforces/tree/master/1008B) - Turn the Rectangles - **Accepted**
 - [1008C](https://github.com/kantuni/Codeforces/tree/master/1008C) - Reorder the Array - **Time limit exceeded**
