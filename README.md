@@ -1,5 +1,12 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #498 (Div. 3) - `4/7`
+- **[1015A](https://github.com/kantuni/Codeforces/tree/master/1015A)** - Points in Segments - **Accepted**
+- **[1015B](https://github.com/kantuni/Codeforces/tree/master/1015B)** - Obtaining the String - **Accepted**
+- **[1015C](https://github.com/kantuni/Codeforces/tree/master/1015C)** - Songs Compression - **Accepted**
+- **[1015D](https://github.com/kantuni/Codeforces/tree/master/1015D)** - Walking Between Houses - **Accepted**
+- [1015E1](https://github.com/kantuni/Codeforces/tree/master/1015E1) - Stars Drawing (Easy Edition) - **Wrong answer**
+
 ### Codeforces Round #497 (Div. 2) - `2/5`
 - **[1013A](https://github.com/kantuni/Codeforces/tree/master/1013A)** - Piles With Stones - **Accepted**
 - **[1013B](https://github.com/kantuni/Codeforces/tree/master/1013B)** - And - **Accepted**
