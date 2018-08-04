@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #497 (Div. 2) - `2/5`
+- **[1013A](https://github.com/kantuni/Codeforces/tree/master/1013A)** - Piles With Stones - **Accepted**
+- **[1013B](https://github.com/kantuni/Codeforces/tree/master/1013B)** - And - **Accepted**
+- [1013C](https://github.com/kantuni/Codeforces/tree/master/1013C) - Photo of The Sky - **Wrong answer**
+
 ### Codeforces Round #498 (Div. 3) - `3/6`
 - **[1006A](https://github.com/kantuni/Codeforces/tree/master/1006A)** - Adjacent Replacements - **Accepted**
 - **[1006B](https://github.com/kantuni/Codeforces/tree/master/1006B)** - Polycarp's Practice - **Accepted**
