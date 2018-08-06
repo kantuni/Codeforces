@@ -1,36 +1,37 @@
-#include <iostream>
-#include <iterator>
-#include <vector>
-#include <algorithm>
+include <bits/stdc++.h>
 using namespace std;
 
-typedef long long ll;
-
 int main() {
-  ll n, k;
+  int n, k;
   cin >> n >> k;
-  
-  vector<ll> w(n);
-  for (int i = 0; i < n; ++i) {
-    cin >> w[i];
+  priority_queue<int> pq;
+  for (int i = 0; i < n; i++) {
+    int w;
+    cin >> w;
+    pq.push(w);
   }
-  
-  sort(begin(w), end(w));
-  
-  ll days = 0;
-  for (int i = 0; i < w.size() - 1; i += 2) {
-    while (w[i] > 0 || w[i + 1] > 0) {
-      w[i] -= min(w[i], k);
-      w[i + 1] -= min(w[i + 1], k);
-      ++days;
+  long long ans = 0;
+  while (!pq.empty()) {
+    int w = pq.top();
+    pq.pop();
+    if (w > 2 * k) {
+      ans += w / (2 * k);
+      w = w % (2 * k);
+    } else if (w > k and w <= 2 * k) {
+      w = 0;
+      ans++;
+    } else {
+      if (!pq.empty()) {
+        w = pq.top();
+        pq.pop();
+      }
+      w = max(w - k, 0);
+      ans++;
+    }
+    if (w > 0) {
+      pq.push(w);
     }
   }
-  
-  while (w[w.size() - 1] > 0) {
-    w[w.size() - 1] -= 2 * min(w[w.size() - 1], k);
-    ++days;
-  }
-  
-  cout << days << "\n";
+  cout << ans << "\n";
   return 0;
 }
