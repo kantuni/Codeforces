@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #502 (Div. 1 + Div. 2) - `2/8`
+- **[1017A](https://github.com/kantuni/Codeforces/tree/master/1017A)** - The Rank - **Accepted**
+- **[1017B](https://github.com/kantuni/Codeforces/tree/master/1017B)** - The Bits - **Accepted**
+- [1017C](https://github.com/kantuni/Codeforces/tree/master/1017C) - The Phone Number - **Wrong answer**
+
 ### Codeforces Round #498 (Div. 3) - `4/7`
 - **[1015A](https://github.com/kantuni/Codeforces/tree/master/1015A)** - Points in Segments - **Accepted**
 - **[1015B](https://github.com/kantuni/Codeforces/tree/master/1015B)** - Obtaining the String - **Accepted**
