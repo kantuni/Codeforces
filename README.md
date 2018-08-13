@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #503 (Div. 2) - `2/5`
+- **[1020A](https://github.com/kantuni/Codeforces/tree/master/1020A)** - New Building for SIS - **Accepted**
+- **[1020B](https://github.com/kantuni/Codeforces/tree/master/1020B)** - Badge - **Accepted**
+- [1020C](https://github.com/kantuni/Codeforces/tree/master/1020C) - Elections
+
 ### Codeforces Round #502 (Div. 1 + Div. 2) - `2/8`
 - **[1017A](https://github.com/kantuni/Codeforces/tree/master/1017A)** - The Rank - **Accepted**
 - **[1017B](https://github.com/kantuni/Codeforces/tree/master/1017B)** - The Bits - **Accepted**
@@ -275,4 +280,4 @@
 
 <br>
 
-Problems solved: **111**
+Problems solved: **113**
