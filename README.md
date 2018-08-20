@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Educational Codeforces Round 49 - `1/7`
+- **[1027A](https://github.com/kantuni/Codeforces/tree/master/1027A)** - Palindromic Twist - **Accepted**
+- [1028B](https://github.com/kantuni/Codeforces/tree/master/1027B) - Numbers on the Chessboard - **Accepted**
+
 ### Codeforces Round #503 (Div. 2) - `2/5`
 - **[1020A](https://github.com/kantuni/Codeforces/tree/master/1020A)** - New Building for SIS - **Accepted**
 - **[1020B](https://github.com/kantuni/Codeforces/tree/master/1020B)** - Badge - **Accepted**
