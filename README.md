@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #498 (Div. 3) - `0/6`
+- [1029A](https://github.com/kantuni/Codeforces/tree/master/1029A) - Many Equal Substrings - **Wrong answer**
+- [1029B](https://github.com/kantuni/Codeforces/tree/master/1029B) - Creating the Contest - **Wrong answer**
+
 ### Educational Codeforces Round 49 - `1/7`
 - **[1027A](https://github.com/kantuni/Codeforces/tree/master/1027A)** - Palindromic Twist - **Accepted**
 - [1028B](https://github.com/kantuni/Codeforces/tree/master/1027B) - Numbers on the Chessboard - **Accepted**
