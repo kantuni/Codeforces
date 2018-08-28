@@ -18,8 +18,8 @@ int main() {
     for (int c = 0; c < m; c++) {
       if (A[r][c] == 'B') {
         if (br == -1 and bc == -1) {
-          br = r + len / 2 + 1;
-          bc = c + len / 2 + 1;
+          br = r;
+          bc = c;
         }
         len++;
       }
@@ -28,6 +28,8 @@ int main() {
       break;
     }
   }
+  br += len / 2 + 1;
+  bc += len / 2 + 1;
   cout << br << " " << bc << "\n";
   return 0;
 }
