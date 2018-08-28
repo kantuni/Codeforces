@@ -1,12 +1,16 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### AIM Tech Round 5 (Div. 1 + Div. 2) - `2/8`
+- **[1028A](https://github.com/kantuni/Codeforces/tree/master/1028A)** - Find Square - **Accepted**
+- **[1028B](https://github.com/kantuni/Codeforces/tree/master/1028B)** - Unnatural Conditions - **Accepted**
+
 ### Codeforces Round #498 (Div. 3) - `0/6`
 - [1029A](https://github.com/kantuni/Codeforces/tree/master/1029A) - Many Equal Substrings - **Wrong answer**
 - [1029B](https://github.com/kantuni/Codeforces/tree/master/1029B) - Creating the Contest - **Wrong answer**
 
 ### Educational Codeforces Round 49 - `1/7`
 - **[1027A](https://github.com/kantuni/Codeforces/tree/master/1027A)** - Palindromic Twist - **Accepted**
-- [1028B](https://github.com/kantuni/Codeforces/tree/master/1027B) - Numbers on the Chessboard - **Accepted**
+- [1027B](https://github.com/kantuni/Codeforces/tree/master/1027B) - Numbers on the Chessboard - **Accepted**
 
 ### Codeforces Round #503 (Div. 2) - `2/5`
 - **[1020A](https://github.com/kantuni/Codeforces/tree/master/1020A)** - New Building for SIS - **Accepted**
