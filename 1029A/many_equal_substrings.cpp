@@ -1,4 +1,3 @@
-// WA
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -7,29 +6,32 @@ int main() {
   cin >> n >> k;
   string t;
   cin >> t;
-  string ans = t;
-  bool palindrome = true;
-  for (int i = 0; i < n / 2; i++) {
-    if (t[i] != t[n - 1 - i]) {
-      palindrome = false;
-      break;
+  if (n == 1) {
+    while (k--) {
+      cout << t;
     }
-  }
-  for (int i = 0; i < k - 1; i++) {
-    if (palindrome and t.size() > 1) {
-      if (t.size() > 2 and t[0] == t[n / 2] and t[0] == t[n - 1]) {
-        for (int j = n / 2 + 1; j < n; j++) {
-          ans += string(1, t[j]);
-        }
-      } else {
-        for (int j = 1; j < n; j++) {
-          ans += string(1, t[j]);
+  } else {
+    int pos = 0;
+    for (int i = 1; i < n; i++) {
+      if (t[i] == t[0]) {
+        for (int j = i; j < n; j++) {
+          if (t[j] == t[j - i]) {
+            pos++;
+          } else {
+            pos = 0;
+            break;
+          }
         }
       }
-    } else {
-      ans += t;
+      i = (pos > 0) ? i + pos - 1 : i;
+    }
+    cout << t;
+    for (int i = 0; i < k - 1; i++) {
+      for (int j = pos; j < n; j++) {
+        cout << t[j];
+      }
     }
   }
-  cout << ans << "\n";
+  cout << "\n";
   return 0;
 }
