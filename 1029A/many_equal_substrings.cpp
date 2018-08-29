@@ -13,14 +13,13 @@ int main() {
   } else {
     int pos = 0;
     for (int i = 1; i < n; i++) {
-      if (t[i] == t[0]) {
-        for (int j = i; j < n; j++) {
-          if (t[j] == t[j - i]) {
-            pos++;
-          } else {
-            pos = 0;
-            break;
-          }
+      if (t[i] == t[0]) continue;
+      for (int j = i; j < n; j++) {
+        if (t[j] == t[j - i]) {
+          pos++;
+        } else {
+          pos = 0;
+          break;
         }
       }
       i = (pos > 0) ? i + pos - 1 : i;
