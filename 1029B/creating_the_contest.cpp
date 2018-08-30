@@ -9,13 +9,11 @@ int main() {
   for (int i = 0; i < n; i++) {
     cin >> a[i];
   }
-  vector<int> cnt(n, 0);
-  int ans = 0;
+  int ans = 1;
   for (int i = 0; i < n; i++) {
-    auto upper = upper_bound(a.begin() + i + 1, a.end(), a[i] * 2);
+    auto upper = lower_bound(a.begin() + i, a.end(), a[i] * 2);
     int index = upper - a.begin() - 1;
-    cnt[index]++;
-    ans = max(ans, cnt[index]);
+    ans = max(ans, index - i + 1);
   }
   cout << ans << "\n";
   return 0;
