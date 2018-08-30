@@ -6,7 +6,7 @@
 
 ### Codeforces Round #498 (Div. 3) - `0/6`
 - [1029A](https://github.com/kantuni/Codeforces/tree/master/1029A) - Many Equal Substrings - **Accepted**
-- [1029B](https://github.com/kantuni/Codeforces/tree/master/1029B) - Creating the Contest - **Wrong answer**
+- [1029B](https://github.com/kantuni/Codeforces/tree/master/1029B) - Creating the Contest - **Accepted**
 
 ### Educational Codeforces Round 49 - `1/7`
 - **[1027A](https://github.com/kantuni/Codeforces/tree/master/1027A)** - Palindromic Twist - **Accepted**
@@ -292,4 +292,4 @@
 
 <br>
 
-Problems solved: **118**
+Problems solved: **119**
