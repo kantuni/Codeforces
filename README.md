@@ -5,7 +5,7 @@
 - **[1028B](https://github.com/kantuni/Codeforces/tree/master/1028B)** - Unnatural Conditions - **Accepted**
 
 ### Codeforces Round #498 (Div. 3) - `0/6`
-- [1029A](https://github.com/kantuni/Codeforces/tree/master/1029A) - Many Equal Substrings - **Wrong answer**
+- [1029A](https://github.com/kantuni/Codeforces/tree/master/1029A) - Many Equal Substrings - **Accepted**
 - [1029B](https://github.com/kantuni/Codeforces/tree/master/1029B) - Creating the Contest - **Wrong answer**
 
 ### Educational Codeforces Round 49 - `1/7`
@@ -292,4 +292,4 @@
 
 <br>
 
-Problems solved: **117**
+Problems solved: **118**
