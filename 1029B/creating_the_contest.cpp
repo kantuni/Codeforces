@@ -1,4 +1,3 @@
-// WA
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,9 +10,12 @@ int main() {
   }
   int ans = 1;
   for (int i = 0; i < n; i++) {
-    auto upper = lower_bound(a.begin() + i, a.end(), a[i] * 2);
-    int index = upper - a.begin() - 1;
-    ans = max(ans, index - i + 1);
+    int j = i;
+    while (j + 1 < n and a[j + 1] <= a[j] * 2) {
+      j++;
+    }
+    ans = max(ans, j - i + 1);
+    i = j;
   }
   cout << ans << "\n";
   return 0;
