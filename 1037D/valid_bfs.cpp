@@ -1,45 +1,57 @@
-// WA
 #include <bits/stdc++.h>
 using namespace std;
 
-set<pair<int, int>> memo;
+vector<vector<int>> cnn;
+vector<int> p, lvl;
+
+void dfs(int u, int l) {
+  lvl[u] = l;
+  for (int i = 0; i < cnn[u].size(); i++) {
+    int v = cnn[u][i];
+    if (lvl[v] == 0) {
+      dfs(v, l + 1);
+      p[v] = u;
+    }
+  }
+}
 
 int main() {
   int n;
   cin >> n;
-  vector<int> p(n + 1), c(n + 1);
+  cnn.resize(n);
+  p.resize(n);
+  lvl.resize(n);
   for (int i = 0; i < n - 1; i++) {
-    int s, t;
-    cin >> s >> t;
-    memo.insert(make_pair(s, t));
-    memo.insert(make_pair(t, s));
-    p[t] = s;
-    c[s]++;
+    int u, v;
+    cin >> u >> v;
+    cnn[u - 1].push_back(v - 1);
+    cnn[v - 1].push_back(u - 1);
   }
-  vector<int> a(n);
+  vector<int> a(n), pos(n);
   for (int i = 0; i < n; i++) {
     cin >> a[i];
+    pos[a[i] - 1] = i;
   }
+  // calculate level and parent
+  // for each vertex
+  p[0] = -1;
+  dfs(0, 1);
+  // start from vertex 1
   bool ok = a[0] == 1;
-  bool next = false;
-  int cp = 1;
-  for (int i = 1; ok and i < n; i++) {
-    if (memo.count({a[i], cp})) {
-      c[cp]--;
-      if (c[cp] == 0) {
-        next = true;
-      }
-    } else {
-      if (next) {
-        cp = p[a[i]];
-        c[cp]--;
-        if (c[cp] == 0) {
-          next = true;
-        }
-      } else {
-        ok = false;
-        break;
-      }
+  // levels should be in order
+  vector<int> ord(lvl);
+  sort(ord.begin(), ord.end());
+  for (int i = 0; i < n; i++) {
+    if (lvl[a[i] - 1] != ord[i]) {
+      ok = false;
+      break;
+    }
+  }
+  // parents should be in order
+  for (int i = 1; i < n - 1; i++) {
+    if (pos[p[a[i] - 1]] > pos[p[a[i + 1] - 1]]) {
+      ok = false;
+      break;
     }
   }
   if (ok) {
