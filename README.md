@@ -4,7 +4,7 @@
 - **[1037A](https://github.com/kantuni/Codeforces/tree/master/1037A)** - Packets - **Accepted**
 - **[1037B](https://github.com/kantuni/Codeforces/tree/master/1037B)** - Reach Median - **Accepted**
 - **[1037D](https://github.com/kantuni/Codeforces/tree/master/1037C)** - Equalize - **Accepted**
-- [1037D](https://github.com/kantuni/Codeforces/tree/master/1037D) - Valid BFS? - **Wrong answer**
+- [1037D](https://github.com/kantuni/Codeforces/tree/master/1037D) - Valid BFS? - **Accepted**
 
 
 ### AIM Tech Round 5 (Div. 1 + Div. 2) - `2/8`
@@ -299,4 +299,4 @@
 
 <br>
 
-Problems solved: **122**
+Problems solved: **123**
