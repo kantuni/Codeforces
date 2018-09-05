@@ -1,58 +1,44 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<vector<int>> cnn;
-vector<int> p, lvl;
-
-void dfs(int u, int l) {
-  lvl[u] = l;
-  for (int i = 0; i < cnn[u].size(); i++) {
-    int v = cnn[u][i];
-    if (lvl[v] == 0) {
-      dfs(v, l + 1);
-      p[v] = u;
-    }
-  }
-}
-
 int main() {
   int n;
   cin >> n;
-  cnn.resize(n);
-  p.resize(n);
-  lvl.resize(n);
+  vector<vector<int>> g(n);
   for (int i = 0; i < n - 1; i++) {
     int u, v;
     cin >> u >> v;
-    cnn[u - 1].push_back(v - 1);
-    cnn[v - 1].push_back(u - 1);
+    u--; v--;
+    g[u].push_back(v);
+    g[v].push_back(u);
   }
-  vector<int> a(n), pos(n);
+  vector<int> a(n);
   for (int i = 0; i < n; i++) {
     cin >> a[i];
-    pos[a[i] - 1] = i;
+    a[i]--;
   }
-  // calculate level and parent
-  // for each vertex
-  p[0] = -1;
-  dfs(0, 1);
-  // start from vertex 1
-  bool ok = a[0] == 1;
-  // levels should be in order
-  vector<int> ord(lvl);
-  sort(ord.begin(), ord.end());
-  for (int i = 0; i < n; i++) {
-    if (lvl[a[i] - 1] != ord[i]) {
+  vector<int> color(n, 0);
+  color[0] = 1;
+  bool ok = a[0] == 0;
+  int i = 0, j = 1;
+  while (i < j) {
+    set<int> s1;
+    for (int u: g[a[i]]) {
+      if (!color[u]) {
+        color[u] = 1;
+        s1.insert(u);
+      }
+    }
+    set<int> s2;
+    for (int k = j; k < j + s1.size(); k++) {
+      s2.insert(a[k]);
+    }
+    if (s1 != s2) {
       ok = false;
       break;
     }
-  }
-  // parents should be in order
-  for (int i = 1; i < n - 1; i++) {
-    if (pos[p[a[i] - 1]] > pos[p[a[i + 1] - 1]]) {
-      ok = false;
-      break;
-    }
+    i++;
+    j += s1.size();
   }
   if (ok) {
     cout << "Yes\n";
