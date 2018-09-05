@@ -17,9 +17,9 @@ int main() {
     cin >> a[i];
     a[i]--;
   }
+  bool ok = a[0] == 0;
   vector<int> color(n, 0);
   color[0] = 1;
-  bool ok = a[0] == 0;
   int i = 0, j = 1;
   while (i < j) {
     set<int> s1;
