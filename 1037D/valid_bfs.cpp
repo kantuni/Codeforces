@@ -5,7 +5,6 @@ int main() {
   int n;
   cin >> n;
   vector<vector<int>> g(n);
-  vector<int> color(n, 0);
   for (int i = 0; i < n - 1; i++) {
     int u, v;
     cin >> u >> v;
@@ -19,8 +18,9 @@ int main() {
     a[i]--;
   }
   bool ok = a[0] == 0;
-  int i = 0, j = 1;
+  vector<int> color(n, 0);
   color[0] = 1;
+  int i = 0, j = 1;
   while (i < j) {
     set<int> s1;
     for (int u: g[a[i]]) {
