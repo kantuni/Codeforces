@@ -1,38 +1,46 @@
-// To be continued...
+// WA
 #include <bits/stdc++.h>
+#define INF (int) 1e9
 using namespace std;
 
 map<int, int> memo;
+map<int, int> trace;
+
+void retrace(int n, int k, int skip) {
+  cout << skip + trace[n] << " ";
+  if (n > 2 * k + 1) {
+    retrace(n - trace[n] - k, k, skip + trace[n] + k);
+  }
+}
 
 int solve(int n, int k) {
-  if (n <= 2 * k + 1) {
-    int start = 1;
-    for (int i = 1; i < k; i++) {
-      if (k + i >= n) {
-        start = n - i + 1;
+  if (n < 2 * k + 2) {
+    int skewer;
+    for (int i = 1; i < k + 2; i++) {
+      if (k + i == n) {
+        skewer = n - i + 1;
         break;
       }
     }
-    cout << n << ": " << start << "\n";
+    trace[n] = skewer;
     return 1;
   } else {
-    int ans = 1e7;
-    int jump = 1;
+    int ans = INF;
+    int skewer;
     for (int i = k + 1; i < 2 * k + 2; i++) {
-      int next = n - i;
-      if (next < k + 1) {
+      if (n - i < k + 1) {
         continue;
       }
-      if (!memo.count(next)) {
-        memo[next] = solve(next, k);
+      if (!memo.count(n - i)) {
+        memo[n - i] = solve(n - i, k);
       }
-      ans = min(ans, memo[next]);
-      if (ans == memo[next]) {
-        jump = next;
+      ans = min(ans, memo[n - i]);
+      if (ans == memo[n - i]) {
+        skewer = i - k;
       }
     }
-    cout << n << " goes to " << jump << "\n";
-    return ans + 1;
+    trace[n] = skewer;
+    return 1 + ans;
   }
 }
 
@@ -45,8 +53,13 @@ int main() {
       cout << i + 1 << " ";
     }
     cout << "\n";
-  } else { 
+  } else if (n < k + 1) {
+    cout << 1 << "\n";
+    cout << 1 << "\n";
+  } else {
     cout << solve(n, k) << "\n";
+    retrace(n, k, 0);
+    cout << "\n";
   }
   return 0;
 }
