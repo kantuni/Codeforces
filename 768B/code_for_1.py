@@ -1,5 +1,4 @@
-""" Created by Henrikh Kantuni on 2/20/17 """
-
+# WA
 if __name__ == "__main__":
     n, l, r = input().split()
     n, l, r = int(n), int(l), int(r)
