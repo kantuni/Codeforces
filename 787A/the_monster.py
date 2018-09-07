@@ -1,5 +1,4 @@
-""" Created by Henrikh Kantuni on 3/23/17 """
-
+# TLE
 if __name__ == "__main__":
     a, b = map(int, input().split())
     c, d = map(int, input().split())
