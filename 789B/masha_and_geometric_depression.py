@@ -1,4 +1,4 @@
-""" Created by Henrikh Kantuni on 3/29/17 """
+# WA
 
 import math
 
