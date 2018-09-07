@@ -1,4 +1,3 @@
-// WA
 #include <bits/stdc++.h>
 #define INF (int) 1e9
 using namespace std;
@@ -33,6 +32,9 @@ int solve(int n, int k) {
       }
       if (!memo.count(n - i)) {
         memo[n - i] = solve(n - i, k);
+      }
+      if (trace[n - i] < k + 1) {
+        continue;
       }
       ans = min(ans, memo[n - i]);
       if (ans == memo[n - i]) {
