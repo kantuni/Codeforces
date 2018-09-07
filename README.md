@@ -7,7 +7,7 @@
 
 ### Codeforces Round #507 (Div. 2) - `1/5`
 - **[1040A](https://github.com/kantuni/Codeforces/tree/master/1040A)** - Palindrome Dance - **Accepted**
-- [1040B](https://github.com/kantuni/Codeforces/tree/master/1040B) - Shashlik Cooking - **Wrong answer**
+- [1040B](https://github.com/kantuni/Codeforces/tree/master/1040B) - Shashlik Cooking - **Accepted**
 
 ### Manthan, Codefest 18 (Div. 1 + Div. 2) - `3/8`
 - **[1037A](https://github.com/kantuni/Codeforces/tree/master/1037A)** - Packets - **Accepted**
