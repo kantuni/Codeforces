@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #508 (Div. 2) - `3/6`
+- **[1038A](https://github.com/kantuni/Codeforces/tree/master/1038A)** - Equality - **Accepted**
+- **[1038B](https://github.com/kantuni/Codeforces/tree/master/1038B)** - Non-Coprime Partition - **Accepted**
+- **[1038C](https://github.com/kantuni/Codeforces/tree/master/1038C)** - Gambling - **Accepted**
+
 ### Codeforces Round #507 (Div. 2) - `1/5`
 - **[1040A](https://github.com/kantuni/Codeforces/tree/master/1040A)** - Palindrome Dance - **Accepted**
 - [1040B](https://github.com/kantuni/Codeforces/tree/master/1040B) - Shashlik Cooking - **Wrong answer**
@@ -7,7 +12,7 @@
 ### Manthan, Codefest 18 (Div. 1 + Div. 2) - `3/8`
 - **[1037A](https://github.com/kantuni/Codeforces/tree/master/1037A)** - Packets - **Accepted**
 - **[1037B](https://github.com/kantuni/Codeforces/tree/master/1037B)** - Reach Median - **Accepted**
-- **[1037D](https://github.com/kantuni/Codeforces/tree/master/1037C)** - Equalize - **Accepted**
+- **[1037C](https://github.com/kantuni/Codeforces/tree/master/1037C)** - Equalize - **Accepted**
 - [1037D](https://github.com/kantuni/Codeforces/tree/master/1037D) - Valid BFS? - **Accepted**
 
 ### AIM Tech Round 5 (Div. 1 + Div. 2) - `2/8`
