@@ -1,5 +1,4 @@
-""" Created by Henrikh Kantuni on 3/18/17 """
-
+# WA
 if __name__ == "__main__":
     n, m = [int(x) for x in input().split()]
     mc = m
