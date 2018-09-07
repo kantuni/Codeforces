@@ -30,7 +30,6 @@
 ### Codeforces Round #503 (Div. 2) - `2/5`
 - **[1020A](https://github.com/kantuni/Codeforces/tree/master/1020A)** - New Building for SIS - **Accepted**
 - **[1020B](https://github.com/kantuni/Codeforces/tree/master/1020B)** - Badge - **Accepted**
-- [1020C](https://github.com/kantuni/Codeforces/tree/master/1020C) - Elections
 
 ### Codeforces Round #502 (Div. 1 + Div. 2) - `2/8`
 - **[1017A](https://github.com/kantuni/Codeforces/tree/master/1017A)** - The Rank - **Accepted**
@@ -75,7 +74,6 @@
 ### Codeforces Round #492 (Div. 2) - `2/6`
 - **[996A](https://github.com/kantuni/Codeforces/tree/master/996A)** - Hit the Lottery - **Accepted**
 - [996B](https://github.com/kantuni/Codeforces/tree/master/996B) - World Cup - **Accepted**
-- [996C](https://github.com/kantuni/Codeforces/tree/master/996C) - Tesla
 - **[996D](https://github.com/kantuni/Codeforces/tree/master/996D)** - Suit and Tie - **Accepted**
 - [996E](https://github.com/kantuni/Codeforces/tree/master/996E) - Leaving the Bar - **Wrong answer**
 
@@ -115,7 +113,6 @@
 - **[977B](https://github.com/kantuni/Codeforces/tree/master/977B)** - Two-gram - **Accepted**
 - **[977C](https://github.com/kantuni/Codeforces/tree/master/977C)** - Less or Equal - **Accepted**
 - **[977D](https://github.com/kantuni/Codeforces/tree/master/977D)** - Divide by three, multiply by two - **Accepted**
-- [977E](https://github.com/kantuni/Codeforces/tree/master/977E) - Cyclic Components
 
 ### Codeforces Round #476 (Div. 2) - `2/5`
 - **[965A](https://github.com/kantuni/Codeforces/tree/master/965A)** - Paper Airplanes - **Accepted**
@@ -173,7 +170,6 @@
 ### Codeforces Round #443 (Div. 2) - `1/5`
 - [879A](https://github.com/kantuni/Codeforces/tree/master/879A) - Borya's Diagnosis - **Accepted**
 - **[879B](https://github.com/kantuni/Codeforces/tree/master/879B)** - Table Tennis - **Accepted**
-- [879C](https://github.com/kantuni/Codeforces/tree/master/879C) - Short Program
 
 ### Codeforces Round #439 (Div. 2) - `1/5`
 - **[869A](https://github.com/kantuni/Codeforces/tree/master/869A)** - The Artful Expedient - **Accepted**
@@ -191,7 +187,6 @@
 ### Codeforces Round #433 (Div. 2) - `2/5`
 - **[854A](https://github.com/kantuni/Codeforces/tree/master/854A)** - Fraction - **Accepted**
 - **[854B](https://github.com/kantuni/Codeforces/tree/master/854B)** - Maxim Buys an Apartment - **Accepted**
-- [854C](https://github.com/kantuni/Codeforces/tree/master/854C) - Planning
 
 ### Codeforces Round #431 (Div. 2) - `1/5`
 - **[849A](https://github.com/kantuni/Codeforces/tree/master/849A)** - Odds and Ends - **Accepted**
@@ -218,7 +213,6 @@
 
 ### Codeforces Round #421 (Div. 2) - `0/5`
 - [820A](https://github.com/kantuni/Codeforces/tree/master/820A) - Mister B and Book Reading - **Wrong answer**
-- 820B - Mister B and Angle in Polygon
 - [820C](https://github.com/kantuni/Codeforces/tree/master/820C) - Mister B and Boring Game - **Memory limit exceeded**
 
 ### Codeforces Round #420 (Div. 2) - `1/5`
@@ -278,7 +272,6 @@
 - [779C](https://github.com/kantuni/Codeforces/tree/master/779C) - Dishonest Sellers - **Accepted**
 
 ### Codeforces Round #401 (Div. 2) - `0/5`
-- 777A - Shell Game
 - [777C](https://github.com/kantuni/Codeforces/tree/master/777C) - Alyona and Spreadsheet - **Time limit exceeded**
 
 ### Codeforces Round #400 (Div. 1 + Div. 2) - `1/7`
