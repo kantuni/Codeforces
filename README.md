@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Educational Codeforces Round 49 - `1/7`
+- **[1036A](https://github.com/kantuni/Codeforces/tree/master/1036A)** - Function Height - **Accepted**
+- [1036B](https://github.com/kantuni/Codeforces/tree/master/1036B) - Diagonal Walking v.2 - **Wrong answer**
+
 ### Codeforces Round #508 (Div. 2) - `3/6`
 - **[1038A](https://github.com/kantuni/Codeforces/tree/master/1038A)** - Equality - **Accepted**
 - **[1038B](https://github.com/kantuni/Codeforces/tree/master/1038B)** - Non-Coprime Partition - **Accepted**
