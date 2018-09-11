@@ -2,7 +2,7 @@
 
 ### Educational Codeforces Round 49 - `1/7`
 - **[1036A](https://github.com/kantuni/Codeforces/tree/master/1036A)** - Function Height - **Accepted**
-- [1036B](https://github.com/kantuni/Codeforces/tree/master/1036B) - Diagonal Walking v.2 - **Wrong answer**
+- [1036B](https://github.com/kantuni/Codeforces/tree/master/1036B) - Diagonal Walking v.2 - **Accepted**
 
 ### Codeforces Round #508 (Div. 2) - `3/6`
 - **[1038A](https://github.com/kantuni/Codeforces/tree/master/1038A)** - Equality - **Accepted**
@@ -304,4 +304,4 @@
 
 <br>
 
-Problems solved: **129**
+Problems solved: **130**
