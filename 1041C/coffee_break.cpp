@@ -6,39 +6,33 @@ int main() {
   cin >> n >> m >> d;
   vector<int> a(n);
   map<int, int> memo;
+  set<int> s;
   for (int i = 0; i < n; i++) {
     cin >> a[i];
     memo[a[i]] = i;
+    s.insert(a[i]);
   }
-  vector<int> b(a);
-  sort(b.begin(), b.end());
-  vector<int> color(n), coffee(n);
-  int days = 1;
-  for (int i = 0; i < n; i++) {
-    if (color[i] > 0) {
-      continue;
-    }
-    color[i] = days;
-    coffee[memo[b[i]]] = days;
-    int curr = b[i] + d + 1;
+  vector<int> color(n);
+  int ans = 1;
+  for (int i = 0; i < n and s.size() > 0; i++) {
+    int curr = *s.begin();
+    color[memo[curr]] = ans;
+    s.erase(curr);
+    curr += d + 1;
     while (true) {
-      auto lower = lower_bound(b.begin(), b.end(), curr);
-      if (lower == b.end()) {
+      auto lower = s.lower_bound(curr);
+      if (lower == s.end()) {
         break;
       }
-      if (color[lower - b.begin()] > 0) {
-        curr++;
-        continue;
-      }
-      color[lower - b.begin()] = days;
-      coffee[memo[b[lower - b.begin()]]] = days;
+      color[memo[*lower]] = ans;
       curr = *lower + d + 1;
+      s.erase(lower);
     }
-    days++;
+    ans++;
   }
-  cout << days - 1 << "\n";
+  cout << ans - 1 << "\n";
   for (int i = 0; i < n; i++) {
-    cout << coffee[i] << " ";  
+    cout << color[i] << " ";
   }
   cout << "\n";
   return 0;
