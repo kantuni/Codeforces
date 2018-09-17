@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #508 (Div. 2) - `2/6`
+- **[1041A](https://github.com/kantuni/Codeforces/tree/master/1041A)** - Heist - **Accepted**
+- **[1041B](https://github.com/kantuni/Codeforces/tree/master/1041B)** - Buying a TV Set - **Accepted**
+- [1041C](https://github.com/kantuni/Codeforces/tree/master/1041C) - Coffee Break - **Wrong answer**
+
 ### Educational Codeforces Round 49 - `1/7`
 - **[1036A](https://github.com/kantuni/Codeforces/tree/master/1036A)** - Function Height - **Accepted**
 - [1036B](https://github.com/kantuni/Codeforces/tree/master/1036B) - Diagonal Walking v.2 - **Accepted**
