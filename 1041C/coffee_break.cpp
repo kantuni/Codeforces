@@ -1,4 +1,3 @@
-// WA
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -27,9 +26,13 @@ int main() {
       if (lower == b.end()) {
         break;
       }
+      if (color[lower - b.begin()] > 0) {
+        curr++;
+        continue;
+      }
       color[lower - b.begin()] = days;
       coffee[memo[b[lower - b.begin()]]] = days;
-      curr += d + 1;
+      curr = *lower + d + 1;
     }
     days++;
   }
