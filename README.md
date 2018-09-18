@@ -1,6 +1,11 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
-### Codeforces Round #508 (Div. 2) - `2/6`
+### Codeforces Round #510 (Div. 2) - `2/6`
+- **[1042A](https://github.com/kantuni/Codeforces/tree/master/1042A)** - Benches - **Accepted**
+- **[1042B](https://github.com/kantuni/Codeforces/tree/master/1042B)** - Vitamins - **Accepted**
+- [1042C](https://github.com/kantuni/Codeforces/tree/master/1042C) - Array Product
+
+### Codeforces Round #509 (Div. 2) - `2/6`
 - **[1041A](https://github.com/kantuni/Codeforces/tree/master/1041A)** - Heist - **Accepted**
 - **[1041B](https://github.com/kantuni/Codeforces/tree/master/1041B)** - Buying a TV Set - **Accepted**
 - [1041C](https://github.com/kantuni/Codeforces/tree/master/1041C) - Coffee Break - **Accepted**
