@@ -3,7 +3,7 @@
 ### Codeforces Round #510 (Div. 2) - `2/6`
 - **[1042A](https://github.com/kantuni/Codeforces/tree/master/1042A)** - Benches - **Accepted**
 - **[1042B](https://github.com/kantuni/Codeforces/tree/master/1042B)** - Vitamins - **Accepted**
-- [1042C](https://github.com/kantuni/Codeforces/tree/master/1042C) - Array Product
+- [1042C](https://github.com/kantuni/Codeforces/tree/master/1042C) - Array Product - **Accepted**
 
 ### Codeforces Round #509 (Div. 2) - `2/6`
 - **[1041A](https://github.com/kantuni/Codeforces/tree/master/1041A)** - Heist - **Accepted**
@@ -314,4 +314,4 @@
 
 <br>
 
-Problems solved: **133**
+Problems solved: **136**
