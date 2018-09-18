@@ -1,38 +1,67 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define FLAG 1000000001
 
-vector<int> a;
-int n;
-
-void print() {
-  // TODO:
+void print(vector<int> a) {
+  vector<int> rest;
+  for (int i = 0; i < a.size(); i++) {
+    if (a[i] != FLAG) {
+      rest.push_back(i + 1);
+    }
+  }
+  for (int i = 0; i < rest.size() - 1; i++) {
+    cout << "1 " << rest[i] << " ";
+    cout << rest[i + 1] << "\n";
+  }
 }
 
 int main() {
+  int n;
   cin >> n;
-  a.resize(n);
-  int zers = 0, negs = 0;
-  int zi = -1, ni = -1;
+  vector<int> a(n), zers, negs;
   for (int i = 0; i < n; i++) {
     cin >> a[i];
     if (a[i] == 0) {
-      zi = (zi == -1) ? i : zi;
-      zers++;
+      zers.push_back(i);
     } else if (a[i] < 0) {
-      ni = (ni == -1 || a[i] > a[ni]) ? i : ni;
-      negs++;
+      negs.push_back(i); 
     }
   }
-  /*
-  if (negs % 2 == 0 and ) {
-  if (zers == 1 and negs % 2 == 0) {
-    print(n, zi);
-  } else if (zers == 0 and negs % 2 == 1) {
-    print(n, ni);
-  } else {
-    print(n);
+  int left = n;
+  if (negs.size() % 2 == 0 and zers.size() > 0) {
+    // multiply all zeroes, and 
+    // remove the last one
+    for (int i = 0; i < zers.size() - 1; i++) {
+      cout << "1 " << zers[i] + 1 << " ";
+      cout << zers[i + 1] + 1 << "\n";
+      a[zers[i]] = FLAG;
+      left--;
+    }
+    // do not remove the last
+    // element of the array
+    if (left > 1) {
+      cout << "2 " << zers[zers.size() - 1] + 1 << "\n";
+      a[zers[zers.size() - 1]] = FLAG;
+      left--;
+    }
+  } else if (negs.size() % 2 == 1 and zers.size() == 0) {
+    // find the largest negative,
+    // and remove it
+    int mn = a[negs[0]], mni = negs[0];
+    for (int i = 1; i < negs.size(); i++) {
+      if (a[negs[i]] > mn) {
+        mn = a[negs[i]];
+        mni = negs[i];
+      }
+    }
+    // do not remove the last
+    // element of the array
+    if (left > 1) {
+      cout << "2 " << mni + 1 << "\n";
+      a[mni] = FLAG;
+      left--;
+    }
   }
-  */
-  print();
+  print(a);
   return 0;
 }
