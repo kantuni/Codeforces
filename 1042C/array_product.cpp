@@ -2,19 +2,6 @@
 using namespace std;
 #define FLAG 1000000001
 
-void print(vector<int> a) {
-  vector<int> rest;
-  for (int i = 0; i < a.size(); i++) {
-    if (a[i] != FLAG) {
-      rest.push_back(i + 1);
-    }
-  }
-  for (int i = 0; i < rest.size() - 1; i++) {
-    cout << "1 " << rest[i] << " ";
-    cout << rest[i + 1] << "\n";
-  }
-}
-
 int main() {
   int n;
   cin >> n;
@@ -29,24 +16,21 @@ int main() {
   }
   int left = n;
   if (negs.size() % 2 == 0 and zers.size() > 0) {
-    // multiply all zeroes, and 
-    // remove the last one
+    // multiply all zeroes 
     for (int i = 0; i < zers.size() - 1; i++) {
       cout << "1 " << zers[i] + 1 << " ";
       cout << zers[i + 1] + 1 << "\n";
       a[zers[i]] = FLAG;
       left--;
     }
-    // do not remove the last
-    // element of the array
+    // remove the last zero
     if (left > 1) {
       cout << "2 " << zers[zers.size() - 1] + 1 << "\n";
       a[zers[zers.size() - 1]] = FLAG;
       left--;
     }
   } else if (negs.size() % 2 == 1 and zers.size() == 0) {
-    // find the largest negative,
-    // and remove it
+    // find the largest negative
     int mn = a[negs[0]], mni = negs[0];
     for (int i = 1; i < negs.size(); i++) {
       if (a[negs[i]] > mn) {
@@ -54,14 +38,50 @@ int main() {
         mni = negs[i];
       }
     }
-    // do not remove the last
-    // element of the array
+    // remove the largest negative
     if (left > 1) {
       cout << "2 " << mni + 1 << "\n";
       a[mni] = FLAG;
       left--;
     }
+  } else if (negs.size() % 2 == 1 and zers.size() > 0) {
+    // multiply all zeroes
+    for (int i = 0; i < zers.size() - 1; i++) {
+      cout << "1 " << zers[i] + 1 << " ";
+      cout << zers[i + 1] + 1 << "\n";
+      a[zers[i]] = FLAG;
+      left--;
+    }
+    // find the largest negative
+    int mn = a[negs[0]], mni = negs[0];
+    for (int i = 1; i < negs.size(); i++) {
+      if (a[negs[i]] > mn) {
+        mn = a[negs[i]];
+        mni = negs[i];
+      }
+    }
+    // multiply it by the last zero
+    cout << "1 " << mni + 1 << " ";
+    cout << zers[zers.size() - 1] + 1 << "\n";
+    a[mni] = FLAG;
+    left--;
+    // remove the last zero
+    if (left > 1) {
+      cout << "2 " << zers[zers.size() - 1] + 1 << "\n";
+      a[zers[zers.size() - 1]] = FLAG;
+      left--;
+    }
   }
-  print(a);
+  // multiply the rest
+  vector<int> rest;
+  for (int i = 0; i < a.size(); i++) {
+    if (a[i] != FLAG) {
+      rest.push_back(i + 1);
+    }
+  }
+  for (int i = 0; i < rest.size() - 1; i++) {
+    cout << "1 " << rest[i] << " ";
+    cout << rest[i + 1] << "\n";
+  }
   return 0;
 }
