@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #511 (Div. 2) - `1/5`
+- **[1047A](https://github.com/kantuni/Codeforces/tree/master/1047A)** - Little C Loves 3 I - **Accepted**
+- [1047B](https://github.com/kantuni/Codeforces/tree/master/1047B) - Cover Points - **Wrong answer**
+
 ### Codeforces Round #510 (Div. 2) - `2/6`
 - **[1042A](https://github.com/kantuni/Codeforces/tree/master/1042A)** - Benches - **Accepted**
 - **[1042B](https://github.com/kantuni/Codeforces/tree/master/1042B)** - Vitamins - **Accepted**
@@ -314,4 +318,4 @@
 
 <br>
 
-Problems solved: **136**
+Problems solved: **137**
