@@ -37,7 +37,7 @@
 - **[1028A](https://github.com/kantuni/Codeforces/tree/master/1028A)** - Find Square - **Accepted**
 - **[1028B](https://github.com/kantuni/Codeforces/tree/master/1028B)** - Unnatural Conditions - **Accepted**
 
-### Codeforces Round #498 (Div. 3) - `0/6`
+### Codeforces Round #506 (Div. 3) - `0/6`
 - [1029A](https://github.com/kantuni/Codeforces/tree/master/1029A) - Many Equal Substrings - **Accepted**
 - [1029B](https://github.com/kantuni/Codeforces/tree/master/1029B) - Creating the Contest - **Accepted**
 
@@ -54,14 +54,14 @@
 - **[1017B](https://github.com/kantuni/Codeforces/tree/master/1017B)** - The Bits - **Accepted**
 - [1017C](https://github.com/kantuni/Codeforces/tree/master/1017C) - The Phone Number - **Wrong answer**
 
-### Codeforces Round #498 (Div. 3) - `4/7`
+### Codeforces Round #501 (Div. 3) - `4/7`
 - **[1015A](https://github.com/kantuni/Codeforces/tree/master/1015A)** - Points in Segments - **Accepted**
 - **[1015B](https://github.com/kantuni/Codeforces/tree/master/1015B)** - Obtaining the String - **Accepted**
 - **[1015C](https://github.com/kantuni/Codeforces/tree/master/1015C)** - Songs Compression - **Accepted**
 - **[1015D](https://github.com/kantuni/Codeforces/tree/master/1015D)** - Walking Between Houses - **Accepted**
 - [1015E1](https://github.com/kantuni/Codeforces/tree/master/1015E1) - Stars Drawing (Easy Edition) - **Wrong answer**
 
-### Codeforces Round #497 (Div. 2) - `2/5`
+### Codeforces Round #500 (Div. 2) - `2/5`
 - **[1013A](https://github.com/kantuni/Codeforces/tree/master/1013A)** - Piles With Stones - **Accepted**
 - **[1013B](https://github.com/kantuni/Codeforces/tree/master/1013B)** - And - **Accepted**
 - [1013C](https://github.com/kantuni/Codeforces/tree/master/1013C) - Photo of The Sky - **Wrong answer**
