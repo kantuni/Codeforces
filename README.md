@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #518 (Div. 2) - `2/6`
+- **[1068A](https://github.com/kantuni/Codeforces/tree/master/1068A)** - Birthday - **Accepted**
+- **[1068B](https://github.com/kantuni/Codeforces/tree/master/1068B)** - LCM - **Accepted**
+
 ### Codeforces Round #511 (Div. 2) - `1/5`
 - **[1047A](https://github.com/kantuni/Codeforces/tree/master/1047A)** - Little C Loves 3 I - **Accepted**
 - [1047B](https://github.com/kantuni/Codeforces/tree/master/1047B) - Cover Points - **Accepted**
