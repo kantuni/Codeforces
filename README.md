@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Educational Codeforces Round 53 - `2/7`
+- **[1073A](https://github.com/kantuni/Codeforces/tree/master/1073A)** - Diverse Substring - **Accepted**
+- **[1073B](https://github.com/kantuni/Codeforces/tree/master/1073B)** - Vasya and Books - **Accepted**
+- [1073D](https://github.com/kantuni/Codeforces/tree/master/1073D) - Berland Fair - **Time limit exceeded**
+
 ### Codeforces Round #518 (Div. 2) - `2/6`
 - **[1068A](https://github.com/kantuni/Codeforces/tree/master/1068A)** - Birthday - **Accepted**
 - **[1068B](https://github.com/kantuni/Codeforces/tree/master/1068B)** - LCM - **Accepted**
