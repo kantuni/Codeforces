@@ -1,6 +1,6 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
-### Codeforces Round #518 - `2/7`
+### Codeforces Round #519 - `2/7`
 - **[1043A](https://github.com/kantuni/Codeforces/tree/master/1043A)** - Elections - **Accepted**
 - **[1043B](https://github.com/kantuni/Codeforces/tree/master/1043B)** - Lost Array - **Accepted**
 - [1043C](https://github.com/kantuni/Codeforces/tree/master/1043C) - Smallest Word - **Memory limit exceeded**
