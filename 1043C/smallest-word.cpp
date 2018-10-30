@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+map<string, string> memo;
+
 string flip(string s, int len) {
   string prefix = s.substr(0, len);
   reverse(prefix.begin(), prefix.end());
@@ -8,22 +10,26 @@ string flip(string s, int len) {
   return prefix + rest;
 }
 
+void solve(string s, int len) {
+  if (s.size() < len) return;
+  solve(s, len + 1);
+  string rs = flip(s, len);
+  if (s != rs) {
+    string temp = memo[s];
+    temp[len - 1] = '1';
+    memo[rs] = temp;
+    solve(rs, len + 1);
+  }
+}
+
 int main() {
   string s;
   cin >> s;
-  string ss = s;
-  sort(ss.begin(), ss.end());
-  vector<int> ans;
-  for (int i = s.size() - 1; i > -1; i--) {
-    if (s[i] != ss[i]) {
-      s = flip(s, i + 1);
-      ans.push_back(1);
-    } else {
-      ans.push_back(0);
-    }
-  }
-  for (int i = ans.size() - 1; i > -1; i--) {
-    cout << ans[i] << " ";
+  memo[s] = string(s.size(), '0');
+  solve(s, 1);
+  auto min = *memo.begin();
+  for (int i = 0; i < min.second.size(); i++) {
+    cout << min.second[i] << " ";
   }
   cout << "\n";
   return 0;
