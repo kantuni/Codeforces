@@ -5,9 +5,9 @@ int main() {
   int n;
   cin >> n;
   if (n % 2) {
-    cout << "Ehab\n";
+    cout << "Ehab" << "\n";
   } else {
-    cout << "Mahmoud\n";
+    cout << "Mahmoud" << "\n";
   }
   return 0;
 }
