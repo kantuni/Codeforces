@@ -1,5 +1,11 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Educational Codeforces Round 54 - `2/7`
+- **[1093A](https://github.com/kantuni/Codeforces/tree/master/1093A)** - Dice Rolling - **Accepted**
+- [1093B](https://github.com/kantuni/Codeforces/tree/master/1093B) - Letters Rearranging - **Wrong answer**
+- **[1093C](https://github.com/kantuni/Codeforces/tree/master/1093C)** - Mishka and the Last Exam - **Accepted**
+- [1093D](https://github.com/kantuni/Codeforces/tree/master/1093D) - Beautiful Graph - **Wrong answer**
+
 ### Codeforces Round #526 - `2/6`
 - **[1084A](https://github.com/kantuni/Codeforces/tree/master/1084A)** - The Fair Nut and Elevator - **Accepted**
 - **[1084B](https://github.com/kantuni/Codeforces/tree/master/1084B)** - Kvass and the Fair Nut - **Accepted**
@@ -368,4 +374,4 @@
 
 <br>
 
-Problems solved: **161**
+Problems solved: **163**
