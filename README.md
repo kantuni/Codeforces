@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #526 - `2/6`
+- **[1084A](https://github.com/kantuni/Codeforces/tree/master/1084A)** - The Fair Nut and Elevator - **Accepted**
+- **[1084B](https://github.com/kantuni/Codeforces/tree/master/1084B)** - Kvass and the Fair Nut - **Accepted**
+
 ### Educational Codeforces Round 54 - `1/7`
 - **[1082A](https://github.com/kantuni/Codeforces/tree/master/1082A)** - Vasya and Book - **Accepted**
 - [1082B](https://github.com/kantuni/Codeforces/tree/master/1082B) - Vova and Trophies - **Wrong answer**
@@ -364,4 +368,4 @@
 
 <br>
 
-Problems solved: **159**
+Problems solved: **161**
