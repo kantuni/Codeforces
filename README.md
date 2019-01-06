@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #520 - `2/6`
+- **[1062A](https://github.com/kantuni/Codeforces/tree/master/1062A)** - A Prank - **Accepted**
+- **[1062B](https://github.com/kantuni/Codeforces/tree/master/1062B)** - Math - **Accepted**
+- [1062C](https://github.com/kantuni/Codeforces/tree/master/1062C) - Banh-mi - **Wrong answer**
+
 ### Educational Codeforces Round 54 - `3/7`
 - **[1076A](https://github.com/kantuni/Codeforces/tree/master/1076A)** - Minimizing the String - **Accepted**
 - **[1076B](https://github.com/kantuni/Codeforces/tree/master/1076B)** - Divisor Subtraction - **Accepted**
