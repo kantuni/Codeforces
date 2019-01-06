@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #524 - `3/6`
+- **[1080A](https://github.com/kantuni/Codeforces/tree/master/1080A)** - Petya and Origami - **Accepted**
+- **[1080B](https://github.com/kantuni/Codeforces/tree/master/1080B)** - Margarite and the best present - **Accepted**
+- **[1080C](https://github.com/kantuni/Codeforces/tree/master/1080C)** - Masha and two friends - **Accepted**
+
 ### Codeforces Round #523 - `1/6`
 - **[1061A](https://github.com/kantuni/Codeforces/tree/master/1061A)** - Coins - **Accepted**
 - [1061B](https://github.com/kantuni/Codeforces/tree/master/1061B) - Views Matter - **Wrong answer**
@@ -355,4 +360,4 @@
 
 <br>
 
-Problems solved: **155**
+Problems solved: **158**
