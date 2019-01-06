@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #520 - `1/6`
+- **[1061A](https://github.com/kantuni/Codeforces/tree/master/1061A)** - Coins - **Accepted**
+- [1061B](https://github.com/kantuni/Codeforces/tree/master/1061B) - Views Matter - **Wrong answer**
+
 ### Codeforces Round #521 - `3/7`
 - **[1077A](https://github.com/kantuni/Codeforces/tree/master/1077A)** - Frog Jumping - **Accepted**
 - **[1077B](https://github.com/kantuni/Codeforces/tree/master/1077B)** - Disturbed People - **Accepted**
@@ -351,4 +355,4 @@
 
 <br>
 
-Problems solved: **154**
+Problems solved: **155**
