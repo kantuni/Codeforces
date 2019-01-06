@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Educational Codeforces Round 54 - `1/7`
+- **[1082A](https://github.com/kantuni/Codeforces/tree/master/1082A)** - Vasya and Book - **Accepted**
+- [1082B](https://github.com/kantuni/Codeforces/tree/master/1082B) - Vova and Trophies - **Wrong answer**
+
 ### Codeforces Round #524 - `3/6`
 - **[1080A](https://github.com/kantuni/Codeforces/tree/master/1080A)** - Petya and Origami - **Accepted**
 - **[1080B](https://github.com/kantuni/Codeforces/tree/master/1080B)** - Margarite and the best present - **Accepted**
