@@ -1,5 +1,8 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Mail.Ru Cup 2018 Round 2 - `1/7`
+- **[1055A](https://github.com/kantuni/Codeforces/tree/master/1055A)** - Metro - **Accepted**
+
 ### Codeforces Round #519 - `2/7`
 - **[1043A](https://github.com/kantuni/Codeforces/tree/master/1043A)** - Elections - **Accepted**
 - **[1043B](https://github.com/kantuni/Codeforces/tree/master/1043B)** - Lost Array - **Accepted**
@@ -332,4 +335,4 @@
 
 <br>
 
-Problems solved: **145**
+Problems solved: **146**
