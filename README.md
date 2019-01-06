@@ -1,5 +1,11 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #521 - `3/7`
+- **[1077A](https://github.com/kantuni/Codeforces/tree/master/1077A)** - Frog Jumping - **Accepted**
+- **[1077B](https://github.com/kantuni/Codeforces/tree/master/1077B)** - Disturbed People - **Accepted**
+- **[1077C](https://github.com/kantuni/Codeforces/tree/master/1077C)** - Good Array - **Accepted**
+- [1077D](https://github.com/kantuni/Codeforces/tree/master/1077D) - Cutting Out - **Wrong answer**
+
 ### Codeforces Round #520 - `2/6`
 - **[1062A](https://github.com/kantuni/Codeforces/tree/master/1062A)** - A Prank - **Accepted**
 - **[1062B](https://github.com/kantuni/Codeforces/tree/master/1062B)** - Math - **Accepted**
@@ -345,4 +351,4 @@
 
 <br>
 
-Problems solved: **151**
+Problems solved: **154**
