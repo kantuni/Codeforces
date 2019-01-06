@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Educational Codeforces Round 54 - `3/7`
+- **[1076A](https://github.com/kantuni/Codeforces/tree/master/1076A)** - Minimizing the String - **Accepted**
+- **[1076B](https://github.com/kantuni/Codeforces/tree/master/1076B)** - Divisor Subtraction - **Accepted**
+- **[1076C](https://github.com/kantuni/Codeforces/tree/master/1076C)** - Meme Problem - **Accepted**
+
 ### Mail.Ru Cup 2018 Round 2 - `1/7`
 - **[1055A](https://github.com/kantuni/Codeforces/tree/master/1055A)** - Metro - **Accepted**
 
@@ -335,4 +340,4 @@
 
 <br>
 
-Problems solved: **146**
+Problems solved: **149**
