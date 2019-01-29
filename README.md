@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #528 - `2/6`
+- **[1087A](https://github.com/kantuni/Codeforces/tree/master/1087A)** - Right-Left Cipher - **Accepted**
+- **[1087B](https://github.com/kantuni/Codeforces/tree/master/1087B)** - Div Times Mod - **Accepted**
+
 ### Codeforces Round #527 - `2/7`
 - **[1092A](https://github.com/kantuni/Codeforces/tree/master/1092A)** - Uniform String - **Accepted**
 - **[1092B](https://github.com/kantuni/Codeforces/tree/master/1092B)** - Teams Forming - **Accepted**
@@ -383,4 +387,4 @@
 
 <br>
 
-Problems solved: **166**
+Problems solved: **168**
