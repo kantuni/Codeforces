@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #527 - `2/7`
+- **[1092A](https://github.com/kantuni/Codeforces/tree/master/1092A)** - Uniform String - **Accepted**
+- **[1092B](https://github.com/kantuni/Codeforces/tree/master/1092B)** - Teams Forming - **Accepted**
+- [1092C](https://github.com/kantuni/Codeforces/tree/master/1092C) - Prefixes and Suffixes - **Wrong answer**
+
 ### Avito Cool Challenge 2018 - `1/8`
 - **[1081A](https://github.com/kantuni/Codeforces/tree/master/1081A)** - Definite Game - **Accepted**
 - [1081B](https://github.com/kantuni/Codeforces/tree/master/1081B) - Farewell Party - **Wrong answer**
@@ -378,4 +383,4 @@
 
 <br>
 
-Problems solved: **164**
+Problems solved: **166**
