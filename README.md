@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Avito Cool Challenge 2018 - `1/8`
+- **[1081A](https://github.com/kantuni/Codeforces/tree/master/1081A)** - Definite Game - **Accepted**
+- [1081B](https://github.com/kantuni/Codeforces/tree/master/1081B) - Farewell Party - **Wrong answer**
+
 ### Educational Codeforces Round 56 - `2/7`
 - **[1093A](https://github.com/kantuni/Codeforces/tree/master/1093A)** - Dice Rolling - **Accepted**
 - [1093B](https://github.com/kantuni/Codeforces/tree/master/1093B) - Letters Rearranging - **Wrong answer**
@@ -374,4 +378,4 @@
 
 <br>
 
-Problems solved: **163**
+Problems solved: **164**
