@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Hello 2019 - `3/8`
+- **[1097A](https://github.com/kantuni/Codeforces/tree/master/1097A)** - Gennady and a Card Game - **Accepted**
+- **[1097B](https://github.com/kantuni/Codeforces/tree/master/1097B)** - Petr and a Combination Lock - **Accepted**
+- **[1097C](https://github.com/kantuni/Codeforces/tree/master/1097C)** - Yuhao and a Parenthesis - **Accepted**
+
 ### Good Bye 2018 - `3/8`
 - **[1091A](https://github.com/kantuni/Codeforces/tree/master/1091A)** - New Year and the Christmas Ornament - **Accepted**
 - **[1091B](https://github.com/kantuni/Codeforces/tree/master/1091B)** - New Year and the Treasure Geolocation - **Accepted**
@@ -402,4 +407,4 @@
 
 <br>
 
-Problems solved: **176**
+Problems solved: **179**
