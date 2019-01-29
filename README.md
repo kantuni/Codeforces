@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #530 - `3/6`
+- **[1099A](https://github.com/kantuni/Codeforces/tree/master/1099A)** - Snowball - **Accepted**
+- **[1099B](https://github.com/kantuni/Codeforces/tree/master/1099B)** - Squares and Segments - **Accepted**
+- **[1099C](https://github.com/kantuni/Codeforces/tree/master/1099C)** - Postcard - **Accepted**
+
 ### Hello 2019 - `3/8`
 - **[1097A](https://github.com/kantuni/Codeforces/tree/master/1097A)** - Gennady and a Card Game - **Accepted**
 - **[1097B](https://github.com/kantuni/Codeforces/tree/master/1097B)** - Petr and a Combination Lock - **Accepted**
@@ -407,4 +412,4 @@
 
 <br>
 
-Problems solved: **179**
+Problems solved: **182**
