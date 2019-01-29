@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Good Bye 2018 - `3/8`
+- **[1091A](https://github.com/kantuni/Codeforces/tree/master/1091A)** - New Year and the Christmas Ornament - **Accepted**
+- **[1091B](https://github.com/kantuni/Codeforces/tree/master/1091B)** - New Year and the Treasure Geolocation - **Accepted**
+- **[1091C](https://github.com/kantuni/Codeforces/tree/master/1091C)** - New Year and the Sphere Transmission - **Accepted**
+
 ### Educational Codeforces Round 57 - `2/7`
 - **[1096A](https://github.com/kantuni/Codeforces/tree/master/1096A)** - Find Divisible - **Accepted**
 - **[1096B](https://github.com/kantuni/Codeforces/tree/master/1096B)** - Substring Removal - **Accepted**
@@ -397,4 +402,4 @@
 
 <br>
 
-Problems solved: **173**
+Problems solved: **176**
