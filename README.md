@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #529 - `3/6`
+- **[1095A](https://github.com/kantuni/Codeforces/tree/master/1095A)** - Repeating Cipher - **Accepted**
+- **[1095B](https://github.com/kantuni/Codeforces/tree/master/1095B)** - Array Stabilization - **Accepted**
+- **[1095C](https://github.com/kantuni/Codeforces/tree/master/1095C)** - Powers Of Two - **Accepted**
+
 ### Codeforces Round #528 - `2/6`
 - **[1087A](https://github.com/kantuni/Codeforces/tree/master/1087A)** - Right-Left Cipher - **Accepted**
 - **[1087B](https://github.com/kantuni/Codeforces/tree/master/1087B)** - Div Times Mod - **Accepted**
@@ -387,4 +392,4 @@
 
 <br>
 
-Problems solved: **168**
+Problems solved: **171**
