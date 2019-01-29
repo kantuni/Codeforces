@@ -1,5 +1,11 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Educational Codeforces Round 58 - `3/7`
+- **[1101A](https://github.com/kantuni/Codeforces/tree/master/1101A)** - Minimum Integer - **Accepted**
+- **[1101B](https://github.com/kantuni/Codeforces/tree/master/1101B)** - Accordion - **Accepted**
+- [1101C](https://github.com/kantuni/Codeforces/tree/master/1101C) - Division and Union - **Wrong answer**
+- **[1101E](https://github.com/kantuni/Codeforces/tree/master/1101E)** - Polycarp's New Job - **Accepted**
+
 ### Codeforces Round #531 - `3/6`
 - [1102A](https://github.com/kantuni/Codeforces/tree/master/1102A) - Integer Sequence Dividing - **Wrong answer**
 - **[1102B](https://github.com/kantuni/Codeforces/tree/master/1102B)** - Array K-Coloring - **Accepted**
@@ -418,4 +424,4 @@
 
 <br>
 
-Problems solved: **185**
+Problems solved: **188**
