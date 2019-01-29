@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Educational Codeforces Round 57 - `2/7`
+- **[1096A](https://github.com/kantuni/Codeforces/tree/master/1096A)** - Find Divisible - **Accepted**
+- **[1096B](https://github.com/kantuni/Codeforces/tree/master/1096B)** - Substring Removal - **Accepted**
+- [1096C](https://github.com/kantuni/Codeforces/tree/master/1096C) - Polygon for the Angle - **Wrong answer**
+
 ### Codeforces Round #529 - `3/6`
 - **[1095A](https://github.com/kantuni/Codeforces/tree/master/1095A)** - Repeating Cipher - **Accepted**
 - **[1095B](https://github.com/kantuni/Codeforces/tree/master/1095B)** - Array Stabilization - **Accepted**
@@ -392,4 +397,4 @@
 
 <br>
 
-Problems solved: **171**
+Problems solved: **173**
