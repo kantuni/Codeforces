@@ -419,9 +419,6 @@
 - **[766A](https://github.com/kantuni/Codeforces/tree/master/766A)** - Mahmoud and Longest Uncommon Subsequence - **Accepted**
 - **[766B](https://github.com/kantuni/Codeforces/tree/master/766B)** - Mahmoud and a Triangle - **Accepted**
 
-### Codeforces Round #395
-- [764B](https://github.com/kantuni/Codeforces/tree/master/764B) - Timofey and cubes - **Accepted**
-
 <br>
 
-Problems solved: **188**
+Problems solved: **187**
