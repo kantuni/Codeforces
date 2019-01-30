@@ -1,26 +1,32 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<long long> generate(long long n) {
-  if (n < 2) return {n};
-  vector<long long> all;
-  vector<long long> floor = generate(n / 2);
-  all.insert(all.end(), floor.begin(), floor.end());
-  all.push_back(n % 2);
-  all.insert(all.end(), floor.begin(), floor.end());
-  return all;
-}
-
 int main() {
   ios::sync_with_stdio(false);
   cin.tie(0);
   long long n, l, r;
   cin >> n >> l >> r;
-  vector<long long> list = generate(n);
-  long long ans = 0;
-  for (int i = l - 1; i < r; i++) {
-    ans += list[i];
+  l--, r--;
+  if (n == 0) {
+    cout << 0 << endl;
+  } else {
+    set<long long> zeros;
+    long long nc = n;
+    for (int i = log2(nc); i > 0; i--) {
+      long long sz = pow(2, i) - 1;
+      if (nc % 2 == 0) {
+        zeros.insert(sz);
+      }
+      nc /= 2;
+    }
+    long long tmp = 0;
+    for (auto z: zeros) {
+      long double d = 2 * (z + 1);
+      long long lower = ceil((l - z) / d);
+      long long upper = floor((r - z) / d);
+      tmp += upper - lower + 1;
+    }
+    cout << r - l + 1 - tmp << endl;
   }
-  cout << ans << endl;
   return 0;
 }
