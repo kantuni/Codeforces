@@ -25,8 +25,8 @@ int main() {
     cin >> a[i];
   }
   int ans = 0;
-  for (int i = k - 1, p = 0; i > -1; i--, p++) {
-    ans += (a[i] * mpow(b, p)) % 10;
+  for (int i = k - 1; i > -1; i--) {
+    ans += (a[i] * mpow(b, k - 1 - i)) % 10;
   }
   if (ans % 2 == 0) {
     cout << "even" << endl;
