@@ -18,13 +18,13 @@ int mpow(int x, int y) {
 int main() {
   ios::sync_with_stdio(false);
   cin.tie(0);
-  long long b, k;
+  int b, k;
   cin >> b >> k;
-  vector<long long> a(k);
+  vector<int > a(k);
   for (int i = 0; i < k; i++) {
     cin >> a[i];
   }
-  long long ans = 0;
+  int ans = 0;
   for (int i = k - 1, p = 0; i > -1; i--, p++) {
     ans += (a[i] * mpow(b, p)) % 10;
   }
