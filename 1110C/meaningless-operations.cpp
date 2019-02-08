@@ -1,4 +1,3 @@
-// WA
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -6,14 +5,18 @@ int gcd(int a, int b) {
   return b == 0 ? a : gcd(b, a % b);
 }
 
-int solve(int n) {
-  vector<int> a;
-  int tmp = n;
-  while (tmp > 0) {
-    a.push_back(tmp % 2);
-    tmp /= 2;
+vector<int> tobinary(int n) {
+  vector<int> bin;
+  while (n > 0) {
+    bin.push_back(n % 2);
+    n /= 2;
   }
-  reverse(a.begin(), a.end());
+  reverse(bin.begin(), bin.end());
+  return bin;
+}
+
+int solve(int n) {
+  vector<int> a = tobinary(n);
   int fone = -1;
   for (int i = 0; i < a.size(); i++) {
     if (a[i] == 1) {
@@ -32,7 +35,13 @@ int solve(int n) {
     ones += !a[i];
   }
   if (ones == 0) {
-    b[fone] = 1;
+    int ld = 1;
+    for (int i = sqrt(n); i > 1; i--) {
+      if (n % i == 0) {
+        ld = max(i, n / i);
+      }
+    }
+    b = tobinary(ld);
   }
   int m = 0;
   for (int i = b.size() - 1; i > -1; i--) {
