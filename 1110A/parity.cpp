@@ -5,10 +5,10 @@ int mpow(int x, int y) {
   int ans = 1;
   while (y > 0) {
     if (y % 2 == 0) {
-      ans = (ans * ans) % 10;
+      ans = (ans * ans) % 2;
       y /= 2;
     } else {
-      ans = (ans * x) % 10;
+      ans = (ans * x) % 2;
       y--; 
     }
   }
@@ -26,7 +26,7 @@ int main() {
   }
   int ans = 0;
   for (int i = k - 1; i > -1; i--) {
-    ans += (a[i] * mpow(b, k - 1 - i)) % 10;
+    ans += a[i] * mpow(b, k - 1 - i) % 2;
   }
   if (ans % 2 == 0) {
     cout << "even" << endl;
