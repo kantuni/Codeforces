@@ -4,6 +4,7 @@
 - [1110A](https://github.com/kantuni/Codeforces/tree/master/1110A) - Parity - **Accepted**
 - **[1110B](https://github.com/kantuni/Codeforces/tree/master/1110B)** - Tape - **Accepted**
 - [1110C](https://github.com/kantuni/Codeforces/tree/master/1110C) - Meaningless Operations - **Accepted**
+- [1110D](https://github.com/kantuni/Codeforces/tree/master/1110D) - Jongmah - **Time limit exceeded**
 
 ### Codeforces Round #532 - `4/6`
 - **[1106A](https://github.com/kantuni/Codeforces/tree/master/1106A)** - Lunar New Year and Cross Counting - **Accepted**
