@@ -19,7 +19,7 @@
 - **[1101E](https://github.com/kantuni/Codeforces/tree/master/1101E)** - Polycarp's New Job - **Accepted**
 
 ### Codeforces Round #531 - `3/6`
-- [1102A](https://github.com/kantuni/Codeforces/tree/master/1102A) - Integer Sequence Dividing - **Wrong answer**
+- [1102A](https://github.com/kantuni/Codeforces/tree/master/1102A) - Integer Sequence Dividing - **Accepted**
 - **[1102B](https://github.com/kantuni/Codeforces/tree/master/1102B)** - Array K-Coloring - **Accepted**
 - **[1102C](https://github.com/kantuni/Codeforces/tree/master/1102C)** - Doors Breaking and Repairing - **Accepted**
 - **[1102D](https://github.com/kantuni/Codeforces/tree/master/1102D)** - Balanced Ternary String - **Accepted**
@@ -433,4 +433,4 @@
 
 <br>
 
-Problems solved: **195**
+Problems solved: **196**
