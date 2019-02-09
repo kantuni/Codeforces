@@ -16,26 +16,30 @@ int solve(map<int, int> state) {
   int m1 = 0, m2 = 0;
   for (auto s: state) {
     bool same = s.second > 2;
+    if (same) {
+      state[s.first] -= 3;
+      m1 = 1 + remember(state);
+      state[s.first] += 3;
+    }
     bool seq = state[s.first] > 0 and 
       state[s.first + 1] > 0 and 
       state[s.first + 2] > 0;
-    if (same) {
-      auto tmp = state;
-      tmp[s.first] -= 3;
-      m1 = 1 + remember(tmp);
-    }
     if (seq) {
-      auto tmp = state;
-      tmp[s.first] -= 1;
-      tmp[s.first + 1] -= 1;
-      tmp[s.first + 2] -= 1;
-      m2 = 1 + remember(tmp);
+      state[s.first] -= 1;
+      state[s.first + 1] -= 1;
+      state[s.first + 2] -= 1;
+      m2 = 1 + remember(state);
+      state[s.first] += 1;
+      state[s.first + 1] += 1;
+      state[s.first + 2] += 1;
     }
   }
   return max(m1, m2);
 }
 
 int main() {
+  ios::sync_with_stdio(false);
+  cin.tie(0);
   int n, m;
   cin >> n >> m;
   vector<int> a(n);
