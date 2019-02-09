@@ -1,37 +1,36 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-map<map<int, int>, int> memo;
-int remember(map<int, int> state);
-int solve(map<int, int> state);
+vector<int> f;
+map<vector<int>, int> memo;
+int remember(vector<int> state);
+int solve(vector<int> state);
 
-int remember(map<int, int> state) {
+int remember(vector<int> state) {
   if (memo.count(state) == 0) {
     memo[state] = solve(state);
   }
   return memo[state];
 }
 
-int solve(map<int, int> state) {
+int solve(vector<int> state) {
   int m1 = 0, m2 = 0;
-  for (auto s: state) {
-    bool same = s.second > 2;
+  for (int i = 0; i < state.size() - 2; i++) {
+    bool same = state[i] > 2;
     if (same) {
-      state[s.first] -= 3;
+      state[i] -= 3;
       m1 = 1 + remember(state);
-      state[s.first] += 3;
+      state[i] += 3;
     }
-    bool seq = state[s.first] > 0 and 
-      state[s.first + 1] > 0 and 
-      state[s.first + 2] > 0;
+    bool seq = state[i] > 0 and state[i + 1] > 0 and state[i + 2] > 0;
     if (seq) {
-      state[s.first] -= 1;
-      state[s.first + 1] -= 1;
-      state[s.first + 2] -= 1;
+      state[i] -= 1;
+      state[i + 1] -= 1;
+      state[i + 2] -= 1;
       m2 = 1 + remember(state);
-      state[s.first] += 1;
-      state[s.first + 1] += 1;
-      state[s.first + 2] += 1;
+      state[i] += 1;
+      state[i + 1] += 1;
+      state[i + 2] += 1;
     }
   }
   return max(m1, m2);
@@ -42,12 +41,12 @@ int main() {
   cin.tie(0);
   int n, m;
   cin >> n >> m;
-  vector<int> a(n);
-  map<int, int> state;
+  f.resize(m + 1);
   for (int i = 0; i < n; i++) {
-    cin >> a[i];
-    state[a[i]]++;
+    int a;
+    cin >> a;
+    f[a]++;
   }
-  cout << solve(state) << endl;
+  cout << solve(f) << endl;
   return 0;
 }
