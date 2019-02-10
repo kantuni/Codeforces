@@ -2,29 +2,37 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int solve(vector<int> c) {
-  bool same = true;
-  for (int i = 1; i < c.size(); i++) {
-    if (c[i - 1] != c[i]) {
-      same = false;
-      break;
-    }
-  }
-  if (same) return 0;
-  for (int i = 1; i < c.size(); i++) {
-    
-  }
-}
-
 int main() {
   ios::sync_with_stdio(false);
   cin.tie(0);
+  int n;
   cin >> n;
   vector<int> c(n);
   for (int i = 0; i < n; i++) {
     cin >> c[i];
   }
-  int ans = solve(c);
+  vector<int> diff;
+  diff.push_back(c[0]);
+  for (int i = 1; i < n; i++) {
+    if (c[i] != c[i - 1]) {
+      diff.push_back(c[i]);
+    }
+  }
+  int mf = -1, mn = -1;
+  vector<int> f(5001);
+  for (auto val: diff) {
+    f[val]++;
+    if (f[val] > mf) {
+      mf = f[val];
+      mn = val;
+    }
+  }
+  int ans = 0;
+  for (auto val: diff) {
+    if (val != mn) {
+      ans++;
+    }
+  }
   cout << ans << endl;
   return 0;
 }
