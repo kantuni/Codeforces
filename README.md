@@ -1,5 +1,11 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #538 - `1/6`
+- **[1114A](https://github.com/kantuni/Codeforces/tree/master/1114A)** - Got Any Grapes? - **Accepted**
+- [1114B](https://github.com/kantuni/Codeforces/tree/master/1114B) - Yet Another Array Partitioning Task - **Wrong answer**
+- [1114C](https://github.com/kantuni/Codeforces/tree/master/1114C) - Trailing Loves (or L'oeufs?) - **Wrong answer**
+- [1114D](https://github.com/kantuni/Codeforces/tree/master/1114D) - Flood Fill - **Wrong answer**
+
 ### Codeforces Global Round 1 - `1/8`
 - [1110A](https://github.com/kantuni/Codeforces/tree/master/1110A) - Parity - **Accepted**
 - **[1110B](https://github.com/kantuni/Codeforces/tree/master/1110B)** - Tape - **Accepted**
@@ -434,4 +440,4 @@
 
 <br>
 
-Problems solved: **196**
+Problems solved: **197**
