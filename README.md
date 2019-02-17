@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](http://codeforces.com) Problems
 
+### Codeforces Round #538 - `2/6`
+- **[1113A](https://github.com/kantuni/Codeforces/tree/master/1113A)** - Sasha and His Trip - **Accepted**
+- **[1113B](https://github.com/kantuni/Codeforces/tree/master/1113B)** - Sasha and Magnetic Machines - **Accepted**
+- [1113C](https://github.com/kantuni/Codeforces/tree/master/1113C) - Sasha and a Bit of Relax - **Memory limit exceeded**
+
 ### Codeforces Round #538 - `1/6`
 - **[1114A](https://github.com/kantuni/Codeforces/tree/master/1114A)** - Got Any Grapes? - **Accepted**
 - [1114B](https://github.com/kantuni/Codeforces/tree/master/1114B) - Yet Another Array Partitioning Task - **Wrong answer**
@@ -440,4 +445,4 @@
 
 <br>
 
-Problems solved: **197**
+Problems solved: **199**
