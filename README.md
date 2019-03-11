@@ -3,6 +3,7 @@
 ### Codeforces Round #540 - `2/8`
 - **[1118A](https://github.com/kantuni/Codeforces/tree/master/1118A)** - Water Buying - **Accepted**
 - **[1118B](https://github.com/kantuni/Codeforces/tree/master/1118B)** - Tanya and Candies - **Accepted**
+- **[1118C](https://github.com/kantuni/Codeforces/tree/master/1118C)** - Palindromic Matrix - **Accepted**
 
 ### Codeforces Round #539 - `2/6`
 - **[1113A](https://github.com/kantuni/Codeforces/tree/master/1113A)** - Sasha and His Trip - **Accepted**
@@ -449,4 +450,4 @@
 
 <br>
 
-Problems solved: **201**
+Problems solved: **202**
