@@ -9,9 +9,6 @@ bool possible(int d) {
   for (int i = 0; i < n; i++) {
     int next = max(0, a[i] - i / d);
     total += next;
-    if (total >= m) {
-      break;
-    }
   }
   return total >= m;
 }
