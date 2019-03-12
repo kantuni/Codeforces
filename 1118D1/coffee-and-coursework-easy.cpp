@@ -30,11 +30,12 @@ int main() {
     cout << -1 << endl;
   } else {
     sort(a.rbegin(), a.rend());
-    int d = 1;
-    while (!possible(d)) {
-      d++;
+    for (int d = 1; d <= n; d++) {
+      if (possible(d)) {
+        cout << d << endl;
+        break;
+      }
     }
-    cout << d << endl;
   }
   return 0;
 }
