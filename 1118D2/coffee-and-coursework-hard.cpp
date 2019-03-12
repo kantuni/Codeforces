@@ -7,8 +7,7 @@ vector<int> a;
 bool possible(int d) {
   int total = 0;
   for (int i = 0; i < n; i++) {
-    int next = max(0, a[i] - i / d);
-    total += next;
+    total += max(a[i] - i / d, 0);
   }
   return total >= m;
 }
