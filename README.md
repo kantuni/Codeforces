@@ -4,6 +4,7 @@
 - **[1118A](https://github.com/kantuni/Codeforces/tree/master/1118A)** - Water Buying - **Accepted**
 - **[1118B](https://github.com/kantuni/Codeforces/tree/master/1118B)** - Tanya and Candies - **Accepted**
 - **[1118C](https://github.com/kantuni/Codeforces/tree/master/1118C)** - Palindromic Matrix - **Accepted**
+- **[1118D1](https://github.com/kantuni/Codeforces/tree/master/1118D1)** - Coffee and Coursework (Easy version) - **Accepted**
 
 ### Codeforces Round #539 - `2/6`
 - **[1113A](https://github.com/kantuni/Codeforces/tree/master/1113A)** - Sasha and His Trip - **Accepted**
@@ -450,4 +451,4 @@
 
 <br>
 
-Problems solved: **202**
+Problems solved: **203**
