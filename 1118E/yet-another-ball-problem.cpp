@@ -7,7 +7,7 @@ int main() {
   long long n, k;
   cin >> n >> k;
   long long p = k * (k - 1);
-  if (p < n) {
+  if (n > p) {
     cout << "NO" << endl;
   } else {
     cout << "YES" << endl;
