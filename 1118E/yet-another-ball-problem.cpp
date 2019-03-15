@@ -6,8 +6,8 @@ int main() {
   cin.tie(0);
   long long n, k;
   cin >> n >> k;
-  long long p = k * (k - 1) / 2;
-  if (p * 2 < n) {
+  long long p = k * (k - 1);
+  if (p < n) {
     cout << "NO" << endl;
   } else {
     cout << "YES" << endl;
