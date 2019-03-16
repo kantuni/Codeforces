@@ -4,8 +4,8 @@
 - **[1118A](https://github.com/kantuni/Codeforces/tree/master/1118A)** - Water Buying - **Accepted**
 - **[1118B](https://github.com/kantuni/Codeforces/tree/master/1118B)** - Tanya and Candies - **Accepted**
 - **[1118C](https://github.com/kantuni/Codeforces/tree/master/1118C)** - Palindromic Matrix - **Accepted**
-- **[1118D1](https://github.com/kantuni/Codeforces/tree/master/1118D1)** - Coffee and Coursework (Easy version) - **Accepted**
-- **[1118D2](https://github.com/kantuni/Codeforces/tree/master/1118D2)** - Coffee and Coursework (Hard version) - **Accepted**
+- **[1118D1](https://github.com/kantuni/Codeforces/tree/master/1118D1)** - Coffee and Coursework (Easy Version) - **Accepted**
+- **[1118D2](https://github.com/kantuni/Codeforces/tree/master/1118D2)** - Coffee and Coursework (Hard Version) - **Accepted**
 - **[1118E](https://github.com/kantuni/Codeforces/tree/master/1118E)** - Yet Another Ball Problem - **Accepted**
 - **[1118F1](https://github.com/kantuni/Codeforces/tree/master/1118F1)** - Tree Cutting (Easy Version) - **Accepted**
 
