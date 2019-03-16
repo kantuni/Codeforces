@@ -7,6 +7,7 @@
 - **[1118D1](https://github.com/kantuni/Codeforces/tree/master/1118D1)** - Coffee and Coursework (Easy version) - **Accepted**
 - **[1118D2](https://github.com/kantuni/Codeforces/tree/master/1118D2)** - Coffee and Coursework (Hard version) - **Accepted**
 - **[1118E](https://github.com/kantuni/Codeforces/tree/master/1118E)** - Yet Another Ball Problem - **Accepted**
+- **[1118F1](https://github.com/kantuni/Codeforces/tree/master/1118F1)** - Tree Cutting (Easy Version) - **Accepted**
 
 ### Codeforces Round #539 - `2/6`
 - **[1113A](https://github.com/kantuni/Codeforces/tree/master/1113A)** - Sasha and His Trip - **Accepted**
@@ -453,4 +454,4 @@
 
 <br>
 
-Problems solved: **205**
+Problems solved: **206**
