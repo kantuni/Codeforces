@@ -3,11 +3,11 @@
 ### Codeforces Round #540 - `2/8`
 - **[1118A](https://github.com/kantuni/Codeforces/tree/master/1118A)** - Water Buying - **Accepted**
 - **[1118B](https://github.com/kantuni/Codeforces/tree/master/1118B)** - Tanya and Candies - **Accepted**
-- **[1118C](https://github.com/kantuni/Codeforces/tree/master/1118C)** - Palindromic Matrix - **Accepted**
-- **[1118D1](https://github.com/kantuni/Codeforces/tree/master/1118D1)** - Coffee and Coursework (Easy Version) - **Accepted**
-- **[1118D2](https://github.com/kantuni/Codeforces/tree/master/1118D2)** - Coffee and Coursework (Hard Version) - **Accepted**
-- **[1118E](https://github.com/kantuni/Codeforces/tree/master/1118E)** - Yet Another Ball Problem - **Accepted**
-- **[1118F1](https://github.com/kantuni/Codeforces/tree/master/1118F1)** - Tree Cutting (Easy Version) - **Accepted**
+- [1118C](https://github.com/kantuni/Codeforces/tree/master/1118C) - Palindromic Matrix - **Accepted**
+- [1118D1](https://github.com/kantuni/Codeforces/tree/master/1118D1) - Coffee and Coursework (Easy Version) - **Accepted**
+- [1118D2](https://github.com/kantuni/Codeforces/tree/master/1118D2) - Coffee and Coursework (Hard Version) - **Accepted**
+- [1118E](https://github.com/kantuni/Codeforces/tree/master/1118E) - Yet Another Ball Problem - **Accepted**
+- [1118F1](https://github.com/kantuni/Codeforces/tree/master/1118F1) - Tree Cutting (Easy Version) - **Accepted**
 
 ### Codeforces Round #539 - `2/6`
 - **[1113A](https://github.com/kantuni/Codeforces/tree/master/1113A)** - Sasha and His Trip - **Accepted**
@@ -429,6 +429,7 @@
 - [779C](https://github.com/kantuni/Codeforces/tree/master/779C) - Dishonest Sellers - **Accepted**
 
 ### Codeforces Round #401 - `0/5`
+- [777A](https://github.com/kantuni/Codeforces/tree/master/777A) - Shell Game - **Accepted**
 - [777C](https://github.com/kantuni/Codeforces/tree/master/777C) - Alyona and Spreadsheet - **Time limit exceeded**
 
 ### Codeforces Round #400 - `1/7`
@@ -454,4 +455,4 @@
 
 <br>
 
-Problems solved: **206**
+Problems solved: **207**
