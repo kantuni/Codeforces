@@ -91,7 +91,7 @@
 
 ### Educational Codeforces Round 56 - `2/7`
 - **[1093A](https://github.com/kantuni/Codeforces/tree/master/1093A)** - Dice Rolling - **Accepted**
-- [1093B](https://github.com/kantuni/Codeforces/tree/master/1093B) - Letters Rearranging - **Wrong answer**
+- [1093B](https://github.com/kantuni/Codeforces/tree/master/1093B) - Letters Rearranging - **Accepted**
 - **[1093C](https://github.com/kantuni/Codeforces/tree/master/1093C)** - Mishka and the Last Exam - **Accepted**
 - [1093D](https://github.com/kantuni/Codeforces/tree/master/1093D) - Beautiful Graph - **Wrong answer**
 
@@ -465,4 +465,4 @@
 
 <br>
 
-Problems solved: **212**
+Problems solved: **213**
