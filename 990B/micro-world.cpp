@@ -4,23 +4,19 @@ using namespace std;
 int main() {
   int n, k;
   cin >> n >> k;
-  map<int, int> memo;
-  vector<int> uniq;
+  vector<int> a(n);
   for (int i = 0; i < n; i++) {
-    int a;
-    cin >> a;
-    if (memo[a] == 0) {
-      uniq.push_back(a);
-    }
-    memo[a]++;
+    cin >> a[i];
   }
-  sort(uniq.begin(), uniq.end());
-  int rm = 0;
-  for (int i = 0; i < uniq.size() - 1; i++) {
-    if (uniq[i + 1] - uniq[i] <= k) {
-      rm += memo[uniq[i]];
+  sort(a.begin(), a.end());
+  int ans = n;
+  for (int i = 0; i < n; i++) {
+    auto upper = upper_bound(a.begin(), a.end(), a[i]);
+    int j = upper - a.begin();
+    if (j < n and a[j] - a[i] <= k) {
+      ans--;
     }
   }
-  cout << n - rm << endl;
+  cout << ans << endl;
   return 0;
 }
