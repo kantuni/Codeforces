@@ -252,7 +252,7 @@
 
 ### Educational Codeforces Round 45 - `1/7`
 - **[990A](https://github.com/kantuni/Codeforces/tree/master/990A)** - Commentary Boxes - **Accepted**
-- [990B](https://github.com/kantuni/Codeforces/tree/master/990B) - Micro-World - **Time limit exceeded**
+- [990B](https://github.com/kantuni/Codeforces/tree/master/990B) - Micro-World - **Accepted**
 
 ### Codeforces Round #486 - `3/6`
 - **[988A](https://github.com/kantuni/Codeforces/tree/master/988A)** - Diverse Team - **Accepted**
@@ -465,4 +465,4 @@
 
 <br>
 
-Problems solved: **213**
+Problems solved: **214**
