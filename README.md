@@ -406,7 +406,7 @@
 - [789B](https://github.com/kantuni/Codeforces/tree/master/789B) - Masha and geometric depression - **Wrong answer**
 
 ### Codeforces Round #406 - `1/5`
-- [787A](https://github.com/kantuni/Codeforces/blob/master/787A) - The Monster - **Time limit exceeded**
+- [787A](https://github.com/kantuni/Codeforces/blob/master/787A) - The Monster - **Accepted**
 - **[787B](https://github.com/kantuni/Codeforces/blob/master/787B)** - Not Afraid - **Accepted**
 
 ### VK Cup 2017 - Round 1 - `0/6`
@@ -466,4 +466,4 @@
 
 <br>
 
-Problems solved: **215**
+Problems solved: **216**
