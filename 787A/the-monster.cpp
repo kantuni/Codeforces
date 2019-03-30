@@ -1,19 +1,17 @@
 #include <bits/stdc++.h>
-#define INF (int) 1e9
 using namespace std;
 
 int main() {
   int a, b, c, d;
   cin >> a >> b >> c >> d;
-  int ans = INF;
+  int ans = -1;
   for (int i = 0; i < 101; i++) {
-    for (int j = 0; j < 101; j++) {
-      if (b + i * a == d + j * c) {
-        ans = min(ans, b + i * a);
-      }
+    int jc = b - d + i * a;
+    if (jc >= 0 and jc % c == 0) {
+      ans = b + i * a;
+      break;
     }
   }
-  ans = (ans == INF) ? -1 : ans;
   cout << ans << endl;
   return 0;
 }
