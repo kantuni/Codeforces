@@ -380,6 +380,7 @@
 
 ### Codeforces Round #420 - `1/5`
 - **[821A](https://github.com/kantuni/Codeforces/tree/master/821A)** - Okabe and Future Gadget Laboratory - **Accepted**
+- [821B](https://github.com/kantuni/Codeforces/tree/master/821B) - Okabe and Banana Trees - **Accepted**
 - [821C](https://github.com/kantuni/Codeforces/tree/master/821C) - Okabe and Boxes - **Wrong answer**
 
 ### Codeforces Round #419 - `2/5`
@@ -466,4 +467,4 @@
 
 <br>
 
-Problems solved: **216**
+Problems solved: **217**
