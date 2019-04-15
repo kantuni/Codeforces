@@ -2,7 +2,10 @@
 using namespace std;
 
 bool compare(string a, string b) {
-  return a.size() == b.size() ? a < b : a.size() < b.size();
+  if (a.size() == b.size()) {
+    return a < b;
+  }
+  return a.size() < b.size();
 }
 
 int main() {
