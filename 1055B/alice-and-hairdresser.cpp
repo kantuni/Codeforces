@@ -2,29 +2,24 @@
 #define INF (int) 1e9
 using namespace std;
 
-int n, m, l;
-vector<int> a;
-vector<pair<int, int>> t;
+int n, m, fn;
+vector<int> a, t;
 
 void build(int i, int L, int R) {
   if (L == R) {
-    t[i] = {a[L], a[R]};
+    t[i] = a[L];
   } else {
     int M = (L + R) / 2;
     build(2 * i + 1, L, M);
     build(2 * i + 2, M + 1, R);
-    t[i] = {
-      min(t[2 * i + 1].first, t[2 * i + 2].first),
-      max(t[2 * i + 1].second, t[2 * i + 2].second)
-    };
+    t[i] = min(t[2 * i + 1], t[2 * i + 2]);
   }
 }
 
 void add(int i, int L, int R, int p, int d) {
   if (L == R) {
     a[p] += d;
-    t[i].first += d;
-    t[i].second += d;
+    t[i] += d;
   } else {
     int M = (L + R) / 2;
     if (p <= M) {
@@ -33,44 +28,49 @@ void add(int i, int L, int R, int p, int d) {
     if (p > M) {
       add(2 * i + 2, M + 1, R, p, d);
     }
-    t[i] = {
-      min(t[2 * i + 1].first, t[2 * i + 2].first),
-      max(t[2 * i + 1].second, t[2 * i + 2].second)
-    };
+    t[i] = min(t[2 * i + 1], t[2 * i + 2]);
   }
 }
 
-int cut(int i, int L, int R) {
-  auto [mn, mx] = t[i];
-  if (mx <= l) return 0;
-  if (mn > l) return 1;
+int rmq(int i, int L, int R, int l, int r) {
+  if (r < L or R < l) {
+    return INF;
+  }
+  if (l <= L and R <= r) {
+    return t[i];
+  }
   int M = (L + R) / 2;
-  int c1 = cut(2 * i + 1, L, M);
-  int c2 = cut(2 * i + 2, M + 1, R);
-  return c1 + c2;
+  int r1 = rmq(2 * i + 1, L, M, l, r);
+  int r2 = rmq(2 * i + 2, M + 1, R, l, r);
+  return min(r1, r2);
+}
+
+int cut() {
+  int ans = 0;
+  for (int i = 0; i < n; i++) {
+    int s = i, e = n - 1;
+    // TODO: binary search here
+  }
+  return 0;
 }
 
 int main() {
-  cin >> n >> m >> l;
+  cin >> n >> m >> fn;
   a.resize(n);
-  t.resize(4 * n, {INF, 0});
+  t.resize(4 * n, INF);
   for (int i = 0; i < n; i++) {
     cin >> a[i];
   }
   build(0, 0, n - 1);
   while (m--) {
-    int t;
-    cin >> t;
-    if (t == 0) {
-      cout << cut(0, 0, n - 1) << endl;
+    int T;
+    cin >> T;
+    if (T == 0) {
+      cout << cut() << endl;
     } else {
       int p, d;
       cin >> p >> d;
       add(0, 0, n - 1, p - 1, d);
-      for (auto ai: a) {
-        cout << ai << " ";
-      }
-      cout << endl
     }
   }
   return 0;
