@@ -28,14 +28,14 @@ int main() {
       long long p, d;
       cin >> p >> d;
       a[p] += d;
-      bool c1 = a[p] - d <= l and a[p] > l;
-      bool c2 = a[p - 1] > l and a[p + 1] > l;
-      bool c3 = a[p - 1] <= l and a[p + 1] <= l;
-      if (c1 and c2) {
-        ans--;
-      }
-      if (c1 and c3) {
+      bool new_one = a[p] - d <= l and a[p] > l;
+      bool around_zeros = a[p - 1] <= l and a[p + 1] <= l;
+      bool around_ones = a[p - 1] > l and a[p + 1] > l;
+      if (new_one and around_zeros) {
         ans++;
+      }
+      if (new_one and around_ones) {
+        ans--;
       }
     }
   }
