@@ -130,7 +130,7 @@
 
 ### Mail.Ru Cup 2018 - Round 2 - `1/7`
 - **[1055A](https://github.com/kantuni/Codeforces/tree/master/1055A)** - Metro - **Accepted**
-- **[1055B](https://github.com/kantuni/Codeforces/tree/master/1055B)** - Alice and Hairdresser - **Accepted**
+- [1055B](https://github.com/kantuni/Codeforces/tree/master/1055B) - Alice and Hairdresser - **Accepted**
 
 ### Codeforces Round #519 - `2/7`
 - **[1043A](https://github.com/kantuni/Codeforces/tree/master/1043A)** - Elections - **Accepted**
@@ -386,6 +386,7 @@
 
 ### Codeforces Round #419 - `2/5`
 - **[816A](https://github.com/kantuni/Codeforces/tree/master/816A)** - Karen and Morning - **Accepted**
+- [816B](https://github.com/kantuni/Codeforces/tree/master/816B) - Karen and Coffee - **Time limit exceeded**
 - **[816C](https://github.com/kantuni/Codeforces/tree/master/816C)** - Karen and Game - **Accepted**
 
 ### Codeforces Round #411 - `3/6`
