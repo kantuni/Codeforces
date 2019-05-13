@@ -1,4 +1,4 @@
-# Solutions to [Codeforces](http://codeforces.com) Problems
+# Solutions to [Codeforces](https://codeforces.com) Problems
 
 ### Codeforces Round #540 - `3/8`
 - **[1141A](https://github.com/kantuni/Codeforces/tree/master/1141A)** - Game 23 - **Accepted**
