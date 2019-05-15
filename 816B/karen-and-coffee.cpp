@@ -1,27 +1,30 @@
 #include <bits/stdc++.h>
+#define MAXN 200005
 using namespace std;
 
 int main() {
   int n, k, q;
   cin >> n >> k >> q;
-  vector<int> t(200001);
+  vector<int> f(MAXN);
   while (n--) {
     int l, r;
     cin >> l >> r;
-    for (int i = l; i <= r; i++) {
-      t[i]++;
-    }
+    f[l]++;
+    f[r + 1]--;
+  }
+  int cnt = 0;
+  for (int i = 0; i < f.size(); i++) {
+    cnt += f[i];
+    f[i] = (cnt >= k) ? 1 : 0;
+  }
+  vector<int> p(MAXN);
+  for (int i = 1; i < p.size(); i++) {
+    p[i] = f[i - 1] + p[i - 1];
   }
   while (q--) {
     int l, r;
     cin >> l >> r;
-    int ans = 0;
-    for (int i = l; i <= r; i++) {
-      if (t[i] >= k) {
-        ans++;
-      }
-    }
-    cout << ans << endl;
+    cout << p[r + 1] - p[l] << endl;
   }
   return 0;
 }
