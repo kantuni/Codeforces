@@ -386,7 +386,7 @@
 
 ### Codeforces Round #419 - `2/5`
 - **[816A](https://github.com/kantuni/Codeforces/tree/master/816A)** - Karen and Morning - **Accepted**
-- [816B](https://github.com/kantuni/Codeforces/tree/master/816B) - Karen and Coffee - **Time limit exceeded**
+- [816B](https://github.com/kantuni/Codeforces/tree/master/816B) - Karen and Coffee - **Accepted**
 - **[816C](https://github.com/kantuni/Codeforces/tree/master/816C)** - Karen and Game - **Accepted**
 
 ### Codeforces Round #411 - `3/6`
@@ -469,4 +469,4 @@
 
 <br>
 
-Problems solved: **218**
+Problems solved: **219**
