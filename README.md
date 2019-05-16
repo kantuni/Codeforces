@@ -271,6 +271,7 @@
 - **[978B](https://github.com/kantuni/Codeforces/tree/master/978B)** - File Name - **Accepted**
 - **[978C](https://github.com/kantuni/Codeforces/tree/master/978C)** - Letters - **Accepted**
 - [978D](https://github.com/kantuni/Codeforces/tree/master/978D) - Almost Arithmetic Progression - **Wrong answer**
+- [978E](https://github.com/kantuni/Codeforces/tree/master/978E) - Bus Video System - **Accepted**
 
 ### Codeforces Round #479 - `4/6`
 - **[977A](https://github.com/kantuni/Codeforces/tree/master/977A)** - Wrong Subtraction - **Accepted**
@@ -469,4 +470,4 @@
 
 <br>
 
-Problems solved: **220**
+Problems solved: **221**
