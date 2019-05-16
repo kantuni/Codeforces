@@ -299,9 +299,9 @@
 
 ### Educational Codeforces Round 40 - `1/9`
 - **[954A](https://github.com/kantuni/Codeforces/tree/master/954A)** - Diagonal Walking - **Accepted**
-- **[954B](https://github.com/kantuni/Codeforces/tree/master/954B)** - String Typing - **Hacked**
-- **[954C](https://github.com/kantuni/Codeforces/tree/master/954C)** - Matrix Walk - **Wrong answer**
-- **[954D](https://github.com/kantuni/Codeforces/tree/master/954D)** - Fight Against Traffic - **Wrong answer**
+- [954B](https://github.com/kantuni/Codeforces/tree/master/954B) - String Typing - **Accepted**
+- [954C](https://github.com/kantuni/Codeforces/tree/master/954C) - Matrix Walk - **Wrong answer**
+- [954D](https://github.com/kantuni/Codeforces/tree/master/954D) - Fight Against Traffic - **Wrong answer**
 
 ### Codeforces Round #464 - `2/6`
 - **[939A](https://github.com/kantuni/Codeforces/tree/master/939A)** - Love Triangle - **Accepted**
@@ -469,4 +469,4 @@
 
 <br>
 
-Problems solved: **219**
+Problems solved: **220**
