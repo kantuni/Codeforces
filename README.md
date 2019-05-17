@@ -3,7 +3,7 @@
 ### Codeforces Round #540 - `3/8`
 - **[1141A](https://github.com/kantuni/Codeforces/tree/master/1141A)** - Game 23 - **Accepted**
 - **[1141B](https://github.com/kantuni/Codeforces/tree/master/1141B)** - Maximal Continuous Rest - **Accepted**
-- [1141C](https://github.com/kantuni/Codeforces/tree/master/1141C) - Polycarp Restores Permutation - **Wrong answer**
+- [1141C](https://github.com/kantuni/Codeforces/tree/master/1141C) - Polycarp Restores Permutation - **Accepted**
 - **[1141D](https://github.com/kantuni/Codeforces/tree/master/1141D)** - Colored Boots - **Accepted**
 
 ### Codeforces Round #540 - `2/8`
@@ -470,4 +470,4 @@
 
 <br>
 
-Problems solved: **221**
+Problems solved: **222**
