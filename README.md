@@ -3,7 +3,7 @@
 ### Codeforces Round #540 - `3/8`
 - **[1141A](https://github.com/kantuni/Codeforces/tree/master/1141A)** - Game 23 - **Accepted**
 - **[1141B](https://github.com/kantuni/Codeforces/tree/master/1141B)** - Maximal Continuous Rest - **Accepted**
-- [1141C](https://github.com/kantuni/Codeforces/tree/master/1141C) - Polycarp Restores Permutation - **Wrong answer**
+- [1141C](https://github.com/kantuni/Codeforces/tree/master/1141C) - Polycarp Restores Permutation - **Accepted**
 - **[1141D](https://github.com/kantuni/Codeforces/tree/master/1141D)** - Colored Boots - **Accepted**
 
 ### Codeforces Round #540 - `2/8`
@@ -415,6 +415,7 @@
 
 ### VK Cup 2017 - Round 1 - `0/6`
 - [771A](https://github.com/kantuni/Codeforces/blob/master/771A) - Bear and Friendship Condition - **Wrong answer**
+- [771B](https://github.com/kantuni/Codeforces/blob/master/771B) - Bear and Different Names - **Accepted**
 
 ### Codeforces Round #404 - `2/5`
 - **[785A](https://github.com/kantuni/Codeforces/blob/master/785A)** - Anton and Polyhedrons - **Accepted**
@@ -470,4 +471,4 @@
 
 <br>
 
-Problems solved: **221**
+Problems solved: **223**
