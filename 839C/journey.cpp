@@ -8,19 +8,18 @@ double ans = 0;
 
 void dfs(int u, int d, double p) {
   color[u] = 1;
-  int cnt = 0;
+  int children = 0;
   for (auto v: g[u]) {
     if (color[v] == 0) {
-      cnt++;
+      children++;
     }
   }
   for (auto v: g[u]) {
     if (color[v] == 0) {
-      dfs(v, d + 1, p / cnt);
+      dfs(v, d + 1, p / children);
     }
   }
-  // leaf
-  if (cnt == 0) {
+  if (children == 0) {
     ans += p * d;
   }
 }
