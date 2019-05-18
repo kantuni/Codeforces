@@ -11,7 +11,7 @@ int main() {
     for (int i = 0; i < n; i++) {
       s[i] = 'a' + (i % k);
     }
-    cout << s << "\n";
+    cout << s << endl;
   }
   return 0;
 }
