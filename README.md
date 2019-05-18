@@ -348,6 +348,7 @@
 - **[864A](https://github.com/kantuni/Codeforces/tree/master/864A)** - Fair Game - **Accepted**
 - **[864B](https://github.com/kantuni/Codeforces/tree/master/864B)** - Polycarp and Letters - **Accepted**
 - [864C](https://github.com/kantuni/Codeforces/tree/master/864C) - Bus - **Wrong answer**
+- [864D](https://github.com/kantuni/Codeforces/tree/master/864D) - Make a Permutation! - **Accepted**
 
 ### Codeforces Round #433 - `2/5`
 - **[854A](https://github.com/kantuni/Codeforces/tree/master/854A)** - Fraction - **Accepted**
@@ -471,4 +472,4 @@
 
 <br>
 
-Problems solved: **225**
+Problems solved: **226**
