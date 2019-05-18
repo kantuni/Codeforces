@@ -1,67 +1,45 @@
-// WA
-#include <iostream>
-#include <iomanip>
-#include <vector>
-#include <queue>
+#include <bits/stdc++.h>
 using namespace std;
 
+int n;
+vector<vector<int>> g;
+vector<int> color;
+double ans = 0;
+
+void dfs(int u, int d, double p) {
+  color[u] = 1;
+  int cnt = 0;
+  for (auto v: g[u]) {
+    if (color[v] == 0) {
+      cnt++;
+    }
+  }
+  for (auto v: g[u]) {
+    if (color[v] == 0) {
+      dfs(v, d + 1, p / cnt);
+    }
+  }
+  // leaf
+  if (cnt == 0) {
+    ans += p * d;
+  }
+}
+
 int main() {
-  int n;
+  ios::sync_with_stdio(false);
+  cin.tie(0);
   cin >> n;
-  
-  vector<vector<int>> G(n);
-  for (int i = 0; i < G.size() - 1; ++i) {
-    int s, t;
-    cin >> s >> t;
-    G[s - 1].push_back(t - 1);
+  g.resize(n);
+  color.resize(n);
+  for (int i = 0; i < n - 1; i++) {
+    int u, v;
+    cin >> u >> v;
+    u--, v--;
+    g[u].push_back(v);
+    g[v].push_back(u);
   }
-  
-  vector<bool> ends(n, false);
-  vector<bool> visited(n, false);
-  vector<int> dist(n, 0);
-  vector<double> p(n, 1);
-  
-  queue<int> q;
-  q.push(0);
-  visited[0] = true;
-  
-  while (!q.empty()) {
-    int s = q.front();
-    bool end = true;
-    
-    int count = 0;
-    for (int i = 0; i < G[s].size(); ++i) {
-      int t = G[s][i];
-      if (!visited[t]) {
-        ++count;
-      }
-    }
-    
-    for (int i = 0; i < G[s].size(); ++i) {
-      int t = G[s][i];
-      if (!visited[t]) {
-        end = false;
-        visited[t] = true;
-        dist[t] = dist[s] + 1;
-        p[t] = p[s] * (1.0 / count);
-        q.push(t);
-      }
-    }
-    
-    if (end) {
-      ends[s] = true;
-    }
-    
-    q.pop();
-  }
-  
-  double expected = 0;
-  for (int i = 0; i < n; ++i) {
-    if (ends[i]) {
-      expected += p[i] * dist[i];
-    }
-  }
-  
-  cout << setprecision(10) << expected << "\n";
+  dfs(0, 0, 1.0);
+  cout << fixed << setprecision(7);
+  cout << ans << endl;
   return 0;
 }
