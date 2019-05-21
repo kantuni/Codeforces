@@ -1,4 +1,3 @@
-// WA on Test 8
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -8,47 +7,39 @@ int main() {
   int a, b, f, k;
   cin >> a >> b >> f >> k;
   int ans = 0;
-  if (k == 1) {
-    if (b < f or b < a - f) {
-      ans = -1;
-    } else {
-      ans = b < a;
-    }
-  } else if (k == 2) {
-    if (b < f or b < 2 * a - 2 * f) {
-      ans = -1;
-    } else {
-      int t = b - f;
-      if (t < 2 * a - 2 * f) {
+  int t = b;
+  for (int i = 0; i < k; i++) {
+    if (i % 2 == 0) {
+      t -= f;
+      if (t < 0) {
+        ans = -1;
+        break;
+      }
+      int nxt = (i + 1 < k) ? 2 * a - 2 * f : a - f;
+      if (t < nxt) {
         t = b;
         ans++;
       }
-      t -= 2 * a - 2 * f;
-      if (t < f) {
+      t -= a - f;
+      if (t < 0) {
+        ans = -1;
+        break;
+      }
+    } else {
+      t -= a - f;
+      if (t < 0) {
+        ans = -1;
+        break;
+      }
+      int nxt = (i + 1 < k) ? 2 * f : f;
+      if (t < nxt) {
         t = b;
         ans++;
       }
       t -= f;
-    }
-  } else if (k > 2) {
-    if (b < 2 * f or b < 2 * a - 2 * f) {
-      ans = -1;
-    } else {
-      int t = b - f, r = 0;
-      if (t < 2 * a - 2 * f) {
-        t = b;
-        r++;
-      }
-      t -= 2 * a - 2 * f;
-      if (t < 2 * f) {
-        t = b;
-        r++;
-      }
-      t -= 2 * f;
-      if (k % 2 == 0) {
-        ans = k * r / 2;
-      } else {
-        ans = (k - 1) * r / 2;  
+      if (t < 0) {
+        ans = -1;
+        break;
       }
     }
   }
