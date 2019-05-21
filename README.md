@@ -347,7 +347,7 @@
 ### Codeforces Round #436 - `2/6`
 - **[864A](https://github.com/kantuni/Codeforces/tree/master/864A)** - Fair Game - **Accepted**
 - **[864B](https://github.com/kantuni/Codeforces/tree/master/864B)** - Polycarp and Letters - **Accepted**
-- [864C](https://github.com/kantuni/Codeforces/tree/master/864C) - Bus - **Wrong answer**
+- [864C](https://github.com/kantuni/Codeforces/tree/master/864C) - Bus - **Accepted**
 - [864D](https://github.com/kantuni/Codeforces/tree/master/864D) - Make a Permutation! - **Accepted**
 
 ### Codeforces Round #433 - `2/5`
@@ -472,4 +472,4 @@
 
 <br>
 
-Problems solved: **226**
+Problems solved: **227**
