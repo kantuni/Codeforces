@@ -1,61 +1,57 @@
-// WA
-#include <iostream>
+// WA on Test 8
+#include <bits/stdc++.h>
 using namespace std;
 
-typedef long long ll;
-
 int main() {
-  ll a, b, f, k;
+  ios::sync_with_stdio(false);
+  cin.tie(0);
+  int a, b, f, k;
   cin >> a >> b >> f >> k;
-  
-  // no need to refuel at all
-  if (b >= a * k) {
-    cout << 0 << "\n";
-    return 0;
-  }
-  
-  // impossible
-  if (b < 2 * f || b < 2 * a - 2 * f) {
-    cout << -1 << "\n";
-    return 0;
-  }
-  
-  if (k == 1 && b < a) {
-    cout << 1 << "\n";
-    return 0;
-  }
-  
-  ll bc = b;
-  ll min = 0;
-  
-  for (int i = 0; i < k; ++i) {
-    if (i % 2 == 0) {
-      if (bc < f) {
-        ++min;
-        bc = b - f;
-      }
-      
-      if (bc < a) {
-        ++min;
-        bc = b - (a - f);
-      } else {
-        bc = b - a;
-      }
+  int ans = 0;
+  if (k == 1) {
+    if (b < f or b < a - f) {
+      ans = -1;
     } else {
-      if (bc < a - f) {
-        ++min;
-        bc = b - (a - f);
+      ans = b < a;
+    }
+  } else if (k == 2) {
+    if (b < f or b < 2 * a - 2 * f) {
+      ans = -1;
+    } else {
+      int t = b - f;
+      if (t < 2 * a - 2 * f) {
+        t = b;
+        ans++;
       }
-      
-      if (bc < a) {
-        ++min;
-        bc = b - f;
+      t -= 2 * a - 2 * f;
+      if (t < f) {
+        t = b;
+        ans++;
+      }
+      t -= f;
+    }
+  } else if (k > 2) {
+    if (b < 2 * f or b < 2 * a - 2 * f) {
+      ans = -1;
+    } else {
+      int t = b - f, r = 0;
+      if (t < 2 * a - 2 * f) {
+        t = b;
+        r++;
+      }
+      t -= 2 * a - 2 * f;
+      if (t < 2 * f) {
+        t = b;
+        r++;
+      }
+      t -= 2 * f;
+      if (k % 2 == 0) {
+        ans = k * r / 2;
       } else {
-        bc = b - a;
+        ans = (k - 1) * r / 2;  
       }
     }
   }
-  
-  cout << min << "\n";
+  cout << ans << endl;
   return 0;
 }
