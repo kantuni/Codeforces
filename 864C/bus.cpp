@@ -6,42 +6,21 @@ int main() {
   cin.tie(0);
   int a, b, f, k;
   cin >> a >> b >> f >> k;
-  int ans = 0;
-  int t = b;
-  for (int i = 0; i < k; i++) {
+  int ans = (b < f) ? -1 : 0;
+  int t = b - f, need = 0;
+  for (int i = 0; ans != -1 and i < k; i++) {
     if (i % 2 == 0) {
-      t -= f;
-      if (t < 0) {
-        ans = -1;
-        break;
-      }
-      int nxt = (i + 1 < k) ? 2 * a - 2 * f : a - f;
-      if (t < nxt) {
-        t = b;
-        ans++;
-      }
-      t -= a - f;
-      if (t < 0) {
-        ans = -1;
-        break;
-      }
+      need = (i + 1 < k) ? 2 * (a - f) : a - f;
     } else {
-      t -= a - f;
-      if (t < 0) {
-        ans = -1;
-        break;
-      }
-      int nxt = (i + 1 < k) ? 2 * f : f;
-      if (t < nxt) {
-        t = b;
-        ans++;
-      }
-      t -= f;
-      if (t < 0) {
-        ans = -1;
-        break;
-      }
+      need = (i + 1 < k) ? 2 * f : f;
     }
+    if (need > b) {
+      ans = -1;
+    } else if (need > t) {
+      t = b;
+      ans++;
+    }
+    t -= need;
   }
   cout << ans << endl;
   return 0;
