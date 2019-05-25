@@ -7,7 +7,7 @@ int main() {
   while (t--) {
     int x;
     cin >> x;
-    cout << x / 2 << "\n";
+    cout << x / 2 << endl;
   }
   return 0;
 }
