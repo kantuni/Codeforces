@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Kotlin Heroes: Practice - `3/6`
+- **[1171A](https://github.com/kantuni/Codeforces/tree/master/1171A)** - Dice Rolling - **Accepted**
+- **[1171B](https://github.com/kantuni/Codeforces/tree/master/1171B)** - New Year and the Christmas Ornament - **Accepted**
+- **[1171C](https://github.com/kantuni/Codeforces/tree/master/1171C)** - Letters Rearranging - **Accepted**
+
 ### Codeforces Round #540 - `3/8`
 - **[1141A](https://github.com/kantuni/Codeforces/tree/master/1141A)** - Game 23 - **Accepted**
 - **[1141B](https://github.com/kantuni/Codeforces/tree/master/1141B)** - Maximal Continuous Rest - **Accepted**
@@ -472,4 +477,4 @@
 
 <br>
 
-Problems solved: **227**
+Problems solved: **230**
