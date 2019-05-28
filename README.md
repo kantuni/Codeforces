@@ -1,9 +1,10 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
-### Kotlin Heroes: Practice - `3/6`
+### Kotlin Heroes: Practice - `4/6`
 - **[1171A](https://github.com/kantuni/Codeforces/tree/master/1171A)** - Dice Rolling - **Accepted**
 - **[1171B](https://github.com/kantuni/Codeforces/tree/master/1171B)** - New Year and the Christmas Ornament - **Accepted**
 - **[1171C](https://github.com/kantuni/Codeforces/tree/master/1171C)** - Letters Rearranging - **Accepted**
+- **[1171D](https://github.com/kantuni/Codeforces/tree/master/1171D)** - Got Any Grapes? - **Accepted**
 
 ### Codeforces Round #540 - `3/8`
 - **[1141A](https://github.com/kantuni/Codeforces/tree/master/1141A)** - Game 23 - **Accepted**
@@ -477,4 +478,4 @@
 
 <br>
 
-Problems solved: **230**
+Problems solved: **231**
