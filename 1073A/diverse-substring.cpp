@@ -17,10 +17,10 @@ int main() {
     }
   }
   if (found) {
-    cout << "YES" << "\n";
-    cout << ans << "\n";
+    cout << "YES" << endl;
+    cout << ans << endl;
   } else {
-    cout << "NO" << "\n";
+    cout << "NO" << endl;
   }
   return 0;
 }
