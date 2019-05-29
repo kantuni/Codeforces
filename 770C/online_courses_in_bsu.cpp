@@ -8,7 +8,7 @@ int m;
 
 int c(int cn) {
   if (m > 0) {
-    --m;
+    m--;
   } else {
     return -1;
   }
