@@ -1,31 +1,25 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
   int n;
   cin >> n;
-
-  vector<unsigned long long> lengths(n);
+  vector<long long> lens(n);
   for (int i = 0; i < n; i++) {
-    cin >> lengths[i];
+    cin >> lens[i];
   }
-  
-  sort(lengths.begin(), lengths.end());
-  
+  sort(lens.begin(), lens.end());
   bool triangle = false;
-  for (int i = 0; i < lengths.size() - 2; i++) {
-    if (lengths[i] + lengths[i + 1] > lengths[i + 2]) {
+  for (int i = 0; i < lens.size() - 2; i++) {
+    if (lens[i] + lens[i + 1] > lens[i + 2]) {
       triangle = true;
       break;
     }
   }
-
   if (triangle) {
-    cout << "YES\n";
+    cout << "YES" << endl;
   } else {
-    cout << "NO\n";
+    cout << "NO" << endl;
   }
   return 0;
 }
