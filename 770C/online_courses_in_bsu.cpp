@@ -1,7 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <iterator>
+#include <bits/stdc++.h>
 using namespace std;
 
 vector<vector<int>> courses;
@@ -66,13 +63,13 @@ int main() {
   }
   
   if (m > 0) {
-    cout << order.size() << "\n";
+    cout << order.size() << endl;
     for (auto c : order) {
       cout << c << " ";
     }
-    cout << "\n";
+    cout << endl;
   } else {
-    cout << -1 << "\n";
+    cout << -1 << endl;
   }
   
   return 0;
