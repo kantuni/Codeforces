@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 typedef pair<int, int> ii;
@@ -45,21 +43,21 @@ int main() {
     total += al[min_index];
     al[min_index] = 0;
     bl[min_index] = 0;
-    ++i;
+    i++;
   }
 
-  while (i < n && diff[i].first < 0) {
+  while (i < n and diff[i].first < 0) {
     min_index = diff[i].second;
     total += al[min_index];
     al[min_index] = 0;
     bl[min_index] = 0;
-    ++i;   
+    i++;   
   }
 
   for (auto value : bl) {
     total += value;
   }
 
-  cout << total << "\n";
+  cout << total << endl;
   return 0;
 }
