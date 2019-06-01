@@ -6,7 +6,10 @@ struct Event {
   bool start;
 
   bool operator < (Event e) const {
-    return (x == e.x) ? start > e.start : x < e.x;
+    if (x == e.x) {
+      return start > e.start;
+    }
+    return x < e.x;
   }
 };
 
