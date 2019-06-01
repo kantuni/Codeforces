@@ -49,7 +49,7 @@
 ### Educational Codeforces Round 58 - `3/7`
 - **[1101A](https://github.com/kantuni/Codeforces/tree/master/1101A)** - Minimum Integer - **Accepted**
 - **[1101B](https://github.com/kantuni/Codeforces/tree/master/1101B)** - Accordion - **Accepted**
-- [1101C](https://github.com/kantuni/Codeforces/tree/master/1101C) - Division and Union - **Wrong answer**
+- [1101C](https://github.com/kantuni/Codeforces/tree/master/1101C) - Division and Union - **Accepted**
 - **[1101E](https://github.com/kantuni/Codeforces/tree/master/1101E)** - Polycarp's New Job - **Accepted**
 
 ### Codeforces Round #531 - `3/6`
@@ -479,4 +479,4 @@
 
 <br>
 
-Problems solved: **232**
+Problems solved: **233**
