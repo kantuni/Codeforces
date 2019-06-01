@@ -18,15 +18,15 @@ fun main() {
         }
         Collections.sort(events, xThenEndComparator)
         val group = IntArray(n) { -1 }
-        val open = mutableSetOf<Int>()
+        val active = mutableSetOf<Int>()
         var color = 0
         for (e in events) {
             if (e.start) {
-                open.add(e.id)
+                active.add(e.id)
             } else {
-                open.remove(e.id)
+                active.remove(e.id)
             }
-            if (open.size == 0) {
+            if (active.size == 0) {
                 color = (color + 1) % 2
             }
             if (group[e.id] == -1) {
