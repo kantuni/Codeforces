@@ -1,51 +1,47 @@
-// WA
 #include <bits/stdc++.h>
 using namespace std;
 
-struct interval {
-  int l, r, i, g;
-  
-  bool operator < (interval other) const {
-    return l == other.l ? l < other.l : r < other.r;
+struct Event {
+  int x, id;
+  bool start;
+
+  bool operator < (Event e) const {
+    return (x == e.x) ? start > e.start : x < e.x;
   }
 };
 
-bool byindex(interval a, interval b) {
-  return a.i < b.i;
-}
-
 int main() {
-  ios::sync_with_stdio(false);
-  cin.tie(0);
   int t;
   cin >> t;
   while (t--) {
     int n;
     cin >> n;
-    vector<interval> lr(n);
+    vector<Event> es;
     for (int i = 0; i < n; i++) {
       int l, r;
       cin >> l >> r;
-      interval tmp {l, r, i};
-      lr[i] = tmp;
+      es.push_back({l, i, true});
+      es.push_back({r, i, false});
     }
-    sort(lr.begin(), lr.end());
-    int pos = -1;
-    for (int i = 0; i < n - 1; i++) {
-      if (lr[i].r < lr[i + 1].l) {
-        pos = lr[i + 1].l;
-        break;
+    sort(es.begin(), es.end());
+    vector<int> g(n, -1);
+    set<int> open;
+    int color = 0;
+    for (auto [x, id, start]: es) {
+      if (start) {
+        open.insert(id);
+      } else {
+        open.erase(id);
       }
+      color = (open.size() == 0) ? !color : color;
+      g[id] = (g[id] == -1) ? color : g[id];
     }
-    if (pos == -1) {
+    int sum = accumulate(g.begin(), g.end(), 0);
+    if (sum == 0 or sum == n) {
       cout << -1 << endl;
     } else {
-      for (int i = 0; i < n; i++) {
-        lr[i].g = lr[i].r < pos ? 1 : 2;
-      }
-      sort(lr.begin(), lr.end(), byindex);
-      for (int i = 0; i < n; i++) {
-        cout << lr[i].g << " ";
+      for (auto g: g) {
+        cout << g + 1 << " ";
       }
       cout << endl;
     }
