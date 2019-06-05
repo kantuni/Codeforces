@@ -9,6 +9,6 @@ int main() {
     cin >> a[i];
   }
   sort(a.begin(), a.end());
-  cout << a[n - 1] - a[0] + 1 - n << "\n";
+  cout << a[n - 1] - a[0] + 1 - n << endl;
   return 0;
 }
