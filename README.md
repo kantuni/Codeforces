@@ -6,7 +6,7 @@
 - **[1171C](https://github.com/kantuni/Codeforces/tree/master/1171C)** - Letters Rearranging - **Accepted**
 - **[1171D](https://github.com/kantuni/Codeforces/tree/master/1171D)** - Got Any Grapes? - **Accepted**
 - **[1171E](https://github.com/kantuni/Codeforces/tree/master/1171E)** - Doggo Recoloring - **Accepted**
-- **[1171F](https://github.com/kantuni/Codeforces/tree/master/1171F)** - Division and Union - **Accepted**
+- [1171F](https://github.com/kantuni/Codeforces/tree/master/1171F) - Division and Union - **Accepted**
 
 ### Codeforces Round #540 - `3/8`
 - **[1141A](https://github.com/kantuni/Codeforces/tree/master/1141A)** - Game 23 - **Accepted**
