@@ -14,6 +14,6 @@ int main() {
       s = s.substr(0, i + 1) + s.substr(i + 2);
     }
   }
-  cout << s.size() << "\n";
+  cout << s.size() << endl;
   return 0;
 }
