@@ -26,6 +26,6 @@ int main() {
       ans = v[0];
     }
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
