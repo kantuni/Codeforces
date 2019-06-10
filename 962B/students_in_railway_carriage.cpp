@@ -6,26 +6,26 @@ int main() {
   cin >> n >> a >> b;
   string s;
   cin >> s;
-  char curr = (a > b) ? 'A' : 'B';
+  char cur = (a > b) ? 'A' : 'B';
   for (int i = 0; i < n; i++) {
     if (s[i] == '*') {
-      curr = (a > b) ? 'A' : 'B';
+      cur = (a > b) ? 'A' : 'B';
     } else if (s[i] == '.') {
-      if (curr == 'A') {
+      if (cur == 'A') {
         if (a == 0) {
-          curr = 'B';
+          cur = 'B';
           continue;
         }
-        s[i] = curr;
-        curr = 'B';
+        s[i] = cur;
+        cur = 'B';
         a--;
-      } else if (curr == 'B') {
+      } else if (cur == 'B') {
         if (b == 0) {
-          curr = 'A';
+          cur = 'A';
           continue;
         }
-        s[i] = curr;
-        curr = 'A';
+        s[i] = cur;
+        cur = 'A';
         b--;
       }
     }
@@ -36,6 +36,6 @@ int main() {
       ans++;
     }
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
