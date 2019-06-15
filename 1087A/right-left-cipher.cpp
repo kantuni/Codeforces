@@ -21,6 +21,6 @@ int main() {
     }
     turn = !turn;
   }
-  cout << s << "\n";
+  cout << s << endl;
   return 0;
 }
