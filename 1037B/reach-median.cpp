@@ -23,6 +23,6 @@ int main() {
   } else {
     ans += abs(a[j] - s);
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
