@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <cmath>
+#include <bits/stdc++.h>
 using namespace std;
 
 struct Sausage {
@@ -15,7 +13,7 @@ int main() {
   cin >> n;
   
   vector<Sausage> sausages;
-  for (int i = 0; i < n; ++i) {
+  for (int i = 0; i < n; i++) {
     int xi, yi, ri;
     cin >> xi >> yi >> ri;
     
@@ -27,7 +25,7 @@ int main() {
   }
   
   int counter = 0;
-  for (int i = 0; i < sausages.size(); ++i) {
+  for (int i = 0; i < sausages.size(); i++) {
     Sausage s = sausages[i];
     double R = hypot(s.x, s.y);
     
@@ -41,11 +39,11 @@ int main() {
       main = true;
     }
     
-    if (!outside && !main) {
-      ++counter;
+    if (!outside and !main) {
+      counter++;
     }
   }
   
-  cout << counter << "\n";
+  cout << counter << endl;
   return 0;
 }
