@@ -14,6 +14,6 @@ int main() {
   }
   long long all = n * (n - 1);
   long long no = cnn[x - 1].size() * cnn[y - 1].size();
-  cout << all - no << "\n";
+  cout << all - no << endl;
   return 0;
 }
