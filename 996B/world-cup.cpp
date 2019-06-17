@@ -16,7 +16,7 @@ int main() {
   int curr = 0;
   for (int i = m % n; i < n; i++) {
     if (a[i] <= curr) {
-      cout << i + 1 << "\n";
+      cout << i + 1 << endl;
       break;
     }
     curr++;
