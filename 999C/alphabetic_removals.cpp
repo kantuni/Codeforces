@@ -6,11 +6,11 @@ int main() {
   cin >> n >> k;
   string s;
   cin >> s;
-  string sc = s;
-  sort(sc.begin(), sc.end());
+  string ss = s;
+  sort(ss.begin(), ss.end());
   vector<int> abc(26, 0);
   for (int i = 0; i < n; i++) {
-    abc[sc[i] - 'a']++;
+    abc[ss[i] - 'a']++;
     k--;
     if (k == 0) {
       break;
@@ -23,6 +23,6 @@ int main() {
       cout << s[i];
     }
   }
-  cout << "\n";
+  cout << endl;
   return 0;
 }
