@@ -1,11 +1,12 @@
 #include <bits/stdc++.h>
+#define INF (int) 1e9
 using namespace std;
 
 int main() {
   int n;
   cin >> n;
   vector<int> a(n);
-  int m = 1000000001;
+  int m = INF;
   for (int i = 0; i < n; i++) {
     cin >> a[i];
     m = min(m, a[i]);
