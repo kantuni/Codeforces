@@ -1,5 +1,3 @@
-""" Created by Henrikh Kantuni on 2/14/17 """
-
 k, a, b = [int(x) for x in input().split()]
 
 score_a = 0
