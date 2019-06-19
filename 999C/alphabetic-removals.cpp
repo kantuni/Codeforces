@@ -8,7 +8,7 @@ int main() {
   cin >> s;
   string ss = s;
   sort(ss.begin(), ss.end());
-  vector<int> abc(26, 0);
+  vector<int> abc(26);
   for (int i = 0; k > 0 and i < n; i++, k--) {
     abc[ss[i] - 'a']++;
   }
