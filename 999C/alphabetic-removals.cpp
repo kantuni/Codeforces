@@ -9,12 +9,8 @@ int main() {
   string ss = s;
   sort(ss.begin(), ss.end());
   vector<int> abc(26, 0);
-  for (int i = 0; i < n; i++) {
+  for (int i = 0; k > 0 and i < n; i++, k--) {
     abc[ss[i] - 'a']++;
-    k--;
-    if (k == 0) {
-      break;
-    }
   }
   for (int i = 0; i < n; i++) {
     if (abc[s[i] - 'a'] > 0) {
