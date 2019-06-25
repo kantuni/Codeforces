@@ -61,6 +61,6 @@ int main() {
       ans[s2] = 'P';
     }
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
