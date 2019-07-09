@@ -15,7 +15,7 @@ int main() {
     memo[a[i]]++;
   }
   if (found) {
-    cout << 0 << "\n";
+    cout << 0 << endl;
     return 0;
   }
   for (int i = 0; i < n; i++) {
@@ -27,7 +27,7 @@ int main() {
     }
   }
   if (found) {
-    cout << 1 << "\n";
+    cout << 1 << endl;
     return 0;
   }
   memo.clear();
@@ -40,9 +40,9 @@ int main() {
     }
   }
   if (found) {
-    cout << 2 << "\n";
+    cout << 2 << endl;
   } else {
-    cout << -1 << "\n";
+    cout << -1 << endl;
   }
   return 0;
 }
