@@ -43,6 +43,6 @@ int main() {
   if (good) {
     ans = max(ans, power(a));
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
