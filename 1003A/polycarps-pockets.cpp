@@ -7,10 +7,10 @@ int main() {
   vector<int> a(100);
   int ans = 0;
   for (int i = 0; i < n; i++) {
-    int index;
-    cin >> index;
-    a[index - 1]++;
-    ans = max(ans, a[index - 1]);
+    int id;
+    cin >> id;
+    a[id - 1]++;
+    ans = max(ans, a[id - 1]);
   }
   cout << ans << endl;
   return 0;
