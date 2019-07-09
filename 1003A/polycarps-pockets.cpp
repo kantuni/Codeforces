@@ -12,6 +12,6 @@ int main() {
     a[index - 1]++;
     ans = max(ans, a[index - 1]);
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
