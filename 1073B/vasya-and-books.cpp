@@ -29,6 +29,6 @@ int main() {
     }
     cout << cnt << " ";
   }
-  cout << "\n";
+  cout << endl;
   return 0;
 }
