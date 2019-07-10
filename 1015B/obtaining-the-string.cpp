@@ -7,7 +7,7 @@ int main() {
   string s, t;
   cin >> s >> t;
   if (s == t) {
-    cout << 0 << "\n";
+    cout << 0 << endl;
     return 0;
   }
   vector<int> moves;
@@ -21,7 +21,7 @@ int main() {
         }
       }
       if (index == -1) {
-        cout << -1 << "\n";
+        cout << -1 << endl;
         return 0;
       }
       for (int j = index; j > i; j--) {
@@ -30,10 +30,10 @@ int main() {
       }
     }
   }
-  cout << moves.size() << "\n";
+  cout << moves.size() << endl;
   for (int i = 0; i < moves.size(); i++) {
     cout << moves[i] << " ";
   }
-  cout << "\n";
+  cout << endl;
   return 0;
 }
