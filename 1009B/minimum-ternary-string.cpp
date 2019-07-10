@@ -61,6 +61,6 @@ int main() {
       ans += string(1, '1');
     }
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
