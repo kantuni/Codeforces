@@ -8,9 +8,9 @@ long long gcd(long long a, long long b) {
 int main() {
   long long a, b, x, y;
   cin >> a >> b >> x >> y;
-  long long com = gcd(x, y);
-  x /= com;
-  y /= com;
-  cout << min(a / x, b / y) << "\n";
+  long long d = gcd(x, y);
+  x /= d;
+  y /= d;
+  cout << min(a / x, b / y) << endl;
   return 0;
 }
