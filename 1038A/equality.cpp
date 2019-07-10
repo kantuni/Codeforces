@@ -17,6 +17,6 @@ int main() {
   for (int i = 0; i < k; i++) {
     ans = min(ans, f[i]);
   }
-  cout << ans * k << "\n";
+  cout << ans * k << endl;
   return 0;
 }
