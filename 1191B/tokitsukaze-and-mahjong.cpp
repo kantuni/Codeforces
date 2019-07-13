@@ -4,16 +4,16 @@ using namespace std;
 int main() {
   ios::sync_with_stdio(false);
   cin.tie(0);
-  vector<string> t(3);
-  cin >> t[0] >> t[1] >> t[2];
   vector<int> m, p, s;
   for (int i = 0; i < 3; i++) {
-    if (t[i][1] == 'm') {
-      m.push_back(t[i][0] - '0');
-    } else if (t[i][1] == 'p') {
-      p.push_back(t[i][0] - '0');
+    string tile;
+    cin >> tile;
+    if (tile[1] == 'm') {
+      m.push_back(tile[0] - '0');
+    } else if (tile[1] == 'p') {
+      p.push_back(tile[0] - '0');
     } else {
-      s.push_back(t[i][0] - '0');
+      s.push_back(tile[0] - '0');
     }
   }
   sort(m.begin(), m.end());
@@ -24,13 +24,11 @@ int main() {
     bool same = m[0] == m[1] and m[1] == m[2];
     bool seq = m[1] - m[0] == 1 and m[2] - m[1] == 1;
     meld = same or seq;
-  }
-  if (p.size() == 3) {
+  } else if (p.size() == 3) {
     bool same = p[0] == p[1] and p[1] == p[2];
     bool seq = p[1] - p[0] == 1 and p[2] - p[1] == 1;
     meld = same or seq;
-  }
-  if (s.size() == 3) {
+  } else if (s.size() == 3) {
     bool same = s[0] == s[1] and s[1] == s[2];
     bool seq = s[1] - s[0] == 1 and s[2] - s[1] == 1;
     meld = same or seq;
