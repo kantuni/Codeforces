@@ -2,7 +2,7 @@
 
 ### Educational Codeforces Round 68 - `2/7`
 - **[1194A](https://github.com/kantuni/Codeforces/tree/master/1194A)** - Remove a Progression - **Accepted**
-- [1194B](https://github.com/kantuni/Codeforces/tree/master/1194B)** - Yet Another Crosses Problem - **Time limit exceeded**
+- [1194B](https://github.com/kantuni/Codeforces/tree/master/1194B) - Yet Another Crosses Problem - **Time limit exceeded**
 - **[1194C](https://github.com/kantuni/Codeforces/tree/master/1194C)** - From S To T - **Accepted**
 
 ### Codeforces Round #573 (Div. 2) - `3/6`
