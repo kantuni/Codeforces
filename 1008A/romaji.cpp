@@ -2,7 +2,7 @@
 using namespace std;
 
 bool isConsonant(char c) {
-  return c =! 'a' and c != 'o' and c != 'u' and c != 'i' and c != 'e';
+  return c != 'a' and c != 'o' and c != 'u' and c != 'i' and c != 'e';
 }
 
 int main() {
