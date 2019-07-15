@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Educational Codeforces Round 68 - `2/7`
+- **[1194A](https://github.com/kantuni/Codeforces/tree/master/1194A)** - Remove a Progression - **Accepted**
+- [1194B](https://github.com/kantuni/Codeforces/tree/master/1194B)** - Yet Another Crosses Problem - **Time limit exceeded**
+- **[1194C](https://github.com/kantuni/Codeforces/tree/master/1194C)** - From S To T - **Accepted**
+
 ### Codeforces Round #573 (Div. 2) - `3/6`
 - **[1191A](https://github.com/kantuni/Codeforces/tree/master/1191A)** - Tokitsukaze and Enhancement - **Accepted**
 - **[1191B](https://github.com/kantuni/Codeforces/tree/master/1191B)** - Tokitsukaze and Mahjong - **Accepted**
@@ -486,4 +491,4 @@
 
 <br>
 
-Problems solved: **237**
+Problems solved: **239**
