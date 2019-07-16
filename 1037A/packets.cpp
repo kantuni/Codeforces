@@ -4,6 +4,7 @@ using namespace std;
 int main() {
   int n;
   cin >> n;
-  cout << floor(log(n) / log(2)) + 1 << endl;
+  int ans = log2(n) + 1;
+  cout << ans << endl;
   return 0;
 }
