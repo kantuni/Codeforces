@@ -41,9 +41,9 @@ int main() {
     j += s1.size();
   }
   if (ok) {
-    cout << "Yes\n";
+    cout << "Yes" << endl;
   } else {
-    cout << "No\n";
+    cout << "No" << endl;
   }
   return 0;
 }
