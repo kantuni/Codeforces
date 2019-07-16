@@ -10,6 +10,6 @@ int main() {
     cin >> x >> y;
     ans = max(ans, x + y);
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
