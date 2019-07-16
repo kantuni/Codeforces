@@ -28,7 +28,7 @@ int main() {
         ans = min(a1, a2);
       }
     }
-    cout << ans << "\n";
+    cout << ans << endl;
   }
   return 0;
 }
