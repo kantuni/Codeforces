@@ -10,7 +10,7 @@ int main() {
   while (l < h) {
     long long m = (l + h) / 2;
     long long candies = m * (m + 1) / 2;
-    if (candies < k + n - m) {
+    if (candies + m < k + n) {
       l = m + 1;
     } else {
       h = m;
