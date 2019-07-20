@@ -5,7 +5,7 @@ int main() {
   int n;
   cin >> n;
   if (n == 1) {
-    cout << "1 0" << "\n";
+    cout << "1 0" << endl;
     return 0;
   }
   long long ans = 1;
@@ -34,6 +34,6 @@ int main() {
   if (!ok) {
     steps++;
   }
-  cout << ans << " " << steps << "\n";
+  cout << ans << " " << steps << endl;
   return 0;
 }
