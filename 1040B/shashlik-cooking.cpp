@@ -50,18 +50,18 @@ int main() {
   int n, k;
   cin >> n >> k;
   if (k == 0) {
-    cout << n << "\n";
+    cout << n << endl;
     for (int i = 0; i < n; i++) {
       cout << i + 1 << " ";
     }
-    cout << "\n";
+    cout << endl;
   } else if (n < k + 1) {
-    cout << 1 << "\n";
-    cout << 1 << "\n";
+    cout << 1 << endl;
+    cout << 1 << endl;
   } else {
-    cout << solve(n, k) << "\n";
+    cout << solve(n, k) << endl;
     retrace(n, k, 0);
-    cout << "\n";
+    cout << endl;
   }
   return 0;
 }
