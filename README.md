@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Codeforces Global Round 4 - `1/9`
+- **[1178A](https://github.com/kantuni/Codeforces/tree/master/1178A)** - Prime Minister - **Accepted**
+- [1178B](https://github.com/kantuni/Codeforces/tree/master/1178B) - WOW Factor - **Time limit exceeded**
+- [1178C](https://github.com/kantuni/Codeforces/tree/master/1178C) - Tiles - **Wrong answer**
+
 ### Codeforces Round #573 (Div. 2) - `3/7`
 - **[1195A](https://github.com/kantuni/Codeforces/tree/master/1195A)** - Drinks Choosing - **Accepted**
 - **[1195B](https://github.com/kantuni/Codeforces/tree/master/1195B)** - Sport Mafia - **Accepted**
@@ -497,4 +502,4 @@
 
 <br>
 
-Problems solved: **242**
+Problems solved: **243**
