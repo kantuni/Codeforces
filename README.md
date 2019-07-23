@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Educational Codeforces Round 68 - `2/6`
+- **[1197A](https://github.com/kantuni/Codeforces/tree/master/1197A)** - DIY Wooden Ladder - **Accepted**
+- **[1197B](https://github.com/kantuni/Codeforces/tree/master/1197B)** - Pillars - **Accepted**
+- [1197C](https://github.com/kantuni/Codeforces/tree/master/1197C) - Array Splitting - **Memory limit exceeded**
+
 ### Codeforces Global Round 4 - `1/9`
 - **[1178A](https://github.com/kantuni/Codeforces/tree/master/1178A)** - Prime Minister - **Accepted**
 - [1178B](https://github.com/kantuni/Codeforces/tree/master/1178B) - WOW Factor - **Time limit exceeded**
@@ -502,4 +507,4 @@
 
 <br>
 
-Problems solved: **243**
+Problems solved: **245**
