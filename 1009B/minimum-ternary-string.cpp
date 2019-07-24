@@ -43,7 +43,6 @@ int main() {
         ans += string(1, s[i]);
       }
     }
-
   } else {
     ans = "";
     int zeros = 0, ones = 0;
