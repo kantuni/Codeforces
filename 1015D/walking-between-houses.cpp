@@ -5,14 +5,14 @@ int main() {
   long long n, k, s;
   cin >> n >> k >> s;
   if (k * (n - 1) < s) {
-    cout << "NO" << "\n";
+    cout << "NO" << endl;
     return 0;
   }
   if (s < k) {
-    cout << "NO" << "\n";
+    cout << "NO" << endl;
     return 0;
   }
-  cout << "YES" << "\n";
+  cout << "YES" << endl;
   long long q = s / k;
   long long r = s % k;
   long long curr = 1;
@@ -29,6 +29,6 @@ int main() {
     }
     cout << curr << " ";
   }
-  cout << "\n";
+  cout << endl;
   return 0;
 }
