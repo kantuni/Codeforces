@@ -1,15 +1,15 @@
-// WA
+// TLE
 #include <bits/stdc++.h>
 using namespace std;
 
-long long power(vector<int> a) {
-  long long sum = 0;
+long long power(vector<int>& a) {
+  long long p = 0;
   for (int i = 0; i < a.size() - 1; i++) {
     if (i % 2 == 0) {
-      sum += a[i + 1] - a[i];
+      p += a[i + 1] - a[i];
     }
   }
-  return sum;
+  return p;
 }
 
 int main() {
@@ -20,28 +20,20 @@ int main() {
     cin >> a[i];
   }
   a[n + 1] = m;
-  int diff = 0, index = 0;
-  for (int i = 0; i < a.size() - 1; i++) {
-    if (a[i + 1] - a[i] > diff) {
-      diff = a[i + 1] - a[i];
-      index = i;
-    }
-  }
   long long ans = power(a);
-  if (index % 2 == 1) {
-    a.insert(a.begin() + index + 1, a[index] + 1);
-  } else if (index == 0) {
-    a.insert(a.begin() + 1, a[1] - 1);
-  }
-  bool good = true;
   for (int i = 0; i < a.size() - 1; i++) {
-    if (a[i + 1] <= a[i]) {
-      good = false;
-      break;
+    if (a[i + 1] != a[i] + 1) {
+      a.insert(a.begin() + i + 1, a[i] + 1);
+      ans = max(ans, power(a));
+      a.erase(a.begin() + i + 1);
     }
   }
-  if (good) {
-    ans = max(ans, power(a));
+  for (int i = 1; i < a.size(); i++) {
+    if (a[i - 1] != a[i] - 1) {
+      a.insert(a.begin() + i, a[i] - 1);
+      ans = max(ans, power(a));
+      a.erase(a.begin() + i);
+    }
   }
   cout << ans << endl;
   return 0;
