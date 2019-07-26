@@ -13,7 +13,7 @@ int main() {
     sum += b[i];
   }
   if (sum > m) {
-    cout << -1 << "\n";
+    cout << -1 << endl;
     return 0;
   }
   sum = 0;
@@ -30,6 +30,6 @@ int main() {
     sum -= diff[i].first;
     ans++;
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
