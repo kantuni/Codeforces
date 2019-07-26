@@ -22,7 +22,7 @@ int main() {
   a[n + 1] = m;
   int diff = 0, index = 0;
   for (int i = 0; i < a.size() - 1; i++) {
-    if (a[i + 1] - a[i] > diff) {
+    if (a[i + 1] - a[i] > = diff) {
       diff = a[i + 1] - a[i];
       index = i;
     }
