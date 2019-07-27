@@ -39,16 +39,16 @@ int main() {
     }
     int ans = max({mm0, mm1, mm2});
     if (ans == mm0 and ans != mm1 and ans != mm2) {
-      cout << "Kuro" << "\n";
+      cout << "Kuro" << endl;
     } else if (ans == mm1 and ans != mm0 and ans != mm2) {
-      cout << "Shiro" << "\n";
+      cout << "Shiro" << endl;
     } else if (ans == mm2 and ans != mm0 and ans != mm1) {
-      cout << "Katie" << "\n";
+      cout << "Katie" << endl;
     } else {
-      cout << "Draw" << "\n";
+      cout << "Draw" << endl;
     }
   } else {
-    cout << "Draw" << "\n";
+    cout << "Draw" << endl;
   }
   return 0;
 }
