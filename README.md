@@ -268,7 +268,7 @@
 
 ### Educational Codeforces Round 46 - `1/7`
 - **[1000A](https://github.com/kantuni/Codeforces/tree/master/1000A)** - Codehorses T-shirts - **Accepted**
-- [1000B](https://github.com/kantuni/Codeforces/tree/master/1000B) - Light It Up - **Time limit exceeded**
+- [1000B](https://github.com/kantuni/Codeforces/tree/master/1000B) - Light It Up - **Accepted**
 
 ### Codeforces Round #492 - `2/6`
 - **[996A](https://github.com/kantuni/Codeforces/tree/master/996A)** - Hit the Lottery - **Accepted**
@@ -507,4 +507,4 @@
 
 <br>
 
-Problems solved: **245**
+Problems solved: **246**
