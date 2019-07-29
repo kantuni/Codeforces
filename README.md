@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Codeforces Round #575 (Div. 3)
+- **[1196A](https://github.com/kantuni/Codeforces/tree/master/1196A)** - Three Piles of Candies - **Accepted**
+- **[1196B](https://github.com/kantuni/Codeforces/tree/master/1196B)** - Odd Sum Segments - **Accepted**
+- **[1196D1](https://github.com/kantuni/Codeforces/tree/master/1196D1)** - RGB Substring (easy version) - **Accepted**
+
 ### Educational Codeforces Round 68 - `2/6`
 - **[1197A](https://github.com/kantuni/Codeforces/tree/master/1197A)** - DIY Wooden Ladder - **Accepted**
 - **[1197B](https://github.com/kantuni/Codeforces/tree/master/1197B)** - Pillars - **Accepted**
@@ -507,4 +512,4 @@
 
 <br>
 
-Problems solved: **246**
+Problems solved: **249**
