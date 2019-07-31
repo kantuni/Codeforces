@@ -1,6 +1,11 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
-### Codeforces Round #575 (Div. 3)
+### Codeforces Round #573 (Div. 2) - `2/6`
+- **[1199A](https://github.com/kantuni/Codeforces/tree/master/1199A)** - City Day - **Accepted**
+- **[1199B](https://github.com/kantuni/Codeforces/tree/master/1199B)** - Water Lily - **Accepted**
+- [1199C](https://github.com/kantuni/Codeforces/tree/master/1199C) - MP3 - **Wrong answer**
+
+### Codeforces Round #575 (Div. 3) - `3/7`
 - **[1196A](https://github.com/kantuni/Codeforces/tree/master/1196A)** - Three Piles of Candies - **Accepted**
 - **[1196B](https://github.com/kantuni/Codeforces/tree/master/1196B)** - Odd Sum Segments - **Accepted**
 - **[1196D1](https://github.com/kantuni/Codeforces/tree/master/1196D1)** - RGB Substring (easy version) - **Accepted**
@@ -512,4 +517,4 @@
 
 <br>
 
-Problems solved: **249**
+Problems solved: **251**
