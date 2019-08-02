@@ -4,8 +4,8 @@ using namespace std;
 int main() {
   int n;
   cin >> n;
-  int k = 1, m = 0;
   int ans = 1;
+  int k = 1, m = 0;
   while (m <= n) {
     if (m != 0 and n % m == 0) {
       ans = m;
