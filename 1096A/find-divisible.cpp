@@ -7,7 +7,7 @@ int main() {
   while (t--) {
     int l, r;
     cin >> l >> r;
-    cout << l << " " << 2 * l << "\n";
+    cout << l << " " << 2 * l << endl;
   }
   return 0;
 }
