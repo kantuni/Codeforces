@@ -8,6 +8,6 @@ int main() {
   if (s % n > 0) {
     ans++;
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
