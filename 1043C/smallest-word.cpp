@@ -16,6 +16,6 @@ int main() {
   for (int i = 0; i < n; i++) {
     cout << flip[i] << " ";
   }
-  cout << "\n";
+  cout << endl;
   return 0;
 }
