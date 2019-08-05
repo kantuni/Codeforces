@@ -31,7 +31,7 @@ void dfs2(int u, int p) {
 
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  cin.tie(nullptr);
   int n;
   cin >> n;
   g.resize(n);
