@@ -13,6 +13,6 @@ int main() {
     mx = max(mx, a[i]);
   }
   int ans = (2 * sum + n) / n;
-  cout << max(mx, ans) << "\n";
+  cout << max(mx, ans) << endl;
   return 0;
 }
