@@ -12,6 +12,6 @@ int main() {
   int ans = a[n - 1] - a[0];
   ans = min(ans, a[n - 2] - a[0]);
   ans = min(ans, a[n - 1] - a[1]);
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
