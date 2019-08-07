@@ -12,6 +12,6 @@ int main() {
     ans += s[i];
     skip++;
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
