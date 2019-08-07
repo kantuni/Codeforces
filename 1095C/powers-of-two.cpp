@@ -22,14 +22,14 @@ int main() {
     }
   }
   if (ok) {
-    cout << "YES" << "\n";
+    cout << "YES" << endl;
     while (!pq.empty()) {
       cout << (int) pow(2, pq.top()) << " ";
       pq.pop();
     }
-    cout << "\n";
+    cout << endl;
   } else {
-    cout << "NO" << "\n";
+    cout << "NO" << endl;
   }
   return 0;
 }
