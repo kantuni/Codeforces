@@ -9,9 +9,11 @@ int main() {
     cin >> a[i];
   }
   sort(a.begin(), a.end());
-  int ans = a[n - 1] - a[0];
-  ans = min(ans, a[n - 2] - a[0]);
-  ans = min(ans, a[n - 1] - a[1]);
+  int ans = min({
+    a[n - 1] - a[0],
+    a[n - 2] - a[0],
+    a[n - 1] - a[1]
+  });
   cout << ans << endl;
   return 0;
 }
