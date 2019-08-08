@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Educational Codeforces Round 70 - `0/6`
+- [1202A](https://github.com/kantuni/Codeforces/tree/master/1202A) - You Are Given Two Binary Strings... - **Time limit exceeded**
+- [1202D](https://github.com/kantuni/Codeforces/tree/master/1202D) - Print a 1337-string... - **Time limit exceeded**
+
 ### Codeforces Round #577 (Div. 2) - `1/5`
 - **[1201A](https://github.com/kantuni/Codeforces/tree/master/1201A)** - City Day - **Accepted**
 - [1201B](https://github.com/kantuni/Codeforces/tree/master/1201B) - Water Lily - **Wrong answer**
@@ -14,7 +18,7 @@
 - **[1196B](https://github.com/kantuni/Codeforces/tree/master/1196B)** - Odd Sum Segments - **Accepted**
 - **[1196D1](https://github.com/kantuni/Codeforces/tree/master/1196D1)** - RGB Substring (easy version) - **Accepted**
 
-### Educational Codeforces Round 68 - `2/6`
+### Educational Codeforces Round 69 - `2/6`
 - **[1197A](https://github.com/kantuni/Codeforces/tree/master/1197A)** - DIY Wooden Ladder - **Accepted**
 - **[1197B](https://github.com/kantuni/Codeforces/tree/master/1197B)** - Pillars - **Accepted**
 - [1197C](https://github.com/kantuni/Codeforces/tree/master/1197C) - Array Splitting - **Memory limit exceeded**
