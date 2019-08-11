@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Codeforces Round #578 (Div. 2) - `1/6`
+- **[1200A](https://github.com/kantuni/Codeforces/tree/master/1200A)** - Hotelier - **Accepted**
+- [1200B](https://github.com/kantuni/Codeforces/tree/master/1200B) - Block Adventure - **Wrong answer**
+
 ### Educational Codeforces Round 70 - `0/6`
 - [1202A](https://github.com/kantuni/Codeforces/tree/master/1202A) - You Are Given Two Binary Strings... - **Time limit exceeded**
 - [1202D](https://github.com/kantuni/Codeforces/tree/master/1202D) - Print a 1337-string... - **Time limit exceeded**
@@ -525,4 +529,4 @@
 
 <br>
 
-Problems solved: **252**
+Problems solved: **253**
