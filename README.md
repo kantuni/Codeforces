@@ -1,5 +1,12 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Codeforces Round #579 (Div. 3) - `4/8`
+- **[1203A](https://github.com/kantuni/Codeforces/tree/master/1203A)** - Circle of Students - **Accepted**
+- **[1203B](https://github.com/kantuni/Codeforces/tree/master/1203B)** - Equal Rectangles - **Accepted**
+- **[1203C](https://github.com/kantuni/Codeforces/tree/master/1203C)** - Common Divisors - **Accepted**
+- **[1203D1](https://github.com/kantuni/Codeforces/tree/master/1203D1)** - Remove the Substring (easy version) - **Accepted**
+- **[1203E](https://github.com/kantuni/Codeforces/tree/master/1203E)** - Boxers - **Accepted**
+
 ### Codeforces Round #578 (Div. 2) - `1/6`
 - **[1200A](https://github.com/kantuni/Codeforces/tree/master/1200A)** - Hotelier - **Accepted**
 - [1200B](https://github.com/kantuni/Codeforces/tree/master/1200B) - Block Adventure - **Wrong answer**
@@ -529,4 +536,4 @@
 
 <br>
 
-Problems solved: **253**
+Problems solved: **258**
