@@ -15,7 +15,7 @@ int main() {
     cmn = gcd(cmn, a[i]);
   }
   set<long long> factors;
-  for (int i = 1; i < sqrt(cmn) + 1; i++) {
+  for (long long i = 1; i * i <= cmn; i++) {
     if (cmn % i == 0) {
       factors.insert(i);
       factors.insert(cmn / i);
