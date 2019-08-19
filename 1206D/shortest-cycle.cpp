@@ -18,7 +18,7 @@ int main() {
   // If we have more than 128 positive numbers, by the pigeonhole principle
   // there exist 3 (64-bit) numbers that share atleast a single bit.
   // Thus, there exists a cycle of length 3.
-  if (a.size() > 2 * 64) {
+  if (a.size() > 128) {
     cout << 3 << endl;
     return 0;
   }
