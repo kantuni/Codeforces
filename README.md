@@ -1,5 +1,11 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Codeforces Round #579 (Div. 2) - `3/6`
+- **[1206A](https://github.com/kantuni/Codeforces/tree/master/1206A)** - Choose Two Numbers - **Accepted**
+- **[1206B](https://github.com/kantuni/Codeforces/tree/master/1206B)** - Make Product Equal One - **Accepted**
+- **[1206C](https://github.com/kantuni/Codeforces/tree/master/1206C)** - Almost Equal - **Accepted**
+- [1206D](https://github.com/kantuni/Codeforces/tree/master/1206D) - Shortest Cycle - **Accepted**
+
 ### Codeforces Round #579 (Div. 3) - `4/8`
 - **[1203A](https://github.com/kantuni/Codeforces/tree/master/1203A)** - Circle of Students - **Accepted**
 - **[1203B](https://github.com/kantuni/Codeforces/tree/master/1203B)** - Equal Rectangles - **Accepted**
@@ -536,4 +542,4 @@
 
 <br>
 
-Problems solved: **258**
+Problems solved: **262**
