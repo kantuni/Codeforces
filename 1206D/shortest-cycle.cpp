@@ -7,36 +7,31 @@ int main() {
   cin.tie(nullptr);
   int n;
   cin >> n;
-  vector<long long> a(n);
+  vector<long long> a;
   for (int i = 0; i < n; i++) {
-    cin >> a[i];
-  }
-  vector<vector<int>> bset(64);
-  for (int i = 0; i < 64; i++) {
-    for (int j = 0; j < n; j++) {
-      if ((a[j] >> i) & 1) {
-        bset[i].push_back(j);
-      }
+    long long ai;
+    cin >> ai;
+    if (ai > 0) {
+      a.push_back(ai);
     }
   }
-  set<pair<int, int>> edges;
-  for (int i = 0; i < 64; i++) {
-    if (bset[i].size() > 2) {
-      cout << 3 << endl;
-      return 0;
-    }
-    if (bset[i].size() == 2) {
-      int u = bset[i][0], v = bset[i][1];
-      if (v > u) {
-        swap(u, v);
-      }
-      edges.insert({u, v});
-    }
+  // If we have more than 128 positive numbers, by the pigeonhole principle
+  // there exist 3 (64-bit) numbers that share atleast a single bit.
+  // Thus, there exists a cycle of length 3.
+  if (a.size() > 2 * 64) {
+    cout << 3 << endl;
+    return 0;
   }
   map<int, set<int>> g;
-  for (auto [s, t]: edges) {
-    g[s].insert(t);
-    g[t].insert(s);
+  vector<pair<int, int>> edges;
+  for (int u = 0; u < a.size(); u++) {
+    for (int v = u + 1; v < a.size(); v++) {
+      if (a[u] & a[v]) {
+        g[u].insert(v);
+        g[v].insert(u);
+        edges.push_back({u, v});
+      }
+    }
   }
   vector<int> color(n, 0);
   vector<int> dist(n, INF);
