@@ -1,6 +1,10 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
-### Codeforces Round #579 (Div. 2) - `3/6`
+### Codeforces Round #581 (Div. 2) - `2/6`
+- **[1204A](https://github.com/kantuni/Codeforces/tree/master/1204A)** - BowWow and the Timetable - **Accepted**
+- **[1204B](https://github.com/kantuni/Codeforces/tree/master/1204B)** - Mislove Has Lost an Array - **Accepted**
+
+### Codeforces Round #580 (Div. 2) - `3/6`
 - **[1206A](https://github.com/kantuni/Codeforces/tree/master/1206A)** - Choose Two Numbers - **Accepted**
 - **[1206B](https://github.com/kantuni/Codeforces/tree/master/1206B)** - Make Product Equal One - **Accepted**
 - **[1206C](https://github.com/kantuni/Codeforces/tree/master/1206C)** - Almost Equal - **Accepted**
@@ -542,4 +546,4 @@
 
 <br>
 
-Problems solved: **262**
+Problems solved: **264**
