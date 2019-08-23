@@ -7,6 +7,7 @@ int main() {
   int n, m;
   cin >> n >> m;
   int a[n][m];
+  memset(a, 0, sizeof a);
   for (int r = 0; r < n; r++) {
     for (int c = 0; c < m; c++) {
       cin >> a[r][c];
@@ -17,22 +18,10 @@ int main() {
   vector<pair<int, int>> steps;
   for (int r = 0; r < n - 1; r++) {
     for (int c = 0; c < m - 1; c++) {
-      bool fill = true;
-      for (int i = 0; i < 2; i++) {
-        for (int j = 0; j < 2; j++) {
-          if (a[r + i][c + j] != 1) {
-            fill = false;
-            break;
-          }
-        }
-      }
-      if (fill) {
+      int p = a[r][c] * a[r + 1][c] * a[r][c + 1] * a[r + 1][c + 1];
+      if (p > 0) {
+        b[r][c] = b[r + 1][c] = b[r][c + 1] = b[r + 1][c + 1] = 1;
         steps.push_back({r, c});
-        for (int i = 0; i < 2; i++) {
-          for (int j = 0; j < 2; j++) {
-            b[r + i][c + j] = 1;
-          }
-        }
       }
     }
   }
