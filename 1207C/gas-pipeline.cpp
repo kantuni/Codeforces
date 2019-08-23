@@ -1,4 +1,3 @@
-// TLE
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -22,19 +21,19 @@ long long solve(int i, int h) {
   }
   if (h == 1) {
     if (s[i + 1] == '0') {
-      long long same = a + b + solve(i + 1, 1);
-      long long up = 2 * a + b + solve(i + 1, 2);
+      long long same = a + b + remember(i + 1, 1);
+      long long up = 2 * a + b + remember(i + 1, 2);
       return min(same, up);
     } else {
-      return 2 * (a + b) + solve(i + 1, 2);
+      return 2 * (a + b) + remember(i + 1, 2);
     }
   } else {
     if (s[i + 1] == '0') {
-      long long same = a + 2 * b + solve(i + 1, 2);
-      long long down = 2 * (a + b) + solve(i + 1, 1);
+      long long same = a + 2 * b + remember(i + 1, 2);
+      long long down = 2 * (a + b) + remember(i + 1, 1);
       return min(same, down);
     } else {
-      return a + 2 * b + solve(i + 1, 2);
+      return a + 2 * b + remember(i + 1, 2);
     }
   }
 }
@@ -46,7 +45,7 @@ int main() {
   cin >> t;
   while (t--) {
     cin >> n >> a >> b >> s;
-    memo.assign(n, vector<long long>(2));
+    memo.assign(n, vector<long long>(2, -1));
     long long ans = solve(-1, 1) - a;
     cout << ans << endl;
   }
