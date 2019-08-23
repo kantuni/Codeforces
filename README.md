@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Educational Codeforces Round 71 - `2/7`
+- **[1207A](https://github.com/kantuni/Codeforces/tree/master/1207A)** - There Are Two Types Of Burgers - **Accepted**
+- **[1207B](https://github.com/kantuni/Codeforces/tree/master/1207B)** - Square Filling - **Accepted**
+- [1207C](https://github.com/kantuni/Codeforces/tree/master/1207C) - Gas Pipeline - **Time limit exceeded**
+
 ### Codeforces Round #581 (Div. 2) - `2/6`
 - **[1204A](https://github.com/kantuni/Codeforces/tree/master/1204A)** - BowWow and the Timetable - **Accepted**
 - **[1204B](https://github.com/kantuni/Codeforces/tree/master/1204B)** - Mislove Has Lost an Array - **Accepted**
@@ -546,4 +551,4 @@
 
 <br>
 
-Problems solved: **264**
+Problems solved: **266**
