@@ -8,6 +8,7 @@
 ### Codeforces Round #581 (Div. 2) - `2/6`
 - **[1204A](https://github.com/kantuni/Codeforces/tree/master/1204A)** - BowWow and the Timetable - **Accepted**
 - **[1204B](https://github.com/kantuni/Codeforces/tree/master/1204B)** - Mislove Has Lost an Array - **Accepted**
+- [1204C](https://github.com/kantuni/Codeforces/tree/master/1204C) - Anna, Svyatoslav and Maps - **Accepted**
 
 ### Codeforces Round #580 (Div. 2) - `3/6`
 - **[1206A](https://github.com/kantuni/Codeforces/tree/master/1206A)** - Choose Two Numbers - **Accepted**
