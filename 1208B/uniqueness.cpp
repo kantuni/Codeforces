@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#define INF (int) 1e9
 using namespace std;
 
 int main() {
@@ -11,17 +10,29 @@ int main() {
   for (int i = 0; i < n; i++) {
     cin >> a[i];
   }
-  int ans = n > 1 ? INF : 0;
-  set<int> s1;
+  int ans = n;
   for (int l = 0; l < n; l++) {
-    set<int> s2(s1);
-    for (int r = n - 1; r > -1; r--) {
-      if (s2.size() + r - l + 1 == n) {
-        ans = min(ans, r - l + 1);
+    set<int> s;
+    bool ok = true;
+    for (int i = 0; i < l; i++) {
+      if (s.count(a[i]) > 0) {
+        ok = false;
+        break;
       }
-      s2.insert(a[r]);
+      s.insert(a[i]);
     }
-    s1.insert(a[l]);
+    if (!ok) {
+      continue;
+    }
+    int r = n;
+    for (int j = n - 1; j >= l; j--) {
+      if (s.count(a[j]) > 0) {
+        break;
+      }
+      s.insert(a[j]);
+      r = j;
+    }
+    ans = min(ans, r - l);
   }
   cout << ans << endl;
   return 0;
