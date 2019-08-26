@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Manthan, Codefest 19 - `1/8`
+- **[1208A](https://github.com/kantuni/Codeforces/tree/master/1208A)** - XORinacci - **Accepted**
+- [1208B](https://github.com/kantuni/Codeforces/tree/master/1208B) - Uniqueness - **Accepted**
+- [1208C](https://github.com/kantuni/Codeforces/tree/master/1208C) - Magic Grid - **Accepted**
+
 ### Educational Codeforces Round 71 - `2/7`
 - **[1207A](https://github.com/kantuni/Codeforces/tree/master/1207A)** - There Are Two Types Of Burgers - **Accepted**
 - **[1207B](https://github.com/kantuni/Codeforces/tree/master/1207B)** - Square Filling - **Accepted**
@@ -552,4 +557,4 @@
 
 <br>
 
-Problems solved: **267**
+Problems solved: **270**
