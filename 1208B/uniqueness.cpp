@@ -20,16 +20,16 @@ int main() {
   }
   // If a prefix of size X has a suffix of size Y,
   // then a prefix of size X - 1 will have a suffix of size ≥ Y.
-  int l = s.size(), r = n - 1;
+  int l = s.size(), r = n;
   for (int i = l; i > -1; i--) {
     while (r > i) {
-      if (s.count(a[r]) > 0) {
+      if (s.count(a[r - 1]) > 0) {
         break;
       }
-      s.insert(a[r]);
+      s.insert(a[r - 1]);
       r--;
     }
-    ans = min(ans, r - i + 1);
+    ans = min(ans, r - i);
     if (i > 0) {
       s.erase(a[i - 1]);
     }
