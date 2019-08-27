@@ -11,28 +11,28 @@ int main() {
     cin >> a[i];
   }
   int ans = n;
-  for (int l = 0; l < n; l++) {
-    set<int> s;
-    bool ok = true;
-    for (int i = 0; i < l; i++) {
-      if (s.count(a[i]) > 0) {
-        ok = false;
+  set<int> s;
+  for (auto ai: a) {
+    if (s.count(ai) > 0) {
+      break;
+    }
+    s.insert(ai);
+  }
+  // If a prefix of size l has a suffix of size r,
+  // then a prefix of size l - 1 will have a suffix of size >= r.
+  int l = s.size(), r = n - 1;
+  for (int i = l; i > -1; i--) {
+    while (r > i) {
+      if (s.count(a[r]) > 0) {
         break;
       }
-      s.insert(a[i]);
+      s.insert(a[r]);
+      r--;
     }
-    if (!ok) {
-      continue;
+    ans = min(ans, r - i + 1);
+    if (i > 0) {
+      s.erase(a[i - 1]);
     }
-    int r = n;
-    for (int j = n - 1; j >= l; j--) {
-      if (s.count(a[j]) > 0) {
-        break;
-      }
-      s.insert(a[j]);
-      r = j;
-    }
-    ans = min(ans, r - l);
   }
   cout << ans << endl;
   return 0;
