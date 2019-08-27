@@ -19,7 +19,7 @@ int main() {
     s.insert(ai);
   }
   // If a prefix of size X has a suffix of size Y,
-  // then a prefix of size X - 1 will have a suffix of size >= Y.
+  // then a prefix of size X - 1 will have a suffix of size ≥ Y.
   int l = s.size(), r = n - 1;
   for (int i = l; i > -1; i--) {
     while (r > i) {
