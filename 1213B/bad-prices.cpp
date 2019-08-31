@@ -22,7 +22,7 @@ int main() {
     }
     int ans = 0;
     for (int i = 0; i < n - 1; i++) {
-      if (mns[i + 1] < a[i]) {
+      if (a[i] > mns[i + 1]) {
         ans++;
       }
     }
