@@ -1,5 +1,11 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Codeforces Round #582 (Div. 3) - `3/8`
+- **[1213A](https://github.com/kantuni/Codeforces/tree/master/1213A)** - Chips Moving - **Accepted**
+- **[1213B](https://github.com/kantuni/Codeforces/tree/master/1213B)** - Bad Prices - **Accepted**
+- **[1213C](https://github.com/kantuni/Codeforces/tree/master/1213C)** - Book Reading - **Accepted**
+- **[1213D1](https://github.com/kantuni/Codeforces/tree/master/1213D1)** - Equalizing by Division (easy version) - **Wrong answer**
+
 ### Manthan, Codefest 19 - `1/8`
 - **[1208A](https://github.com/kantuni/Codeforces/tree/master/1208A)** - XORinacci - **Accepted**
 - [1208B](https://github.com/kantuni/Codeforces/tree/master/1208B) - Uniqueness - **Accepted**
@@ -557,4 +563,4 @@
 
 <br>
 
-Problems solved: **270**
+Problems solved: **273**
