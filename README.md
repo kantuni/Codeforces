@@ -4,7 +4,8 @@
 - **[1213A](https://github.com/kantuni/Codeforces/tree/master/1213A)** - Chips Moving - **Accepted**
 - **[1213B](https://github.com/kantuni/Codeforces/tree/master/1213B)** - Bad Prices - **Accepted**
 - **[1213C](https://github.com/kantuni/Codeforces/tree/master/1213C)** - Book Reading - **Accepted**
-- **[1213D1](https://github.com/kantuni/Codeforces/tree/master/1213D1)** - Equalizing by Division (easy version) - **Wrong answer**
+- **[1213D1](https://github.com/kantuni/Codeforces/tree/master/1213D1)** - Equalizing by Division (easy version) - **Accepted**
+- **[1213D2](https://github.com/kantuni/Codeforces/tree/master/1213D2)** - Equalizing by Division (hard version) - **Accepted**
 
 ### Manthan, Codefest 19 - `1/8`
 - **[1208A](https://github.com/kantuni/Codeforces/tree/master/1208A)** - XORinacci - **Accepted**
@@ -563,4 +564,4 @@
 
 <br>
 
-Problems solved: **273**
+Problems solved: **275**
