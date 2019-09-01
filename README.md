@@ -6,6 +6,7 @@
 - **[1213C](https://github.com/kantuni/Codeforces/tree/master/1213C)** - Book Reading - **Accepted**
 - **[1213D1](https://github.com/kantuni/Codeforces/tree/master/1213D1)** - Equalizing by Division (easy version) - **Accepted**
 - **[1213D2](https://github.com/kantuni/Codeforces/tree/master/1213D2)** - Equalizing by Division (hard version) - **Accepted**
+- **[1213E](https://github.com/kantuni/Codeforces/tree/master/1213E)** - Two Small Strings - **Accepted**
 
 ### Manthan, Codefest 19 - `1/8`
 - **[1208A](https://github.com/kantuni/Codeforces/tree/master/1208A)** - XORinacci - **Accepted**
@@ -564,4 +565,4 @@
 
 <br>
 
-Problems solved: **275**
+Problems solved: **276**
