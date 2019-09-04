@@ -7,7 +7,7 @@ int main() {
   string t;
   cin >> t;
   vector<int> divisors;
-  for (int i = 1; i < n + 1; i++) {
+  for (int i = 1; i <= n; i++) {
     if (n % i == 0) {
       divisors.push_back(i);
     }
