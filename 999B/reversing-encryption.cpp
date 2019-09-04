@@ -18,6 +18,6 @@ int main() {
       swap(s[j], s[divisors[i] - 1 - j]);
     }
   }
-  cout << s << "\n";
+  cout << s << endl;
   return 0;
 }
