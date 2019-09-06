@@ -1,12 +1,12 @@
 #include <bits/stdc++.h>
+#define INF 2000000005
 using namespace std;
 
-unordered_map<int, int> memo;
-const int INF = 2000000005;
+map<int, int> memo;
 int ans = INF;
 
 int solve(int n, int cnt) {
-  if (memo.count(n)) {
+  if (memo.count(n) > 0) {
     return memo[n];
   }
   int root = sqrt(n);
@@ -38,10 +38,7 @@ int main() {
   int n;
   cin >> n;
   int ans = solve(n, 0);
-  if (ans == INF) {
-    cout << -1 << "\n";
-  } else {
-    cout << ans << "\n";
-  }
+  ans = ans == INF ? -1 : ans;
+  cout << ans << endl;
   return 0;
 }
