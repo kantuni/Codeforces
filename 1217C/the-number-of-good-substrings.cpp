@@ -18,8 +18,8 @@ int main() {
     long long ans = 0;
     for (int i = 0; i < s.size(); i++) {
       if (s[i] == '1') {
-        long long num = 1;
-        int j = i + 1;
+        long long num = 0;
+        int j = i;
         while (j < s.size()) {
           num = 2 * num + (s[j] - '0');
           if (j - i + 1 + zb[i] < num) {
@@ -28,7 +28,6 @@ int main() {
           ans++;
           j++;
         }
-        ans++;
       }
     }
     cout << ans << endl;
