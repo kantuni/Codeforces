@@ -1,8 +1,8 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
 ### Educational Codeforces Round 72 - `0/6`
-- [1217A](https://github.com/kantuni/Codeforces/tree/master/1217A)** - Creating a Character - **Wrong answer**
-- [1217B](https://github.com/kantuni/Codeforces/tree/master/1217B)** - Zmei Gorynich - **Wrong answer**
+- [1217A](https://github.com/kantuni/Codeforces/tree/master/1217A) - Creating a Character - **Accepted**
+- [1217B](https://github.com/kantuni/Codeforces/tree/master/1217B) - Zmei Gorynich - **Wrong answer**
 
 ### Codeforces Round #582 (Div. 3) - `3/8`
 - **[1213A](https://github.com/kantuni/Codeforces/tree/master/1213A)** - Chips Moving - **Accepted**
@@ -569,4 +569,4 @@
 
 <br>
 
-Problems solved: **276**
+Problems solved: **277**
