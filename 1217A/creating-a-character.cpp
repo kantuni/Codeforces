@@ -11,7 +11,7 @@ int main() {
     cin >> s >> i >> e;
     long long ans = 0;
     if (s + e > i) {
-      if (s <= i) {
+      if (i >= s) {
         e -= abs(i - s) + 1;
         s = i + 1;
       }
