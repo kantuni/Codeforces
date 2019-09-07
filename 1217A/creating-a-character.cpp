@@ -12,7 +12,7 @@ int main() {
     long long ans = 0;
     if (s + e > i) {
       if (i >= s) {
-        e -= abs(i - s) + 1;
+        e -= i - s + 1;
         s = i + 1;
       }
       long long diff = s + e - i;
