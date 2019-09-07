@@ -1,4 +1,3 @@
-// WA
 #include <bits/stdc++.h>
 using namespace std;
  
@@ -12,10 +11,14 @@ int main() {
     cin >> s >> i >> e;
     long long ans = 0;
     if (s + e > i) {
+      if (s <= i) {
+        e -= abs(i - s) + 1;
+        s = i + 1;
+      }
       long long diff = s + e - i;
-      ans = diff / 2 + (diff % 2 == 1);
+      ans = min(e + 1, diff / 2 + diff % 2);
     }
-    cout << min(ans, max(s > i ? 1LL : 0LL, e)) << endl;
+    cout << ans << endl;
   }
   return 0;
 }
