@@ -5,13 +5,12 @@ int main() {
   int n, k;
   cin >> n >> k;
   while (k--) {
-    int last = n % 10;
-    if (last != 0) {
+    if (n % 10 > 0) {
       n--;
     } else {
       n /= 10;
     }
   }
-  cout << n << "\n";
+  cout << n << endl;
   return 0;
 }
