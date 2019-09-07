@@ -3,6 +3,7 @@
 ### Educational Codeforces Round 72 - `0/6`
 - [1217A](https://github.com/kantuni/Codeforces/tree/master/1217A) - Creating a Character - **Accepted**
 - [1217B](https://github.com/kantuni/Codeforces/tree/master/1217B) - Zmei Gorynich - **Accepted**
+- [1217C](https://github.com/kantuni/Codeforces/tree/master/1217C) - The Number Of Good Substrings - **Accepted**
 
 ### Codeforces Round #582 (Div. 3) - `3/8`
 - **[1213A](https://github.com/kantuni/Codeforces/tree/master/1213A)** - Chips Moving - **Accepted**
@@ -569,4 +570,4 @@
 
 <br>
 
-Problems solved: **278**
+Problems solved: **279**
