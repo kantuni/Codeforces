@@ -16,7 +16,7 @@ int main() {
       mxd = max(mxd, d[i]);
       mxdh = max(mxdh, d[i] - h[i]);
     }
-    int ans = mxd >= x ? 1 : -1;
+    int ans = x <= mxd ? 1 : -1;
     if (x > mxd and mxdh > 0) {
       ans = ceil(1.0 * (x - mxd) / mxdh) + 1;
     }
