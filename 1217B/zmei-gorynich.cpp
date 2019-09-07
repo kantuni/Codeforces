@@ -10,11 +10,9 @@ int main() {
     int n, x;
     cin >> n >> x;
     vector<int> d(n), h(n);
-    for (int i = 0; i < n; i++) {
-      cin >> d[i] >> h[i];
-    }
     int mxd = 0, mxdh = 0;
     for (int i = 0; i < n; i++) {
+      cin >> d[i] >> h[i];
       mxd = max(mxd, d[i]);
       mxdh = max(mxdh, d[i] - h[i]);
     }
