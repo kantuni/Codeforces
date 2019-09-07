@@ -2,7 +2,7 @@
 
 ### Educational Codeforces Round 72 - `0/6`
 - [1217A](https://github.com/kantuni/Codeforces/tree/master/1217A) - Creating a Character - **Accepted**
-- [1217B](https://github.com/kantuni/Codeforces/tree/master/1217B) - Zmei Gorynich - **Wrong answer**
+- [1217B](https://github.com/kantuni/Codeforces/tree/master/1217B) - Zmei Gorynich - **Accepted**
 
 ### Codeforces Round #582 (Div. 3) - `3/8`
 - **[1213A](https://github.com/kantuni/Codeforces/tree/master/1213A)** - Chips Moving - **Accepted**
@@ -569,4 +569,4 @@
 
 <br>
 
-Problems solved: **277**
+Problems solved: **278**
