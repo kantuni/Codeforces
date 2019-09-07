@@ -32,7 +32,7 @@ int main() {
     }
     long long ans = 0;
     if (m == 0) {
-      cout << pow(3, n) << "\n";
+      cout << pow(3, n) << endl;
       continue;
     }
     queue<int> q;
@@ -70,7 +70,7 @@ int main() {
         ans = (ans + pow(3, connected)) % P;
       }
     }
-    cout << ans << "\n";
+    cout << ans << endl;
   }
   return 0;
 }
