@@ -16,6 +16,6 @@ int main() {
   if (ans == s) {
     ans = ans.substr(0, n - 1);
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
