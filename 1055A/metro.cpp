@@ -49,9 +49,9 @@ int main() {
     dfs(0, 0);
   }
   if (found) {
-    cout << "YES" << "\n";
+    cout << "YES" << endl;
   } else {
-    cout << "NO" << "\n";
+    cout << "NO" << endl;
   }
   return 0;
 }
