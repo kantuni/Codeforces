@@ -1,10 +1,10 @@
 // WA
 #include <bits/stdc++.h>
+#define INF (int) 1e9
 using namespace std;
 
 typedef vector<int> vi;
 typedef vector<vi> vvi;
-#define INF 1e9
 
 int main() {
   int n, m, s, t;
