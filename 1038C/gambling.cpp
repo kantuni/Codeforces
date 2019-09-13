@@ -35,6 +35,6 @@ int main() {
     }
     turn++;
   }
-  cout << sa - sb << "\n";
+  cout << sa - sb << endl;
   return 0;
 }
