@@ -61,6 +61,6 @@ int main() {
       }
     }
   }
-  cout << cnt << "\n";
+  cout << cnt << endl;
   return 0;
 }
