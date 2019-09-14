@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-  unsigned long long n;
+  long long n;
   cin >> n;
   string ns = to_string(n);
   bool zero = ns.find("0") != string::npos;
@@ -18,10 +18,10 @@ int main() {
     (seven and five)
   );
   if (!possible) {
-    cout << -1 << "\n";
+    cout << -1 << endl;
     return 0;
   }
-  unordered_set<string> memo;
+  set<string> memo;
   memo.insert(ns);
   queue<pair<string, int>> q;
   q.push({to_string(n), 0});
@@ -35,7 +35,7 @@ int main() {
     string last = s.substr(s.size() - 2);
     unsigned long long ans = stoull(s);
     if (ans % 25 == 0) {
-      cout << front.second << "\n";
+      cout << front.second << endl;
       return 0;
     } else {
       for (int i = 0; i < s.size() - 1; i++) {
@@ -48,6 +48,6 @@ int main() {
       }
     }
   }
-  cout << -1 << "\n";
+  cout << -1 << endl;
   return 0;
 }
