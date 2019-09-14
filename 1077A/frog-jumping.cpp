@@ -13,7 +13,7 @@ int main() {
     } else {
       ans = (k / 2 + 1) * a - (k / 2) * b;
     }
-    cout << ans << "\n";
+    cout << ans << endl;
   }
   return 0;
 }
