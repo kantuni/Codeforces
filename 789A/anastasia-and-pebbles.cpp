@@ -32,6 +32,6 @@ int main() {
       pq.push(w);
     }
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
