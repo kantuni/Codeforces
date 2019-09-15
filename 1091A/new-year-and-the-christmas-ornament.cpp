@@ -11,6 +11,6 @@ int main() {
       ans = 3 * i + 3;
     }
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
