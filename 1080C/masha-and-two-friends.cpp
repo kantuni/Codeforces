@@ -42,7 +42,7 @@ int main() {
     l -= l2;
     r += l2;
     if (x2 < x3 or x4 < x1 or y2 < y3 or y4 < y1) {
-      cout << l << " " << r << "\n";
+      cout << l << " " << r << endl;
     } else {
       int x5, y5, x6, y6;
       x5 = max(x1, x3);
@@ -63,7 +63,7 @@ int main() {
       }
       l -= r3;
       r += r3;
-      cout << l << " " << r << "\n";
+      cout << l << " " << r << endl;
     }
   }
   return 0;
