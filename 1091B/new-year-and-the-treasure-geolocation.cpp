@@ -12,6 +12,6 @@ int main() {
   auto c1 = coords[0], c2 = coords[2 * n - 1];
   int tx = c1.first + c2.first;
   int ty = c1.second + c2.second;
-  cout << tx << " " << ty << "\n";
+  cout << tx << " " << ty << endl;
   return 0;
 }
