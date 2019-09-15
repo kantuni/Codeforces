@@ -10,9 +10,9 @@ int main() {
   }
   set<int> s(a.begin(), a.end());
   if (s.size() < k) {
-    cout << "NO" << "\n";
+    cout << "NO" << endl;
   } else {
-    cout << "YES" << "\n";
+    cout << "YES" << endl;
     int cnt = 0;
     for (auto item: s) {
       if (cnt == k) {
@@ -26,7 +26,7 @@ int main() {
         }
       }
     }
-    cout << "\n";
+    cout << endl;
   }
   return 0;
 }
