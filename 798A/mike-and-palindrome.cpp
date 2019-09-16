@@ -4,7 +4,7 @@ using namespace std;
 int main() {
   string s;
   cin >> s;
-  if (s.length() == 1) {
+  if (s.size() == 1) {
     cout << "YES" << endl;
     return 0;
   }
