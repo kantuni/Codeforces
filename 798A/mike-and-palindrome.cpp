@@ -9,21 +9,21 @@ int main() {
     return 0;
   }
   bool palindrome = true;
-  int count = 1;
+  int cnt = 1;
   for (int i = 0; i < s.size() / 2; i++) {
     if (s[i] != s[s.size() - 1 - i]) {
-      if (count > 0) {
-        count--;
+      if (cnt > 0) {
+        cnt--;
       } else {
         palindrome = false;
         break;
       }
     }
   }
-  if (s.size() % 2 == 1 and count == 1) {
-    count--;
+  if (s.size() % 2 == 1 and cnt == 1) {
+    cnt--;
   }
-  if (palindrome and count == 0) {
+  if (palindrome and cnt == 0) {
     cout << "YES" << endl;
   } else {
     cout << "NO" << endl;
