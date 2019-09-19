@@ -5,30 +5,23 @@ using namespace std;
 int main() {
   int n, k, x;
   cin >> n >> k >> x;
-  int a;
-  vector<int> strengths(n);
+  vector<int> s(n);
   for (int i = 0; i < n; i++) {
-    cin >> strengths[i];
+    cin >> s[i];
   }
   for (int i = 0; i < k; i++) {
-    sort(begin(strengths), end(strengths));
-    for (int j = 0; j < strengths.size(); j++) {
+    sort(s.begin(), s.end());
+    for (int j = 0; j < s.size(); j++) {
       if (j % 2 == 0) {
-        strengths[j] ^= x;
+        s[j] ^= x;
       }
     }
   }
-  int min, max;
-  min = max = strengths[0];
-  for (int i = 0; i < strengths.size(); i++) {
-    if (min > strengths[i]) {
-      min = strengths[i];
-    }
-
-    if (max < strengths[i]) {
-      max = strengths[i];
-    }
+  int mn = s[0], mx = s[0];
+  for (int i = 0; i < s.size(); i++) {
+    mn = min(mn, s[i]);
+    mx = max(mx, s[i]);
   }
-  cout << max << " " << min << endl;
+  cout << mx << " " << mn << endl;
   return 0;
 }
