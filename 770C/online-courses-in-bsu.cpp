@@ -18,7 +18,7 @@ int c(int cn) {
     return 0;
   }
   int total = 0;
-  for (int i = 0; i < courses[cn].size(); ++i) {
+  for (int i = 0; i < courses[cn].size(); i++) {
     int key = courses[cn][i] - 1;
     if (memo.find(key) == end(memo)) {
       total += c(courses[cn][i] - 1) + 1;
@@ -36,19 +36,19 @@ int main() {
   cin >> n >> k;
   m = n + 1;
   vector<int> primal(k);
-  for (int i = 0; i < k; ++i) {
+  for (int i = 0; i < k; i++) {
     cin >> primal[i];
   }
-  for (int i = 0; i < n; ++i) {
+  for (int i = 0; i < n; i++) {
     int length;    
     cin >> length;
     vector<int> course(length);
-    for (int j = 0; j < length; ++j) {
+    for (int j = 0; j < length; j++) {
       cin >> course[j];
     }
     courses.push_back(course);
   }
-  for (int i = 0; i < k; ++i) {
+  for (int i = 0; i < k; i++) {
     if (memo.find(primal[i] - 1) == end(memo)) {
       c(primal[i] - 1);
     }
