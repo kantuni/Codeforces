@@ -6,7 +6,6 @@ int main() {
   cin >> start >> end;
   int n;
   cin >> n;
-  // clockwise
   bool cw = false;
   current = start;
   for (int i = 0; i < n; i++) {
@@ -23,7 +22,6 @@ int main() {
   if (current == end) {
     cw = true;
   }
-  // counter-clockwise
   bool ccw = false;
   current = start;
   for (int i = 0; i < n; i++) {
