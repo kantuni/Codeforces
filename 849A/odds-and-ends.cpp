@@ -8,10 +8,10 @@ int main() {
   for (int i = 0; i < s.size(); i++) {
     cin >> s[i];
   }
-  bool first_is_odd = s.front() % 2 == 1;
-  bool last_is_odd = s.back() % 2 == 1;
-  bool length_is_odd = s.size() % 2 == 1;
-  if (first_is_odd and last_is_odd and length_is_odd) {
+  bool c1 = s.front() % 2 == 1;
+  bool c2 = s.back() % 2 == 1;
+  bool c3 = s.size() % 2 == 1;
+  if (c1 and c2 and c3) {
     cout << "Yes" << endl;
   } else {
     cout << "No" << endl;
