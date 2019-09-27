@@ -20,7 +20,7 @@ int main() {
         ans = floor(s);
       }
     }
-    cout << ans << "\n";
+    cout << ans << endl;
   }
   return 0;
 }
