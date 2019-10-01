@@ -8,7 +8,7 @@ int main() {
   cin >> a >> b >> l >> r;
   
   if (l == r) {
-    cout << 1 << "\n";
+    cout << 1 << endl;
     return 0;
   }
   
@@ -59,6 +59,6 @@ int main() {
   
   sort(begin(answer), end(answer));
   answer.erase(unique(begin(answer), end(answer)), end(answer));
-  cout << answer.size() << "\n";
+  cout << answer.size() << endl;
   return 0;
 }
