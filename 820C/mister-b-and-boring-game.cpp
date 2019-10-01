@@ -46,12 +46,12 @@ int main() {
     }
     turn++;
   }
-  string answer;
+  string ans;
   for (int i = l - 1; i < r; i++) {
-    answer += s[i];
+    ans += s[i];
   }
-  sort(begin(answer), end(answer));
-  answer.erase(unique(begin(answer), end(answer)), end(answer));
-  cout << answer.size() << endl;
+  sort(begin(ans), end(ans));
+  ans.erase(unique(begin(ans), end(ans)), end(ans));
+  cout << ans.size() << endl;
   return 0;
 }
