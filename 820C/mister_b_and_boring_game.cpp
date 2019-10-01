@@ -1,9 +1,5 @@
 // MLE
-#include <iostream>
-#include <string>
-#include <iterator>
-#include <vector>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
