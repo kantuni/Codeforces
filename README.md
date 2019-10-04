@@ -149,6 +149,10 @@
 - **[1102C](https://github.com/kantuni/Codeforces/tree/master/1102C)** - Doors Breaking and Repairing - **Accepted**
 - **[1102D](https://github.com/kantuni/Codeforces/tree/master/1102D)** - Balanced Ternary String - **Accepted**
 
+### Codeforces Round #280 (Div. 2)
+- **[1102B](https://github.com/kantuni/Codeforces/tree/master/492B)** - Vanya and Lanterns - **Accepted**
+
+
 ### Codeforces Round #530 - `3/6`
 - **[1099A](https://github.com/kantuni/Codeforces/tree/master/1099A)** - Snowball - **Accepted**
 - **[1099B](https://github.com/kantuni/Codeforces/tree/master/1099B)** - Squares and Segments - **Accepted**
