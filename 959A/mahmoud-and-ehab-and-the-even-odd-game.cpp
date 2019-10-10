@@ -4,10 +4,10 @@ using namespace std;
 int main() {
   int n;
   cin >> n;
-  if (n % 2) {
-    cout << "Ehab" << "\n";
+  if (n % 2 > 0) {
+    cout << "Ehab" << endl;
   } else {
-    cout << "Mahmoud" << "\n";
+    cout << "Mahmoud" << endl;
   }
   return 0;
 }
