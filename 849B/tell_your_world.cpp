@@ -1,53 +1,41 @@
 // WA
-#include <iostream>
-#include <vector>
-#include <set>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
   int n;
   cin >> n;
-  
   vector<int> y(n);
-  for (int i = 0; i < n; ++i) {
+  for (int i = 0; i < n; i++) {
     cin >> y[i];
   }
-  
   vector<double> slopes;
-  for (int i = 0; i < n; ++i) {
-    for (int j = i + 1; j < n; ++j) {
+  for (int i = 0; i < n; i++) {
+    for (int j = i + 1; j < n; j++) {
       double slope = 1.0 * (y[j] - y[i]) / (j - i);
       slopes.push_back(slope);
     }
   }
-  
   sort(slopes.begin(), slopes.end());
-  
   int index = 0;
   int counter = 1;
   int max = 1;
-  
-  for (int i = 1; i < slopes.size(); ++i) {
+  for (int i = 1; i < slopes.size(); i++) {
     if (slopes[i] == slopes[i - 1]) {
-      ++counter;
+      counter++;
     } else {
       counter = 1;
     }
-    
     if (counter > max) {
       max = counter;
       index = i;
     }
   }
-  
   double common = slopes[index];
-  
   vector<bool> points(n, false);
   vector<double> b;
-  
-  for (int i = 0; i < n; ++i) {
-    for (int j = i + 1; j < n; ++j) {
+  for (int i = 0; i < n; i++) {
+    for (int j = i + 1; j < n; j++) {
       double slope = 1.0 * (y[j] - y[i]) / (j - i);
       if (slope == common) {
         points[i] = true;
@@ -59,31 +47,27 @@ int main() {
       }
     }
   }
-  
   // remove duplicates
   set<double> s(b.begin(), b.end());
   b.assign(s.begin(), s.end());
-  
   int miss = 1;
   bool all_used = true;
-  for (int i = 0; i < n; ++i) {
+  for (int i = 0; i < n; i++) {
     if (points[i] == false) {
       if (miss == 0) {
         all_used = false;
         break;
       } else {
-        --miss;
+        miss--;
       }
     }
   }
-  
-  if (all_used && b.size() == 2) {
-    cout << "Yes" << "\n";
-  } else if (all_used && miss == 0 && b.size() == 1) {
-    cout << "Yes" << "\n";
+  if (all_used and b.size() == 2) {
+    cout << "Yes" << endl;
+  } else if (all_used and miss == 0 and b.size() == 1) {
+    cout << "Yes" << endl;
   } else {
-    cout << "No" << "\n";
+    cout << "No" << endl;
   }
-  
   return 0;
 }
