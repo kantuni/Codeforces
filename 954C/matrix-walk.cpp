@@ -6,7 +6,9 @@ int main() {
   int n;
   cin >> n;
   vector<int> a(n);
-  for (int i = 0; i < n; i++) cin >> a[i];
+  for (int i = 0; i < n; i++) {
+    cin >> a[i];
+  }
   int x = 2, y = 1;
   int c2 = 2;
   bool ok = true, flat = true;
@@ -23,9 +25,14 @@ int main() {
     }
   }
   if (ok) {
-    cout << "YES\n";
-    if (flat) cout << "1 " << n << "\n";
-    else cout << x << " " << y << "\n";
-  } else cout << "NO\n";
+    cout << "YES" << endl;
+    if (flat) {
+      cout << "1 " << n << endl;
+    } else {
+      cout << x << " " << y << endl;
+    }
+  } else {
+    cout << "NO" << endl;
+  }
   return 0;
 }
