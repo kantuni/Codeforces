@@ -2,9 +2,10 @@
 using namespace std;
 
 int main() {
-  long double n, k;
+  double n, k;
   cin >> n >> k;
   // BTDT: explicit cast is required
-  cout << (long long) ceil(k / n) << "\n";
+  long long ans = ceil(k / n);
+  cout << ans << endl;
   return 0;
 }
