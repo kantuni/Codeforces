@@ -14,13 +14,13 @@ int main() {
   for (int i = 0; i < n; i++) {
     a[i] -= m;
   }
-  int curr = 0;
+  int cur = 0;
   for (int i = m % n; i < n; i++) {
-    if (a[i] <= curr) {
+    if (a[i] <= cur) {
       cout << i + 1 << endl;
       break;
     }
-    curr++;
+    cur++;
     if (i == n - 1) {
       i = -1;
     }
