@@ -10,6 +10,6 @@ int main() {
     ans += n / bills[i];
     n -= bills[i] * (n / bills[i]);
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
