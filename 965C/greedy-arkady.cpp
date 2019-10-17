@@ -3,13 +3,13 @@
 using namespace std;
 
 int main() {
-  unsigned long long n, k, M, D;
+  long long n, k, M, D;
   cin >> n >> k >> M >> D;
   if (n <= M) {
-    cout << n << "\n";
+    cout << n << endl;
     return 0;
   }
-  unsigned long long low, mid, high;
+  long long low, mid, high;
   low = n / (k * D);
   high = M;
   mid = (low + high) / 2;
@@ -21,6 +21,6 @@ int main() {
       high = mid;
     }
   }
-  cout << mid * D  << "\n";
+  cout << mid * D  << endl;
   return 0;
 }
