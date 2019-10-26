@@ -14,10 +14,10 @@ int main() {
     if (a % 2 == 0) {
       b = a / 2;
     } else {
-      if (debt == 0) {
-        b = floor(a / 2.0);
-      } else {
+      if (debt) {
         b = ceil(a / 2.0);
+      } else {
+        b = floor(a / 2.0);
       }
       debt = !debt;
     }
