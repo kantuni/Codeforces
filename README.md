@@ -102,6 +102,12 @@
 - **[1171E](https://github.com/kantuni/Codeforces/tree/master/1171E)** - Doggo Recoloring - **Accepted**
 - [1171F](https://github.com/kantuni/Codeforces/tree/master/1171F) - Division and Union - **Accepted**
 
+### Codeforces Round #544 (Div. 3) - `4/7`
+- **[1133A](https://github.com/kantuni/Codeforces/tree/master/1133A)** - Middle of the Contest - **Accepted**
+- **[1133B](https://github.com/kantuni/Codeforces/tree/master/1133B)** - Preparation for International Women's Day - **Accepted**
+- **[1133C](https://github.com/kantuni/Codeforces/tree/master/1133C)** - Balanced Team - **Accepted**
+- **[1133F1](https://github.com/kantuni/Codeforces/tree/master/1133F1)** - Spanning Tree with Maximum Degree - **Accepted**
+
 ### Codeforces Round #540 - `3/8`
 - **[1141A](https://github.com/kantuni/Codeforces/tree/master/1141A)** - Game 23 - **Accepted**
 - **[1141B](https://github.com/kantuni/Codeforces/tree/master/1141B)** - Maximal Continuous Rest - **Accepted**
