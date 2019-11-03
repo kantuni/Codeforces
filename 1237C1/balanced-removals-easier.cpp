@@ -8,11 +8,11 @@ struct point {
 
 struct dist {
   double value;
-  int i, j;
+  int from, to;
 };
 
 bool inc(dist &a, dist &b) {
-  return tie(a.value, a.i, a.j) < tie(b.value, b.i, b.j);
+  return tie(a.value, a.from, a.to) < tie(b.value, b.from, b.to);
 }
 
 int main() {
@@ -24,24 +24,23 @@ int main() {
   for (int i = 0; i < n; i++) {
     cin >> p[i].x >> p[i].y >> p[i].z;
   }
-  vector<dist> d;
+  vector<dist> d(n * (n - 1) / 2);
+  int k = 0;
   for (int i = 0; i < n; i++) {
     for (int j = i + 1; j < n; j++) {
       point a = p[i], b = p[j];
-      dist tmp;
-      tmp.value = hypot(a.x - b.x, a.y - b.y, a.z - b.z);
-      tmp.i = i;
-      tmp.j = j;
-      d.push_back(tmp);
+      double ab = hypot(a.x - b.x, a.y - b.y, a.z - b.z);
+      d[k] = {ab, i, j};
+      k++;
     }
   }
   sort(d.begin(), d.end(), inc);
   for (auto di: d) {
-    auto [value, i, j] = di;
-    if (!p[i].used and !p[j].used) {
-      p[i].used = true;
-      p[j].used = true;
-      cout << i + 1 << " " << j + 1 << endl;
+    auto [value, from, to] = di;
+    if (!p[from].used and !p[to].used) {
+      p[from].used = true;
+      p[to].used = true;
+      cout << from + 1 << " " << to + 1 << endl;
     }
   }
   return 0;
