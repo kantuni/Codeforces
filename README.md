@@ -3,6 +3,7 @@
 ### Codeforces Global Round 4 - `1/9`
 - **[1237A](https://github.com/kantuni/Codeforces/tree/master/1237A)** - Balanced Rating Changes - **Accepted**
 - [1237B](https://github.com/kantuni/Codeforces/tree/master/1237B) - Balanced Tunnel - **Accepted**
+- [1237C1](https://github.com/kantuni/Codeforces/tree/master/1237C1) - Balanced Removals (Easier) - **Accepted**
 
 ### Educational Codeforces Round 72 - `0/6`
 - [1217A](https://github.com/kantuni/Codeforces/tree/master/1217A) - Creating a Character - **Accepted**
@@ -574,4 +575,4 @@
 
 <br>
 
-Problems solved: **281**
+Problems solved: **282**
