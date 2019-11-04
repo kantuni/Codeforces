@@ -1,19 +1,11 @@
 #include <bits/stdc++.h>
+#define INF 1e18
 using namespace std;
 
 struct point {
   int x, y, z;
   bool used = false;
 };
-
-struct dist {
-  double value;
-  int from, to;
-};
-
-bool inc(dist &a, dist &b) {
-  return tie(a.value, a.from, a.to) < tie(b.value, b.from, b.to);
-}
 
 int main() {
   ios::sync_with_stdio(false);
@@ -24,24 +16,30 @@ int main() {
   for (int i = 0; i < n; i++) {
     cin >> p[i].x >> p[i].y >> p[i].z;
   }
-  vector<dist> d(n * (n - 1) / 2);
-  int k = 0;
-  for (int i = 0; i < n; i++) {
+  for (int i = 0; i < n - 1; i++) {
+    if (p[i].used) {
+      continue;
+    }
+    double mn = INF;
+    int from, to;
     for (int j = i + 1; j < n; j++) {
-      point a = p[i], b = p[j];
-      double ab = hypot(a.x - b.x, a.y - b.y, a.z - b.z);
-      d[k] = {ab, i, j};
-      k++;
+      if (p[j].used) {
+        continue;
+      }
+      double val = hypot(
+        p[i].x - p[j].x,
+        p[i].y - p[j].y,
+        p[i].z - p[j].z
+      );
+      if (val < mn) {
+        mn = val;
+        from = i;
+        to = j;
+      }
     }
-  }
-  sort(d.begin(), d.end(), inc);
-  for (auto di: d) {
-    auto [value, from, to] = di;
-    if (!p[from].used and !p[to].used) {
-      p[from].used = true;
-      p[to].used = true;
-      cout << from + 1 << " " << to + 1 << endl;
-    }
+    cout << from + 1 << " " << to + 1 << endl;
+    p[from].used = true;
+    p[to].used = true;
   }
   return 0;
 }
