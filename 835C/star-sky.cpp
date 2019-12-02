@@ -50,7 +50,7 @@ int main() {
   sort(begin(stars), end(stars), sc);
   for (int i = 0; i < views.size(); i++) {
     ull total = 0;
-    auto low = upper_bound(begin(stars), end(stars), views[i].x1,);
+    auto low = upper_bound(begin(stars), end(stars), views[i].x1);
     auto high = lower_bound(begin(stars), end(stars), views[i].x2);
     for (auto j = low; j <= high; j++) {
       bool inside = stars[j - begin(stars)].x >= views[i].x1;
