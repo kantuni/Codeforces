@@ -1,6 +1,3 @@
-""" Created by Henrikh Kantuni on 2/14/17 """
-
-
 obfuscation = list(input())
 letters = list("abcdefghijklmnopqrstuvwxyz")
 
