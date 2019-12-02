@@ -1,47 +1,34 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-  int n, nc;
-  vector<int> snacks;
-
+  int n;
   cin >> n;
-  nc = n;
-  while (nc > 0) {
-    int snack;
-    cin >> snack;
-    snacks.push_back(snack);
-    --nc;
+  vector<int> snacks(n);
+  for (int i = 0; i < n; i++) {
+    cin >> snacks[i];
   }
-  
-  vector<int> indexes(n + 1);
-  indexes[0] = -1;
-  
-  for (int i = 1; i < snacks.size(); ++i) {
-    indexes[snacks[i]] = i;
+  vector<int> id(n + 1);
+  for (int i = 1; i < n; i++) {
+    id[snacks[i]] = i;
   }
-  
-  for (int i = 0; i < indexes[n]; ++i) {
-    cout << "\n";
+  for (int i = 0; i < id[n]; i++) {
+    cout << endl;
   }
-  cout << snacks[indexes[n]];
-  
-  int previous = indexes[n];
-  for (int i = n - 1; i > 0; --i) {
-    if (indexes[i] < previous) {
-      cout << " " << snacks[indexes[i]];
+  cout << snacks[id[n]];
+  int previous = id[n];
+  for (int i = n - 1; i > 0; i--) {
+    if (id[i] < previous) {
+      cout << " " << snacks[id[i]];
     } else {
-      int before = indexes[i] - previous;
-      while (before > 0) {
+      int before = id[i] - previous;
+      while (before--) {
         cout << endl;
-        --before;
       }
-      cout << snacks[indexes[i]];
-      previous = indexes[i];
+      cout << snacks[id[i]];
+      previous = id[i];
     }
   }
-  cout << "\n";
-  
+  cout << endl;
   return 0;
 }
