@@ -17,7 +17,7 @@ int mpow(int x, int y) {
 
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  cin.tie(nullptr);
   int b, k;
   cin >> b >> k;
   vector<int > a(k);
