@@ -1,5 +1,3 @@
-""" Created by Henrikh Kantuni on 2/23/17 """
-
 import math
 
 n = int(input())
