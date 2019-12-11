@@ -1,21 +1,17 @@
-#include <iostream>
-#include <cmath>
+#include <bits/stdc++.h>
 using namespace std;
 
-typedef unsigned long long ull;
-typedef long double ld;
-
 int main() {
-  ull n, m;
+  long long n, m;
   cin >> n >> m;
-  
   if (m >= n) {
-    cout << n << "\n";
+    cout << n << endl;
   } else {
-    // loss of precision if d is not double
-    ld d = 1 + 8 * (n - m);
-    ld days = (-1 + sqrt(d)) / 2;
-    ull answer = ceil(days) + m;
-    cout << answer << "\n";
+    // double is not enough here
+    long double d = 1 + 8 * (n - m);
+    long double days = (-1 + sqrt(d)) / 2;
+    // cast to long long before printing the answer
+    long long ans = ceil(days) + m;
+    cout << ans << endl;
   }
 }
