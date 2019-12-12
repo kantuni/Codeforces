@@ -24,24 +24,20 @@ void process(int u) {
 int main() {
   int n, m;
   cin >> n >> m;
-  
   cnn.resize(n + 1);
   taken.assign(n + 1, 0);
-  
   for (int i = 1; i <= n; i++) {
     ll c;
     cin >> c;
     cnn[0].push_back(ii(i, c));
     cnn[i].push_back(ii(0, c));
   }
-  
   while (m--) {
     int s, t;
     cin >> s >> t;
     cnn[s].push_back(ii(t, 0));
     cnn[t].push_back(ii(s, 0));
   }
-  
   process(0);
   ll mst = 0;
   while (!pq.empty()) {
@@ -54,7 +50,6 @@ int main() {
       process(u);
     }
   }
-  
   cout << mst << endl;
   return 0;
 }
