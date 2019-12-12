@@ -55,6 +55,6 @@ int main() {
     }
   }
   
-  cout << mst << "\n";
+  cout << mst << endl;
   return 0;
 }
