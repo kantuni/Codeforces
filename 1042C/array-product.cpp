@@ -19,13 +19,13 @@ int main() {
     // multiply all zeroes 
     for (int i = 0; i < zers.size() - 1; i++) {
       cout << "1 " << zers[i] + 1 << " ";
-      cout << zers[i + 1] + 1 << "\n";
+      cout << zers[i + 1] + 1 << endl;
       a[zers[i]] = FLAG;
       left--;
     }
     // remove the last zero
     if (left > 1) {
-      cout << "2 " << zers[zers.size() - 1] + 1 << "\n";
+      cout << "2 " << zers[zers.size() - 1] + 1 << endl;
       a[zers[zers.size() - 1]] = FLAG;
       left--;
     }
@@ -40,7 +40,7 @@ int main() {
     }
     // remove the largest negative
     if (left > 1) {
-      cout << "2 " << mni + 1 << "\n";
+      cout << "2 " << mni + 1 << endl;
       a[mni] = FLAG;
       left--;
     }
@@ -48,7 +48,7 @@ int main() {
     // multiply all zeroes
     for (int i = 0; i < zers.size() - 1; i++) {
       cout << "1 " << zers[i] + 1 << " ";
-      cout << zers[i + 1] + 1 << "\n";
+      cout << zers[i + 1] + 1 << endl;
       a[zers[i]] = FLAG;
       left--;
     }
@@ -62,12 +62,12 @@ int main() {
     }
     // multiply it by the last zero
     cout << "1 " << mni + 1 << " ";
-    cout << zers[zers.size() - 1] + 1 << "\n";
+    cout << zers[zers.size() - 1] + 1 << endl;
     a[mni] = FLAG;
     left--;
     // remove the last zero
     if (left > 1) {
-      cout << "2 " << zers[zers.size() - 1] + 1 << "\n";
+      cout << "2 " << zers[zers.size() - 1] + 1 << endl;
       a[zers[zers.size() - 1]] = FLAG;
       left--;
     }
@@ -81,7 +81,7 @@ int main() {
   }
   for (int i = 0; i < rest.size() - 1; i++) {
     cout << "1 " << rest[i] << " ";
-    cout << rest[i + 1] << "\n";
+    cout << rest[i + 1] << endl;
   }
   return 0;
 }
