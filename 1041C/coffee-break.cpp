@@ -30,10 +30,10 @@ int main() {
     }
     ans++;
   }
-  cout << ans - 1 << "\n";
+  cout << ans - 1 << endl;
   for (int i = 0; i < n; i++) {
     cout << color[i] << " ";
   }
-  cout << "\n";
+  cout << endl;
   return 0;
 }
