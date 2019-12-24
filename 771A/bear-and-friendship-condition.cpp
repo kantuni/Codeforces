@@ -18,7 +18,7 @@ int dfs(int u) {
 
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  cin.tie(nullptr);
   cin >> n >> m;
   g.resize(n);
   color.resize(n);
