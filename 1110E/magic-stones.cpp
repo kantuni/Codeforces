@@ -4,7 +4,9 @@ using namespace std;
 vector<long long> c, t;
 
 bool solve(vector<long long> state, int left) {
-  if (left == 0) return true;
+  if (left == 0) {
+    return true;
+  }
   bool ans = false;
   for (int i = 1; i < state.size() - 1; i++) {
     if (state[i] != t[i]) {
@@ -39,7 +41,11 @@ int main() {
       diff++;
     }
   }
-  bool possible = c[0] == t[0] and c[n - 1] == t[n - 1] and solve(c, diff);
+  bool possible = (
+    c[0] == t[0] and 
+    c[n - 1] == t[n - 1] and 
+    solve(c, diff)
+  );
   if (possible) {
     cout << "Yes" << endl;
   } else {
