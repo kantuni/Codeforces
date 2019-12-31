@@ -25,6 +25,6 @@ int main() {
       ans += ones - oz;
     }
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
