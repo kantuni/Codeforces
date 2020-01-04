@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
+#define INF (int) 1e9
 using namespace std;
-#define INF (int) 1e8
 
 int main() {
   int n;
@@ -27,6 +27,6 @@ int main() {
   if (ans == INF) {
     ans = -1;
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
