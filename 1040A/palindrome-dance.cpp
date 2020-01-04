@@ -38,6 +38,6 @@ int main() {
   if (!ok) {
     ans = -1;
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
