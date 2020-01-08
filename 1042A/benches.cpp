@@ -6,14 +6,14 @@ int main() {
   cin >> n >> m;
   vector<int> a(n);
   double sum = 0;
-  int mmax = 0;
+  int mx = 0;
   for (int i = 0; i < n; i++) {
     cin >> a[i];
     sum += a[i];
-    mmax = max(mmax, a[i]);
+    mx = max(mx, a[i]);
   }
   sum += m;
-  cout << max(mmax, (int) ceil(sum / n)) << " ";
-  cout << mmax + m << "\n";
+  cout << max(mx, (int) ceil(sum / n)) << " ";
+  cout << mx + m << endl;
   return 0;
 }
