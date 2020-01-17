@@ -17,9 +17,9 @@ int main() {
     ysum += y[i];
   }
   if (xsum >= ysum) {
-    cout << "Yes" << "\n";
+    cout << "Yes" << endl;
   } else {
-    cout << "No" << "\n";
+    cout << "No" << endl;
   }
   return 0;
 }
