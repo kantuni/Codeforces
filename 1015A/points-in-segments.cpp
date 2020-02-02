@@ -18,12 +18,12 @@ int main() {
       cnt++;
     }
   }
-  cout << cnt << "\n";
+  cout << cnt << endl;
   for (int i = 0; i < m; i++) {
     if (s[i] == 0) {
       cout << i + 1 << " ";
     }
   }
-  cout << "\n";
+  cout << endl;
   return 0;
 }
