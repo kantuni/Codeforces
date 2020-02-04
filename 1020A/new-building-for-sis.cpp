@@ -8,9 +8,9 @@ int main() {
     int ta, fa, tb, fb;
     cin >> ta >> fa >> tb >> fb;
     if (ta == tb) {
-      cout << abs(fa - fb) << "\n";
+      cout << abs(fa - fb) << endl;
     } else if (fa >= a and fa <= b) {
-      cout << abs(tb - ta) + abs(fa - fb) << "\n";
+      cout << abs(tb - ta) + abs(fa - fb) << endl;
     } else {
       long long ans = 0;
       if (abs(fa - a) < abs(fa - b)) {
@@ -22,7 +22,7 @@ int main() {
         ans += abs(tb - ta);
         ans += abs(fb - b);
       }
-      cout << ans << "\n";
+      cout << ans << endl;
     }
   }
   return 0;
