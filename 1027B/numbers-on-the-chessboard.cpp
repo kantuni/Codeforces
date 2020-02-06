@@ -11,7 +11,7 @@ int main() {
     ans = (ans + 1) / 2;
     unsigned long long sum = x + y;
     ans += (sum % 2 == 1) ? (n * n + 1) / 2 : 0;
-    cout << ans << "\n";
+    cout << ans << endl;
   }
   return 0;
 }
