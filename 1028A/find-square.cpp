@@ -1,12 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
-typedef vector<char> vc;
-typedef vector<vector<char>> vvc;
 
 int main() {
   int n, m;
   cin >> n >> m;
-  vvc A(n, vc(m));
+  char A[n][m];
   for (int r = 0; r < n; r++) {
     for (int c = 0; c < m; c++) {
       cin >> A[r][c];
@@ -30,6 +28,6 @@ int main() {
   }
   br += len / 2 + 1;
   bc += len / 2 + 1;
-  cout << br << " " << bc << "\n";
+  cout << br << " " << bc << endl;
   return 0;
 }
