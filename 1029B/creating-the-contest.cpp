@@ -17,6 +17,6 @@ int main() {
     ans = max(ans, j - i + 1);
     i = j;
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
