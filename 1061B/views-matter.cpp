@@ -18,6 +18,6 @@ int main() {
   if (mx >= n and n > 1 and s[1] == 1) {
     ans--;
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
