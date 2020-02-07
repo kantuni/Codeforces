@@ -21,6 +21,6 @@ int main() {
     curr = color[i] == 1 ? curr + 1 : 0;
     ans = max(ans, curr);
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
