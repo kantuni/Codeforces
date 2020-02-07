@@ -15,6 +15,6 @@ int main() {
       cnt++;
     }
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
