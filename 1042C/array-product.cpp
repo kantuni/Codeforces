@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
-using namespace std;
 #define FLAG 1000000001
+using namespace std;
 
 int main() {
   int n;
