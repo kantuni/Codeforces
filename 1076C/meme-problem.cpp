@@ -20,9 +20,9 @@ int main() {
     }
     if (found) {
       cout << fixed << setprecision(9);
-      cout << "Y " << a << " " << b << "\n";
+      cout << "Y " << a << " " << b << endl;
     } else {
-      cout << "N" << "\n";
+      cout << "N" << endl;
     }
   }
   return 0;
