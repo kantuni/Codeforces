@@ -41,13 +41,13 @@ int main() {
     b = a;
   }
   if (possible) {
-    cout << "Possible" << "\n";
+    cout << "Possible" << endl;
     for (int i = 0; i < n; i++) {
       cout << b[i] << " ";
     }
-    cout << "\n";
+    cout << endl;
   } else {
-    cout << "Impossible" << "\n";
+    cout << "Impossible" << endl;
   }
   return 0;
 }
