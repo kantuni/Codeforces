@@ -25,10 +25,10 @@ int main() {
     sum += a[i];
     ms.insert(a[i]);
   }
-  cout << ans.size() << "\n";
+  cout << ans.size() << endl;
   for (auto index: ans) {
     cout << index << " ";
   }
-  cout << "\n";
+  cout << endl;
   return 0;
 }
