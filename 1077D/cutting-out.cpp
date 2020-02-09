@@ -36,6 +36,6 @@ int main() {
   for (int i = 0; i < k; i++) {
     cout << t[i] << " ";
   }
-  cout << "\n";
+  cout << endl;
   return 0;
 }
