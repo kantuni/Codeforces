@@ -27,6 +27,6 @@ int main() {
   if (s[0] == s[n - 1]) {
     ans = (ans + (rf * rb) % P) % P;
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
