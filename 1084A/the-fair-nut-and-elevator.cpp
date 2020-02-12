@@ -5,7 +5,7 @@ using namespace std;
 int main() {
   int n;
   cin >> n;
-  int a[n];
+  vector<int> a(n);
   for (int i = 0; i < n; i++) {
     cin >> a[i];
   }
@@ -17,6 +17,6 @@ int main() {
     }
     ans = min(ans, sum);
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
