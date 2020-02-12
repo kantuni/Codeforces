@@ -18,6 +18,6 @@ int main() {
     }
   }
   sort(ans.begin(), ans.end());
-  cout << ans[0] << "\n"; 
+  cout << ans[0] << endl; 
   return 0;
 }
