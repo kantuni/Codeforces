@@ -24,7 +24,7 @@ int main() {
       }
       n++;
     }
-    cout << n << "\n";
+    cout << n << endl;
   }
   return 0;
 }
