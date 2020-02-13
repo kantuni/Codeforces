@@ -9,7 +9,7 @@ int main() {
     cin >> a[i];
   }
   bool ok = false;
-  for (int i = 0; i < pow(2, n); i++) {
+  for (int i = 0; i < (1 << n); i++) {
     bitset<16> b(i);
     int total = 0;
     for (int j = 0; j < n; j++) {
@@ -22,9 +22,9 @@ int main() {
     }
   }
   if (ok) {
-    cout << "YES\n";
+    cout << "YES" << endl;
   } else {
-    cout << "NO\n";
+    cout << "NO" << endl;
   }
   return 0;
 }
