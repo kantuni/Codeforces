@@ -16,6 +16,6 @@ int main() {
     }
     h--;
   }
-  cout << w << "\n";
+  cout << w << endl;
   return 0;
 }
