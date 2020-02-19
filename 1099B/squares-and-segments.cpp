@@ -12,6 +12,6 @@ int main() {
   if (h * w < n) {
     w++;
   }
-  cout << h + w << "\n";
+  cout << h + w << endl;
   return 0;
 }
