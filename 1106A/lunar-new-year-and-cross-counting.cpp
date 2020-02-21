@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  cin.tie(nullptr);
   int n;
   cin >> n;
   char M[n][n];
@@ -15,16 +15,16 @@ int main() {
   int ans = 0;
   for (int r = 0; r < n; r++) {
     for (int c = 0; c < n; c++) {
-      bool rok = r - 1 >= 0 and r + 1 < n;
-      bool cok = c - 1 >= 0 and c + 1 < n;
-      if (rok and cok) {
-        bool ok = M[r][c] == 'X' and
-                  M[r][c] == M[r - 1][c - 1] and
-                  M[r][c] == M[r - 1][c + 1] and
-                  M[r][c] == M[r + 1][c - 1] and
-                  M[r][c] == M[r + 1][c + 1];
-        ans += ok;
-      }
+      bool ok = (
+        0 < r and r < n - 1 and
+        0 < c and c < n - 1 and
+        M[r][c] == 'X' and
+        M[r][c] == M[r - 1][c - 1] and
+        M[r][c] == M[r - 1][c + 1] and
+        M[r][c] == M[r + 1][c - 1] and
+        M[r][c] == M[r + 1][c + 1]
+      );
+      ans += ok;
     }
   }
   cout << ans << endl;
