@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  cin.tie(nullptr);
   int n, m;
   cin >> n >> m;
   vector<long long> a(n);
