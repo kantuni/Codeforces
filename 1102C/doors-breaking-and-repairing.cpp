@@ -5,16 +5,15 @@ int main() {
   int n, x, y;
   cin >> n >> x >> y;
   vector<int> a(n);
-  int less = 0;
+  int lte = 0;
   for (int i = 0; i < n; i++) {
     cin >> a[i];
-    less += a[i] <= x;
+    lte += a[i] <= x;
   }
   if (x > y) {
-    cout << n;
+    cout << n << endl;
   } else {
-    cout << ceil(less / 2.);
+    cout << ceil(lte / 2.0) << endl;
   }
-  cout << endl;
   return 0;
 }
