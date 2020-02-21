@@ -7,7 +7,7 @@ bool fit(int h, int w, int x, int y) {
 
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  cin.tie(nullptr);
   int n;
   cin >> n;
   int mx = -1, my = -1;
