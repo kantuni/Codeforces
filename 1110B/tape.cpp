@@ -11,14 +11,14 @@ int main() {
     cin >> b[i];
   }
   long long ans = n;
-  priority_queue<int> pq;
+  priority_queue<long long> pq;
   for (int i = 1; i < n; i++) {
-    int diff = b[i] - b[i - 1] + 1;
+    long long diff = b[i] - b[i - 1] + 1;
     pq.push(-diff);
   }
-  int used = n;
+  long long used = n;
   while (used > k) {
-    int diff = -pq.top(); pq.pop();
+    long long diff = -pq.top(); pq.pop();
     ans = ans - 2 + diff;
     used--;
   }
