@@ -32,7 +32,7 @@ int solve(int i, int a, int b, int c) {
 
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  cin.tie(nullptr);
   int n, m;
   cin >> n >> m;
   f.resize(max(3, m + 1));
