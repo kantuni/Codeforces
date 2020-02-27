@@ -16,7 +16,7 @@ int solve(int l, int r) {
 
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  cin.tie(nullptr);
   cin >> n;
   a.resize(n);
   for (int i = 0; i < n; i++) {
