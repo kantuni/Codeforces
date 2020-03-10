@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  cin.tie(nullptr);
   int n, k;
   cin >> n >> k;
   map<int, int> cnt;
