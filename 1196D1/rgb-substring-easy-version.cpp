@@ -4,7 +4,7 @@ using namespace std;
 string r, g, b;
 
 int lcp(string& s, int k) {
-  int mxcnt = 0;
+  int mx = 0;
   for (int i = 0; i < s.size() - k + 1; i++) {
     string si = s.substr(i, k);
     int rc = 0, gc = 0, bc = 0;
@@ -13,9 +13,9 @@ int lcp(string& s, int k) {
       if (si[j] == g[j]) gc++;
       if (si[j] == b[j]) bc++;
     }
-    mxcnt = max({mxcnt, rc, gc, bc});
+    mx = max({mx, rc, gc, bc});
   }
-  return mxcnt;
+  return mx;
 }
 
 int main() {
