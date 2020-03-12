@@ -30,7 +30,7 @@ long long remember(int start, int cnt) {
 
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  cin.tie(nullptr);
   cin >> n >> k;
   a.resize(n);
   memo.resize(n, vector<long long>(k, INF));
