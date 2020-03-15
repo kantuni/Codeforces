@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#define EPS 1e-6
 using namespace std;
 
 int main() {
