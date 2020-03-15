@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  cin.tie(nullptr);
   double h, l;
   cin >> h >> l;
   double ans = (l * l - h * h) / (2 * h);
