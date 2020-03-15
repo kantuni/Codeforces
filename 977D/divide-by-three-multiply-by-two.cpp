@@ -4,14 +4,14 @@ using namespace std;
 int main() {
   int n;
   cin >> n;
-  unordered_set<long long> memo;
+  set<long long> memo;
   vector<long long> a(n);
   for (int i = 0; i < n; i++) {
     cin >> a[i];
     memo.insert(a[i]);
   }
   for (int i = 0; i < n; i++) {
-    unordered_set<long long> temp = memo;
+    set<long long> temp = memo;
     stack<long long> s;
     s.push(a[i]);
     int count = 1;
