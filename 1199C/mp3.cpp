@@ -13,7 +13,7 @@ bool possible(int K) {
 
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  cin.tie(nullptr);
   cin >> n >> I;
   a.resize(n);
   for (int i = 0; i < n; i++) {
