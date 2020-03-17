@@ -8,7 +8,7 @@ int main() {
   for (int i = 0; i < n; i++) {
     cin >> a[i];
   }
-  vector<int> color(n, 0);
+  vector<int> color(n);
   int ans = 0;
   for (int i = 0; i < n and a[i] <= k; i++) {
     if (color[i] == 0) {
