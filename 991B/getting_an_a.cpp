@@ -19,6 +19,6 @@ int main() {
     ans++;
     avg = 1.0 * sum / n + 0.5;
   }
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
