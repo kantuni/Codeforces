@@ -6,7 +6,7 @@ int main() {
   cin >> k;
   vector<vector<int>> nums(k);
   vector<set<int>> sums(k);
-  unordered_map<int, pair<int, int>> memo;
+  map<int, pair<int, int>> memo;
   for (int i = 0; i < k; i++) {
     int n;
     cin >> n;
