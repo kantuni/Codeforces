@@ -23,15 +23,15 @@ int main() {
         memo[num] = {i, j};
       } else {
         if (memo[num].first != i) {
-          cout << "YES" << "\n";
+          cout << "YES" << endl;
           cout << memo[num].first + 1 << " ";
-          cout << memo[num].second + 1 << "\n";
-          cout << i + 1 << " " << j + 1 << "\n";
+          cout << memo[num].second + 1 << endl;
+          cout << i + 1 << " " << j + 1 << endl;
           return 0;
         }
       }
     }
   }
-  cout << "NO" << "\n";
+  cout << "NO" << endl;
   return 0;
 }
