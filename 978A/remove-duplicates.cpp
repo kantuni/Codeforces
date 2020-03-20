@@ -21,10 +21,10 @@ int main() {
       ans.push_back(a[i]);
     }
   }
-  cout << ans.size() << "\n";
+  cout << ans.size() << endl;
   for (int i = 0; i < ans.size(); i++) {
     cout << ans[i] << " ";
   }
-  cout << "\n";
+  cout << endl;
   return 0;
 }
