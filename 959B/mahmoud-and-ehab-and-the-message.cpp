@@ -36,6 +36,6 @@ int main() {
     cin >> words[i];
     sum += cost[windex[words[i]]];
   }
-  cout << sum << "\n";
+  cout << sum << endl;
   return 0;
 }
