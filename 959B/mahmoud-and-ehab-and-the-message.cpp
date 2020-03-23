@@ -1,41 +1,42 @@
 #include <bits/stdc++.h>
+#define INF (int) 1e9
 using namespace std;
 
 int main() {
   int n, k, m;
   cin >> n >> k >> m;
-  unordered_map<string, int> windex;
+  map<string, int> wid;
   for (int i = 0; i < n; i++) {
     string w;
     cin >> w;
-    windex[w] = i;
+    wid[w] = i;
   }
-  vector<int> cost(n);
+  vector<int> c(n);
   for (int i = 0; i < n; i++) {
-    cin >> cost[i];
+    cin >> c[i];
   }
   while (k--) {
     int x;
     cin >> x;
-    vector<int> group(x);
+    vector<int> g(x);
     for (int i = 0; i < x; i++) {
-      cin >> group[i];
-      group[i]--;
+      cin >> g[i];
+      g[i]--;
     }
-    int minc = 1e9;
+    int mnc = INF;
     for (int i = 0; i < x; i++) {
-      minc = min(minc, cost[group[i]]);
+      mnc = min(mnc, c[g[i]]);
     }
     for (int i = 0; i < x; i++) {
-      cost[group[i]] = minc;
+      c[g[i]] = mnc;
     }
   }
-  unsigned long long sum = 0;
-  vector<string> words(m);
+  long long ans = 0;
+  vector<string> w(m);
   for (int i = 0; i < m; i++) {
-    cin >> words[i];
-    sum += cost[windex[words[i]]];
+    cin >> w[i];
+    ans += c[wid[w[i]]];
   }
-  cout << sum << endl;
+  cout << ans << endl;
   return 0;
 }
