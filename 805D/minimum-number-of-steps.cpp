@@ -23,16 +23,16 @@ huge pow2(huge x, huge y) {
 int main() {
   string s;
   cin >> s;
-  huge answer = 0;
+  huge ans = 0;
   huge counter = 0;
   for (huge i = 0; i < s.length(); ++i) {
     if (s[i] == 'a') {
       ++counter;
     } else {
-      answer += pow2(2, counter) - 1;
-      answer %= P;
+      ans += pow2(2, counter) - 1;
+      ans %= P;
     }
   }
-  cout << answer << endl;
+  cout << ans << endl;
   return 0;
 }
