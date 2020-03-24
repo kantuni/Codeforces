@@ -11,9 +11,8 @@ long long pow(long long x, long long y) {
   }
   if (y % 2 == 0) {
     return pow(x * x % P, y / 2) % P;
-  } else {
-    return (x % P * pow(x * x % P, (y - 1) / 2) % P) % P;
   }
+  return (x % P * pow(x * x % P, (y - 1) / 2) % P) % P;
 }
 
 int main() {
