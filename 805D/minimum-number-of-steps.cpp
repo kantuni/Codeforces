@@ -2,7 +2,7 @@
 #define P 1000000007
 using namespace std;
 
-typedef unsigned long long huge;
+typedef long long huge;
 
 huge pow2(huge x, huge y) {
   if (y == 0) {
