@@ -1,5 +1,5 @@
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
+#define P 1000000007
 using namespace std;
 
 typedef unsigned long long huge;
@@ -14,28 +14,25 @@ huge pow2(huge x, huge y) {
   }
   
   if (y % 2 == 0) {
-    return pow2(x * x % 1000000007, y / 2) % 1000000007;
+    return pow2(x * x % P, y / 2) % P;
   } else {
-    return (x % 1000000007 * pow2(x * x % 1000000007, (y - 1) / 2) % 1000000007) % 1000000007;
+    return (x % P * pow2(x * x % P, (y - 1) / 2) % P) % P;
   }
 }
 
 int main() {
   string s;
   cin >> s;
-  
   huge answer = 0;
   huge counter = 0;
-  
   for (huge i = 0; i < s.length(); ++i) {
     if (s[i] == 'a') {
       ++counter;
     } else {
       answer += pow2(2, counter) - 1;
-      answer %= 1000000007;
+      answer %= P;
     }
   }
-
-  cout << answer << "\n";
+  cout << answer << endl;
   return 0;
 }
