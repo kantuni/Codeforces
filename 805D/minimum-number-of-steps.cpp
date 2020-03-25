@@ -19,7 +19,7 @@ int main() {
   string s;
   cin >> s;
   long long ans = 0, cnt = 0;
-  for (long long i = 0; i < s.size(); i++) {
+  for (int i = 0; i < s.size(); i++) {
     if (s[i] == 'a') {
       cnt++;
     } else {
