@@ -2,9 +2,7 @@
 #define P 1000000007
 using namespace std;
 
-typedef long long huge;
-
-huge pow2(huge x, huge y) {
+long long fast_pow(long long x, long long y) {
   if (y == 0) {
     return 1;
   }
@@ -12,21 +10,20 @@ huge pow2(huge x, huge y) {
     return x;
   }
   if (y % 2 == 0) {
-    return pow2(x * x % P, y / 2) % P;
-  } else {
-    return (x % P * pow2(x * x % P, (y - 1) / 2) % P) % P;
+    return fast_pow(x * x % P, y / 2) % P;
   }
+  return (x % P * fast_pow(x * x % P, (y - 1) / 2) % P) % P;
 }
 
 int main() {
   string s;
   cin >> s;
-  huge ans = 0, cnt = 0;
-  for (huge i = 0; i < s.size(); i++) {
+  long long ans = 0, cnt = 0;
+  for (long long i = 0; i < s.size(); i++) {
     if (s[i] == 'a') {
       cnt++;
     } else {
-      ans += pow2(2, cnt) - 1;
+      ans += fast_pow(2, cnt) - 1;
       ans %= P;
     }
   }
