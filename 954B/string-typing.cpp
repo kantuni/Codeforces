@@ -15,17 +15,17 @@ int main() {
   cin >> n;
   string s;
   cin >> s;
-  int lmax = -1;
+  int lmx = -1;
   for (int i = 2; i <= n; i += 2) {
     string t = s.substr(0, i);
     if (pands(t)) {
-      lmax = max(lmax, i / 2);
+      lmx = max(lmx, i / 2);
     }
   }
-  if (lmax == -1) {
+  if (lmx == -1) {
     cout << s.size() << endl;
   } else {
-    cout << s.size() - lmax + 1 << endl;
+    cout << s.size() - lmx + 1 << endl;
   }
   return 0;
 }
