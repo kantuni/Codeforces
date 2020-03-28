@@ -28,12 +28,12 @@ int main() {
   sort(vs.begin(), vs.end(), custom);
   bool ok = solve(vs);
   if (ok) {
-    cout << "YES" << "\n";
+    cout << "YES" << endl;
     for (auto s: vs) {
-      cout << s << "\n";
+      cout << s << endl;
     }
   } else {
-    cout << "NO" << "\n";
+    cout << "NO" << endl;
   }
   return 0;
 }
