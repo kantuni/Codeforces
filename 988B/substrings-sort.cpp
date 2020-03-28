@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int custom(string a, string b) {
+int bysize(string a, string b) {
   return a.size() < b.size();
 }
 
@@ -25,7 +25,7 @@ int main() {
   for (int i = 0; i < n; i++) {
     cin >> vs[i];
   }
-  sort(vs.begin(), vs.end(), custom);
+  sort(vs.begin(), vs.end(), bysize);
   bool ok = solve(vs);
   if (ok) {
     cout << "YES" << endl;
