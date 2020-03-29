@@ -8,22 +8,17 @@ int gcd(int a, int b) {
 int main() {
   int n;
   cin >> n;
-  
-  double max = 0.0;
-  int numerator = 1;
-  
-  for (int i = 1; i <= n / 2; ++i) {
-    int a = i;
-    int b = n - i;
-    
+  double mx = 0.0;
+  int num = 1;
+  for (int i = 1; i <= n / 2; i++) {
+    int a = i, b = n - i;
     if (gcd(a, b) == 1) {
-      if (a > b * max) {
-        max = a / b;
-        numerator = i;
+      if (a > b * mx) {
+        mx = a / b;
+        num = i;
       }
     }
   }
-  
-  cout << numerator << " " << n - numerator << "\n";
+  cout << num << " " << n - num << endl;
   return 0;
 }
