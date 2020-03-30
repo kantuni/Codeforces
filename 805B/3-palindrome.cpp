@@ -4,16 +4,16 @@ using namespace std;
 int main() {
   int n;
   cin >> n;
-  string answer = "";
+  string ans;
   for (int i = 0; i < n; i++) {
-    answer += 'a';
+    ans += 'a';
   }
   for (int i = 2; i < n; i += 4) {
-    answer[i] = 'b';
+    ans[i] = 'b';
     if (i + 1 < n) {
-      answer[i + 1] = 'b';
+      ans[i + 1] = 'b';
     }
   }
-  cout << answer << "\n";
+  cout << ans << endl;
   return 0; 
 }
