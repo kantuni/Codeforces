@@ -4,12 +4,7 @@ using namespace std;
 int main() {
   long long l, r;
   cin >> l >> r;
-  
-  if (l == r) {
-    cout << l << "\n";
-  } else {
-    cout << 2 << "\n";
-  }
-  
+  long long ans = (l == r) ? l : 2;
+  cout << ans << endl;
   return 0;
 }
