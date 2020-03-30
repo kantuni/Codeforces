@@ -1,23 +1,19 @@
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
   int n;
   cin >> n;
-  
   string answer = "";
-  for (int i = 0; i < n; ++i) {
+  for (int i = 0; i < n; i++) {
     answer += 'a';
   }
-  
   for (int i = 2; i < n; i += 4) {
     answer[i] = 'b';
     if (i + 1 < n) {
       answer[i + 1] = 'b';
     }
   }
-  
   cout << answer << "\n";
   return 0; 
 }
