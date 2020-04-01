@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  cin.tie(nullptr);
   int a, b, f, k;
   cin >> a >> b >> f >> k;
   int ans = (b < f) ? -1 : 0;
