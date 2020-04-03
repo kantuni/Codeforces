@@ -4,26 +4,22 @@ using namespace std;
 int main() {
   int n;
   cin >> n;
-  set<long long> s;
-  vector<long long> x;
+  set<int> s;
+  vector<int> x(n);
   for (int i = 0; i < n; i++) {
-    long long xi;
-    cin >> xi;
-    x.push_back(xi);
-    s.insert(xi);
+    cin >> x[i];
+    s.insert(x[i]);
   }
-  vector<long long> y;
+  vector<int> y(n);
   for (int i = 0; i < n; i++) {
-    long long yi;
-    cin >> yi;
-    y.push_back(yi);
-    s.insert(yi);
+    cin >> y[i];
+    s.insert(y[i]);
   }
-  long long cnt = 0;
+  int cnt = 0;
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
-      long long xxy = x[i] xor y[j];
-      if (s.count(xxy) > 0) {
+      int xy = x[i] xor y[j];
+      if (s.count(xy) > 0) {
         cnt++;
       }
     }
