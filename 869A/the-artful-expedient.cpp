@@ -19,16 +19,16 @@ int main() {
     y.push_back(yi);
     s.insert(yi);
   }
-  long long counter = 0;
+  long long cnt = 0;
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
       long long xxy = x[i] xor y[j];
       if (s.count(xxy) > 0) {
-        counter++;
+        cnt++;
       }
     }
   }
-  if (counter % 2 == 0) {
+  if (cnt % 2 == 0) {
     cout << "Karen" << endl;
   } else {
     cout << "Koyomi" << endl;
