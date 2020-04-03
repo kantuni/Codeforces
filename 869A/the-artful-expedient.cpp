@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <set>
+#include <bits/stdc++.h>
 using namespace std;
 
 typedef unsigned long long ull;
@@ -8,9 +6,7 @@ typedef unsigned long long ull;
 int main() {
   int n;
   cin >> n;
-  
   set<ull> s;
-  
   vector<ull> x;
   for (int i = 0; i < n; i++) {
     ull xi;
@@ -18,7 +14,6 @@ int main() {
     x.push_back(xi);
     s.insert(xi);
   }
-  
   vector<ull> y;
   for (int i = 0; i < n; i++) {
     ull yi;
@@ -26,22 +21,19 @@ int main() {
     y.push_back(yi);
     s.insert(yi);
   }
-  
   ull counter = 0;
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
-      ull xxy = x[i] ^ y[j];
+      ull xxy = x[i] xor y[j];
       if (s.count(xxy) > 0) {
         counter++;
       }
     }
   }
-  
   if (counter % 2 == 0) {
-    cout << "Karen" << "\n";
+    cout << "Karen" << endl;
   } else {
-    cout << "Koyomi" << "\n";
+    cout << "Koyomi" << endl;
   }
-  
   return 0;
 }
