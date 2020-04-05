@@ -12,7 +12,7 @@ int main() {
   cin >> k >> n;
   
   if (k == 1) {
-    cout << 0 << "\n";
+    cout << 0 << endl;
    
     return 0;
   }
@@ -48,6 +48,6 @@ int main() {
     ++mnd;
   }
 
-  cout << mnd << "\n";
+  cout << mnd << endl;
   return 0;
 }
