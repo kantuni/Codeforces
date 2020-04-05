@@ -20,7 +20,7 @@ int main() {
   vvull digits(10);
   ull sum = 0;
   
-  for (ull i = 0; i < n.size(); ++i) {
+  for (ull i = 0; i < n.size(); i++) {
     int digit = n[i] - '0';
     sum += digit;
     digits[digit].push_back(i);
@@ -31,12 +31,12 @@ int main() {
   
   while (sum < k) {
     if (row >= digits[col].size()) {
-      ++col;
+      col++;
       row = 0;
     }
     
     if (digits[col].size() == 0) {
-      ++col;
+      col++;
       continue;
     }
     
@@ -44,8 +44,8 @@ int main() {
     sum -= n[index] - '0';
     n[index] = '9';
     sum += 9;
-    ++row;
-    ++mnd;
+    row++;
+    mnd++;
   }
 
   cout << mnd << endl;
