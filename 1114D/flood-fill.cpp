@@ -1,5 +1,6 @@
 // WA
 #include <bits/stdc++.h>
+#define MAXN 5005
 using namespace std;
 
 int main() {
@@ -19,7 +20,7 @@ int main() {
     }
   }
   int mf = -1, mn = -1;
-  vector<int> f(5001);
+  vector<int> f(MAXN);
   for (auto val: diff) {
     f[val]++;
     if (f[val] > mf) {
