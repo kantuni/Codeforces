@@ -10,11 +10,11 @@ int main() {
     cin >> a[i];
     sum += a[i];
   }
-  long long curr = 0;
+  long long cur = 0;
   for (int i = 0; i < n; i++) {
-    curr += a[i];
-    if (curr >= ceil(sum / 2.0)) {
-      cout << i + 1 << "\n";
+    cur += a[i];
+    if (cur >= ceil(sum / 2.0)) {
+      cout << i + 1 << endl;
       break;
     }
   }
