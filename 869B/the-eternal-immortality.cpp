@@ -1,18 +1,16 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-typedef unsigned long long ull;
-
 int main() {
-  ull a, b;
+  long long a, b;
   cin >> a >> b;
-  
-  ull res = 1;
-  for (ull i = a + 1; i <= b; i++) {
-    res = (res % 10) * (i % 10);
-    if (res % 10 == 0) break;
+  long long ans = 1;
+  for (long long i = a + 1; i <= b; i++) {
+    ans = (ans % 10) * (i % 10);
+    if (ans % 10 == 0) {
+      break;
+    }
   }
-  cout << res % 10 << "\n";
-  
+  cout << ans % 10 << endl;
   return 0;
 }
