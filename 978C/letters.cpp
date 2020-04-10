@@ -24,9 +24,9 @@ int main() {
     }
     cout << curr + 1 << " ";
     if (curr == 0) {
-      cout << b[i] << "\n";
+      cout << b[i] << endl;
     } else {
-      cout << b[i] - asum[curr - 1] << "\n";
+      cout << b[i] - asum[curr - 1] << endl;
     }
   }
   return 0;
