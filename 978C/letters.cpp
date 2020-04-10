@@ -17,16 +17,16 @@ int main() {
   for (int i = 1; i < n; i++) {
     asum[i] = asum[i - 1] + a[i];
   }
-  int curr = 0;
+  int cur = 0;
   for (int i = 0; i < m; i++) {
-    while (b[i] > asum[curr]) {
-      curr++;
+    while (b[i] > asum[cur]) {
+      cur++;
     }
-    cout << curr + 1 << " ";
-    if (curr == 0) {
+    cout << cur + 1 << " ";
+    if (cur == 0) {
       cout << b[i] << endl;
     } else {
-      cout << b[i] - asum[curr - 1] << endl;
+      cout << b[i] - asum[cur - 1] << endl;
     }
   }
   return 0;
