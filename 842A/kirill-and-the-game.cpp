@@ -1,26 +1,21 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-typedef unsigned long long ull;
-
 int main() {
-  ull l, r, x, y, k;
+  long long l, r, x, y, k;
   cin >> l >> r >> x >> y >> k;
-  
   bool found = false;
-  for (ull b = x; b <= y; ++b) {
-    ull a = k * b;
-    if (a >= l && a <= r) {
+  for (long long b = x; b <= y; b++) {
+    long long a = k * b;
+    if (l <= a and a <= r) {
       found = true;
       break;
     }
   }
-  
   if (found) {
-    cout << "YES" << "\n";
+    cout << "YES" << endl;
   } else {
-    cout << "NO" << "\n";
+    cout << "NO" << endl;
   }
-  
   return 0;
 }
