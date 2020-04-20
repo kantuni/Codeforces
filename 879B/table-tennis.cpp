@@ -5,12 +5,10 @@ int main() {
   int n;
   long long k;
   cin >> n >> k;
-  
   vector<int> p(n);
   for (int i = 0; i < n; i++) {
     cin >> p[i];
   }
-  
   int winner;
   if (k > n) {
     winner = *max_element(p.begin(), p.end());
@@ -19,11 +17,9 @@ int main() {
     for (int i = 0 ; i < n; i++) {
       q.push(p[i]);
     }
-    
     int wins = 0;
     winner = q.front();
     q.pop();
-    
     while (wins != k) {
       int front = q.front();
       if (winner > front) {
@@ -38,7 +34,6 @@ int main() {
       }
     }
   }
-  
   cout << winner << "\n";
   return 0;
 }
