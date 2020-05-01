@@ -10,7 +10,7 @@ int main() {
     cin >> b[i];
   }
   if (n < 3) {
-    cout << 0 << "\n";
+    cout << 0 << endl;
   } else {
     vector<int> ans;
     bool ok = false;
@@ -55,9 +55,9 @@ int main() {
       }
     }
     if (ok) {
-      cout << mincnt << "\n";
+      cout << mincnt << endl;
     } else {
-      cout << -1 << "\n";
+      cout << -1 << endl;
     }
   }
   return 0;
