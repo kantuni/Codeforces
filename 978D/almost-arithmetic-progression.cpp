@@ -29,9 +29,9 @@ int main() {
             for (int i = 3; i < n; i++) {
               bool arithmetic = false;
               for (int j = -1; !arithmetic and j < 2; j++) {
-                int next = b[i] + j;
-                if (ans[i - 1] - next == diff) {
-                  ans.push_back(next);
+                int nxt = b[i] + j;
+                if (ans[i - 1] - nxt == diff) {
+                  ans.push_back(nxt);
                   arithmetic = true;
                   break;
                 }
