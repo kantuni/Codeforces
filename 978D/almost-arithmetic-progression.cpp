@@ -14,7 +14,7 @@ int main() {
   } else {
     vector<int> ans;
     bool ok = false;
-    int mincnt = n;
+    int mncnt = n;
     for (int i = -1; !ok and i < 2; i++) {
       for (int j = -1; !ok and j < 2; j++) {
         for (int k = -1; !ok and k < 2; k++) {
@@ -48,14 +48,14 @@ int main() {
                   cnt++;
                 }
               }
-              mincnt = min(mincnt, cnt);
+              mncnt = min(mncnt, cnt);
             }
           }
         }
       }
     }
     if (ok) {
-      cout << mincnt << endl;
+      cout << mncnt << endl;
     } else {
       cout << -1 << endl;
     }
