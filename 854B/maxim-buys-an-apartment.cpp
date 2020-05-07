@@ -1,19 +1,14 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-typedef unsigned long long ull;
-
 int main() {
-  ull n, k;
+  long long n, k;
   cin >> n >> k;
-  
-  if (k == 0 || k == n) {
-    cout << 0 << " " << 0 << "\n";
+  if (k == 0 or k == n) {
+    cout << "0 0" << endl;
     return 0;
   }
-  
-  ull max = n > 3 * k ? 2 * k : n - k;
-  cout << 1 << " " << max << "\n";
-  
+  long long mx = (n > 3 * k) ? 2 * k : n - k;
+  cout << 1 << " " << mx << endl;
   return 0;
 }
