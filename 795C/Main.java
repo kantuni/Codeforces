@@ -3,7 +3,6 @@ import java.io.InputStreamReader;
 
 public class Main {
   public static void main(String[] args) {
-    // create a buffer to read an input
     BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
     try {
       int n = Integer.parseInt(buffer.readLine().trim());
