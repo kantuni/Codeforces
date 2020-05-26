@@ -66,6 +66,6 @@ int main() {
       }
     }
   }
-  cout << maxi + 1 << " " << maxj + 1 << "\n";
+  cout << maxi + 1 << " " << maxj + 1 << endl;
   return 0;
 }
