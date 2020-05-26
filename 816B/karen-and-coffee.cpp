@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
-#define MAXN 200005
+#define N 200005
 using namespace std;
 
 int main() {
   int n, k, q;
   cin >> n >> k >> q;
-  vector<int> f(MAXN);
+  vector<int> f(N);
   while (n--) {
     int l, r;
     cin >> l >> r;
@@ -17,7 +17,7 @@ int main() {
     cnt += f[i];
     f[i] = (cnt >= k) ? 1 : 0;
   }
-  vector<int> p(MAXN);
+  vector<int> p(N);
   for (int i = 1; i < p.size(); i++) {
     p[i] = f[i - 1] + p[i - 1];
   }
