@@ -15,7 +15,7 @@ int main() {
   for (int i = 0; i < n; i++) {
     sum -= a[i];
     auto it = ms.find(a[i]);
-    if (it != ms.end()){
+    if (it != ms.end()) {
       ms.erase(it);
     }
     int m = *ms.begin();
@@ -26,8 +26,8 @@ int main() {
     ms.insert(a[i]);
   }
   cout << ans.size() << endl;
-  for (auto index: ans) {
-    cout << index << " ";
+  for (auto id: ans) {
+    cout << id << " ";
   }
   cout << endl;
   return 0;
