@@ -32,6 +32,6 @@ int main() {
       high = mid;
     }
   }
-  cout << high << "\n";
+  cout << high << endl;
   return 0;
 }
