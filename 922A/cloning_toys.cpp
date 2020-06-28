@@ -5,7 +5,7 @@ int main() {
   long long x, y;
   cin >> x >> y;
   if (y == 0) {
-    cout << "No\n";
+    cout << "No" << endl;
     return 0;
   }
   long long originals = 1, copies = 0;
@@ -18,6 +18,10 @@ int main() {
   while (copies > 0 and copies < x) {
     copies += 2;
   }
-  cout << (y == originals and x == copies ? "Yes\n" : "No\n");
+  if (y == originals and x == copies) {
+    cout << "Yes" << endl;
+  } else {
+    cout << "No" << endl;
+  }
   return 0;
 }
