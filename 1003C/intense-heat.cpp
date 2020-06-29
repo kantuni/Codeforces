@@ -22,6 +22,6 @@ int main() {
     }
   }
   cout << fixed << setprecision(7);
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
