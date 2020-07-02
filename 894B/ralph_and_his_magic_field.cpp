@@ -3,7 +3,7 @@
 #define P 1000000007
 using namespace std;
 
-long long fac(long long n) {
+long long f(long long n) {
   long long ans = 1;
   for (long long i = 2; i <= n; i++) {
     ans = (ans * i) % P;
@@ -34,7 +34,7 @@ int main() {
     return 0;
   }
   
-  ans = fac(n);
+  ans = f(n);
   if (n % 2 == 1) {
     ans = (ans + (n * n) % P) % P;
     ans = (ans + 1) % P;
