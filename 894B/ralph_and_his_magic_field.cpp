@@ -20,16 +20,16 @@ int main() {
   
   if (n == 1 || m == 1) {
     if (k == 1) {
-      cout << "1\n";
+      cout << "1" << endl;
     } else {
-      cout << (n * m % 2 == 0 ? "0\n" : "1\n");
+      cout << (n * m % 2 == 0 ? "0" : "1") << endl;
     }
     return 0;
   }
   
   if (n != m) {
     if (k == -1) {
-      cout << "0\n";
+      cout << "0" << endl;
     } else {
       ans += (n % 2 == 0) ? m : n;
     }
@@ -42,6 +42,6 @@ int main() {
     ans = (ans + 1) % P;
   }
   
-  cout << ans << "\n";
+  cout << ans << endl;
   return 0;
 }
