@@ -1,20 +1,18 @@
 // WA
-#include <iostream>
+#include <bits/stdc++.h>
+#define P 1000000007
 using namespace std;
 
-typedef unsigned long long ull;
-#define P 1000000007
-
-ull fac(ull n) {
-  ull ans = 1;
-  for (ull i = 2; i <= n; i++) {
+long long fac(long long n) {
+  long long ans = 1;
+  for (long long i = 2; i <= n; i++) {
     ans = (ans * i) % P;
   }
   return ans;
 }
 
 int main() {
-  ull n, m, ans = 0;
+  long long n, m, ans = 0;
   int k;
   cin >> n >> m >> k;
   
