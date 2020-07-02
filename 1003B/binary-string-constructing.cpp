@@ -39,6 +39,6 @@ int main() {
     }
     b--;
   }
-  cout << s << "\n";
+  cout << s << endl;
   return 0;
 }
