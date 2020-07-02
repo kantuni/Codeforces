@@ -32,7 +32,6 @@ int main() {
       cout << "0\n";
     } else {
       ans += (n % 2 == 0) ? m : n;
-      
     }
     return 0;
   }
