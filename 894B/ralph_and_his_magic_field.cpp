@@ -12,10 +12,8 @@ long long f(long long n) {
 }
 
 int main() {
-  long long n, m, ans = 0;
-  int k;
+  long long n, m, k, ans = 0;
   cin >> n >> m >> k;
-  
   if (n == 1 || m == 1) {
     if (k == 1) {
       cout << "1" << endl;
@@ -24,7 +22,6 @@ int main() {
     }
     return 0;
   }
-  
   if (n != m) {
     if (k == -1) {
       cout << "0" << endl;
@@ -33,13 +30,11 @@ int main() {
     }
     return 0;
   }
-  
   ans = f(n);
   if (n % 2 == 1) {
     ans = (ans + (n * n) % P) % P;
     ans = (ans + 1) % P;
   }
-  
   cout << ans << endl;
   return 0;
 }
