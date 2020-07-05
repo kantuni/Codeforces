@@ -7,7 +7,7 @@ int main() {
   ull n, k;
   cin >> n >> k;
   if (k == 1) {
-    cout << "Yes\n";
+    cout << "Yes" << endl;
   } else {
     set<ull> s;
     ull counter = 0;
@@ -16,7 +16,11 @@ int main() {
       counter++;
       if (counter != s.size()) break;
     }
-    cout << (counter == s.size() ? "Yes\n" : "No\n");
+    if (counter == s.size()) {
+      cout << "Yes" << endl;
+    } else {
+      cout << "No" << endl;
+    }
   }
   return 0;
 }
