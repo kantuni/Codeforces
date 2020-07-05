@@ -6,7 +6,6 @@ typedef unsigned long long ull;
 int main() {
   ull n, k;
   cin >> n >> k;
-  
   if (k == 1) {
     cout << "Yes\n";
   } else {
@@ -19,6 +18,5 @@ int main() {
     }
     cout << (counter == s.size() ? "Yes\n" : "No\n");
   }
-  
   return 0;
 }
