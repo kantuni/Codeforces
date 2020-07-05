@@ -1,22 +1,22 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef unsigned long long ull;
-
 int main() {
-  ull n, k;
+  long long n, k;
   cin >> n >> k;
   if (k == 1) {
     cout << "Yes" << endl;
   } else {
-    set<ull> s;
-    ull counter = 0;
-    for (ull i = 1; i <= k; i++) {
+    set<long long> s;
+    long long ans = 0;
+    for (auto i = 1; i <= k; i++) {
       s.insert(n % i);
-      counter++;
-      if (counter != s.size()) break;
+      ans++;
+      if (ans != s.size()) {
+        break;
+      }
     }
-    if (counter == s.size()) {
+    if (ans == s.size()) {
       cout << "Yes" << endl;
     } else {
       cout << "No" << endl;
