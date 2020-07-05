@@ -9,7 +9,7 @@ int main() {
   } else {
     set<long long> s;
     long long ans = 0;
-    for (auto i = 1; i <= k; i++) {
+    for (long long i = 1; i <= k; i++) {
       s.insert(n % i);
       ans++;
       if (ans != s.size()) {
