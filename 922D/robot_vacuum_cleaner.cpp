@@ -7,7 +7,9 @@ int noise(string t) {
   for (int i = 0; i < t.size(); i++) {
     if (t[i] == 's') {
       for (int j = i + 1; j < t.size(); j++) {
-        if (t[j] == 'h') counter++;
+        if (t[j] == 'h') {
+          counter++;
+        }
       }
     }
   }
@@ -32,7 +34,9 @@ int main() {
         break;
       }
     }
-    if (ok) onlys.push_back(t[i]);
+    if (ok) {
+      onlys.push_back(t[i]);
+    }
   }
   
   vector<string> onlyh;
@@ -44,7 +48,9 @@ int main() {
         break;
       }
     }
-    if (ok) onlyh.push_back(t[i]);
+    if (ok) {
+      onlyh.push_back(t[i]);
+    }
   }
   
   deque<string> dq;
@@ -66,15 +72,24 @@ int main() {
     }
     
     if (!sonly and !honly) {
-      if (t[i][0] == 's') dq.push_front(t[i]);
-      else dq.push_back(t[i]);
+      if (t[i][0] == 's') {
+        dq.push_front(t[i]);
+      } else {
+        dq.push_back(t[i]);
+      }
     }
   }
   
   string ts = "";
-  for (auto s: onlys) ts += s;
-  for (auto s: dq) ts += s;
-  for (auto s: onlyh) ts += s;
+  for (auto s: onlys) {
+    ts += s;
+  }
+  for (auto s: dq) {
+    ts += s;
+  }
+  for (auto s: onlyh) {
+    ts += s;
+  }
   cout << noise(ts) << "\n";
   return 0;
 }
