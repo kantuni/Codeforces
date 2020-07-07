@@ -19,12 +19,10 @@ int noise(string t) {
 int main() {
   int n;
   cin >> n;
-  
   vector<string> t(n);
   for (int i = 0; i < n; i++) {
     cin >> t[i];
   }
-  
   vector<string> onlys;
   for (int i = 0; i < n; i++) {
     bool ok = true;
@@ -38,7 +36,6 @@ int main() {
       onlys.push_back(t[i]);
     }
   }
-  
   vector<string> onlyh;
   for (int i = 0; i < n; i++) {
     bool ok = true;
@@ -52,7 +49,6 @@ int main() {
       onlyh.push_back(t[i]);
     }
   }
-  
   deque<string> dq;
   for (int i = 0; i < n; i++) {
     bool sonly = true;
@@ -62,7 +58,6 @@ int main() {
         break;
       }
     }
-    
     bool honly = true;
     for (int j = 0; j < t[i].size(); j++) {
       if (t[i][j] == 's') {
@@ -70,7 +65,6 @@ int main() {
         break;
       }
     }
-    
     if (!sonly and !honly) {
       if (t[i][0] == 's') {
         dq.push_front(t[i]);
@@ -79,7 +73,6 @@ int main() {
       }
     }
   }
-  
   string ts = "";
   for (auto s: onlys) {
     ts += s;
