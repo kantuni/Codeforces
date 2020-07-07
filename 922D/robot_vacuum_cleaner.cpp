@@ -83,6 +83,6 @@ int main() {
   for (auto s: onlyh) {
     ts += s;
   }
-  cout << noise(ts) << "\n";
+  cout << noise(ts) << endl;
   return 0;
 }
