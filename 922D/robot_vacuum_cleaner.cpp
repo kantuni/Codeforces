@@ -3,17 +3,17 @@
 using namespace std;
 
 int noise(string t) {
-  int counter = 0;
+  int cnt = 0;
   for (int i = 0; i < t.size(); i++) {
     if (t[i] == 's') {
       for (int j = i + 1; j < t.size(); j++) {
         if (t[j] == 'h') {
-          counter++;
+          cnt++;
         }
       }
     }
   }
-  return counter;
+  return cnt;
 }
 
 int main() {
@@ -73,7 +73,7 @@ int main() {
       }
     }
   }
-  string ts = "";
+  string ts;
   for (auto s: onlys) {
     ts += s;
   }
