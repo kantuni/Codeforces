@@ -70,7 +70,6 @@ int main() {
       }
     }
   }
-  // check
   for (int i = 1; i < 1000; i++) {
     if (visited[i] == 0) {
       cout << i - 1 << endl;
