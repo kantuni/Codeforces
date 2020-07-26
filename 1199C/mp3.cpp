@@ -28,7 +28,8 @@ int main() {
     if (possible(r - l + 1)) {
       break;
     }
-    int fl = freq[a[l]], fr = freq[a[r]];
+    int fl = freq[a[l]];
+    int fr = freq[a[r]];
     if (fl < fr) {
       ans += fl;
       l++;
