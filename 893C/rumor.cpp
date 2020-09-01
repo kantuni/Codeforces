@@ -2,7 +2,7 @@
 using namespace std;
 
 priority_queue<pair<long long, long long>> pq;
-vector<vector<long long>> cnn;
+vector<vector<pair<long long, long long>>> cnn;
 vector<long long> taken;
 
 void process(int u) {
