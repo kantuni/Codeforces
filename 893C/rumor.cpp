@@ -1,22 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef long long ll;
-typedef pair<ll, ll> ii;
-typedef vector<ll> vi;
-typedef vector<ii> vii;
-typedef vector<vii> vvii;
-
-priority_queue<ii> pq;
-vvii cnn;
-vi taken;
+priority_queue<pair<long long, long long>> pq;
+vector<vector<long long>> cnn;
+vector<long long> taken;
 
 void process(int u) {
   taken[u] = 1;
-  for (int j = 0; j < cnn[u].size(); j++) {
-    ii v = cnn[u][j];
+  for (auto v: cnn[u]) {
     if (!taken[v.first]) {
-      pq.push(ii(-v.second, -v.first));
+      pq.push({-v.second, -v.first});
     }
   }
 }
@@ -27,24 +20,23 @@ int main() {
   cnn.resize(n + 1);
   taken.assign(n + 1, 0);
   for (int i = 1; i <= n; i++) {
-    ll c;
+    long long c;
     cin >> c;
-    cnn[0].push_back(ii(i, c));
-    cnn[i].push_back(ii(0, c));
+    cnn[0].push_back({i, c});
+    cnn[i].push_back({0, c});
   }
   while (m--) {
     int s, t;
     cin >> s >> t;
-    cnn[s].push_back(ii(t, 0));
-    cnn[t].push_back(ii(s, 0));
+    cnn[s].push_back({t, 0});
+    cnn[t].push_back({s, 0});
   }
   process(0);
-  ll mst = 0;
+  long long mst = 0;
   while (!pq.empty()) {
-    ii front = pq.top();
-    pq.pop();
-    ll u = -front.second;
-    ll w = -front.first;
+    auto front = pq.top(); pq.pop();
+    long long u = -front.second;
+    long long w = -front.first;
     if (!taken[u]) {
       mst += w;
       process(u);
