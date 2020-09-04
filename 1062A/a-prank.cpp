@@ -16,10 +16,10 @@ int main() {
   }
   color[0] = (a[1] == 2) ? 1 : 0;
   color[n - 1] = (a[n - 2] == 999) ? 1 : 0;
-  int ans = 0, curr = 0;
+  int ans = 0, cur = 0;
   for (int i = 0; i < n; i++) {
-    curr = color[i] == 1 ? curr + 1 : 0;
-    ans = max(ans, curr);
+    cur = color[i] == 1 ? cur + 1 : 0;
+    ans = max(ans, cur);
   }
   cout << ans << endl;
   return 0;
