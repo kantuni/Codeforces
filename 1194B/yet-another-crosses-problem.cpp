@@ -27,7 +27,9 @@ int main() {
       for (int j = 0; j < m; j++) {
         int c2 = 0;
         for (int k = 0; k < n; k++) {
-          if (k == i) continue;
+          if (k == i) {
+            continue;
+          }
           if (g[k][j] == '*') {
             c2++;
           }
