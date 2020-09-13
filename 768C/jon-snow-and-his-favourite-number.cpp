@@ -16,7 +16,7 @@ int main() {
     sort(a.begin(), a.end());
     string hash;
     for (auto ai: a) {
-      hash += to_string(ai) + ",";
+      hash += to_string(ai) + "-";
     }
     if (s.count(hash) == 0) {
       s.insert(hash);
