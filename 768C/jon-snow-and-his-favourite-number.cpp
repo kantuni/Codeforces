@@ -1,26 +1,46 @@
-// TLE
 #include <bits/stdc++.h>
+#define INF (int) 1e9
 using namespace std;
 
 int main() {
   int n, k, x;
   cin >> n >> k >> x;
-  vector<int> s(n);
+  vector<int> a(n);
   for (int i = 0; i < n; i++) {
-    cin >> s[i];
+    cin >> a[i];
   }
-  for (int i = 0; i < k; i++) {
-    sort(s.begin(), s.end());
-    for (int j = 0; j < s.size(); j++) {
+  set<string> s;
+  bool cycle = false;
+  int cnt = 0;
+  while (k--) {
+    sort(a.begin(), a.end());
+    string hash;
+    for (auto ai: a) {
+      hash += to_string(ai) + ",";
+    }
+    if (s.count(hash) == 0) {
+      s.insert(hash);
+      if (cycle) {
+        cnt++;
+      }
+    } else {
+      if (cycle) {
+        k = k % cnt;
+      } else {
+        cycle = true;
+        s.clear();
+      }
+    }
+    for (int j = 0; j < n; j++) {
       if (j % 2 == 0) {
-        s[j] ^= x;
+        a[j] ^= x;
       }
     }
   }
-  int mn = s[0], mx = s[0];
-  for (int i = 0; i < s.size(); i++) {
-    mn = min(mn, s[i]);
-    mx = max(mx, s[i]);
+  int mn = INF, mx = -INF;
+  for (auto ai: a) {  
+    mn = min(mn, ai);
+    mx = max(mx, ai);
   }
   cout << mx << " " << mn << endl;
   return 0;
