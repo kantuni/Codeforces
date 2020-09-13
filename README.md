@@ -556,7 +556,7 @@
 ### Codeforces Round #399 - `1/7`
 - **[768A](https://github.com/kantuni/Codeforces/tree/master/768A)** - Oath of the Night's Watch - **Accepted**
 - [768B](https://github.com/kantuni/Codeforces/tree/master/768B) - Code for 1 - **Accepted**
-- [768C](https://github.com/kantuni/Codeforces/tree/master/768C) - Jon Snow and his Favourite Number - **Time limit exceeded**
+- [768C](https://github.com/kantuni/Codeforces/tree/master/768C) - Jon Snow and his Favourite Number - **Accepted**
 
 ### Codeforces Round #398 - `0/5`
 - [767A](https://github.com/kantuni/Codeforces/tree/master/767A) - Snacktower - **Accepted**
@@ -576,4 +576,4 @@
 
 <br>
 
-Problems solved: **282**
+Problems solved: **283**
