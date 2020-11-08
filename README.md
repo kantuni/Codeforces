@@ -83,7 +83,7 @@
 - **[1195A](https://github.com/kantuni/Codeforces/tree/master/1195A)** - Drinks Choosing - **Accepted**
 - **[1195B](https://github.com/kantuni/Codeforces/tree/master/1195B)** - Sport Mafia - **Accepted**
 - **[1195C](https://github.com/kantuni/Codeforces/tree/master/1195C)** - Basketball Exercise - **Accepted**
-- [1195D](https://github.com/kantuni/Codeforces/tree/master/1195D) - Submarine in the Rybinsk Sea (easy edition) - **Wrong answer**
+- [1195D1](https://github.com/kantuni/Codeforces/tree/master/1195D1) - Submarine in the Rybinsk Sea (easy edition) - **Time limit exceeded**
 
 ### Educational Codeforces Round 68 - `2/7`
 - **[1194A](https://github.com/kantuni/Codeforces/tree/master/1194A)** - Remove a Progression - **Accepted**
