@@ -574,6 +574,6 @@
 - [764A](https://github.com/kantuni/Codeforces/tree/master/764A) - Taymyr is calling you - **Accepted**
 - [764B](https://github.com/kantuni/Codeforces/tree/master/764B) - Timofey and cubes - **Accepted**
 
-<br>
+<br />
 
 Problems solved: **283**
