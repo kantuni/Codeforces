@@ -1,7 +1,6 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
-### Codeforces Round #667 (Div. 3) - `3/6`
-> Virtual participation
+### Codeforces Round #667 (Div. 3)
 - **[1409A](https://github.com/kantuni/Codeforces/tree/master/1409A)** - Yet Another Two Integers Problem - **Accepted**
 - **[1409B](https://github.com/kantuni/Codeforces/tree/master/1409B)** - Minimum Product - **Accepted**
 - **[1409C](https://github.com/kantuni/Codeforces/tree/master/1409C)** - Yet Another Array Restoration - **Accepted**
