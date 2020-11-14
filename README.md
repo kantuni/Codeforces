@@ -1,5 +1,11 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Codeforces Round #674 (Div. 3)
+> Virtual participation
+- **[1426A](https://github.com/kantuni/Codeforces/tree/master/1426A)** - Floor Number - **Accepted**
+- **[1426B](https://github.com/kantuni/Codeforces/tree/master/1426B)** - Symmetric Matrix - **Accepted**
+- **[1426C](https://github.com/kantuni/Codeforces/tree/master/1426C)** - Increase and Copy - **Accepted**
+
 ### Codeforces Round #667 (Div. 3)
 > Virtual participation
 - **[1409A](https://github.com/kantuni/Codeforces/tree/master/1409A)** - Yet Another Two Integers Problem - **Accepted**
@@ -582,4 +588,4 @@
 
 <br />
 
-Problems solved: **286**
+Problems solved: **289**
