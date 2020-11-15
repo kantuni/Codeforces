@@ -5,6 +5,7 @@
 - **[1426A](https://github.com/kantuni/Codeforces/tree/master/1426A)** - Floor Number - **Accepted**
 - **[1426B](https://github.com/kantuni/Codeforces/tree/master/1426B)** - Symmetric Matrix - **Accepted**
 - **[1426C](https://github.com/kantuni/Codeforces/tree/master/1426C)** - Increase and Copy - **Accepted**
+- [1426D](https://github.com/kantuni/Codeforces/tree/master/1426D) - Non-zero Segments - **Accepted**
 
 ### Codeforces Round #667 (Div. 3)
 > Virtual participation
