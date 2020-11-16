@@ -1,5 +1,8 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Codeforces Round #683 (Div. 2) - `1/7`
+- **[1447A](https://github.com/kantuni/Codeforces/tree/master/1447A)** - Add Candies - **Accepted**
+
 ### Codeforces Round #674 (Div. 3)
 > Virtual participation
 - **[1426A](https://github.com/kantuni/Codeforces/tree/master/1426A)** - Floor Number - **Accepted**
