@@ -2,6 +2,7 @@
 
 ### Codeforces Round #683 (Div. 2) - `1/7`
 - **[1447A](https://github.com/kantuni/Codeforces/tree/master/1447A)** - Add Candies - **Accepted**
+- [1447B](https://github.com/kantuni/Codeforces/tree/master/1447B) - Numbers Box - **Accepted**
 
 ### Codeforces Round #674 (Div. 3)
 > Virtual participation
@@ -592,4 +593,4 @@
 
 <br />
 
-Problems solved: **291**
+Problems solved: **292**
