@@ -1,6 +1,6 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
-## Codeforces Round #684 (Div. 2) - `2/6`
+### Codeforces Round #684 (Div. 2) - `2/6`
 - **[1440A](https://github.com/kantuni/Codeforces/tree/master/1440A)** - Buy the String - **Accepted**
 - **[1440B](https://github.com/kantuni/Codeforces/tree/master/1440B)** - Sum of Medians - **Accepted**
 - [1440C1](https://github.com/kantuni/Codeforces/tree/master/1440C1) - Binary Table (Easy Version) - **Accepted**
