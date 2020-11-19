@@ -599,4 +599,4 @@
 
 <br />
 
-Problems solved: **292**
+Problems solved: **296**
