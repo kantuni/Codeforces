@@ -1,5 +1,11 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+## Codeforces Round #684 (Div. 2) - `2/6`
+- **[1440A](https://github.com/kantuni/Codeforces/tree/master/1440A)** - Buy the String - **Accepted**
+- **[1440B](https://github.com/kantuni/Codeforces/tree/master/1440B)** - Sum of Medians - **Accepted**
+- [1440C1](https://github.com/kantuni/Codeforces/tree/master/1440C1) - Binary Table (Easy Version) - **Accepted**
+- [1440C2](https://github.com/kantuni/Codeforces/tree/master/1440C2) - Binary Table (Hard Version) - **Accepted**
+
 ### Codeforces Round #683 (Div. 2) - `1/7`
 - **[1447A](https://github.com/kantuni/Codeforces/tree/master/1447A)** - Add Candies - **Accepted**
 - [1447B](https://github.com/kantuni/Codeforces/tree/master/1447B) - Numbers Box - **Accepted**
