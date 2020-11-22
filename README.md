@@ -1,5 +1,10 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Codeforces Round #685 (Div. 2) - `2/7`
+- **[1451A](https://github.com/kantuni/Codeforces/tree/master/1451A)** - Subtract or Divide - **Accepted**
+- **[1451B](https://github.com/kantuni/Codeforces/tree/master/1451B)** - Non-Substring Subsequence - **Accepted**
+- [1451C](https://github.com/kantuni/Codeforces/tree/master/1451C) - String Equality - **Wrong answer**
+
 ### Codeforces Round #684 (Div. 2) - `2/6`
 - **[1440A](https://github.com/kantuni/Codeforces/tree/master/1440A)** - Buy the String - **Accepted**
 - **[1440B](https://github.com/kantuni/Codeforces/tree/master/1440B)** - Sum of Medians - **Accepted**
