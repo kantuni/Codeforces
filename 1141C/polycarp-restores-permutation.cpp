@@ -30,8 +30,8 @@ int main() {
     }
   }
   if (ok) {
-    for (auto pi: p) {
-      cout << pi << " ";
+    for (auto val: p) {
+      cout << val << " ";
     }
     cout << endl;
   } else {
