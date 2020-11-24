@@ -10,13 +10,12 @@ int main() {
     int n;
     cin >> n;
     int ans = 0;
-    while (n != 1) {
-      if (n != 2 and n % 2 == 0) {
-        n = 2;
-      } else {
-        n -= 1;
-      }
-      ans++;
+    if (n <= 3) {
+      ans = n - 1;
+    } else if (n % 2 == 0) {
+      ans = 2;
+    } else {
+      ans = 3;
     }
     cout << ans << endl;
   }
