@@ -1,5 +1,11 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Codeforces Round #686 (Div. 3) - `2/6`
+- **[1454A](https://github.com/kantuni/Codeforces/tree/master/1454A)** - Special Permutation - **Accepted**
+- **[1454B](https://github.com/kantuni/Codeforces/tree/master/1454B)** - Unique Bid Auction - **Accepted**
+- [1454C](https://github.com/kantuni/Codeforces/tree/master/1454C) - Sequence Transformation - **Accepted**
+- [1454D](https://github.com/kantuni/Codeforces/tree/master/1454D) - Number into Sequence - **Accepted**
+
 ### Codeforces Round #685 (Div. 2) - `2/7`
 - **[1451A](https://github.com/kantuni/Codeforces/tree/master/1451A)** - Subtract or Divide - **Accepted**
 - **[1451B](https://github.com/kantuni/Codeforces/tree/master/1451B)** - Non-Substring Subsequence - **Accepted**
