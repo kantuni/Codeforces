@@ -34,7 +34,10 @@
 - **[1409B](https://github.com/kantuni/Codeforces/tree/master/1409B)** - Minimum Product - **Accepted**
 - [1409C](https://github.com/kantuni/Codeforces/tree/master/1409C) - Yet Another Array Restoration - **Accepted**
 
-## Codeforces Round #634 (Div. 3)
+### Codeforces Round #640 (Div. 4)
+- [1352F](https://github.com/kantuni/Codeforces/tree/master/1352F) - Binary String Reconstruction - **Accepted**
+
+### Codeforces Round #634 (Div. 3)
 - [1335B](https://github.com/kantuni/Codeforces/tree/master/1335B) - Construct the String - **Accepted**
 
 ### Codeforces Global Round 5 - `1/9`
