@@ -13,10 +13,10 @@ int main() {
   }
   sort(a.begin(), a.end());
   vector<int> color(n);
-  int curr = 0;
+  int cur = 0;
   for (int i = 0; i < n; i++) {
-    color[a[i].second] = curr;
-    curr = (curr + 1) % k;
+    color[a[i].second] = cur;
+    cur = (cur + 1) % k;
   }
   bool ok = true;
   for (auto f: freq) {
