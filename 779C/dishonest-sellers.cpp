@@ -17,8 +17,7 @@ int main() {
     diff[i] = {a[i] - b[i], i};
   }
   sort(diff.begin(), diff.end());
-  int ans = 0;
-  int pos = 0, min_index;
+  int ans = 0, pos = 0, min_index;
   while (k--) {
     min_index = diff[pos].second;
     ans += a[min_index];
