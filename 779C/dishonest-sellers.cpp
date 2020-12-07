@@ -16,10 +16,9 @@ int main() {
   for (int i = 0; i < n; i++) {
     cin >> b[i];
   }
-  vii diff;
+  vector<pair<int, int>> diff(n);
   for (int i = 0; i < n; i++) {
-    ii d = {a[i] - b[i], i};
-    diff.push_back(d);
+    diff[i] = {a[i] - b[i], i};
   }
   sort(diff.begin(), diff.end());
   int total = 0;
