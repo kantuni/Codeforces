@@ -6,25 +6,19 @@ typedef vector<int> vi;
 typedef vector<pair<int, int>> vii;
 
 int main() {
-  int n, k, nc;
+  int n, k;
   cin >> n >> k;
-  vi al;
-  nc = n;
-  while (nc--) {
-    int a;
-    cin >> a;
-    al.push_back(a);
+  vector<int> a(n);
+  for (int i = 0; i < n; i++) {
+    cin >> a[i];
   }
-  vi bl;
-  nc = n;
-  while (nc--) {
-    int b;
-    cin >> b;
-    bl.push_back(b);
+  vector<int> b(n);
+  for (int i = 0; i < n; i++) {
+    cin >> b[i];
   }
   vii diff;
   for (int i = 0; i < n; ++i) {
-    ii d = {al[i] - bl[i], i};
+    ii d = {a[i] - b[i], i};
     diff.push_back(d);
   }
   sort(begin(diff), end(diff), [](auto &a, auto &b) {
@@ -34,19 +28,19 @@ int main() {
   int i = 0, min_index;
   while (k--) {
     min_index = diff[i].second;
-    total += al[min_index];
-    al[min_index] = 0;
-    bl[min_index] = 0;
+    total += a[min_index];
+    a[min_index] = 0;
+    b[min_index] = 0;
     i++;
   }
   while (i < n and diff[i].first < 0) {
     min_index = diff[i].second;
-    total += al[min_index];
-    al[min_index] = 0;
-    bl[min_index] = 0;
+    total += a[min_index];
+    a[min_index] = 0;
+    b[min_index] = 0;
     i++;   
   }
-  for (auto value : bl) {
+  for (auto value : b) {
     total += value;
   }
   cout << total << endl;
