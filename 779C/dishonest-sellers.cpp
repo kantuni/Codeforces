@@ -28,7 +28,7 @@ int main() {
     min_index = diff[pos].second;
     ans += a[min_index];
     a[min_index] = b[min_index] = 0;
-    pos++;   
+    pos++;
   }
   for (auto val: b) {
     ans += val;
