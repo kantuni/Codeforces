@@ -1,10 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef pair<int, int> ii;
-typedef vector<int> vi;
-typedef vector<pair<int, int>> vii;
-
 int main() {
   int n, k;
   cin >> n >> k;
