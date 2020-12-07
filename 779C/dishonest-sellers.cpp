@@ -17,25 +17,25 @@ int main() {
     diff[i] = {a[i] - b[i], i};
   }
   sort(diff.begin(), diff.end());
-  int total = 0;
+  int ans = 0;
   int i = 0, min_index;
   while (k--) {
     min_index = diff[i].second;
-    total += a[min_index];
+    ans += a[min_index];
     a[min_index] = 0;
     b[min_index] = 0;
     i++;
   }
   while (i < n and diff[i].first < 0) {
     min_index = diff[i].second;
-    total += a[min_index];
+    ans += a[min_index];
     a[min_index] = 0;
     b[min_index] = 0;
     i++;   
   }
-  for (auto value : b) {
-    total += value;
+  for (auto val: b) {
+    ans += val;
   }
-  cout << total << endl;
+  cout << ans << endl;
   return 0;
 }
