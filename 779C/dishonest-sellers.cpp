@@ -17,7 +17,7 @@ int main() {
     cin >> b[i];
   }
   vii diff;
-  for (int i = 0; i < n; ++i) {
+  for (int i = 0; i < n; i++) {
     ii d = {a[i] - b[i], i};
     diff.push_back(d);
   }
