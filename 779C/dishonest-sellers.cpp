@@ -21,15 +21,13 @@ int main() {
   while (k--) {
     min_index = diff[pos].second;
     ans += a[min_index];
-    a[min_index] = 0;
-    b[min_index] = 0;
+    a[min_index] = b[min_index] = 0;
     pos++;
   }
   while (pos < n and diff[pos].first < 0) {
     min_index = diff[pos].second;
     ans += a[min_index];
-    a[min_index] = 0;
-    b[min_index] = 0;
+    a[min_index] = b[min_index] = 0;
     pos++;   
   }
   for (auto val: b) {
