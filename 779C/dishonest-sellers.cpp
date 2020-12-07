@@ -21,9 +21,7 @@ int main() {
     ii d = {a[i] - b[i], i};
     diff.push_back(d);
   }
-  sort(begin(diff), end(diff), [](auto &a, auto &b) {
-    return a.first < b.first;
-  });
+  sort(diff.begin(), diff.end());
   int total = 0;
   int i = 0, min_index;
   while (k--) {
