@@ -18,20 +18,20 @@ int main() {
   }
   sort(diff.begin(), diff.end());
   int ans = 0;
-  int i = 0, min_index;
+  int pos = 0, min_index;
   while (k--) {
-    min_index = diff[i].second;
+    min_index = diff[pos].second;
     ans += a[min_index];
     a[min_index] = 0;
     b[min_index] = 0;
-    i++;
+    pos++;
   }
-  while (i < n and diff[i].first < 0) {
-    min_index = diff[i].second;
+  while (pos < n and diff[pos].first < 0) {
+    min_index = diff[pos].second;
     ans += a[min_index];
     a[min_index] = 0;
     b[min_index] = 0;
-    i++;   
+    pos++;   
   }
   for (auto val: b) {
     ans += val;
