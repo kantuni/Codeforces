@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    long long int a;
+    cin>>a;
+    while(true){
+        long int sum=0,p=a;
+        while(a!=0){
+            sum+=a%10;
+            a=a/10;
+        }
+        if(sum%4==0){cout<<p<<endl;return 0;}
+        a=p+1;
+    }
+}
