@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+   int n,a,k,min=INT_MAX;cin>>n;
+   cin>>a;
+   k=a;int d=0,ia=0;
+   for(int i=1;i<n;i++){
+       cin>>d;
+       if(abs(d-a)<min){min=abs(d-a);ia=i;}
+       a=d;
+   }
+   if(abs(d-k)<min){cout<<1<<" "<<n<<endl;return 0;}
+   cout<<ia<<" "<<(ia+1)<<endl;
+   return 0;
+}
