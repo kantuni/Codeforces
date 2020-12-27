@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int n,d,a,b;cin>>n;
+    map<int,int> m;
+    cin>>a;
+    for(int i=0;i<a;i++){
+        cin>>d;
+        m[d]++;
+    }
+    cin>>b;
+    for(int i=0;i<b;i++){
+        cin>>d;
+        m[d]++;
+    }
+    for(int i=1;i<=n;i++){
+        if(m[i]==0){cout<<"Oh, my keyboard!"<<endl;return 0;}
+    }
+    cout<<"I become the guy."<<endl;
+    return 0;
+}
