@@ -1,5 +1,9 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Educational Codeforces Round 101 - `2/6`
+- **[1469A](https://github.com/kantuni/Codeforces/tree/master/1469A)** - Regular Bracket Sequence - **Accepted**
+- **[1469B](https://github.com/kantuni/Codeforces/tree/master/1469B)** - Red and Blue - **Accepted**
+
 ### Codeforces Round #686 (Div. 3) - `2/6`
 - **[1454A](https://github.com/kantuni/Codeforces/tree/master/1454A)** - Special Permutation - **Accepted**
 - **[1454B](https://github.com/kantuni/Codeforces/tree/master/1454B)** - Unique Bid Auction - **Accepted**
