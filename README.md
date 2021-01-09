@@ -591,7 +591,7 @@
 ### Codeforces Round #401 - `0/5`
 - [777A](https://github.com/kantuni/Codeforces/tree/master/777A) - Shell Game - **Accepted**
 - [777B](https://github.com/kantuni/Codeforces/tree/master/777B) - Game of Credit Cards - **Accepted**
-- [777C](https://github.com/kantuni/Codeforces/tree/master/777C) - Alyona and Spreadsheet - **Time limit exceeded**
+- [777C](https://github.com/kantuni/Codeforces/tree/master/777C) - Alyona and Spreadsheet - **Accepted**
 
 ### Codeforces Round #400 - `1/7`
 - **[776A](https://github.com/kantuni/Codeforces/tree/master/776A)** - A Serial Killer - **Accepted**
