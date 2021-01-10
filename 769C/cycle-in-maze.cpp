@@ -48,7 +48,7 @@ int main() {
     }
     steps++;
   }
-  for (int i = ans.length() - 1; i > -1; i--) {
+  for (int i = ans.size() - 1; i > -1; i--) {
     switch (ans[i]) {
       case 'U': {
         ans += "D";
