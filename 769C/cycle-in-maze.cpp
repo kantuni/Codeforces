@@ -7,8 +7,8 @@ int main() {
   cin >> n >> m >> k;
   char l[n][m];
   int ri, rj;
-  for (int i = 0; i < n; ++i) {
-    for (int j = 0; j < m; ++j) {
+  for (int i = 0; i < n; i++) {
+    for (int j = 0; j < m; j++) {
       char c;
       cin >> c;
       if (c == 'X') {
