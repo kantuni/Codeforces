@@ -26,20 +26,16 @@ int main() {
   int steps = 0;
   string ans;
   while (steps < k / 2) {
-    if (ri < n and l[ri + 1][rj] == '.') {
-      // down
+    if (ri + 1 < n and l[ri + 1][rj] == '.') {
       ans += "D";
       ri++;
-    } else if (rj > 0 && l[ri][rj - 1] == '.') {
-      // left
+    } else if (rj - 1 >= 0 && l[ri][rj - 1] == '.') {
       ans += "L";
       rj--;
-    } else if (rj < m && l[ri][rj + 1] == '.') {
-      // right
+    } else if (rj + 1 < m && l[ri][rj + 1] == '.') {
       ans += "R";
       rj++;
-    } else if (ri > 0 && l[ri - 1][rj] == '.') {
-      // up
+    } else if (ri - 1 >= 0 && l[ri - 1][rj] == '.') {
       ans += "U";
       ri--;
     } else {
