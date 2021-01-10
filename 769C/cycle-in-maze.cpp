@@ -29,13 +29,13 @@ int main() {
     if (ri + 1 < n and l[ri + 1][rj] == '.') {
       ans += "D";
       ri++;
-    } else if (rj - 1 >= 0 && l[ri][rj - 1] == '.') {
+    } else if (rj - 1 >= 0 and l[ri][rj - 1] == '.') {
       ans += "L";
       rj--;
-    } else if (rj + 1 < m && l[ri][rj + 1] == '.') {
+    } else if (rj + 1 < m and l[ri][rj + 1] == '.') {
       ans += "R";
       rj++;
-    } else if (ri - 1 >= 0 && l[ri - 1][rj] == '.') {
+    } else if (ri - 1 >= 0 and l[ri - 1][rj] == '.') {
       ans += "U";
       ri--;
     } else {
