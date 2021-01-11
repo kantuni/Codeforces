@@ -24,10 +24,10 @@ int main() {
     } else if (sc - 1 >= 0 and g[sr][sc - 1] == '.') {
       ans += "L";
       sc--;
-    } else if (sc + 1 < m and l[sr][sc + 1] == '.') {
+    } else if (sc + 1 < m and g[sr][sc + 1] == '.') {
       ans += "R";
       sc++;
-    } else if (sr - 1 >= 0 and l[sr - 1][sc] == '.') {
+    } else if (sr - 1 >= 0 and g[sr - 1][sc] == '.') {
       ans += "U";
       sr--;
     }
