@@ -32,25 +32,14 @@ int main() {
       sr--;
     }
   }
+  map<char, char> mirror = {
+    {'U', 'D'},
+    {'R', 'L'},
+    {'D', 'U'},
+    {'L', 'R'}
+  };
   for (int i = ans.size() - 1; i > -1; i--) {
-    switch (ans[i]) {
-      case 'U': {
-        ans += "D";
-        break;
-      }
-      case 'R': {
-        ans += "L";
-        break;
-      }
-      case 'D': {
-        ans += "U";
-        break;
-      }
-      case 'L': {
-        ans += "R";
-        break;
-      }
-    }
+    ans += mirror[ans[i]];
   }
   if (k % 2 == 0 and ans.size() == k) {
     cout << ans << endl;
