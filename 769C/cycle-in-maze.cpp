@@ -5,34 +5,31 @@ using namespace std;
 int main() {
   int n, m, k;
   cin >> n >> m >> k;
-  char l[n][m];
-  int ri, rj;
-  for (int i = 0; i < n; i++) {
-    for (int j = 0; j < m; j++) {
-      char c;
-      cin >> c;
-      if (c == 'X') {
-        ri = i, rj = j;
-        l[i][j] = '.';
-      } else {
-        l[i][j] = c;
+  char g[n][m];
+  int sr, sc;
+  for (int r = 0; r < n; r++) {
+    for (int c = 0; c < m; c++) {
+      cin >> g[r][c]
+      if (g[r][c] == 'X') {
+        sr = r, sc = c;
+        g[r][c] = '.';
       }
     }
   }
   string ans;
   for (int i = 0; i < k / 2; i++) {
-    if (ri + 1 < n and l[ri + 1][rj] == '.') {
+    if (sr + 1 < n and g[sr + 1][sc] == '.') {
       ans += "D";
-      ri++;
-    } else if (rj - 1 >= 0 and l[ri][rj - 1] == '.') {
+      sr++;
+    } else if (sc - 1 >= 0 and g[sr][sc - 1] == '.') {
       ans += "L";
-      rj--;
-    } else if (rj + 1 < m and l[ri][rj + 1] == '.') {
+      sc--;
+    } else if (sc + 1 < m and l[sr][sc + 1] == '.') {
       ans += "R";
-      rj++;
-    } else if (ri - 1 >= 0 and l[ri - 1][rj] == '.') {
+      sc++;
+    } else if (sr - 1 >= 0 and l[sr - 1][sc] == '.') {
       ans += "U";
-      ri--;
+      sr--;
     }
   }
   for (int i = ans.size() - 1; i > -1; i--) {
