@@ -9,7 +9,7 @@ int main() {
   int sr, sc;
   for (int r = 0; r < n; r++) {
     for (int c = 0; c < m; c++) {
-      cin >> g[r][c]
+      cin >> g[r][c];
       if (g[r][c] == 'X') {
         sr = r, sc = c;
         g[r][c] = '.';
