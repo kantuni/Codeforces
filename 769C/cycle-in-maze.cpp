@@ -19,13 +19,8 @@ int main() {
       }
     }
   }
-  if (k % 2 > 0) {
-    cout << "IMPOSSIBLE" << endl;
-    return 0;
-  }
-  int steps = 0;
   string ans;
-  while (steps < k / 2) {
+  for (int i = 0; i < k / 2; i++) {
     if (ri + 1 < n and l[ri + 1][rj] == '.') {
       ans += "D";
       ri++;
@@ -38,11 +33,7 @@ int main() {
     } else if (ri - 1 >= 0 and l[ri - 1][rj] == '.') {
       ans += "U";
       ri--;
-    } else {
-      cout << "IMPOSSIBLE" << endl;
-      return 0;
     }
-    steps++;
   }
   for (int i = ans.size() - 1; i > -1; i--) {
     switch (ans[i]) {
@@ -64,6 +55,10 @@ int main() {
       }
     }
   }
-  cout << ans << endl;
+  if (k % 2 == 0 and ans.size() == k) {
+    cout << ans << endl;
+  } else {
+    cout << "IMPOSSIBLE" << endl;
+  }
   return 0;
 }
