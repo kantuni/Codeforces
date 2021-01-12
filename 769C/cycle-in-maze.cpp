@@ -1,12 +1,38 @@
-// WA
+// MLE
 #include <bits/stdc++.h>
 using namespace std;
 
+int n, m, k, sr, sc;
+vector<vector<char>> g;
+string ans;
+
+void dfs(string s, int r, int c) {
+  if (s.size() > k) {
+    return;
+  }
+  if (ans.size() == 0 and s.size() == k and r == sr and c == sc) {
+    ans = s;
+    return;
+  }
+  if (r + 1 < n and g[r + 1][c] == '.') {
+    dfs(s + "D", r + 1, c);
+  }
+  if (c - 1 >= 0 and g[r][c - 1] == '.') {
+    dfs(s + "L", r, c - 1);
+  }
+  if (c + 1 < m and g[r][c + 1] == '.') {
+    dfs(s + "R", r, c + 1);
+  }
+  if (r - 1 >= 0 and g[r - 1][c] == '.') {
+    dfs(s + "U", r - 1, c);
+  }
+}
+
 int main() {
-  int n, m, k;
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
   cin >> n >> m >> k;
-  char g[n][m];
-  int sr, sc;
+  g.resize(n, vector<char>(m));
   for (int r = 0; r < n; r++) {
     for (int c = 0; c < m; c++) {
       cin >> g[r][c];
@@ -16,35 +42,11 @@ int main() {
       }
     }
   }
-  string ans;
-  for (int i = 0; i < k / 2; i++) {
-    if (sr + 1 < n and g[sr + 1][sc] == '.') {
-      ans += "D";
-      sr++;
-    } else if (sc - 1 >= 0 and g[sr][sc - 1] == '.') {
-      ans += "L";
-      sc--;
-    } else if (sc + 1 < m and g[sr][sc + 1] == '.') {
-      ans += "R";
-      sc++;
-    } else if (sr - 1 >= 0 and g[sr - 1][sc] == '.') {
-      ans += "U";
-      sr--;
-    }
-  }
-  map<char, char> mirror = {
-    {'U', 'D'},
-    {'R', 'L'},
-    {'D', 'U'},
-    {'L', 'R'}
-  };
-  for (int i = ans.size() - 1; i > -1; i--) {
-    ans += mirror[ans[i]];
-  }
-  if (k % 2 == 0 and ans.size() == k) {
-    cout << ans << endl;
-  } else {
+  dfs("", sr, sc);
+  if (k % 2 == 1 or ans.size() == 0) {
     cout << "IMPOSSIBLE" << endl;
+  } else {
+    cout << ans << endl;
   }
   return 0;
 }
