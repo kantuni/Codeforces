@@ -1,42 +1,13 @@
-// TLE
 #include <bits/stdc++.h>
+#define INF (int) 1e9
 using namespace std;
-
-int n, m, k;
-vector<vector<char>> g;
-
-string bfs(int sr, int sc) {
-  queue<tuple<string, int, int>> q;
-  q.push({"", sr, sc});
-  while (!q.empty()) {
-    auto [p, r, c] = q.front(); q.pop();
-    if (p.size() > k) {
-      continue;
-    }
-    if (p.size() == k and r == sr and c == sc) {
-      return p;
-    }
-    if (r + 1 < n and g[r + 1][c] == '.') {
-      q.push({p + "D", r + 1, c});
-    }
-    if (c - 1 >= 0 and g[r][c - 1] == '.') {
-      q.push({p + "L", r, c - 1});
-    }
-    if (c + 1 <= m and g[r][c + 1] == '.') {
-      q.push({p + "R", r, c + 1});
-    }
-    if (r - 1 >= 0 and g[r - 1][c] == '.') {
-      q.push({p + "U", r - 1, c});
-    }
-  }
-  return "";
-}
 
 int main() {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
+  int n, m, k;
   cin >> n >> m >> k;
-  g.resize(n, vector<char>(m));
+  char g[n][m];
   int sr, sc;
   for (int r = 0; r < n; r++) {
     for (int c = 0; c < m; c++) {
@@ -47,7 +18,45 @@ int main() {
       }
     }
   }
-  string ans = bfs(sr, sc);
+  vector<vector<int>> dist, color;
+  dist.assign(n, vector<int>(m, INF));
+  color.assign(n, vector<int>(m, 0));
+  queue<tuple<int, int, int>> q;
+  q.push({sr, sc, 0});
+  while (!q.empty()) {
+    auto [r, c, d] = q.front(); q.pop();
+    bool roob = r < 0 or r >= n;
+    bool coob = c < 0 or c >= m;
+    if (roob or coob or g[r][c] == '*' or color[r][c] == 1) {
+      continue;
+    }
+    q.push({r + 1, c, d + 1});
+    q.push({r - 1, c, d + 1});
+    q.push({r, c + 1, d + 1});
+    q.push({r, c - 1, d + 1});
+    dist[r][c] = d;
+    color[r][c] = 1;
+  }
+  char dl[] = {'D', 'L', 'R', 'U'};
+  int dr[] = {1, 0, 0, -1};
+  int dc[] = {0, -1, 1, 0};
+  int r = sr, c = sc;
+  string ans;
+  for (int i = 0; i < k; i++) {
+    for (int j = 0; j < 4; j++) {
+      int nr = r + dr[j], nc = c + dc[j];
+      bool roob = nr < 0 or nr >= n;
+      bool coob = nc < 0 or nc >= m;
+      if (roob or coob or g[nr][nc] == '*') {
+        continue;
+      }
+      if (dist[nr][nc] < k - i) {
+        r = nr, c = nc;
+        ans += dl[j];
+        break;
+      }
+    }
+  }
   if (k % 2 == 1 or ans.size() != k) {
     cout << "IMPOSSIBLE" << endl;
   } else {
