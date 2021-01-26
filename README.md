@@ -580,7 +580,7 @@
 ### VK Cup 2017 - Qualification 1 - `2/4`
 - 769A - Year of University Entrance
 - 769B - News About Credit
-- [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze - **Wrong answer**
+- [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze - **Accepted**
 - 769D - k-Interesting Pairs of Integers
 
 ### Codeforces Round #402 - `1/5`
