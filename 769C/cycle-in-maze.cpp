@@ -2,25 +2,15 @@
 #define INF (int) 1e9
 using namespace std;
 
-int main() {
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
-  int n, m, k;
-  cin >> n >> m >> k;
-  char g[n][m];
-  int sr, sc;
-  for (int r = 0; r < n; r++) {
-    for (int c = 0; c < m; c++) {
-      cin >> g[r][c];
-      if (g[r][c] == 'X') {
-        sr = r, sc = c;
-        g[r][c] = '.';
-      }
-    }
-  }
-  vector<vector<int>> dist, color;
-  dist.assign(n, vector<int>(m, INF));
-  color.assign(n, vector<int>(m, 0));
+const char dl[] = {'D', 'L', 'R', 'U'};
+const int dr[] = {1, 0, 0, -1};
+const int dc[] = {0, -1, 1, 0};
+
+int n, m, k;
+vector<vector<char>> g;
+vector<vector<int>> dist, color;
+
+void bfs(int sr, int sc) {
   queue<tuple<int, int, int>> q;
   q.push({sr, sc, 0});
   while (!q.empty()) {
@@ -37,11 +27,28 @@ int main() {
     dist[r][c] = d;
     color[r][c] = 1;
   }
-  char dl[] = {'D', 'L', 'R', 'U'};
-  int dr[] = {1, 0, 0, -1};
-  int dc[] = {0, -1, 1, 0};
-  int r = sr, c = sc;
+}
+
+int main() {
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
+  cin >> n >> m >> k;
+  g.assign(n, vector<char>(m));
+  dist.assign(n, vector<int>(m, INF));
+  color.assign(n, vector<int>(m, 0));
+  int sr, sc;
+  for (int r = 0; r < n; r++) {
+    for (int c = 0; c < m; c++) {
+      cin >> g[r][c];
+      if (g[r][c] == 'X') {
+        sr = r, sc = c;
+        g[r][c] = '.';
+      }
+    }
+  }
+  bfs(sr, sc);
   string ans;
+  int r = sr, c = sc;
   for (int i = 0; i < k; i++) {
     for (int j = 0; j < 4; j++) {
       int nr = r + dr[j], nc = c + dc[j];
