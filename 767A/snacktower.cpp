@@ -4,29 +4,29 @@ using namespace std;
 int main() {
   int n;
   cin >> n;
-  vector<int> snacks(n);
+  vector<int> s(n);
   for (int i = 0; i < n; i++) {
-    cin >> snacks[i];
+    cin >> s[i];
   }
-  vector<int> id(n + 1);
+  vector<int> pos(n + 1);
   for (int i = 1; i < n; i++) {
-    id[snacks[i]] = i;
+    pos[s[i]] = i;
   }
-  for (int i = 0; i < id[n]; i++) {
+  for (int i = 0; i < pos[n]; i++) {
     cout << endl;
   }
-  cout << snacks[id[n]];
-  int previous = id[n];
+  cout << s[pos[n]];
+  int prv = pos[n];
   for (int i = n - 1; i > 0; i--) {
-    if (id[i] < previous) {
-      cout << " " << snacks[id[i]];
+    if (pos[i] < prv) {
+      cout << " " << s[pos[i]];
     } else {
-      int before = id[i] - previous;
-      while (before--) {
+      int bfr = pos[i] - prv;
+      while (bfr--) {
         cout << endl;
       }
-      cout << snacks[id[i]];
-      previous = id[i];
+      cout << s[pos[i]];
+      prv = pos[i];
     }
   }
   cout << endl;
