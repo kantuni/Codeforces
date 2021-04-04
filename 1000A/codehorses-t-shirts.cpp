@@ -11,9 +11,9 @@ bool compare(string a, string b) {
 int main() {
   int n;
   cin >> n;
-  vector<string> prev(n);
+  vector<string> prv(n);
   for (int i = 0; i < n; i++) {
-    cin >> prev[i];
+    cin >> prv[i];
   }
   vector<string> cur(n);
   for (int i = 0; i < n; i++) {
@@ -21,18 +21,18 @@ int main() {
   }
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
-      if (prev[i] == cur[j]) {
-        prev[i] = "";
+      if (prv[i] == cur[j]) {
+        prv[i] = "";
         cur[j] = "";
         break;
       }
     }
   }
-  sort(prev.begin(), prev.end(), compare);
+  sort(prv.begin(), prv.end(), compare);
   sort(cur.begin(), cur.end(), compare);
   int ans = 0;
   for (int i = 0; i < n; i++) {
-    if (prev[i] != cur[i]) {
+    if (prv[i] != cur[i]) {
       ans++;
     }
   }
