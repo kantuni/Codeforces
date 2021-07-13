@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int n,a,b,c,d;cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>a>>b>>c>>d;
+        arr[i]=a+b+c+d;
+    }
+    int y =arr[0];
+    sort(arr,arr+n);
+    reverse(arr,arr+n);
+    for(int i=0;i<n;i++){
+        if(y==arr[i]){cout<<(i+1)<<endl;break;}
+    }
+    return 0;
+}
