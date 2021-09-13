@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool by_size(string a, string b) {
+bool compare(string a, string b) {
   if (a.size() == b.size()) {
     return a < b;
   }
@@ -28,8 +28,8 @@ int main() {
       }
     }
   }
-  sort(prv.begin(), prv.end(), by_size);
-  sort(cur.begin(), cur.end(), by_size);
+  sort(prv.begin(), prv.end(), compare);
+  sort(cur.begin(), cur.end(), compare);
   int ans = 0;
   for (int i = 0; i < n; i++) {
     if (prv[i] != cur[i]) {
