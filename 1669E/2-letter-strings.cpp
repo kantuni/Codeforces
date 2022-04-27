@@ -25,8 +25,7 @@ int main() {
     for (int i = 0; i < n; i++) {
       string s = ss[i];
       // differ in the first character
-      for (int j = 0; j < 11; j++) {
-        char first = 'a' + j;
+      for (char first = 'a'; first <= 'k'; first++) {
         if (s[0] == first) {
           continue;
         }
@@ -38,12 +37,11 @@ int main() {
         }
       }
       // differ in the second character
-      for (int j = 0; j < 11; j++) {
-        char first = s[0];
-        char second = 'a' + j;
+      for (char second = 'a'; second <= 'k'; second++) {
         if (s[1] == second) {
           continue;
         }
+        char first = s[0];
         string ns = string(1, first) + string(1, second);
         if (pos.count(ns) > 0) {
           int upper = pos[ns].order_of_key(i);
