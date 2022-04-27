@@ -1,5 +1,15 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Codeforces Round #784 (Div. 4) - `8/8`
+- **[1669A](https://github.com/kantuni/Codeforces/tree/master/1669A)** - Division? - **Accepted**
+- **[1669B](https://github.com/kantuni/Codeforces/tree/master/1669B)** - Triple - **Accepted**
+- **[1669C](https://github.com/kantuni/Codeforces/tree/master/1669C)** - Odd/Even Increments - **Accepted**
+- **[1669D](https://github.com/kantuni/Codeforces/tree/master/1669D)** - Colorful Stamp - **Accepted**
+- **[1669E](https://github.com/kantuni/Codeforces/tree/master/1669E)** - 2-Letter Strings - **Accepted**
+- **[1669F](https://github.com/kantuni/Codeforces/tree/master/1669F)** - Eating Candies - **Accepted**
+- **[1669G](https://github.com/kantuni/Codeforces/tree/master/1669G)** - Fall Down - **Accepted**
+- **[1669H](https://github.com/kantuni/Codeforces/tree/master/1669H)** - Maximal AND - **Accepted**
+
 ### Educational Codeforces Round 101 - `2/6`
 - **[1469A](https://github.com/kantuni/Codeforces/tree/master/1469A)** - Regular Bracket Sequence - **Accepted**
 - **[1469B](https://github.com/kantuni/Codeforces/tree/master/1469B)** - Red and Blue - **Accepted**
