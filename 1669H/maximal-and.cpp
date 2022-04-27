@@ -9,11 +9,11 @@ int main() {
   while (t--) {
     int n, k;
     cin >> n >> k;
-    vector<int> a(n);
-    vector<bitset<31>> ba(n);
+    vector<bitset<31>> a(n);
     for (int i = 0; i < n; i++) {
-      cin >> a[i];
-      ba[i] = bitset<31>(a[i]);
+      int num;
+      cin >> num;
+      a[i] = bitset<31>(num);
     }
     bitset<31> ans(INT_MAX);
     for (int i = 0; i < n; i++) {
@@ -22,7 +22,7 @@ int main() {
     for (int i = 30; i > -1; i--) {
       int cnt = 0;
       for (int j = 0; j < n; j++) {
-        if (ba[j].test(i) == 0) {
+        if (a[j].test(i) == 0) {
           cnt++;
         }
       }
