@@ -58,12 +58,7 @@ int main() {
     color.assign(n, 0);
     balance.assign(n, 0);
     dfs(0);
-    int ans = 0;
-    for (int i = 0; i < n; i++) {
-      if (balance[i] == 0) {
-        ans++;
-      }
-    }
+    int ans = count(balance.begin(), balance.end(), 0);
     cout << ans << "\n";
   }
   return 0;
