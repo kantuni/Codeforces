@@ -1,5 +1,13 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Codeforces Round #790 (Div. 4) - `6/9`
+- **[1676A](https://github.com/kantuni/Codeforces/tree/master/1676A)** - Lucky? - **Accepted**
+- **[1676B](https://github.com/kantuni/Codeforces/tree/master/1676B)** - Equal Candies - **Accepted**
+- **[1676C](https://github.com/kantuni/Codeforces/tree/master/1676C)** - Most Similar Words - **Accepted**
+- **[1676D](https://github.com/kantuni/Codeforces/tree/master/1676D)** - X-Sum - **Accepted**
+- **[1676E](https://github.com/kantuni/Codeforces/tree/master/1676E)** - Eating Queries - **Accepted**
+- **[1676F](https://github.com/kantuni/Codeforces/tree/master/1676F)** - Longest Strike - **Accepted**
+
 ### Codeforces Round #784 (Div. 4) - `8/8`
 - **[1669A](https://github.com/kantuni/Codeforces/tree/master/1669A)** - Division? - **Accepted**
 - **[1669B](https://github.com/kantuni/Codeforces/tree/master/1669B)** - Triple - **Accepted**
@@ -630,4 +638,4 @@
 
 <br />
 
-Problems solved: **318**
+Problems solved: **324**
