@@ -9,6 +9,7 @@
 - **[1676F](https://github.com/kantuni/Codeforces/tree/master/1676F)** - Longest Strike - **Accepted**
 - [1676G](https://github.com/kantuni/Codeforces/tree/master/1676G) - White-Black Balanced Subtrees - **Accepted**
 - [1676H1](https://github.com/kantuni/Codeforces/tree/master/1676H1) - Maximum Crossings (Easy Version) - **Accepted**
+- [1676H2](https://github.com/kantuni/Codeforces/tree/master/1676H2) - Maximum Crossings (Hard Version) - **Accepted**
 
 ### Codeforces Round #784 (Div. 4) - `8/8`
 - **[1669A](https://github.com/kantuni/Codeforces/tree/master/1669A)** - Division? - **Accepted**
@@ -640,4 +641,4 @@
 
 <br />
 
-Problems solved: **326**
+Problems solved: **327**
