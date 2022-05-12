@@ -20,7 +20,7 @@ int main() {
       cin >> a[i];
     }
     ordered_set<pair<int, int>> s;
-    int ans = 0;
+    long long ans = 0;
     for (int i = 0; i < n; i++) {
       int k = s.order_of_key({a[i], INT_MIN});
       ans += s.size() - k;
