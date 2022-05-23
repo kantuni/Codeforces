@@ -41,6 +41,6 @@ int main() {
       ans = max(ans, before + delta + after);
     }
   }
-  cout << ans << endl;
+  cout << ans << "\n";
   return 0;
 }
