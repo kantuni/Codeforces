@@ -35,10 +35,10 @@ int main() {
       index++;
     }
   }
-  cout << ans << endl;
+  cout << ans << "\n";
   for (int i = 0; i < k; i++) {
     cout << t[i] << " ";
   }
-  cout << endl;
+  cout << "\n";
   return 0;
 }
