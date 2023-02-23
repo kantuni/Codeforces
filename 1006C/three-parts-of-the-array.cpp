@@ -9,7 +9,7 @@ int main() {
     cin >> d[i];
   }
   if (n == 1) {
-    cout << 0 << endl;
+    cout << 0 << "\n";
   } else {
     long long s1 = 0, s3 = 0;
     long long ans = 0;
@@ -30,7 +30,7 @@ int main() {
         s3 += d[j];
       }
     }
-    cout << ans << endl;
+    cout << ans << "\n";
   }
   return 0;
 }
