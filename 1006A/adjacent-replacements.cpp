@@ -15,6 +15,6 @@ int main() {
       cout << a[i] << " ";
     }
   }
-  cout << endl;
+  cout << "\n";
   return 0;
 }
