@@ -12,29 +12,29 @@ int main() {
       break;
     }
   }
-  string ans = "";
+  string ans;
   if (two != -1) {
-    int zeros = 0, onesbefore = 0;
+    int zeros = 0, ones_before = 0;
     for (int i = 0; i < two; i++) {
       if (s[i] == '0') {
         zeros++;
       } else {
-        onesbefore++;
+        ones_before++;
       }
     }
     while (zeros--) {
       ans += string(1, '0');
     }
-    while (onesbefore--) {
+    while (ones_before--) {
       ans += string(1, '1');
     }
-    int onesafter = 0;
+    int ones_after = 0;
     for (int i = 0; i < s.size(); i++) {
       if (i > two and s[i] == '1') {
-        onesafter++;
+        ones_after++;
       }
     }
-    while (onesafter--) {
+    while (ones_after--) {
       ans += string(1, '1');
     }
     ans += string(1, '2');
@@ -60,6 +60,6 @@ int main() {
       ans += string(1, '1');
     }
   }
-  cout << ans << endl;
+  cout << ans << "\n";
   return 0;
 }
