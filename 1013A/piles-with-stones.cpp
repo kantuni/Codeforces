@@ -4,22 +4,22 @@ using namespace std;
 int main() {
   int n;
   cin >> n;
-  vector<int> x(n);
-  int xsum = 0;
+  long long xs = 0;
   for (int i = 0; i < n; i++) {
-    cin >> x[i];
-    xsum += x[i];
+    int x;
+    cin >> x;
+    xs += x;
   }
-  vector<int> y(n);
-  int ysum = 0;
+  long long ys = 0;
   for (int i = 0; i < n; i++) {
-    cin >> y[i];
-    ysum += y[i];
+    int y;
+    cin >> y;
+    ys += y;
   }
-  if (xsum >= ysum) {
-    cout << "Yes" << endl;
+  if (xs >= ys) {
+    cout << "Yes" << "\n";
   } else {
-    cout << "No" << endl;
+    cout << "No" << "\n";
   }
   return 0;
 }
