@@ -11,11 +11,12 @@ int main() {
     cin >> a[i];
     if (memo[a[i]] > 0) {
       found = true;
+      break;
     }
     memo[a[i]]++;
   }
   if (found) {
-    cout << 0 << endl;
+    cout << 0 << "\n";
     return 0;
   }
   for (int i = 0; i < n; i++) {
@@ -27,7 +28,7 @@ int main() {
     }
   }
   if (found) {
-    cout << 1 << endl;
+    cout << 1 << "\n";
     return 0;
   }
   memo.clear();
@@ -40,9 +41,9 @@ int main() {
     }
   }
   if (found) {
-    cout << 2 << endl;
+    cout << 2 << "\n";
   } else {
-    cout << -1 << endl;
+    cout << -1 << "\n";
   }
   return 0;
 }
