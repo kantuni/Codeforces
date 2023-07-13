@@ -25,6 +25,6 @@ int main() {
     y[i] = a[i + 1];
   }
   ans = max(ans, rect(x[0], x[n - 1], y[0], y[n - 1]));
-  cout << ans << endl;
+  cout << ans << "\n";
   return 0;
 }
