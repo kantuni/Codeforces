@@ -4,7 +4,7 @@ using namespace std;
 int main() {
   int n, m;
   cin >> n >> m;
-  vector<int> s(m, 0);
+  vector<int> s(m);
   for (int i = 0; i < n; i++) {
     int l, r;
     cin >> l >> r;
@@ -18,12 +18,12 @@ int main() {
       cnt++;
     }
   }
-  cout << cnt << endl;
+  cout << cnt << "\n";
   for (int i = 0; i < m; i++) {
     if (s[i] == 0) {
       cout << i + 1 << " ";
     }
   }
-  cout << endl;
+  cout << "\n";
   return 0;
 }
