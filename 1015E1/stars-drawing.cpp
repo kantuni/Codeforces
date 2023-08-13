@@ -44,14 +44,14 @@ int main() {
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < m; j++) {
       if (g[i][j] == '*') {
-        cout << -1 << endl;
+        cout << -1 << "\n";
         return 0;
       }
     }
   }
-  cout << cx.size() << endl;
+  cout << cx.size() << "\n";
   for (int i = 0; i < cx.size(); i++) {
-    cout << cx[i] + 1 << " " << cy[i] + 1 << " " << s[i] << endl;
+    cout << cx[i] + 1 << " " << cy[i] + 1 << " " << s[i] << "\n";
   }
   return 0;
 }
