@@ -17,7 +17,7 @@ int main() {
   sort(s.rbegin(), s.rend());
   for (int i = 0; i < n; i++) {
     if (s[i].first == tom) {
-      cout << i + 1 << endl;
+      cout << i + 1 << "\n";
       break;
     }
   }
