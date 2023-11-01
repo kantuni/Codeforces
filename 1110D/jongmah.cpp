@@ -15,7 +15,9 @@ int remember(int i, int a, int b, int c) {
 }
 
 int solve(int i, int a, int b, int c) {
-  if (i == f.size()) return 0;
+  if (i == f.size()) {
+    return 0;
+  }
   int m1 = 0, m2 = 0, m3 = 0;
   bool same = a > 2;
   if (same) {
@@ -44,8 +46,8 @@ int main() {
   for (auto val: f) {
     cout << val << " ";
   }
-  cout << endl;
+  cout << "\n";
   int ans = solve(0, f[0], f[1], f[2]);
-  cout << ans << endl;
+  cout << ans << "\n";
   return 0;
 }
