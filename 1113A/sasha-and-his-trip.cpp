@@ -15,6 +15,6 @@ int main() {
     }
     v--;
   }
-  cout << ans << endl;
+  cout << ans << "\n";
   return 0;
 }
