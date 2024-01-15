@@ -47,9 +47,9 @@ int main() {
     solve(c, diff)
   );
   if (possible) {
-    cout << "Yes" << endl;
+    cout << "Yes" << "\n";
   } else {
-    cout << "No" << endl;
+    cout << "No" << "\n";
   }
   return 0;
 }
