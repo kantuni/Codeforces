@@ -20,10 +20,10 @@ int main() {
       if (tmp % j == 0) {
         int s1 = sum - a[0] - a[i] + a[0] * j + a[i] / j;
         int s2 = sum - a[0] - a[i] + a[0] * (tmp / j) + a[i] * (tmp / j);
-        ans = min({ans, s1, s2});
+        ans = min({ ans, s1, s2 });
       }
     }
   }
-  cout << ans << endl;
+  cout << ans << "\n";
   return 0;
 }
