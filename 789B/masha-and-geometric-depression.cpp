@@ -13,47 +13,36 @@ int main() {
     cin >> ai;
     a.insert(ai);
   }
-  if (b1 == 0 or q == 0) {
-    if (a.count(0) > 0) {
-      cout << 0 << "\n";
-    } else {
-      cout << "inf" << "\n";
-    }
-    return 0;
-  }
-  if (q == 1) {
-    if (a.count(b1) > 0) {
-      cout << 0 << "\n";
-    } else if (b1 > l) {
-      cout << 0 << "\n";
-    } else {
-      cout << "inf" << "\n";
-    }
-    return 0;
-  }
-  if (q == -1) {
-    if (a.count(b1) > 0 and a.count(-b1) > 0) {
-      cout << 0 << "\n";
-    } else if (a.count(b1) > 0 and b1 > l) {
-      cout << 0 << "\n";
-    } else {
-      cout << "inf" << "\n";
-    }
-    return 0;
-  }
-  if (b1 < 0 and q > 0) {
-    // as l >= 1
-    cout << "inf" << "\n";
-    return 0;
-  }
-  long long nxt = b1;
+  bool cycle = false;
+  set<long long> b;
+  long long cur = b1;
   long long ans = 0;
-  while (abs(nxt) <= l) {
-    if (a.count(nxt) == 0) {
+  while (abs(cur) <= l) {
+    if (a.count(cur) == 0) {
       ans++;
     }
-    nxt *= q;
+    b.insert(cur);
+    cur *= q;
+    if (b.count(cur) > 0) {
+      cycle = true;
+      break;
+    }
   }
-  cout << ans << "\n";
+  if (cycle) {
+    bool all = true;
+    for (auto bi: b) {
+      if (a.count(bi) == 0) {
+        all = false;
+        break;
+      }
+    }
+    if (all) {
+      cout << 0 << "\n";
+    } else {
+      cout << "inf" << "\n";
+    }
+  } else {
+    cout << ans << "\n";
+  }
   return 0;
 }
