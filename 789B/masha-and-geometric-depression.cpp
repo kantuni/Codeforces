@@ -1,4 +1,3 @@
-// WA
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -37,7 +36,11 @@ int main() {
       }
     }
     if (all) {
+      // 3, -3, 3, -3, ... and {3, -3} are bad
       cout << 0 << "\n";
+    } else if (q == 0 and a.count(0) > 0) {
+      // 5, 0, 0, 0, ... and 0 is bad, but 5 is not
+      cout << 1 << "\n";
     } else {
       cout << "inf" << "\n";
     }
