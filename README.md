@@ -577,7 +577,7 @@
 
 ### Codeforces Round #407 - `0/5`
 - [789A](https://github.com/kantuni/Codeforces/tree/master/789A) - Anastasia and pebbles - **Accepted**
-- [789B](https://github.com/kantuni/Codeforces/tree/master/789B) - Masha and geometric depression - **Wrong answer**
+- [789B](https://github.com/kantuni/Codeforces/tree/master/789B) - Masha and geometric depression - **Accepted**
 
 ### Codeforces Round #406 - `1/5`
 - [787A](https://github.com/kantuni/Codeforces/blob/master/787A) - The Monster - **Accepted**
@@ -641,4 +641,4 @@
 
 <br />
 
-Problems solved: **327**
+Problems solved: **328**
