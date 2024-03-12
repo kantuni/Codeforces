@@ -2,40 +2,33 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct Box {
-  int value;
-  bool sorted = false;
-};
-
 int main() {
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
   int n;
   cin >> n;
-  deque<Box> dq;
-  int cnt = 0, nxt = 1;
+  int nxt = 1;
+  bool sorted = false;
+  stack<int> s;
+  int ans = 0;
   for (int i = 0; i < 2 * n; i++) {
     string cmd;
     cin >> cmd;
     if (cmd == "add") {
       int x;
       cin >> x;
-      Box b;
-      b.value = x;
-      dq.push_front(b);
+      s.push(x);
+      sorted = false;
     } else {
-      if (dq[0].value == nxt or dq[0].sorted) {
-        nxt++;
-        for (auto &item : dq) {
-          item.sorted = true;
-        }
+      if (sorted or s.top() == nxt) {
+        s.pop();
       } else {
-        cnt++;
-        for (auto &item : dq) {
-          item.sorted = true;
-        }
+        sorted = true;
+        ans++;
       }
-      dq.pop_front();
+      nxt++;
     }
   }
-  cout << cnt << endl;
+  cout << ans << "\n";
   return 0;
 }
