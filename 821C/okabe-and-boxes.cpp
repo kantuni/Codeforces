@@ -1,21 +1,3 @@
-/* WA on
-
-5
-add 1
-add 4
-remove
-add 3
-add 2
-remove
-remove
-remove
-add 5
-remove
-
-expected: 1, got: 2
-*/
-
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -24,9 +6,9 @@ int main() {
   cin.tie(nullptr);
   int n;
   cin >> n;
-  int nxt = 1;
-  bool sorted = false;
   stack<int> s;
+  set<int> sorted;
+  int nxt = 1;
   int ans = 0;
   for (int i = 0; i < 2 * n; i++) {
     string cmd;
@@ -35,14 +17,20 @@ int main() {
       int x;
       cin >> x;
       s.push(x);
-      sorted = false;
     } else {
-      if (sorted or s.top() == nxt) {
-        s.pop();
+      if (s.empty()) {
+        sorted.erase(nxt);
       } else {
-        sorted = true;
-        ans++;
-        s.pop();
+        if (s.top() == nxt) {
+          s.pop();
+        } else {
+          while (!s.empty()) {
+            sorted.insert(s.top());
+            s.pop();
+          }
+          sorted.erase(nxt);
+          ans++;
+        }
       }
       nxt++;
     }
