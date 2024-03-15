@@ -599,7 +599,7 @@
 - **[770D](https://github.com/kantuni/Codeforces/tree/master/770D)** - Draw Brackets! - **Accepted**
 
 ### VK Cup 2017 - Qualification 1 - `2/4`
-- 769A - Year of University Entrance
+- **[769A](https://github.com/kantuni/Codeforces/tree/master/769A)** - Year of University Entrance - **Accepted**
 - 769B - News About Credit
 - [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze - **Accepted**
 - 769D - k-Interesting Pairs of Integers
@@ -641,4 +641,4 @@
 
 <br />
 
-Problems solved: **329**
+Problems solved: **330**
