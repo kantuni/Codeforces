@@ -1,4 +1,3 @@
-// WA
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,41 +10,41 @@ int main() {
   for (int i = 0; i < n; i++) {
     cin >> a[i];
   }
-  if (a[0] == 0) {
-    cout << -1 << "\n";
-    return 0;
-  }
-  vector<pair<int, int>> q;
-  for (int i = 0; i < n; i++) {
-    q.push_back({a[i], i});
-  }
-  sort(q.begin() + 1, q.end());
-  reverse(q.begin() + 1, q.end());
-  vector<int> color(n);
-  color[0] = 1;
-  multimap<int, int> memo;
-  int i = 0, j = 1;
-  while (i < j and j < q.size()) {
-    while (q[i].first > 0) {
-      int from = q[i].second;
-      int to = q[j].second;
-      memo.insert({from, to});
-      color[to] = 1;
-      q[i].first--;
-      j++;
+  vector<pair<int, int>> messages;
+  vector<int> knows(n);
+  queue<int> q;
+  q.push(0);
+  knows[0] = 1;
+  while (!q.empty()) {
+    int i = q.front();
+    while (a[i] > 0) {
+      int mx = -1, mxi = -1;
+      for (int j = 1; j < n; j++) {
+        if (a[j] > mx and knows[j] == 0) {
+          mx = a[j];
+          mxi = j;
+        }
+      }
+      if (mxi == -1) {
+        break;
+      }
+      messages.push_back({i, mxi});
+      q.push(mxi);
+      knows[mxi] = 1;
+      a[i]--;
     }
-    i++;
+    q.pop();
   }
   bool ok = true;
   for (int i = 1; i < n; i++) {
-    if (color[i] == 0) {
+    if (knows[i] == 0) {
       ok = false;
       break;
     }
   }
   if (ok) {
-    cout << memo.size() << "\n";
-    for (auto [from, to]: memo) {
+    cout << messages.size() << "\n";
+    for (auto [from, to]: messages) {
       cout << from + 1 << " " << to + 1 << "\n";
     }
   } else {
