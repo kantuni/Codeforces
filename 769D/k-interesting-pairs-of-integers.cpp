@@ -1,24 +1,37 @@
+// TLE on 24
 #include <bits/stdc++.h>
+#define N 14
 using namespace std;
 
-vector<int> interesting(int x, int k, vector<int>& color) {
+map<tuple<int, int, int>, set<int>> memo;
+
+set<int> interesting(int x, int k, int xm) {
+  tuple<int, int, int> key = {x, k, xm};
+  if (memo.count(key) > 0) {
+    return memo[key];
+  }
   if (k == 0) {
+    memo[key] = {x};
     return {x};
   }
-  vector<int> res;
-  for (int i = 0; i < 15; i++) {
-    bitset<15> bsx(x);
-    if (color[i] == 0) {
+  set<int> res;
+  bitset<N> bsxm(xm);
+  for (int i = 0; i < N; i++) {
+    bitset<N> bsx(x);
+    if (bsxm[i] == 0) {
       bsx.flip(i);
+      bsxm.flip(i);
       int y = bsx.to_ulong();
-      color[i] = 1;
-      auto rest = interesting(y, k - 1, color);
+      int ym = bsxm.to_ulong();
+      auto rest = interesting(y, k - 1, ym);
       for (auto num: rest) {
-        res.push_back(num);
+        res.insert(num);
       }
       bsx.flip(i);
+      bsxm.flip(i);
     }
   }
+  memo[key] = res;
   return res;
 }
 
@@ -31,15 +44,16 @@ int main() {
   for (int i = 0; i < n; i++) {
     cin >> a[i];
   }
-  map<int, int> memo;
+  map<int, int> freq;
   long long ans = 0;
   for (int i = n - 1; i > -1; i--) {
-    vector<int> color(15);
-    vector<int> kints = interesting(a[i], k, color);
-    for (auto num: kints) {
-      ans += memo[num];
+    auto kis = interesting(a[i], k, 0);
+    for (auto num: kis) {
+      if (freq[num] > 0) {
+        ans += freq[num];
+      }
     }
-    memo[a[i]]++;
+    freq[a[i]]++;
   }
   cout << ans << "\n";
   return 0;
