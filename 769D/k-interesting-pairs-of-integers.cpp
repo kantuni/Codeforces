@@ -1,16 +1,25 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int dist(int a, int b) {
-  bitset<16> bsa(a);
-  bitset<16> bsb(b);
-  int cnt = 0;
-  for (int i = 0; i < 16; i++) {
-    if (bsa[i] != bsb[i]) {
-      cnt++;
+vector<int> interesting(int x, int k, vector<int>& color) {
+  if (k == 0) {
+    return {x};
+  }
+  vector<int> res;
+  for (int i = 0; i < 15; i++) {
+    bitset<15> bsx(x);
+    if (color[i] == 0) {
+      bsx.flip(i);
+      int y = bsx.to_ulong();
+      color[i] = 1;
+      auto rest = interesting(y, k - 1, color);
+      for (auto num: rest) {
+        res.push_back(num);
+      }
+      bsx.flip(i);
     }
   }
-  return cnt;
+  return res;
 }
 
 int main() {
@@ -25,10 +34,10 @@ int main() {
   map<int, int> memo;
   long long ans = 0;
   for (int i = n - 1; i > -1; i--) {
-    for (auto [num, cnt]: memo) {
-      if (dist(num, a[i]) == k) {
-        ans += cnt;
-      }
+    vector<int> color(15);
+    vector<int> kints = interesting(a[i], k, color);
+    for (auto num: kints) {
+      ans += memo[num];
     }
     memo[a[i]]++;
   }
