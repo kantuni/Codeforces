@@ -1,38 +1,30 @@
-// TLE on 28
 #include <bits/stdc++.h>
 #define N 14
 using namespace std;
 
-map<tuple<int, int, int>, vector<int>> memo;
+vector<int> freq(20001);
 
-vector<int> interesting(int x, int k, int i) {
-  tuple<int, int, int> key = {x, k, i};
-  if (memo.count(key) > 0) {
-    return memo[key];
-  }
+long long helper(int x, int k, int i, vector<int>& res) {
   if (k == 0) {
-    return {x};
+    if (freq[x] > 0) {
+      res.push_back(x);
+    }
+    return freq[x];
   }
   if (i == N) {
-    return {};
+    return 0;
   }
   if (N - i < k) {
-    return {};
+    return 0;
   }
+  long long c1 = helper(x, k, i + 1, res);
+  long long c2 = helper(x ^ (1 << i), k - 1, i + 1, res); 
+  return c1 + c2;
+}
+
+long long interesting(int x, int k) {
   vector<int> res;
-  bitset<N> bsx(x);
-  auto c1 = interesting(x, k, i + 1);
-  for (auto num: c1) {
-    res.push_back(num);
-  }
-  bsx.flip(i);
-  int y = bsx.to_ulong();
-  auto c2 = interesting(y, k - 1, i + 1); 
-  for (auto num: c2) {
-    res.push_back(num);
-  }
-  memo[key] = res;
-  return res;
+  return helper(x, k, 0, res);
 }
 
 int main() {
@@ -41,20 +33,21 @@ int main() {
   int n, k;
   cin >> n >> k;
   vector<int> a(n);
+  set<int> uniq;
   for (int i = 0; i < n; i++) {
     cin >> a[i];
-  }
-  map<int, int> freq;
-  long long ans = 0;
-  for (int i = n - 1; i > -1; i--) {
-    auto kis = interesting(a[i], k, 0);
-    for (auto num: kis) {
-      if (freq[num] > 0) {
-        ans += freq[num];
-      }
-    }
     freq[a[i]]++;
+    uniq.insert(a[i]);
   }
-  cout << ans << "\n";
+  long long ans = 0;
+  for (auto num: uniq) {
+    long long cnt = interesting(num, k);
+    if (k == 0) {
+      ans += cnt * (cnt - 1);
+    } else {
+      ans += cnt * freq[num];
+    }
+  }
+  cout << ans / 2 << "\n";
   return 0;
 }
