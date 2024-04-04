@@ -602,7 +602,7 @@
 - **[769A](https://github.com/kantuni/Codeforces/tree/master/769A)** - Year of University Entrance - **Accepted**
 - **[769B](https://github.com/kantuni/Codeforces/tree/master/769B)** - News About Credit - **Accepted**
 - [769C](https://github.com/kantuni/Codeforces/tree/master/769C) - Cycle In Maze - **Accepted**
-- [769D](https://github.com/kantuni/Codeforces/tree/master/769D) - k-Interesting Pairs of Integers -- **Time limit exceeded**
+- [769D](https://github.com/kantuni/Codeforces/tree/master/769D) - k-Interesting Pairs of Integers -- **Accepted**
 
 ### Codeforces Round #402 - `1/5`
 - **[779A](https://github.com/kantuni/Codeforces/tree/master/779A)** - Pupils Redistribution - **Accepted**
@@ -641,4 +641,4 @@
 
 <br />
 
-Problems solved: **331**
+Problems solved: **332**
