@@ -593,7 +593,7 @@
 - [785C](https://github.com/kantuni/Codeforces/blob/master/785C) - Anton and Fairy Tale - **Accepted**
 
 ### VK Cup 2017 - Qualification 2 - `4/4`
-- 770A - New Password
+- **[770A](https://github.com/kantuni/Codeforces/tree/master/770A)** - New Password - **Accepted**
 - 770B - Maximize Sum of Digits
 - **[770C](https://github.com/kantuni/Codeforces/tree/master/770C)** - Online Courses in BSU - **Accepted**
 - **[770D](https://github.com/kantuni/Codeforces/tree/master/770D)** - Draw Brackets! - **Accepted**
@@ -641,4 +641,4 @@
 
 <br />
 
-Problems solved: **332**
+Problems solved: **333**
