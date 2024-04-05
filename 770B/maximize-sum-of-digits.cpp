@@ -35,11 +35,10 @@ int main() {
   vector<int> xd = to_digits(x);
   int mx = accumulate(xd.begin(), xd.end(), 0);
   long long ans = x;
-  for (int i = 0; i < xd.size(); i++) {
+  for (int i = xd.size() - 1; i > -1; i--) {
     vector<int> xdi(xd);
     int mxi = maximize(xdi, i); 
-    bool better = mxi > mx or (mxi == mx and to_number(xdi) > ans);
-    if (better) {
+    if (mxi > mx) {
       mx = mxi;
       ans = to_number(xdi);
     }
