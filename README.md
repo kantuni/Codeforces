@@ -573,7 +573,7 @@
 ### VK Cup 2017 - Wild Card Round 1 - `3/12`
 - **[795C](https://github.com/kantuni/Codeforces/tree/master/795C)** - Maximum Number - **Accepted**
 - **[795D](https://github.com/kantuni/Codeforces/tree/master/795D)** - Lie or Truth - **Accepted**
-- 795K - Stepan and Vowels
+- **[795K](https://github.com/kantuni/Codeforces/tree/master/795K)** - Stepan and Vowels - **Accepted**
 
 ### Codeforces Round #407 - `0/5`
 - [789A](https://github.com/kantuni/Codeforces/tree/master/789A) - Anastasia and pebbles - **Accepted**
@@ -641,4 +641,4 @@
 
 <br />
 
-Problems solved: **335**
+Problems solved: **336**
