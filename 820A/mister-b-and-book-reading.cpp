@@ -1,20 +1,17 @@
-// WA
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
   int c, v0, v1, a, l;
   cin >> c >> v0 >> v1 >> a >> l;
-  int tmp = v0;
-  int d = 1;
-  while (tmp < c) {
-    if (v0 + d * a < v1 - l) {
-      tmp += v0 + d * a - l;
-    } else {
-      tmp += v1 - l;
-    }
-    d++;
+  int ans = 0, read = 0;
+  for (int i = 0; read < c; i++) {
+    read = max(0, read - l);
+    read += min(v1, v0 + i * a);
+    ans++;
   }
-  cout << d << endl;
+  cout << ans << "\n";
   return 0;
 }
