@@ -547,7 +547,7 @@
 - [834C](https://github.com/kantuni/Codeforces/tree/master/834C) - The Meaningless Game - **Wrong answer**
 
 ### Codeforces Round #421 - `0/5`
-- [820A](https://github.com/kantuni/Codeforces/tree/master/820A) - Mister B and Book Reading - **Wrong answer**
+- [820A](https://github.com/kantuni/Codeforces/tree/master/820A) - Mister B and Book Reading - **Accepted**
 - [820C](https://github.com/kantuni/Codeforces/tree/master/820C) - Mister B and Boring Game - **Memory limit exceeded**
 
 ### Codeforces Round #420 - `1/5`
@@ -641,4 +641,4 @@
 
 <br />
 
-Problems solved: **336**
+Problems solved: **337**
