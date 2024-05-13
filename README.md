@@ -525,7 +525,7 @@
 
 ### Codeforces Round #431 - `1/5`
 - **[849A](https://github.com/kantuni/Codeforces/tree/master/849A)** - Odds and Ends - **Accepted**
-- [849B](https://github.com/kantuni/Codeforces/tree/master/849B) - Tell Your World - **Wrong answer**
+- [849B](https://github.com/kantuni/Codeforces/tree/master/849B) - Tell Your World - **Accepted**
 
 ### Codeforces Round #430 - `2/5`
 - **[842A](https://github.com/kantuni/Codeforces/tree/master/842A)** - Kirill And The Game - **Accepted**
@@ -642,4 +642,4 @@
 
 <br />
 
-Problems solved: **338**
+Problems solved: **339**
