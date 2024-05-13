@@ -4,7 +4,7 @@ using namespace std;
 typedef pair<int, int> point;
 
 bool group(vector<point> &p, int ref) {
-  // Find all possible slopes of lines which
+  // Find all possible slopes of lines that
   // include the reference point.
   set<double> s1;
   for (int i = 0; i < p.size(); i++) {
