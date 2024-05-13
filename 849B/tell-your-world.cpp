@@ -63,7 +63,7 @@ int main() {
     cin >> y;
     p[i] = {i + 1, y};
   }
-  // The group function must be called for at least 2 points;
+  // The "group" function must be called for at least 2 points;
   // otherwise, not all cases would be covered.
   bool c1 = group(p, 0);
   bool c2 = group(p, n - 1);
