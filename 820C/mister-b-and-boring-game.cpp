@@ -1,3 +1,5 @@
+// WA
+// 3 4 1 10 -> 5 (expected 4)
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -12,40 +14,30 @@ int main() {
     s += 'a' + i;
   }
   // a + b
-  for (int i = 0; i < b; i++) {
-    s += s.back();
-  }
+  s += string(b, s.back());
   // a + b + a
-  set<char> sa;
+  set<char> suffix;
   for (int i = 0; i < a; i++) {
-    sa.insert(s[s.size() - 1 - i]);
+    suffix.insert(s[s.size() - 1 - i]);
   }
-  int ac = a;
-  for (int i = 0; i < ac; i++) {
+  for (int i = 0, j = 0; j < a; i++) {
     char c = 'a' + i;
-    if (sa.count(c) == 0) {
+    if (suffix.count(c) == 0) {
       s += c;
-    } else {
-      ac++;
+      j++;
     }
   }
   // a + b + a + b
-  for (int i = 0; i < b; i++) {
-    s += s.back();
-  }
+  s += string(b, s.back());
   int len = 2 * (a + b);
   int ans;
-  if (r - l + 1 < len) {
-    l %= len;
-    r %= len;
+  if (r - l <= len) {
+    l = (l - 1) % len;
+    r = (r - 1) % len;
+    rotate(s.begin(), s.begin() + l, s.end());
     set<char> cs;
-    // `i != r` instead of `i < r` as i can become larger than r before %.
-    // Example: i = 29, r = 20, len = 32
-    //          ^ has to do a rotation to reach r
-    for (int i = l; i != (r + 1) % len; i = (i + 1) % len) {
-      // l and r are 1-based indexes
-      int im = (i - 1 + len) % len;
-      cs.insert(s[im]);
+    for (int i = 0; i <= (r - l + len) % len; i++) {
+      cs.insert(s[i]);
     }
     ans = cs.size();
   } else {
