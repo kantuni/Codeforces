@@ -1,49 +1,58 @@
-// WA
-// 3 4 1 10 -> 5 (expected 4)
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
-  int a, b, l, r;
-  cin >> a >> b >> l >> r;
+int a, b, l, r;
+
+int solve(char x) {
   string s;
   // a
   for (int i = 0; i < a; i++) {
     s += 'a' + i;
   }
-  // a + b
-  s += string(b, s.back());
-  // a + b + a
-  set<char> suffix;
-  for (int i = 0; i < a; i++) {
-    suffix.insert(s[s.size() - 1 - i]);
-  }
-  for (int i = 0, j = 0; j < a; i++) {
-    char c = 'a' + i;
-    if (suffix.count(c) == 0) {
-      s += c;
-      j++;
+  string prefix = s;
+  for (int k = 0; true; k++) {
+    // +b
+    s += string(b, k == 0 ? x : s.back());
+    // +a
+    set<char> suffix;
+    for (int i = 0; i < a; i++) {
+      suffix.insert(s[s.size() - 1 - i]);
     }
-  }
-  // a + b + a + b
-  s += string(b, s.back());
-  int len = 2 * (a + b);
-  int ans;
-  if (r - l <= len) {
-    l = (l - 1) % len;
-    r = (r - 1) % len;
-    rotate(s.begin(), s.begin() + l, s.end());
-    set<char> cs;
-    for (int i = 0; i <= (r - l + len) % len; i++) {
-      cs.insert(s[i]);
+    string t;
+    for (int i = 0; t.size() < a; i++) {
+      char c = 'a' + i;
+      if (suffix.count(c) == 0) {
+        t += c;
+      }
     }
-    ans = cs.size();
+    if (prefix == t) {
+      break;
+    }
+    s += t;
+  }
+  int len = s.size();
+  set<char> unique;
+  if (r - l < len) {
+    int zl = (l - 1) % len;
+    int zr = (r - 1) % len;
+    rotate(s.begin(), s.begin() + zl, s.end());
+    for (int i = 0; i <= (zr - zl + len) % len; i++) {
+      unique.insert(s[i]);
+    }
   } else {
     // A cycle has formed. No new letters will be added. 
-    set<char> cs(s.begin(), s.end());
-    ans = cs.size();
+    unique = set<char>(s.begin(), s.end());
+  }
+  return unique.size();
+}
+
+int main() {
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
+  cin >> a >> b >> l >> r;
+  int ans = r - l + 1;
+  for (char x = 'a'; x <= 'z'; x++) {
+    ans = min(ans, solve(x));
   }
   cout << ans << "\n";
   return 0;
