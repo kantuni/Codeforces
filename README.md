@@ -549,7 +549,7 @@
 ### Codeforces Round #421 - `0/5`
 - [820A](https://github.com/kantuni/Codeforces/tree/master/820A) - Mister B and Book Reading - **Accepted**
 - [820B](https://github.com/kantuni/Codeforces/tree/master/820B) - Mister B and Angle in Polygon - **Accepted**
-- [820C](https://github.com/kantuni/Codeforces/tree/master/820C) - Mister B and Boring Game - **Wrong answer**
+- [820C](https://github.com/kantuni/Codeforces/tree/master/820C) - Mister B and Boring Game - **Accepted**
 
 ### Codeforces Round #420 - `1/5`
 - **[821A](https://github.com/kantuni/Codeforces/tree/master/821A)** - Okabe and Future Gadget Laboratory - **Accepted**
@@ -642,4 +642,4 @@
 
 <br />
 
-Problems solved: **339**
+Problems solved: **340**
