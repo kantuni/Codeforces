@@ -20,7 +20,7 @@ int main() {
     for (int k = 0; true; k++) {
       // +b
       s += string(b, k == 0 ? x : s.back());
-      // opponent algorithm
+      // opponent's algorithm
       set<char> suffix;
       for (int i = 0; i < a; i++) {
         suffix.insert(s[s.size() - 1 - i]);
