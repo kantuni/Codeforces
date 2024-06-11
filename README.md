@@ -626,6 +626,7 @@
 
 ### Codeforces Round #398 - `0/5`
 - [767A](https://github.com/kantuni/Codeforces/tree/master/767A) - Snacktower - **Accepted**
+- [767B](https://github.com/kantuni/Codeforces/tree/master/767B) - The Queue - **Wrong answer**
 
 ### Codeforces Round #397 - `2/7`
 - **[765A](https://github.com/kantuni/Codeforces/tree/master/765A)** - Neverending competitions - **Accepted**
