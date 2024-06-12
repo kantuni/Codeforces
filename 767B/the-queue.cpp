@@ -15,25 +15,29 @@ int main() {
     cin >> vt[i];
   }
   vector<long long> rt;
-  for (long long x = ts; x < tf and rt.size() <= n; x += t) {
+  for (long long x = ts; x + t < tf and rt.size() < n; x += t) {
     rt.emplace_back(x);
   }
-  if (n == 0) {
-    cout << ts << "\n";
-    return 0;
-  }
   long long mint = INF, ans = -1;
-  for (int i = 0; i < rt.size() and i < n; i++) {
-    if (vt[i] > rt[i]) {
-      mint = 0;
-      ans = rt[i];
-      break;
-    }
-    // Vasya came in 1 min before the i-th visitor
-    long long tmp = rt[i] - vt[i] - 1;
-    if (tmp < mint) {
-      mint = tmp;
-      ans = vt[i] - 1;
+  if (rt.back() + 2 * t < tf) {
+    // If all visitors are already served, Vasyan can come
+    // at the next available min.
+    mint = 0;
+    ans = rt.back() + t;
+  } else {
+    for (int i = 0; i < rt.size(); i++) {
+      if (vt[i] > rt[i]) {
+        mint = 0;
+        ans = rt[i];
+        break;
+      }
+      // Vasya can come 1 min before the i-th visitor.
+      long long curt = rt[i] - vt[i] - 1;
+      // `ans` must be non-negative.
+      if (curt >= 0 and curt < mint and vt[i] > 0) {
+        mint = curt;
+        ans = vt[i] - 1;
+      }
     }
   }
   cout << ans << "\n";
