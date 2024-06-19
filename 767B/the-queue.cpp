@@ -23,14 +23,14 @@ int main() {
   if (n == 0) {
     mint = 0;
     ans = ts;
-  } else if (rt.back() + 2 * t <= tf) {
+  } else if (rt.back() > vt.back() and rt.back() + 2 * t <= tf) {
     // If all visitors are already served, Vasya can come
     // at the next available min.
     mint = 0;
     ans = rt.back() + t;
   } else {
     for (int i = 0; i < min(vt.size(), rt.size()); i++) {
-      // Vasya can sneak in before the i-th visitor
+      // Vasya can come in before the i-th visitor
       // at the next available min.
       if (vt[i] > rt[i]) {
         mint = 0;
@@ -39,8 +39,7 @@ int main() {
       }
       // Vasya can come 1 min before the i-th visitor.
       long long curt = rt[i] - (vt[i] - 1);
-      // `ans` must be non-negative.
-      if (curt < mint and vt[i] > 0) {
+      if (curt < mint) {
         mint = curt;
         ans = vt[i] - 1;
       }
