@@ -1,5 +1,8 @@
 # Solutions to [Codeforces](https://codeforces.com) Problems
 
+### Codeforces Round 799 (Div. 4) - `5/8`
+- [1692E](https://github.com/kantuni/Codeforces/tree/master/1692E) - Binary Deque - **Accepted**
+
 ### Codeforces Round #790 (Div. 4) - `6/9`
 - **[1676A](https://github.com/kantuni/Codeforces/tree/master/1676A)** - Lucky? - **Accepted**
 - **[1676B](https://github.com/kantuni/Codeforces/tree/master/1676B)** - Equal Candies - **Accepted**
@@ -643,4 +646,4 @@
 
 <br />
 
-Problems solved: **341**
+Problems solved: **342**
