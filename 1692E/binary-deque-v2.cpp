@@ -35,7 +35,7 @@ int main() {
       cout << -1 << "\n";
       continue;
     }
-    // Binary search on the answer.
+    // binary search on the answer
     int ans = -1;
     int low = 0, high = n - 1;
     while (low <= high) {
