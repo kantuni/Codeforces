@@ -1,11 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// True, if after removing k numbers the sum <= s.
+// False, otherwise.
 bool check(vector<int>& a, int s, int k) {
   int sum = accumulate(a.begin(), a.end() - k, 0);
   if (sum <= s) {
     return true;
   }
+  // Keep track of the sum by using a sliding window.
   for (int l = 0, r = a.size() - k - 1; r + 1 < a.size(); l++, r++) {
     sum -= a[l];
     sum += a[r + 1];
@@ -33,6 +36,7 @@ int main() {
       cout << -1 << "\n";
       continue;
     }
+    // Binary search on the answer.
     int ans = -1;
     int low = 0, high = n - 1;
     while (low <= high) {
