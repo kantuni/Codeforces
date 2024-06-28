@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Can the sum be <= s after removing k numbers?
+// Can sum <= s after removing k numbers?
 bool check(vector<int>& a, int s, int k) {
   int sum = accumulate(a.begin(), a.end() - k, 0);
   if (sum <= s) {
