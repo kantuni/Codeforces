@@ -47,14 +47,13 @@ int main() {
       int sl = psl[i + k] - (i > 0 ? psl[i - 1] : 0);
       int sr = psr[j + k] - (j > 0 ? psr[j - 1] : 0);
       if (sl < sr) {
-        sa--;
         ans += cl[i];
         i++;
       } else {
-        sa--;
         ans += cr[j];
         j++;
       }
+      sa--;
     }
     cout << ans << "\n";
   }
