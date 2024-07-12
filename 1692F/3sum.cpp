@@ -1,4 +1,3 @@
-// WA
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -48,6 +47,10 @@ int main() {
       exists(2, 3, 8) or
       exists(2, 4, 7) or
       exists(2, 5, 6) or
+      exists(3, 3, 7) or
+      exists(3, 4, 6) or
+      exists(3, 5, 5) or
+      exists(4, 4, 5) or
       // 23
       exists(5, 9, 9) or
       exists(6, 8, 9) or
