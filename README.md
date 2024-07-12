@@ -2,6 +2,7 @@
 
 ### Codeforces Round 799 (Div. 4) - `5/8`
 - [1692E](https://github.com/kantuni/Codeforces/tree/master/1692E) - Binary Deque - **Accepted**
+- [1692F](https://github.com/kantuni/Codeforces/tree/master/1692F) - 3SUM - **Wrong answer**
 
 ### Codeforces Round #790 (Div. 4) - `6/9`
 - **[1676A](https://github.com/kantuni/Codeforces/tree/master/1676A)** - Lucky? - **Accepted**
