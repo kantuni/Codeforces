@@ -1,20 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-map<int, vector<int>> memo;
+map<int, vector<int>> freq;
 
 // Arguments should be sorted (i.e. a <= b <= c)
 bool exists(int a, int b, int c) {
   if (a == b and b == c) {
-    return memo.count(a) and memo[a].size() > 2;
+    return freq.count(a) and freq[a].size() > 2;
   }
   if (a == b) {
-    return memo.count(a) and memo[a].size() > 1 and memo.count(c);
+    return freq.count(a) and freq[a].size() > 1 and freq.count(c);
   }
   if (b == c) {
-    return memo.count(a) and memo.count(b) and memo[b].size() > 1;
+    return freq.count(a) and freq.count(b) and freq[b].size() > 1;
   }
-  return memo.count(a) and memo.count(b) and memo.count(c);
+  return freq.count(a) and freq.count(b) and freq.count(c);
 }
 
 int main() {
@@ -28,7 +28,7 @@ int main() {
     vector<int> a(n);
     for (int i = 0; i < n; i++) {
       cin >> a[i];
-      memo[a[i] % 10].push_back(i);
+      freq[a[i] % 10].push_back(i);
     }
     bool ok = (
       // 3
@@ -62,7 +62,7 @@ int main() {
     } else {
       cout << "NO" << "\n";
     }
-    memo.clear();
+    freq.clear();
   }
   return 0;
 }
